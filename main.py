@@ -166,6 +166,9 @@ class WowPlayerAnalysis:
             try:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     data = json.load(f)
+                if not isinstance(data, dict):  # If somehow data is a list instead of dict, skip
+                    print(f"Skipping {file_path}: invalid format (expected dict, got {type(data)})")
+                    continue
                 # Raid completion analysis
                 heroic_complete, mythic_complete = WowPlayerAnalysis._get_raid_completion_counts(data.get('raid_progression', {}))
                 # Basic player info
@@ -181,7 +184,8 @@ class WowPlayerAnalysis:
                 in_time_runs, total_runs, highest_timed_key = WowPlayerAnalysis._analyze_recent_runs(data.get('mythic_plus_recent_runs', []))
                 avg_recent_key = WowPlayerAnalysis._calculate_avg_recent_key(data.get('mythic_plus_recent_runs', []), highest_timed_key)
                 # Best runs analysis
-                dungeon_levels, best_runs, time_ratios, avg_time_ratio, keystone_run_ids, completion_range = WowPlayerAnalysis._analyze_best_runs(data.get('mythic_plus_best_runs', []))
+                dungeon_levels, best_runs, time_ratios, avg_time_ratio, keystone_run_ids, completion_range = \
+                    WowPlayerAnalysis._analyze_best_runs(data.get('mythic_plus_best_runs', []))
                 analysis_results[name] = {
                     'heroic_complete_count': heroic_complete,
                     'mythic_complete_count': mythic_complete,
@@ -193,7 +197,7 @@ class WowPlayerAnalysis:
                     'all_scores': all_scores,
                     'role_scores': role_scores,
                     'current_season_score': current_season_score,
-                    'mythic_plus_scores_by_season': data.get('mythic_plus_scores_by_season', []),  # Add this line
+                    'mythic_plus_scores_by_season': data.get('mythic_plus_scores_by_season', []),
                     'item_level': item_level,
                     'gem_enchant_count': gem_enchant_count,
                     'in_time_runs': in_time_runs,
@@ -209,7 +213,7 @@ class WowPlayerAnalysis:
                 }
             except Exception as e:
                 print(f"Error analyzing player data in {file_path}: {str(e)}")
-                return None
+                continue  # Skip this player if Nonetype, don’t kill whole pipeline
         return analysis_results
 
     @staticmethod
@@ -236,8 +240,16 @@ class WowPlayerAnalysis:
     def _format_racial_name_and_gender(gender, race):
         """Format player class name for display"""
         gender_mapping = {"female": "F", "male": "M"}
-        racial_mapping = {"Night Elf": "Nelf", "Blood Elf": "Belf"}
-        return f"{gender_mapping.get(gender, gender)} {racial_mapping.get(race, race)}"
+        racial_mapping = {"Night Elf": "Nelf", "Blood Elf": "Belf", "Dark Iron Dwarf": "DI Dwarf"}
+        updated_race = racial_mapping.get(race, race)
+        parts = updated_race.split()
+        if len(parts) > 1:
+            short_parts = [p[0] for p in parts[:-1]] + [parts[-1]]  # Compress all but the last word to first letter
+            racial_display = ". ".join(short_parts)
+        else:
+            racial_display = updated_race
+        racial_display = racial_display[:8]  # Enforce max 8 characters
+        return f"{gender_mapping.get(gender, gender)} {racial_display}"
 
     @staticmethod
     def _get_item_level(gear_data):
@@ -411,7 +423,7 @@ class WowPlayerAnalysis:
         total_seconds = int(time_diff.total_seconds())
         if total_seconds < 3600:  # Less than 1 hour
             minutes = total_seconds // 60
-            return f"{minutes}min" if minutes > 0 else "now"
+            return f"{minutes}m" if minutes > 0 else "s"
         elif total_seconds < 86400:  # Less than 1 day
             hours = total_seconds // 3600
             return f"{hours}h"
@@ -426,7 +438,7 @@ class WowPlayerDisplay:
         # Sort all players by ranking criteria
         ranked_players = []
         for name, data in player_data.items():
-            if not data:
+            if not data or player_data.items is None:
                 continue
             # Primary criterion: mythic completion
             primary = -data['mythic_complete_count']
