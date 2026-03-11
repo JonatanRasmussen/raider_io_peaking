@@ -11,17 +11,19 @@ from concurrent.futures import ThreadPoolExecutor
 
 class ConfigStuff:
     CACHE_IS_ENABLED = True  # Toggle caching functionality
-    CACHE_TIMEOUT = 900  # 15 minutes written in seconds
+    CACHE_TIMEOUT = 900  # 15min=900sec
 
     DEFAULT_REGION = "eu"
-    OUTPUT_TABLE_LENGTH = 15
-    OUTPUT_TABLE_ROLE_COUNT = 3
+    OUTPUT_TABLE_LENGTH = 15  # Number of players shown
+    OUTPUT_TABLE_ROLE_COUNT = 3  # Min. players from each role to force-include
     OUTPUT_FILENAME = "output.txt"
 
 
 class RatingPercentiles:
     CURRENT_SEASON = "season-tww-3"
 
+    #data can be found at: raider.io/mythic-plus/cutoffs
+    #numbers are: Top 0.1% / Top 1% / Top 10% / Top 25% / Top 40%
     EU_DATA = {
         "season-sl-3": [3725.93, 3351.98, 2933.10, 2512.82, 1754.21],
         "season-sl-4": [3693.66, 3361.23, 2795.61, 2314.00, 1778.17],
@@ -31,6 +33,7 @@ class RatingPercentiles:
         "season-df-4": [3693.66, 3361.23, 2795.61, 2314.00, 1778.17],
         "season-tww-1":[3484.38, 3116.14, 2706.42, 2478.34, 2094.09],
         "season-tww-2":[3822.42, 3485.32, 3054.69, 2762.28, 2459.56],
+        "season-tww-3":[3946.97, 3602.13, 3114.82, 2876.44, 2558.75],
     }
 
     US_DATA = {
@@ -42,6 +45,7 @@ class RatingPercentiles:
         "season-df-4": [3653.96, 3282.98, 2712.16, 2191.64, 1628.00],
         "season-tww-1":[3458.76, 3049.82, 2655.29, 2347.67, 1962.75],
         "season-tww-2":[3804.80, 3425.40, 3024.84, 2672.00, 2274.17],
+        "season-tww-3":[3912.96, 3515.23, 3061.31, 2759.89, 2378.96],
     }
 
     ROLE_DPS = "dps"
@@ -49,6 +53,8 @@ class RatingPercentiles:
     ROLE_TANK = "tank"
 
 class WowPlayerFormatter:
+
+    preferred_dungeon_order: list =[]
 
     @staticmethod
     def main_pipeline():
@@ -104,7 +110,6 @@ class WowPlayerLookup:
         "mythic_plus_scores_by_season:season-sl-3:season-sl-4:season-df-1:season-df-2:season-df-3:season-df-4:season-tww-1:season-tww-2:season-tww-3",
         "mythic_plus_best_runs:all", "mythic_plus_recent_runs:all"
     ]
-    preferred_dungeon_order: set = set()  # Automatically find the 8 current-season dungeon names
 
     @staticmethod
     def fetch_rio_profiles_concurrently(players):
@@ -142,7 +147,7 @@ class WowPlayerLookup:
             "fields": ",".join(WowPlayerLookup.RIO_API_PLAYER_FIELDS),
         }
         try:
-            response = requests.get(WowPlayerLookup.RIO_API_PLAYER_URL, params=params, timeout=10)
+            response = requests.get(WowPlayerLookup.RIO_API_PLAYER_URL, params=params, timeout=6)
             if response.status_code != 200:
                 return f"Failed to fetch data for {name}-{realm}-{region}: {response.status_code}"
 
@@ -238,7 +243,8 @@ class WowPlayerAnalysis:
 
     @staticmethod
     def _format_racial_name_and_gender(gender, race):
-        """Format player class name for display"""
+        gender = gender or ""
+        race = race or ""
         gender_mapping = {"female": "F", "male": "M"}
         racial_mapping = {"Night Elf": "Nelf", "Blood Elf": "Belf", "Dark Iron Dwarf": "DI Dwarf"}
         updated_race = racial_mapping.get(race, race)
@@ -249,7 +255,7 @@ class WowPlayerAnalysis:
         else:
             racial_display = updated_race
         racial_display = racial_display[:8]  # Enforce max 8 characters
-        return f"{gender_mapping.get(gender, gender)} {racial_display}"
+        return f"{gender_mapping.get(gender, gender)} {racial_display}".strip()
 
     @staticmethod
     def _get_item_level(gear_data):
