@@ -5,4 +5,4 @@ Rankings include Player name, Role, Class, missing enchant/gem counter, iLvl, CE
 
 See the below image for an example of what the output will look like.
 
-![[Image link]](showcase.PNG)
+![Image link](showcase.PNG)
