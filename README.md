@@ -3,4 +3,6 @@ A json of each applicant (generated via the Raider.io addon) is manually copy-pa
 
 Rankings include Player name, Role, Class, missing enchant/gem counter, iLvl, CE/AOTC achievement count, KSM count, Best run, m+ Score, completion timers, recent runs, and Age (time since last run). There are also a score breakdown for each dungeon.
 
-See ![this image](showcase.PNG) for an example of what the output will look like.
+See the below image for an example of what the output will look like.
+
+![[Image link]](showcase.PNG)
