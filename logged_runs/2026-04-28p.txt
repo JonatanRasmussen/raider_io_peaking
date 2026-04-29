@@ -1,0 +1,1113 @@
+
+Warcraft Logs
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+    Log In
+    Sign Up
+
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+Mythic+ Season 1
+Created by BudoBoy07 on Tue Apr 28 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 40 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+
+BudoBoy07
+Personal Logs
++
+Nexus-Point Xenas+
+Level 18 [Fortified] [Tyrannical] [Xal'atath's Guile] 3 (5:35) 7:33 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Chief Corewright Kasreth
+        Corewarden Nysarra
+        Lothraxion
+        Pull 1 (0:49) +0:16
+        Lingering Image
+        Pull 2 (1:26) +1:11
+        Shadowguard Defender
+        Pull 3 (1:18) +2:43
+        Circuit Seer
+
+Entire Dungeon
+
+    + All Friendlies
+        +Findingdeath
+            Casketbender
+            +High Inquisitor Whitemane
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+            ID: 221633
+            +Highlord Darion Mograine
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+            ID: 221632
+            +King Thoras Trollbane
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+            ID: 221635
+            +Lesser Ghoul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+                51
+
+                52
+
+                53
+
+                54
+
+                55
+
+                56
+
+                57
+
+                58
+
+                59
+
+                60
+                61
+
+                62
+
+                63
+
+                64
+
+                65
+
+                66
+
+                67
+
+                68
+
+                69
+
+                70
+                71
+
+                72
+
+                73
+
+                74
+
+                75
+
+                76
+
+                77
+
+                78
+
+                79
+
+                80
+                81
+
+                82
+
+                83
+
+                84
+
+                85
+
+                86
+
+                87
+
+                88
+
+                89
+
+                90
+                91
+
+                92
+
+                93
+
+                94
+
+                95
+
+                96
+
+                97
+
+                98
+
+                99
+
+                100
+                101
+
+                102
+
+                103
+
+                104
+
+                105
+
+                106
+
+                107
+
+                108
+
+                109
+
+            ID: 237409
+            +Lesser Ghoul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+
+            ID: 258578
+            +Magus of the Dead
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+            ID: 163366
+            +Nazgrim
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+            ID: 221634
+        +Mëòw
+            +Invisible Stalker
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+            ID: 254980
+            +Invisible Stalker
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+            ID: 247760
+            +Invisible Stalker
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+            ID: 254954
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+            ID: 253466
+        +Gottmonkbit
+            Black Ox Statue
+
+            ID: 61146
+            +Niuzao
+                1
+
+                2
+
+            ID: 73967
+        Stonehill
+        +Pouncesowo
+            Miaubert
+            Whiptail
+
+
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0001:0002:0003:0004:0005:000M1M2M3M4M
+Group Composition Item Level: 276.33
+Tanks:	Gottmonkbit
+DPS:	Findingdeath Mëòw Powerpegging Pouncesowo
+Healers:	Stonehill
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Findingdeath
+56.13m 	167,253.5
+Powerpegging
+54.05m 	161,051.5
+Mëòw
+53.64m 	159,809.1
+Gottmonkbit
+25.85m 	77,005.4
+Stonehill
+4.74m 	14,124.7
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Gottmonkbit
+23.96m 	71,382.4
+Stonehill
+18.60m 	55,421.9
+Powerpegging
+3.20m 	9,533.8
+Findingdeath
+1.69m 	5,034.9
+Mëòw
+1.12m 	3,351.3
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Stagger
+9.17m 	27,330.0
+Arcing Mana
+7.95m 	23,676.6
+Melee
+7.68m 	22,885.1
+Arcane Explosion
+4.84m 	14,407.1
+Arcane Zap
+3.87m 	11,533.3
+Blistering Smite
+2.62m 	7,794.8
+Suppression Field
+2.27m 	6,770.6
+Searing Rend
+1.92m 	5,734.1
+Null Sunder
+1.59m 	4,740.1
+Umbra Bolt
+962.4k 	2,867.6
+Arcane Spill
+937.6k 	2,793.4
+Stretch Time
+893.3k 	2,661.6
+Erratic Surge
+564.4k 	1,681.6
+Blessing of Sacrifice
+497.7k 	1,482.9
+Searing Rend
+382.2k 	1,138.9
+Suppression Field
+217.8k 	649.0
+Flux Collapse
+211.7k 	630.9
+Radiant Scar
+200.8k 	598.3
+Daze
+58.1k 	173.1
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Gottmonkbit 	Arcing Mana 	3:34
+Mëòw 	Arcing Mana 	3:35
+Findingdeath 	Melee 	3:36
+Stonehill 	Arcane Explosion 	3:45
+Powerpegging 	Arcing Mana 	3:48
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+Gottmonkbit
+Monk (Brewmaster)
+282 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Detox
+Grace of the Crane
+Calming Presence
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Transcendence
+Celerity
+Chi Burst
+Ring of Peace
+Improved Touch of Death
+Hasty Provocation
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Vigorous Expulsion
+Peace and Prosperity
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Summon Black Ox Statue
+Ironshell Brew
+Chi Proficiency 2
+Windwalking
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Improved Blackout Kick
+Elixir of Determination
+Quick Sip
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Shadowboxing Treads
+Elusive Footwork
+Celestial Infusion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Zen State
+Face Palm
+Sal'salabim's Strength
+Black Ox Brew
+Counterstrike
+Dragonfire Brew
+High Tolerance 2
+Blackout Combo
+Invoke Niuzao, the Black Ox
+Exploding Keg
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+
+DPS
+
+Class Talents
+Findingdeath
+Death Knight (Unholy)
+282 Item Level
+Death Strike
+Icebound Fortitude
+Raise Dead
+Runic Attenuation
+Improved Death Strike
+Cleaving Strikes
+Blinding Sleet
+Gloom Ward 2
+Unholy Momentum 2
+March of Darkness
+Mind Freeze
+Enfeeble
+Brittle
+Permafrost
+Veteran of the Third War
+Death Pact
+Anti-Magic Zone
+Unholy Bond
+Icy Talons
+Death Defiance
+Anti-Magic Barrier
+Assimilation
+Death's Reach
+Unholy Endurance
+Blood Scent
+Suppression
+Insidious Chill
+Blood Draw
+Will of the Necropolis 2
+Rune Mastery 2
+Death's Echo
+Mëòw
+Druid (Feral)
+279 Item Level
+Frenzied Regeneration
+Rake
+Ursoc's Spirit
+Grievous Wounds
+Swipe
+Verdant Heart
+Remove Corruption
+Rip
+Hibernate
+Killer Instinct 2
+Improved Barkskin
+Natural Recovery
+Primal Fury
+Thick Hide
+Skull Bash
+Wild Charge
+Soothe
+Aessina's Renewal
+Typhoon
+Stampeding Roar
+Well-Honed Instincts
+Feline Swiftness
+Matted Fur 2
+Ursol's Vortex
+Lycara's Teachings 2
+Gift of the Wild
+Oakskin
+Instincts of the Claw
+Incapacitating Roar
+Forestwalk 1
+Lycara's Inspiration
+Circle of the Wild
+Heart of the Wild
+Fluid Form
+Powerpegging
+Evoker (Augmentation)
+279 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+Pouncesowo
+specs-warcraft.unknown (specs-warcraft.unknown_beastmastery)
+256 Item Level
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+Stonehill
+Paladin (Holy)
+280 Item Level
+Hammer of Wrath
+Auras of the Resolute
+Lay on Hands
+Improved Cleanse
+Blinding Light
+Fist of Justice
+Afterimage
+Greater Judgment
+A Just Reward 2
+Guided Prayer
+Divine Steed
+Cavalier
+Blessing of Freedom
+Armory of Light
+Divine Toll
+Obduracy 2
+Sanctified Plates 2
+Unbound Freedom
+Consecrated Ground
+Blessing of Sacrifice
+Blessing of Protection
+Quickened Invocation
+Brought to Light
+Sacrifice of the Just
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Inspired Guard
+Holy Ritual
+Lead the Charge
+Seal of Might 2
+Selfless Healer
+Blessing of Dusk
+
+Holy Shock
+Light of Dawn
+Infusion of Light
+Aura Mastery
+Beacon of the Lightbringer
+Light's Conviction
+Awestruck
+Extrication
+Imbued Infusions
+Light of the Martyr
+Divine Favor
+Moment of Compassion
+Shining Righteousness
+Light's Protection
+Righteous Judgment
+Bestow Light
+Divine Revelations
+Commanding Light
+Divine Glimpse
+Crusader's Might
+Beacon of Faith
+Reclamation
+Avenging Wrath
+Divine Overload
+Sanctified Wrath
+Seek Deliverance
+Inflorescence of the Sunwell
+Rising Sunlight
+Glorious Dawn
+Hand of Divinity
+Beacon of the Savior 1
+Beacon of the Savior 2
+Beacon of the Savior 1
+
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+1 month ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

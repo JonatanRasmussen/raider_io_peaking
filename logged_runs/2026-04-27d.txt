@@ -1,0 +1,670 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+201
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Mon Apr 27 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 16 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+Algeth'ar Academy+
+Last Run - Level 18 [Fortified] [Tyrannical] [Xal'atath's Guile] (1:25) 5:38 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Vexamus
+        Overgrown Ancient
+        Crawth
+        Echo of Doragosa
+        Pull 1 (0:48) +0:36
+        Vile Lasher
+        Pull 2 (0:48) +0:36
+        Vile Lasher
+
+Entire Dungeon
+
+    + All Friendlies
+        +Crimson
+            Abomination
+
+            ID: 149555
+            Glacierflayer
+            High Inquisitor Whitemane
+
+            ID: 221633
+            Highlord Darion Mograine
+
+            ID: 221632
+            King Thoras Trollbane
+
+            ID: 221635
+            +Lesser Ghoul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+            ID: 258578
+            +Lesser Ghoul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+            ID: 237409
+            +Magus of the Dead
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+            ID: 163366
+            Nazgrim
+
+            ID: 221634
+        +Deathputz
+            Risen Ghoul
+
+            ID: 26125
+            +Rune Weapon
+                1
+
+                2
+
+            ID: 27893
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+            ID: 219827
+            Future Self
+
+            ID: 253466
+        Stonehill
+        +Endlessgrave
+            Mindbender
+
+            ID: 62982
+        Professor Ichistrasz
+
+        ID: 189667
+        Professor Mystakria
+
+        ID: 187287
+
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0000:1000:2000:3000:4000:5001:0001:1001:200M2M4M6M
+Group Composition Item Level: 278.60
+Tanks:	Deathputz
+DPS:	Crimson Powerpegging Stonehill
+Healers:	Endlessgrave
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Crimson
+34.89%
+20.67m 	241,135.3
+Stonehill
+25.59%
+15.16m 	176,842.0
+Deathputz
+19.61%
+11.62m 	135,547.2
+Powerpegging
+18.69%
+11.07m 	129,160.3
+Endlessgrave
+1.22%
+721.7k 	8,421.0
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Deathputz
+65.90%
+5.80m 	67,721.1
+Endlessgrave
+32.54%
+2.87m 	33,439.0
+Stonehill
+1.22%
+107.2k 	1,251.1
+Crimson
+0.34%
+30.2k 	352.0
+Powerpegging
+0.00%
+59.0 	0.7
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Vile Bite
+49.36%
+4.34m 	50,615.4
+Melee
+45.35%
+3.99m 	46,501.9
+Darting Sting
+5.07%
+445.3k 	5,196.2
+Shadow Word: Death
+0.22%
+19.0k 	221.3
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+No data available in table
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Deathputz
+Death Knight (Blood)
+282 Item Level
+Raise Dead
+Icebound Fortitude
+Death Strike
+Runic Attenuation
+Improved Death Strike
+Cleaving Strikes
+Blinding Sleet
+Gloom Ward 2
+Unholy Momentum 2
+March of Darkness
+Mind Freeze
+Brittle
+Permafrost
+Veteran of the Third War
+Coldthirst
+Anti-Magic Zone
+Unholy Bond
+Icy Talons
+Anti-Magic Barrier
+Assimilation
+Grip of the Dead
+Asphyxiate
+Unholy Endurance
+Suppression
+Insidious Chill
+Runic Protection
+Blood Draw
+Will of the Necropolis 2
+Rune Mastery 2
+Death's Echo
+Null Magic
+
+Heart Strike
+Marrowrend
+Blood Boil
+Bone Collector
+Vampiric Blood
+Ossuary
+Improved Vampiric Blood 2
+Relish in Blood
+Heartbreaker
+Hemostasis
+Dancing Rune Weapon
+Foul Bulwark
+Gorefiend's Grasp
+Insatiable Blade
+Rapid Decomposition
+Improved Bone Shield
+Deadly Reach
+Boiling Point
+Voracious
+Everlasting Bond
+Lifeblood
+Coagulopathy
+Iron Heart
+Bloodied Blade
+Bloodshot
+Sanguine Ground
+Red Thirst
+Umbilicus Eternus
+Purgatory
+Dance of Midnight 1
+Dance of Midnight 2
+Dance of Midnight 1
+		1 	0
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Crimson
+Death Knight (Unholy)
+280 Item Level
+Death Strike
+Icebound Fortitude
+Raise Dead
+Runic Attenuation
+Improved Death Strike
+Cleaving Strikes
+Blinding Sleet
+Gloom Ward 2
+Unholy Momentum 2
+Mind Freeze
+Wraith Walk
+Enfeeble
+Brittle
+Permafrost
+Veteran of the Third War
+Coldthirst
+Anti-Magic Zone
+Unholy Bond
+Icy Talons
+Anti-Magic Barrier
+Grip of the Dead
+Death's Reach
+Unholy Endurance
+Blood Scent
+Suppression
+Insidious Chill
+Runic Protection
+Will of the Necropolis 2
+Rune Mastery 2
+Death's Echo
+Null Magic
+
+Outbreak
+Scourge Strike
+Sudden Doom
+Dark Transformation
+Putrefy
+Clawing Shadows
+Foul Infections
+Grave Mastery
+Necromancer's Cunning
+Magus of the Dead
+Soul Reaper
+Festering Scythe
+Ebon Fever
+Cycle of Death
+Coil of Devastation
+Army of the Dead
+Menacing Magus
+Reaping
+Harbinger of Doom
+Unholy Devotion
+Raise Abomination
+Doomed Bidding
+Blightburst
+Putrid Echoes
+Commander of the Dead 2
+Unholy Aura 2
+Outnumber
+Reanimation
+Forbidden Knowledge 1
+Forbidden Knowledge 2
+Forbidden Knowledge 1
+		1 	0
+Powerpegging
+Evoker (Augmentation)
+279 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Ignition Rush
+Chrono Ward
+Improved Defy Fate
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		0 	0
+Stonehill
+Paladin (Retribution)
+271 Item Level
+Lay on Hands
+Auras of the Resolute
+Hammer of Wrath
+Blinding Light
+Cleanse Toxins
+Fist of Justice
+Divine Steed
+Healing Hands
+Greater Judgment
+Guided Prayer
+Cavalier
+Blessing of Freedom
+Shield of Vengeance
+Rebuke
+Obduracy 2
+Sanctified Plates 2
+Unbound Freedom
+Divine Toll
+Consecrated Ground
+Blessing of Sacrifice
+Blessing of Protection
+Quickened Invocation
+Sacrifice of the Just
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Light's Revocation
+Inspired Guard
+Lead the Charge
+Seal of Might 2
+Vengeful Wrath 2
+Lightbearer
+Blessing of Dusk
+
+Blade of Justice
+Divine Storm
+Expurgation
+Light of Justice
+Avenging Wrath
+Final Verdict
+Holy Blade
+Art of War
+Rush of Light
+Sanctify
+Holy Flames
+Tempest of the Lightbringer
+Improved Judgment
+Blade of Vengeance
+Zealot's Fervor 2
+Highlord's Wrath
+Blessed Champion
+Burning Crusade
+Crusading Strikes
+Wake of Ashes
+Divine Wrath 2
+Blades of Light 2
+Seething Flames
+Empyrean Legacy
+Execution Sentence
+Burn to Ash
+Crusade
+Light Within 1
+Light Within 2
+Light Within 1
+		1 	0
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Endlessgrave
+Priest (Discipline)
+281 Item Level
+Angelic Feather
+Mind Blast
+Improved Flash Heal
+Spiritual Guidance
+Psychic Scream
+Dispel Magic
+Power Infusion
+Painful Invocation
+Leap of Faith
+Improved Purify
+Strength of Resolve
+Surge of Light
+Twins of the Sun Priestess
+Mass Dispel
+Body and Soul
+Twin Disciplines
+Everlasting Light
+Dark Enlightenment
+Binding Heals
+Shadow Word: Death
+Sanguine Teachings
+Twist of Fate 2
+Desperate Prayer
+Fade
+Protective Light
+Improved Fade 2
+Mindpierce
+Unwavering Will 2
+Spell Warding 2
+Phantasm
+Translucent Image
+Benevolence
+
+Atonement
+Pain Suppression
+Power Word: Radiance
+Power of the Dark Side
+Protector of the Frail
+Light's Promise
+Dark Indulgence
+Encroaching Shadows
+Shield Discipline
+Enduring Luminescence
+Ultimate Penitence
+Revel in Darkness
+Shadow Tap
+Holy Ray
+Lenience
+Castigation
+Occultist
+Pain and Suffering 2
+Evangelism
+Harsh Discipline 2
+Inner Focus
+Mindbender
+Shadow Mend
+Borrowed Time 2
+Divine Aegis
+Eternal Barrier
+Weal and Woe
+Master the Darkness 1
+Master the Darkness 2
+Master the Darkness 1
+		0 	0
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.

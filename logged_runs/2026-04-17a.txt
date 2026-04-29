@@ -1,0 +1,688 @@
+
+Warcraft Logs
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+    Log In
+    Sign Up
+
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+Mythic+ Season 1
+Created by BudoBoy07 on Fri Apr 17 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 4 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 38 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+
+BudoBoy07
+Personal Logs
++
+Maisara Caverns+
+Level 17 [Tyrannical] [Fortified] [Xal'atath's Guile] (32:46) 8:40 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Muro'jin and Nekraxx
+        Vordaza
+        Rak'tul, Vessel of Souls
+        Pull 1 (0:55) +0:11
+        Hulking Juggernaut
+        Pull 2 (4:03) +1:15
+        Hulking Juggernaut
+        Pull 3 (3:33) +5:34
+        Hex Guardian
+        Pull 4 (3:20) +9:33
+        Muro'jin and Nekraxx
+        Pull 5 (7:11) +13:23
+        Rokh'zal
+        Pull 6 (0:18) +20:46
+        Reanimated Warrior
+        Pull 7 (3:19) +21:05
+        Vordaza
+        Pull 8 (2:19) +24:46
+        Bound Defender
+        Pull 9 (4:04) +27:05
+        Rak'tul, Vessel of Souls
+
+Entire Dungeon
+
+    + All Friendlies
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0005:0010:0015:0020:0025:0030:000k250k500k750k1,000k1,250k
+Group Composition Item Level: 274.00
+Tanks:	Forvirretgut
+DPS:	Cornichonen Crimson Powerpegging
+Healers:	Stonehill
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Crimson
+288.50m 	154,250.4
+Cornichonen
+283.44m 	151,543.5
+Powerpegging
+249.00m 	133,129.3
+Forvirretgut
+145.48m 	77,780.7
+Stonehill
+32.80m 	17,538.0
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Stonehill
+140.49m 	75,115.7
+Forvirretgut
+135.00m 	72,181.8
+Cornichonen
+16.29m 	8,710.0
+Crimson
+13.82m 	7,389.5
+Powerpegging
+11.87m 	6,346.1
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Stagger
+84.03m 	44,925.9
+Melee
+53.65m 	28,683.4
+Withering Miasma
+18.83m 	10,068.3
+Deathgorged Vessel
+16.83m 	8,999.2
+Spectral Strikes
+13.69m 	7,319.3
+Spirit Rend
+10.94m 	5,849.9
+Grim Ward
+10.28m 	5,497.5
+Searing Presence
+8.96m 	4,792.0
+Necrotic Convergence
+7.50m 	4,008.8
+Withering Soul
+7.36m 	3,937.0
+Lingering Dread
+5.27m 	2,818.4
+Infected Pinions
+5.06m 	2,705.9
+Throw Spear
+4.91m 	2,624.9
+Ritual Drums
+4.67m 	2,496.9
+Soulstorms
+4.46m 	2,384.5
+Stretch Time
+4.38m 	2,342.4
+Barrage
+3.85m 	2,056.3
+Necrotic Wave
+3.84m 	2,054.9
+Shadow Bolt
+3.49m 	1,867.1
+Soulbind
+3.34m 	1,783.4
+Deafening Roar
+3.28m 	1,755.4
+Open Wound
+2.63m 	1,405.0
+Dread Slash
+2.53m 	1,353.7
+Drain Soul
+2.00m 	1,069.9
+Sear
+1.83m 	975.8
+Rending Gore
+1.40m 	746.0
+Magma Surge
+1.39m 	744.7
+Spiritbreaker
+1.36m 	726.9
+Shadowfrost Blast
+1.16m 	621.6
+Blessing of Sacrifice
+1.11m 	593.4
+Cries of the Fallen
+1.04m 	558.1
+Shadow Realm
+1.04m 	555.5
+Hooked Snare
+1.03m 	548.4
+Spectral Decay
+947.4k 	506.5
+Crunch Armor
+942.4k 	503.8
+Flanking Spear
+869.5k 	464.9
+Falling
+711.3k 	380.3
+Shrink
+704.2k 	376.5
+Shredding Talons
+679.4k 	363.2
+Ritual Drums
+673.4k 	360.1
+Piercing Screech
+633.6k 	338.7
+Frost Nova
+559.1k 	298.9
+Ancestral Crush
+524.4k 	280.4
+Spiritbreaker
+471.3k 	252.0
+Shadow Burst
+459.9k 	245.9
+Rain of Toads
+456.4k 	244.0
+Unmake
+383.9k 	205.3
+Coordinated Assault
+364.9k 	195.1
+Crush Souls
+234.5k 	125.4
+Staggering Blow
+226.5k 	121.1
+Coalesced Death
+204.1k 	109.1
+Carrion Swoop
+186.1k 	99.5
+Diseased Claws
+156.4k 	83.6
+Ritual Sacrifice
+148.0k 	79.1
+Icy Slick
+134.8k 	72.1
+Cries of the Fallen
+116.5k 	62.3
+Chill of Death
+115.3k 	61.6
+Umbral Vortex
+114.2k 	61.1
+Ancestral Crush
+94.7k 	50.6
+Ritual Firebrand
+31.6k 	16.9
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Powerpegging 	Shadow Burst 	4:26
+Stonehill 	Searing Presence 	8:17
+Powerpegging 	Searing Presence 	8:44
+Cornichonen 	Magma Surge 	8:58
+Powerpegging 	Ancestral Crush 	16:05
+Stonehill 	Grim Ward 	19:47
+Forvirretgut 	Drain Soul 	24:23
+Forvirretgut 	Withering Soul 	30:55
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+Forvirretgut
+Monk (Brewmaster)
+276 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Detox
+Grace of the Crane
+Calming Presence
+Vivacious Vivification
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Transcendence
+Celerity
+Chi Burst
+Ring of Peace
+Improved Touch of Death
+Hasty Provocation
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Vigorous Expulsion
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Save Them All
+Expeditious Fortification
+Chi Proficiency 2
+Chi Transfer
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Swift as a Coursing River
+Elixir of Determination
+Quick Sip
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Shadowboxing Treads
+Elusive Footwork
+Celestial Infusion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Zen State
+Face Palm
+Sal'salabim's Strength
+Black Ox Brew
+Counterstrike
+Dragonfire Brew
+High Tolerance 2
+Blackout Combo
+Invoke Niuzao, the Black Ox
+Exploding Keg
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+
+DPS
+
+Class Talents
+
+Spec Talents
+Cornichonen
+Death Knight (Unholy)
+271 Item Level
+Death Strike
+Icebound Fortitude
+Raise Dead
+Runic Attenuation
+Improved Death Strike
+Cleaving Strikes
+Blinding Sleet
+Gloom Ward 2
+Unholy Momentum 2
+Mind Freeze
+Enfeeble
+Brittle
+Permafrost
+Veteran of the Third War
+Coldthirst
+Anti-Magic Zone
+Unholy Bond
+Icy Talons
+Death Notes
+Anti-Magic Barrier
+Assimilation
+Death's Reach
+Unholy Endurance
+Blood Scent
+Suppression
+Insidious Chill
+Runic Protection
+Will of the Necropolis 2
+Rune Mastery 2
+Death's Echo
+Null Magic
+
+Outbreak
+Scourge Strike
+Sudden Doom
+Dark Transformation
+Putrefy
+Clawing Shadows
+Foul Infections
+Doomed Bidding
+Grave Mastery
+Magus of the Dead
+Infected Claws
+Festering Scythe
+March of Madness
+Coil of Devastation
+Ebon Fever
+Unholy Devotion
+Ghoulish Frenzy
+Army of the Dead
+Menacing Magus
+Raise Abomination
+Harbinger of Doom
+Putrid Echoes
+Soul Reaper
+Necromancer's Cunning
+Blightburst
+Commander of the Dead 2
+Reaping
+Outnumber
+Reanimation
+Forbidden Knowledge 1
+Forbidden Knowledge 2
+Forbidden Knowledge 1
+Crimson
+Death Knight (Unholy)
+272 Item Level
+Death Strike
+Icebound Fortitude
+Raise Dead
+Runic Attenuation
+Improved Death Strike
+Cleaving Strikes
+Blinding Sleet
+Gloom Ward 2
+Unholy Momentum 2
+Mind Freeze
+Brittle
+Permafrost
+Veteran of the Third War
+Coldthirst
+Anti-Magic Zone
+Unholy Bond
+Icy Talons
+Anti-Magic Barrier
+Assimilation
+Death's Reach
+Unholy Endurance
+Blood Scent
+Suppression
+Insidious Chill
+Runic Protection
+Blood Draw
+Will of the Necropolis 2
+Rune Mastery 2
+Vestigial Shell
+Death's Echo
+Null Magic
+
+Outbreak
+Scourge Strike
+Sudden Doom
+Dark Transformation
+Putrefy
+Clawing Shadows
+Foul Infections
+Doomed Bidding
+Grave Mastery
+Magus of the Dead
+Infected Claws
+Festering Scythe
+March of Madness
+Coil of Devastation
+Ebon Fever
+Unholy Devotion
+Ghoulish Frenzy
+Army of the Dead
+Menacing Magus
+Raise Abomination
+Harbinger of Doom
+Putrid Echoes
+Soul Reaper
+Blightburst
+Necromancer's Cunning
+Commander of the Dead 2
+Reaping
+Outnumber
+Reanimation
+Forbidden Knowledge 1
+Forbidden Knowledge 2
+Forbidden Knowledge 1
+Powerpegging
+Evoker (Devastation)
+275 Item Level
+Obsidian Scales
+Expunge
+Landslide
+Verdant Embrace
+Heavy Wingbeats
+Natural Convergence
+Obsidian Bulwark
+Enkindled 2
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Sleep Walk
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Protracted Talons
+Blast Furnace
+Regenerative Magic
+Renewing Blaze
+Panacea
+Rescue
+Stretch Time
+Source of Magic
+Twin Guardian
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Pyre
+Ruby Essence Burst
+Azure Essence Burst
+Eternity Surge
+Lay Waste
+Quell
+Azure Sweep
+Arcane Intensity 2
+Dragonrage
+Essence Attunement
+Animosity
+Heat Wave 2
+Event Horizon
+Eternity's Span
+Catalyze
+Shattering Stars
+Charged Blast
+Tyranny
+Burnout
+Spellweaver's Dominance
+Onyx Legacy
+Titanic Wrath
+Power Swell
+Azure Celerity
+Imminent Destruction
+Strafing Run
+Scintillation
+Causality
+Rising Fury 1
+Rising Fury 2
+Rising Fury 1
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+Stonehill
+Paladin (Holy)
+276 Item Level
+Hammer of Wrath
+Auras of the Resolute
+Lay on Hands
+Improved Cleanse
+Blinding Light
+Fist of Justice
+Afterimage
+Greater Judgment
+A Just Reward 2
+Guided Prayer
+Divine Steed
+Cavalier
+Blessing of Freedom
+Armory of Light
+Divine Toll
+Obduracy 2
+Sanctified Plates 2
+Echoing Blessings
+Blessing of Sacrifice
+Blessing of Protection
+Quickened Invocation
+Brought to Light
+Consecrated Ground
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Sacrifice of the Just
+Inspired Guard
+Holy Ritual
+Lead the Charge
+Seal of Might 2
+Selfless Healer
+Blessing of Dusk
+
+Holy Shock
+Light of Dawn
+Infusion of Light
+Aura Mastery
+Beacon of the Lightbringer
+Light's Conviction
+Awestruck
+Extrication
+Imbued Infusions
+Light of the Martyr
+Divine Favor
+Moment of Compassion
+Shining Righteousness
+Light's Protection
+Righteous Judgment
+Bestow Light
+Divine Revelations
+Commanding Light
+Divine Glimpse
+Crusader's Might
+Beacon of Faith
+Reclamation
+Avenging Wrath
+Divine Overload
+Sanctified Wrath
+Seek Deliverance
+Inflorescence of the Sunwell
+Rising Sunlight
+Glorious Dawn
+Hand of Divinity
+Beacon of the Savior 1
+Beacon of the Savior 2
+Beacon of the Savior 1
+
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+1 month ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

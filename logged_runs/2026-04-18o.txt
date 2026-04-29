@@ -1,0 +1,699 @@
+
+Warcraft Logs
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+    Log In
+    Sign Up
+
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+Mythic+ Season 1
+Created by BudoBoy07 on Sat Apr 18 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 3 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+Skyreach+
+Level 16 [Tyrannical] [Fortified] [Xal'atath's Guile] 1 (2:46) 9:26 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Ranjit
+        Araknath
+        Rukhran
+        High Save Viryx
+        Pull 1 (0:54) +0:09
+        Dread Raven
+
+Entire Dungeon
+
+    + All Friendlies
+        +Cornichonen
+            Risen Ghoul
+
+            ID: 26125
+            +Rune Weapon
+                1
+
+                2
+
+                3
+
+            ID: 27893
+        +Crimson
+            Abomination
+
+            ID: 149555
+            +High Inquisitor Whitemane
+                1
+
+                2
+
+            ID: 221633
+            +Highlord Darion Mograine
+                1
+
+                2
+
+            ID: 221632
+            +King Thoras Trollbane
+                1
+
+                2
+
+            ID: 221635
+            +Lesser Ghoul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+
+            ID: 237409
+            +Lesser Ghoul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+            ID: 258578
+            +Magus of the Dead
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+            ID: 163366
+            Nazgrim
+
+            ID: 221634
+            Stonekeeper
+        Lauree
+        Dragetid
+        +Powerpegging
+            Past Self
+
+            ID: 185800
+        Nubalas
+        Qquasarr
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0000:3001:0001:3002:0002:300M1M2M3M
+Group Composition Item Level: 274.86
+Tanks:	Cornichonen
+DPS:	Crimson Lauree Dragetid
+Healers:	Powerpegging
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Dragetid
+19.01m 	113,908.1
+Lauree
+15.78m 	94,565.0
+Crimson
+12.90m 	77,304.6
+Cornichonen
+7.97m 	47,755.3
+Powerpegging
+3.17m 	18,992.2
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Cornichonen
+8.46m 	50,724.9
+Powerpegging
+6.19m 	37,096.7
+Dragetid
+934.5k 	5,600.6
+Lauree
+699.7k 	4,193.1
+Crimson
+133.8k 	801.7
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+8.16m 	48,899.0
+Blade Rush
+3.27m 	19,604.6
+Time Dilation
+1.41m 	8,452.1
+Dire Screech
+1.27m 	7,635.0
+Shear
+983.9k 	5,896.5
+Dread Wind
+548.6k 	3,287.8
+Ricocheting Chakram
+444.2k 	2,662.2
+Wind Claws
+222.3k 	1,332.2
+Wrathful Wind
+218.9k 	1,311.7
+Soul Immolation
+23.0k 	137.6
+Blessing of Dawn
+619.0 	3.7
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+No data available in table
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+Cornichonen
+Death Knight (Blood)
+271 Item Level
+Raise Dead
+Icebound Fortitude
+Death Strike
+Runic Attenuation
+Improved Death Strike
+Cleaving Strikes
+Blinding Sleet
+Gloom Ward 2
+Unholy Momentum 2
+Mind Freeze
+Wraith Walk
+Brittle
+Permafrost
+Veteran of the Third War
+Anti-Magic Zone
+Unholy Bond
+Icy Talons
+Death Notes
+Anti-Magic Barrier
+Assimilation
+Grip of the Dead
+Asphyxiate
+Unholy Endurance
+Suppression
+Insidious Chill
+Runic Protection
+Blood Draw
+Will of the Necropolis 2
+Rune Mastery 2
+Death's Echo
+Null Magic
+
+Heart Strike
+Marrowrend
+Blood Boil
+Bone Collector
+Vampiric Blood
+Improved Heart Strike 2
+Ossuary
+Relish in Blood
+Heartbreaker
+Hemostasis
+Dancing Rune Weapon
+Gorefiend's Grasp
+Insatiable Blade
+Rapid Decomposition
+Improved Bone Shield
+Deadly Reach
+Boiling Point
+Voracious
+Everlasting Bond
+Coagulopathy
+Iron Heart
+Bloodied Blade
+Plague Infusion
+Bloodshot
+Blood Mist
+Sanguine Ground
+Red Thirst
+Umbilicus Eternus
+Purgatory
+Dance of Midnight 1
+Dance of Midnight 2
+Dance of Midnight 1
+
+DPS
+
+Class Talents
+
+Spec Talents
+Crimson
+Death Knight (Unholy)
+272 Item Level
+Death Strike
+Icebound Fortitude
+Raise Dead
+Runic Attenuation
+Improved Death Strike
+Cleaving Strikes
+Blinding Sleet
+Gloom Ward 2
+Unholy Momentum 2
+Mind Freeze
+Wraith Walk
+Enfeeble
+Brittle
+Permafrost
+Veteran of the Third War
+Coldthirst
+Anti-Magic Zone
+Unholy Bond
+Icy Talons
+Anti-Magic Barrier
+Assimilation
+Death's Reach
+Unholy Endurance
+Blood Scent
+Suppression
+Insidious Chill
+Blood Draw
+Will of the Necropolis 2
+Rune Mastery 2
+Death's Echo
+Null Magic
+
+Outbreak
+Scourge Strike
+Sudden Doom
+Dark Transformation
+Putrefy
+Clawing Shadows
+Foul Infections
+Doomed Bidding
+Grave Mastery
+Magus of the Dead
+Infected Claws
+Festering Scythe
+Morbidity
+March of Madness
+Coil of Devastation
+Ebon Fever
+Unholy Devotion
+Ghoulish Frenzy
+Army of the Dead
+Raise Abomination
+Harbinger of Doom
+Putrid Echoes
+Soul Reaper
+Necromancer's Cunning
+Commander of the Dead 2
+Unholy Aura 1
+Reaping
+Outnumber
+Reanimation
+Forbidden Knowledge 1
+Forbidden Knowledge 2
+Forbidden Knowledge 1
+Lauree
+Demon Hunter (Devourer)
+273 Item Level
+Vengeful Retreat
+Sigil of Misery
+Voidblade
+Unrestrained Fury
+Shattered Restoration
+Bouncing Glaives
+Imprison
+Improved Disrupt
+Consume Magic
+Void Nova
+Aura of Pain
+Disrupting Fury
+Blazing Path
+Focused Ire
+Soul Rending 2
+Felfire Haste
+Pursuit
+Soul Cleanse
+Illidari Knowledge 2
+Will of the Illidari 2
+Guile
+Remorseless
+Internal Struggle
+First In, Last Out
+Furious
+Demon Muzzle
+Soul Splitter 2
+Darkness
+Final Breath
+Pitch Black
+Demonic Resilience
+
+Void Ray
+Soul Immolation
+Predator's Thirst
+Void Metamorphosis
+Feast of Souls
+Spontaneous Immolation
+Collapsing Star
+Moment of Craving
+Scythe's Embrace
+Soulshaper
+Gift of the Void
+Waste Not
+Entropy
+Sweet Release 2
+Improved Consume
+Voidpurge
+Focused Ray
+Voidrage 2
+Devourer's Edge 2
+Demonic Instinct 2
+Rolling Torment
+Impending Apocalypse
+Calamitous
+Star Fragments
+Eradicate
+Emptiness
+Midnight 1
+Midnight 2
+Midnight 1
+Dragetid
+Evoker (Devastation)
+277 Item Level
+Obsidian Scales
+Expunge
+Landslide
+Verdant Embrace
+Heavy Wingbeats
+Natural Convergence
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Tailwind
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Protracted Talons
+Blast Furnace
+Regenerative Magic
+Renewing Blaze
+Rescue
+Unravel
+Foci of Life
+Twin Guardian
+Leaping Flames
+Aerial Mastery
+Terror of the Skies
+Zephyr
+
+Pyre
+Ruby Essence Burst
+Azure Essence Burst
+Eternity Surge
+Lay Waste
+Quell
+Azure Sweep
+Volatility 2
+Dragonrage
+Ruby Embers
+Essence Attunement
+Animosity
+Engulfing Blaze
+Heat Wave 2
+Eye of Infinity
+Catalyze
+Shattering Stars
+Tyranny
+Feed the Flames
+Burnout
+Spellweaver's Dominance
+Titanic Wrath
+Font of Magic
+Power Swell
+Azure Celerity
+Scorching Embers
+Scintillation
+Causality
+Rising Fury 1
+Rising Fury 2
+Rising Fury 1
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+Powerpegging
+Evoker (Preservation)
+275 Item Level
+Obsidian Scales
+Expunge
+Landslide
+Heavy Wingbeats
+Verdant Embrace
+Natural Convergence
+Obsidian Bulwark
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Attuned to the Dream 2
+Tip the Scales
+Ancient Flame
+Sleep Walk
+Bountiful Bloom
+Draconic Legacy
+Inherent Resistance 2
+Extended Flight 2
+Exuberance
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Foci of Life
+Lush Growth 2
+Oppressing Roar
+Leaping Flames
+Aerial Mastery
+Overawe
+Zephyr
+Spatial Paradox
+Terror of the Skies
+
+Echo
+Dream Breath
+Reversion
+Essence Burst
+Temporal Compression
+Rewind
+Essence Attunement
+Lifebind
+Time Dilation
+Unshakable
+Golden Hour
+Temporal Anomaly
+Just in Time
+Spiritual Clarity
+Time Lord 2
+Temporal Barrier
+Call of Ysera
+Grace Period
+Stasis
+Life-Giver's Flame
+Time of Need
+Timeless Magic 2
+Renewing Breath 2
+Lifeforce Mender 2
+Dream Simulacrum
+Tempo Charged
+Merithra's Blessing 1
+Merithra's Blessing 2
+Merithra's Blessing 1
+
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+1 month ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

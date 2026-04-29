@@ -1,0 +1,636 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+205
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Sat Apr 25 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 16 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+The Seat of the Triumvirate+
+Level 18 [Fortified] [Tyrannical] [Xal'atath's Guile] 5 (2:15) 12:49 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Zuraal the Ascended
+        Saprish
+        Viceroy Nezhar
+        L'ura
+        Pull 1 (2:06) +0:09
+        Merciless Subjugator
+
+Entire Dungeon
+
+    + All Friendlies
+        Coconutbob
+        Hyterionxx
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+            ID: 253466
+        Fatpala
+        Sunri
+
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0000:1500:3000:4501:0001:1501:3001:4502:0002:150M1M2M3M4M5M
+Group Composition Item Level: 280.80
+Tanks:	Coconutbob
+DPS:	Hyterionxx Powerpegging Fatpala
+Healers:	Sunri
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Powerpegging
+30.50%
+42.25m 	311,444.1
+Fatpala
+26.91%
+37.28m 	274,826.4
+Hyterionxx
+25.82%
+35.76m 	263,656.4
+Coconutbob
+14.40%
+19.94m 	147,005.9
+Sunri
+2.37%
+3.28m 	24,191.4
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Sunri
+52.93%
+14.99m 	110,544.1
+Coconutbob
+39.05%
+11.06m 	81,550.9
+Powerpegging
+3.93%
+1.11m 	8,212.2
+Fatpala
+2.66%
+753.8k 	5,557.1
+Hyterionxx
+1.43%
+405.3k 	2,987.8
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+46.44%
+13.43m 	99,012.9
+Pulsing Void
+20.91%
+6.05m 	44,583.8
+Chains of Subjugation
+12.61%
+3.65m 	26,882.1
+Umbral Bolt
+5.24%
+1.51m 	11,163.1
+Rupture
+5.16%
+1.49m 	11,003.6
+Relentless Pursuit
+4.77%
+1.38m 	10,173.0
+Shadow Mend
+2.06%
+597.1k 	4,402.1
+Blessing of Sacrifice
+1.54%
+446.5k 	3,292.0
+Stretch Time
+0.61%
+175.1k 	1,291.1
+Leeching Void
+0.46%
+132.1k 	973.7
+Shadow Word: Death
+0.21%
+60.2k 	443.9
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Coconutbob 	Umbral Bolt 	1:54
+Hyterionxx 	Melee 	2:04
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Coconutbob
+Demon Hunter (Vengeance)
+280 Item Level
+Vengeful Retreat
+Felblade
+Sigil of Misery
+Unrestrained Fury
+Shattered Restoration
+Bouncing Glaives
+Charred Warblades
+Improved Disrupt
+Aldrachi Design
+Consume Magic
+Chaos Nova
+Aura of Pain
+Blazing Path
+Live by the Glaive
+Champion of the Glaive
+Soul Rending 2
+Infernal Armor 2
+Soul Cleanse
+Illidari Knowledge 2
+Will of the Illidari 2
+Remorseless
+Internal Struggle
+First In, Last Out
+Furious
+Demon Muzzle
+Soul Splitter 2
+Erratic Felheart 2
+Darkness
+Demonic Resilience
+
+Fel Devastation
+Fiery Brand
+Spirit Bomb
+Perfectly Balanced Glaive
+Quickened Sigils
+Calcified Spikes
+Tempered Steel
+Sigil of Silence
+Feed the Demon
+Agonizing Flames
+Sigil of Spite
+Burning Blood
+Fel Flame Fortification
+Soul Barrier
+Fallout
+Frailty
+Fiery Demise 2
+Chains of Anger
+Void Reaver
+Burning Alive
+Focused Cleave
+Charred Flesh 2
+Vulnerability 2
+Vengeful Beast
+Down in Flames
+Last Resort
+Soulcrush
+Untethered Rage 1
+Untethered Rage 2
+Untethered Rage 1
+		2 	1
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Hyterionxx
+Druid (Balance)
+281 Item Level
+Frenzied Regeneration
+Starfire
+Ursoc's Spirit
+Starsurge
+Verdant Heart
+Remove Corruption
+Moonkin Form
+Nurturing Instinct 2
+Killer Instinct 2
+Sunfire
+Improved Barkskin
+Natural Recovery
+Astral Influence
+Thick Hide
+Light of the Sun
+Wild Charge
+Soothe
+Starlight Conduit
+Aessina's Renewal
+Typhoon
+Stampeding Roar
+Well-Honed Instincts
+Matted Fur 2
+Ursol's Vortex
+Lycara's Teachings 2
+Gift of the Wild
+Oakskin
+Lore of the Grove
+Incapacitating Roar
+Lycara's Inspiration
+Circle of the Heavens
+Heart of the Wild
+Fluid Form
+
+Eclipse
+Shooting Stars
+Solar Beam
+Twin Moons
+Solstice
+Umbral Intensity
+Aetherial Kindling
+Improved Eclipse
+Wild Surges
+Celestial Alignment
+Sunseeker Mushroom
+Stellar Amplification
+Whirling Stars
+Touch the Cosmos
+Starlord 2
+Cosmic Rapidity 2
+Hail of Stars
+Celestial Fire
+Balance of All Things 2
+Starweaver
+Incarnation: Chosen of Elune
+Fury of Elune
+Orbit Breaker
+Radiant Moonlight
+Elune's Guidance
+Umbral Embrace
+Harmony of the Heavens
+Ascendant Eclipses 1
+Ascendant Eclipses 2
+Ascendant Eclipses 1
+		1 	0
+Powerpegging
+Evoker (Augmentation)
+279 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Walloping Blow
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Ignition Rush
+Chrono Ward
+Bestow Weyrnstone
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		2 	0
+Fatpala
+Paladin (Retribution)
+282 Item Level
+Lay on Hands
+Auras of the Resolute
+Hammer of Wrath
+Blinding Light
+Fist of Justice
+Turn Evil
+Divine Steed
+Healing Hands
+Guided Prayer
+Greater Judgment
+Wrench Evil
+Cavalier
+Blessing of Freedom
+Shield of Vengeance
+Rebuke
+Obduracy 2
+Sanctified Plates 2
+Unbound Freedom
+Divine Toll
+Consecrated Ground
+Blessing of Sacrifice
+Blessing of Protection
+Quickened Invocation
+Sacrifice of the Just
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Inspired Guard
+Lead the Charge
+Seal of Might 2
+Vengeful Wrath 2
+Lightbearer
+Blessing of Dusk
+
+Blade of Justice
+Divine Storm
+Expurgation
+Avenging Wrath
+Light of Justice
+Art of War
+Final Verdict
+Holy Blade
+Holy Flames
+Tempest of the Lightbringer
+Rush of Light
+Sanctify
+Improved Judgment
+Blade of Vengeance
+Zealot's Fervor 2
+Highlord's Wrath
+Blessed Champion
+Burning Crusade
+Crusading Strikes
+Wake of Ashes
+Divine Wrath 2
+Blades of Light 2
+Seething Flames
+Execution Sentence
+Empyrean Legacy
+Burn to Ash
+Crusade
+Light Within 1
+Light Within 2
+Light Within 1
+		2 	0
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Sunri
+Priest (Discipline)
+282 Item Level
+Angelic Feather
+Mind Blast
+Improved Flash Heal
+Dispel Magic
+Spiritual Guidance
+Psychic Scream
+Power Infusion
+Painful Invocation
+Leap of Faith
+Strength of Resolve
+Surge of Light
+Twins of the Sun Priestess
+Mass Dispel
+Body and Soul
+Twin Disciplines
+Everlasting Light
+Dark Enlightenment
+Binding Heals
+Inspiration
+Shadow Word: Death
+Sanguine Teachings
+Twist of Fate 2
+Desperate Prayer
+Fade
+Protective Light
+Improved Fade 2
+Mindpierce
+Unwavering Will 2
+Spell Warding 2
+Phantasm
+Translucent Image
+Benevolence
+
+Atonement
+Pain Suppression
+Power Word: Radiance
+Power of the Dark Side
+Light's Promise
+Encroaching Shadows
+Protector of the Frail
+Shield Discipline
+Ultimate Penitence
+Revel in Darkness
+Painful Punishment
+Shadow Tap
+Holy Ray
+Lenience
+Castigation
+Occultist
+Purge the Wicked
+Evangelism
+Harsh Discipline 2
+Inner Focus
+Shadow Mend
+Archangel
+Borrowed Time 2
+Divine Aegis
+Blaze of Light 2
+Eternal Barrier
+Weal and Woe
+Master the Darkness 1
+Master the Darkness 2
+Master the Darkness 1
+		1 	1
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+1 month ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

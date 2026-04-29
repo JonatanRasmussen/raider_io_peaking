@@ -1,0 +1,631 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+205
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Sat Apr 25 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 16 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+Algeth'ar Academy+
+Level 18 [Fortified] [Tyrannical] [Xal'atath's Guile] 2 (1:01) 2:27 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Vexamus
+        Overgrown Ancient
+        Crawth
+        Echo of Doragosa
+        Pull 1 (0:25) +0:36
+        Vile Lasher
+
+Entire Dungeon
+
+    + All Friendlies
+        +Peshounh
+            Ratcaller
+        Nhileys
+        Powerpegging
+        Phoffer
+        Babbath
+        +Dracthyr Freshscale
+            Groups:
+            1
+            Instances:
+            1
+
+            2
+
+            3
+
+            4
+
+        ID: 192857
+        Professor Ichistrasz
+
+        ID: 189667
+        Professor Mystakria
+
+        ID: 187287
+        +Studious Scholar
+            Groups:
+            1
+            Instances:
+            1
+
+            2
+
+            3
+
+        ID: 197468
+        Kokainkevin
+
+
+
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0000:0500:1000:1500:2000:2500:3000:3500:4000:4500:5000:5501:000k500k1,000k1,500k
+
+
+Group Composition Item Level: 279.00
+Tanks:	Nhileys
+DPS:	Peshounh Powerpegging Phoffer
+Healers:	Babbath
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Nhileys
+98.55%
+7.24m 	117,518.8
+Babbath
+1.36%
+99.6k 	1,618.1
+Peshounh
+0.09%
+6.9k 	111.2
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Nhileys
+68.62%
+2.37m 	38,565.1
+Powerpegging
+23.41%
+810.2k 	13,157.6
+Babbath
+3.43%
+118.7k 	1,928.2
+Peshounh
+2.53%
+87.6k 	1,423.3
+Phoffer
+2.01%
+69.5k 	1,129.0
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+58.87%
+4.42m 	71,849.0
+Seed Detonation
+17.50%
+1.31m 	21,351.1
+Vile Bite
+14.71%
+1.11m 	17,951.0
+Darting Sting
+8.92%
+670.4k 	10,886.1
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Peshounh 	Melee 	0:42
+Babbath 	Melee 	0:48
+Powerpegging 	Seed Detonation 	0:53
+Nhileys 	Melee 	1:00
+Phoffer 	Melee 	1:01
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Nhileys
+Druid (Guardian)
+280 Item Level
+Rake
+Frenzied Regeneration
+Ursoc's Spirit
+Grievous Wounds
+Swipe
+Remove Corruption
+Verdant Heart
+Nurturing Instinct 2
+Killer Instinct 2
+Ironfur
+Improved Barkskin
+Natural Recovery
+Primal Fury
+Thick Hide
+Skull Bash
+Wild Charge
+Soothe
+Aessina's Renewal
+Typhoon
+Stampeding Roar
+Well-Honed Instincts
+Feline Swiftness
+Lingering Healing
+Ursol's Vortex
+Lycara's Teachings 2
+Gift of the Wild
+Oakskin
+Lore of the Grove
+Instincts of the Claw
+Improved Stampeding Roar
+Incapacitating Roar
+Forestwalk 1
+Circle of the Wild
+Heart of the Wild
+
+Maul
+Gore
+Survival Instincts
+Persistence
+Dream of Cenarius
+Vulnerable Flesh
+Berserk
+Innate Resolve
+Survival of the Fittest 2
+Scintillating Moonlight 2
+Reinvigoration 2
+Soul of the Forest
+Natural Resilience
+Ursoc's Endurance
+Raze
+Rend and Tear
+Lunar Beam
+Blood Frenzy
+Twin Moonfire
+Flashing Claws 2
+Ursoc's Fury
+Moonless Night
+Incarnation: Guardian of Ursoc
+Ursoc's Guidance
+Galactic Guardian
+Killing Blow
+Wild Guardian 1
+Wild Guardian 2
+Wild Guardian 1
+		1 	0
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Peshounh
+Death Knight (Unholy)
+280 Item Level
+Death Strike
+Icebound Fortitude
+Raise Dead
+Runic Attenuation
+Improved Death Strike
+Cleaving Strikes
+Blinding Sleet
+Gloom Ward 1
+Unholy Momentum 2
+Mind Freeze
+Wraith Walk
+Enfeeble
+Brittle
+Veteran of the Third War
+Death Pact
+Coldthirst
+Anti-Magic Zone
+Unholy Bond
+Icy Talons
+Death Defiance
+Anti-Magic Barrier
+Grip of the Dead
+Death's Reach
+Unholy Endurance
+Blood Scent
+Suppression
+Insidious Chill
+Blood Draw
+Will of the Necropolis 2
+Rune Mastery 2
+Death's Echo
+Null Magic
+
+Outbreak
+Scourge Strike
+Sudden Doom
+Dark Transformation
+Putrefy
+Clawing Shadows
+Foul Infections
+Grave Mastery
+Necromancer's Cunning
+Magus of the Dead
+Soul Reaper
+Festering Scythe
+Ebon Fever
+Coil of Devastation
+Army of the Dead
+Reaping
+Cycle of Death
+Menacing Magus
+Summon Gargoyle
+Harbinger of Doom
+Unholy Devotion
+Doomed Bidding
+Blightburst
+Putrid Echoes
+Commander of the Dead 2
+Unholy Aura 2
+Outnumber
+Reanimation
+Forbidden Knowledge 1
+Forbidden Knowledge 2
+Forbidden Knowledge 1
+		0 	0
+Powerpegging
+Evoker (Augmentation)
+279 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Walloping Blow
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Ignition Rush
+Chrono Ward
+Improved Defy Fate
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		0 	0
+Phoffer
+Paladin (Retribution)
+283 Item Level
+Lay on Hands
+Auras of the Resolute
+Hammer of Wrath
+Blinding Light
+Empyreal Ward
+Fist of Justice
+Divine Steed
+Healing Hands
+Guided Prayer
+Greater Judgment
+Cavalier
+Blessing of Freedom
+Shield of Vengeance
+Rebuke
+Obduracy 2
+Sanctified Plates 2
+Unbound Freedom
+Divine Toll
+Consecrated Ground
+Blessing of Sacrifice
+Blessing of Protection
+Quickened Invocation
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Light's Revocation
+Lightforged Blessing
+Inspired Guard
+Holy Ritual
+Seal of Might 2
+Vengeful Wrath 2
+Lightbearer
+Blessing of Dusk
+
+Blade of Justice
+Divine Storm
+Expurgation
+Avenging Wrath
+Light of Justice
+Art of War
+Final Verdict
+Holy Blade
+Jurisdiction
+Holy Flames
+Tempest of the Lightbringer
+Rush of Light
+Improved Judgment
+Blade of Vengeance
+Zealot's Fervor 2
+Highlord's Wrath
+Blessed Champion
+Burning Crusade
+Crusading Strikes
+Wake of Ashes
+Divine Wrath 2
+Blades of Light 2
+Seething Flames
+Execution Sentence
+Empyrean Legacy
+Burn to Ash
+Crusade
+Light Within 1
+Light Within 2
+Light Within 1
+		0 	0
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Babbath
+Priest (Discipline)
+280 Item Level
+Angelic Feather
+Mind Blast
+Improved Flash Heal
+Dispel Magic
+Spiritual Guidance
+Power Infusion
+Painful Invocation
+Leap of Faith
+Strength of Resolve
+Surge of Light
+Twins of the Sun Priestess
+Mass Dispel
+Body and Soul
+Twin Disciplines
+Everlasting Light
+Mental Agility
+Dark Enlightenment
+Binding Heals
+Inspiration
+Shadow Word: Death
+Sanguine Teachings
+Twist of Fate 2
+Desperate Prayer
+Fade
+Protective Light
+Improved Fade 2
+Mindpierce
+Unwavering Will 2
+Phantasm
+Spell Warding 1
+Angelic Bulwark
+Translucent Image
+Benevolence
+
+Atonement
+Pain Suppression
+Power Word: Radiance
+Power of the Dark Side
+Encroaching Shadows
+Protector of the Frail
+Light's Promise
+Dark Indulgence
+Power Word: Barrier
+Revel in Darkness
+Shield Discipline
+Shadow Tap
+Holy Ray
+Lenience
+Purge the Wicked
+Castigation
+Occultist
+Evangelism
+Harsh Discipline 2
+Shadow Mend
+Archangel
+Inner Focus
+Blaze of Light 2
+Borrowed Time 2
+Divine Aegis
+Eternal Barrier
+Weal and Woe
+Master the Darkness 1
+Master the Darkness 2
+Master the Darkness 1
+		0 	0
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+1 month ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

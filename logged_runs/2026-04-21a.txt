@@ -1,0 +1,923 @@
+
+Warcraft Logs
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+    Log In
+    Sign Up
+
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+Mythic+ Season 1
+Created by BudoBoy07 on Tue Apr 21 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+Algeth'ar Academy+
+Level 16 [Tyrannical] [Fortified] [Xal'atath's Guile] (27:36) 9:24 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Vexamus
+        Overgrown Ancient
+        Crawth
+        Echo of Doragosa
+        Pull 1 (1:22) +0:39
+        Vile Lasher
+        Pull 2 (2:40) +2:19
+        Overgrown Ancient
+        Pull 3 (0:00) +5:00
+        Ancient Branch
+        Pull 4 (1:50) +5:21
+        Guardian Sentry
+        Pull 5 (0:25) +7:21
+        Alpha Eagle
+        Pull 6 (0:55) +7:51
+        Alpha Eagle
+        Pull 7 (3:10) +9:11
+        Crawth
+        Pull 8 (1:52) +12:46
+        Vicious Ravager
+        Pull 9 (1:01) +14:44
+        Vicious Ravager
+        Pull 10 (1:26) +15:50
+        Spellbound Battleaxe
+        Pull 11 (2:33) +17:38
+        Vexamus
+        Pull 12 (0:50) +20:24
+        Spellbound Battleaxe
+        Pull 13 (1:00) +21:33
+        Algeth'ar Echoknight
+        Pull 14 (1:24) +22:37
+        Algeth'ar Echoknight
+        Pull 15 (3:22) +24:07
+        Echo of Doragosa
+
+Entire Dungeon
+
+    + All Friendlies
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+            ID: 253466
+        +Milksqueezer
+            +Chi-Ji
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+            ID: 166949
+            +Jade Serpent Statue
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+                51
+
+                52
+
+                53
+
+                54
+
+                55
+
+            ID: 60849
+        +Psychop
+            +Capacitor Totem
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+
+            ID: 61245
+            Earthbind Totem
+
+            ID: 2630
+            +Primal Earth Elemental
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+            ID: 61056
+            +Primal Fire Elemental
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+            ID: 61029
+            +Primal Storm Elemental
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+            ID: 77942
+        Dokeshin
+        Rollóh
+        Magic Book
+
+        ID: 195416
+        Professor Ichistrasz
+
+        ID: 189667
+        Professor Maxdormu
+
+        ID: 189668
+        Professor Mystakria
+
+        ID: 187287
+
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0005:0010:0015:0020:0025:000k500k1,000k1,500k2,000k2,500k
+Group Composition Item Level: 277.80
+Tanks:	Rollóh
+DPS:	Powerpegging Psychop Dokeshin
+Healers:	Milksqueezer
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Dokeshin
+230.21m 	139,494.0
+Psychop
+211.16m 	127,947.6
+Powerpegging
+190.63m 	115,511.1
+Rollóh
+124.93m 	75,702.7
+Milksqueezer
+53.22m 	32,249.5
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Milksqueezer
+110.18m 	66,760.5
+Rollóh
+65.65m 	39,781.8
+Powerpegging
+9.38m 	5,685.5
+Dokeshin
+7.79m 	4,718.3
+Psychop
+5.65m 	3,424.4
+Ancient Branch
+888.2k 	538.2
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+44.81m 	27,149.2
+Deafening Screech
+16.68m 	10,106.7
+Spellbound Weapon
+12.61m 	7,643.7
+Overwhelming Power
+11.45m 	6,939.7
+Vile Bite
+11.27m 	6,828.8
+Arcane Smash
+10.12m 	6,131.6
+Splinterbark
+8.87m 	5,377.6
+Blistering Fire
+7.86m 	4,761.9
+Mana Bomb
+6.61m 	4,007.7
+Vicious Lunge
+5.97m 	3,616.0
+Raging Screech
+5.23m 	3,167.1
+Vicious Ambush
+4.68m 	2,838.3
+Savage Peck
+4.35m 	2,634.7
+Mana Void
+4.16m 	2,518.3
+Arcane Expulsion
+3.35m 	2,029.0
+Astral Blast
+3.35m 	2,026.9
+Arcane Fissure
+3.17m 	1,923.6
+Astral Whirlwind
+2.91m 	1,761.3
+Darting Sting
+2.84m 	1,720.3
+Peck
+2.41m 	1,458.5
+Storm Slash
+2.37m 	1,434.4
+Mana Bomb
+2.26m 	1,367.0
+Arcane Missiles
+2.08m 	1,257.6
+Burst Forth
+2.06m 	1,250.9
+Arcane Orb
+1.80m 	1,089.8
+Lasher Toxin
+1.79m 	1,086.1
+Energy Bomb
+1.72m 	1,042.0
+Arcane Bolt
+1.56m 	946.7
+Expel Intruders
+1.42m 	858.2
+Mana Void
+1.41m 	857.0
+Stretch Time
+963.4k 	583.8
+Arcane Fissure
+838.2k 	507.9
+Unleash Energy
+775.0k 	469.6
+Deadly Winds
+736.1k 	446.0
+Barkbreaker
+491.1k 	297.6
+Roving Cyclone
+410.2k 	248.5
+Energy Eruption
+349.3k 	211.6
+Corrupted Mana
+183.5k 	111.2
+Riftbreath
+80.6k 	48.9
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Milksqueezer 	Arcane Fissure 	19:51
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+Rollóh
+Warrior (Protection)
+277 Item Level
+Defensive Stance
+Battle Stance
+War Machine
+Thunder Clap
+Leeching Strikes
+Impending Victory
+Storm Bolt
+Heroic Leap
+Crackling Thunder
+Frothing Berserker
+Pain and Gain
+Rend
+Rallying Cry
+Shockwave
+Spell Reflection
+Field Dressing
+Fearless
+Wrecking Throw
+Rumbling Earth
+Honed Reflexes
+Armored to the Teeth 2
+Reinforced Plates 2
+Double Time
+Resonant Voice
+Javelineer
+One-Handed Weapon Specialization 2
+Wild Strikes 2
+Cruel Strikes 2
+Stance Mastery
+Anger Management
+Battlefield Commander
+
+Ignore Pain
+Revenge
+Demoralizing Shout
+Devastator
+Brace For Impact
+Armor Specialization
+Strategist
+Disrupting Shout
+Bloodsurge
+Instigate
+Shield Wall
+Best Served Cold
+Brutal Vitality
+Thunderlord
+Defender's Aegis
+Punish
+Last Stand
+Enduring Defenses 2
+Fueled by Violence
+Tough as Nails
+Unyielding Stance
+Shield Specialization
+Avatar
+Enduring Alacrity
+Focused Vigor
+Into the Fray
+Violent Outburst
+Booming Voice
+Indomitable
+Shield Charge
+Whirling Blade
+Battle-Scarred Veteran
+Phalanx 1
+
+DPS
+
+Class Talents
+
+Spec Talents
+Powerpegging
+Evoker (Augmentation)
+275 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Walloping Blow
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Time Spiral
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Bestow Weyrnstone
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+Psychop
+Shaman (Elemental)
+280 Item Level
+Chain Lightning
+Chain Heal
+Lava Burst
+Spirit Wolf
+Earth Shield
+Fire and Ice
+Gust of Wind
+Elemental Orbit
+Nature's Guardian
+Astral Shift
+Brimming with Life 2
+Planes Traveler
+Wind Shear
+Winds of Al'Akir 2
+Capacitor Totem
+Enhanced Imbues
+Windveil
+Spiritual Awakening
+Earth Elemental
+Cleanse Spirit
+Wind Rush Totem
+Primordial Bond
+Nature's Fury 2
+Purge
+Spiritwalker's Grace
+Elemental Warding
+Therazane's Resilience
+Graceful Spirit
+Tremor Totem
+Nature's Swiftness
+Instinctive Imbuements
+Totemic Surge
+
+Elemental Blast
+Echo of the Elements
+Elemental Fury
+Earthquake
+Flash of Lightning
+Aftershock
+Stormkeeper
+Lightning Capacitor
+Fury of the Storms
+Swelling Maelstrom
+Storm Frenzy
+Primordial Fury
+Elemental Resonance
+Elemental Unity
+Amped Up
+Path of the Seer
+Earthshatter
+Echo Chamber
+Everlasting Elements
+Storm Infusion
+Ascendance
+Eye of the Storm
+Inferno Arc
+Call of Fire
+Mountains Will Fall
+Voltaic Blaze
+Lightning Rod
+Primal Elementalist
+Charged Conduit
+First Ascendant
+Feedback Loop 1
+Feedback Loop 2
+Feedback Loop 1
+Dokeshin
+Warrior (Arms)
+277 Item Level
+Defensive Stance
+Battle Stance
+War Machine
+Leeching Strikes
+Impending Victory
+Storm Bolt
+Heroic Leap
+Frothing Berserker
+Pain and Gain
+Bounding Stride
+Rend
+Rallying Cry
+Shockwave
+Overwhelming Rage
+Spell Reflection
+Field Dressing
+Fearless
+Wrecking Throw
+Rumbling Earth
+Honed Reflexes
+Armored to the Teeth 2
+Reinforced Plates 2
+Double Time
+Barbaric Training
+Resonant Voice
+Two-Handed Weapon Specialization 2
+Wild Strikes 2
+Cruel Strikes 2
+Stance Mastery
+Anger Management
+Battlefield Commander
+
+Mortal Strike
+Overpower
+Sudden Death
+Die by the Sword
+Fueled by Violence
+Improved Overpower
+Fervor of Battle
+Improved Execute
+Tactician
+Colossus Smash
+Impale
+Cleave
+Sharpened Blades 2
+Broad Strokes
+Strength of Arms 2
+Dreadnaught
+Collateral Damage
+Crushing Combo
+Mass Execution
+Deep Wounds
+Bloodborne 2
+Bladestorm
+Bloodletting
+Executioner's Precision
+Battlelord
+Mortal Wounds
+Avatar
+Master of Warfare 1
+Master of Warfare 2
+Master of Warfare 1
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Milksqueezer
+Monk (Mistweaver)
+280 Item Level 				0 	0
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.

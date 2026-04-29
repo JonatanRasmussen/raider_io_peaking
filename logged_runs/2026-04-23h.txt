@@ -1,0 +1,832 @@
+
+Warcraft Logs
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+    Log In
+    Sign Up
+
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+Mythic+ Season 1
+Created by BudoBoy07 on Thu Apr 23 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+Skyreach+
+Level 18 [Fortified] [Tyrannical] [Xal'atath's Guile] 1 (11:30) 11:55 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Ranjit
+        Araknath
+        Rukhran
+        High Save Viryx
+        Pull 1 (1:53) +0:10
+        Dread Raven
+        Pull 2 (0:41) +2:07
+        Adorned Bladetalon
+        Pull 3 (3:28) +2:55
+        Ranjit
+        Pull 4 (2:48) +6:27
+        Solar Elemental
+        Pull 5 (0:02) +9:18
+        Solar Construct
+        Pull 6 (0:05) +9:28
+        Suntalon Tamer
+        Pull 7 (1:57) +9:33
+        Araknath
+
+Entire Dungeon
+
+    + All Friendlies
+        Theghouldogx
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+            ID: 253466
+        +Miikfu
+            +Niuzao
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+            ID: 73967
+        Ciniá
+        +Shàmaani
+            +Capacitor Totem
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 61245
+            +Healing Stream Totem
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+            ID: 3527
+            +Healing Tide Totem
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 59764
+            Spirit Link Totem
+
+            ID: 53006
+            +Stormstream Totem
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+            ID: 256196
+            +Surging Totem
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+            ID: 225409
+
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0002:0004:0006:0008:0010:000k500k1,000k1,500k2,000k2,500k
+Group Composition Item Level: 279.80
+Tanks:	Miikfu
+DPS:	Theghouldogx Powerpegging Ciniá
+Healers:	Shàmaani
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Ciniá
+118.64m 	171,707.4
+Powerpegging
+111.19m 	160,927.0
+Theghouldogx
+108.43m 	156,934.1
+Miikfu
+70.09m 	101,433.6
+Shàmaani
+11.81m 	17,095.0
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Shàmaani
+55.35m 	80,104.7
+Miikfu
+45.71m 	66,149.2
+Theghouldogx
+6.33m 	9,163.6
+Powerpegging
+5.79m 	8,374.9
+Ciniá
+5.01m 	7,245.2
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Stagger
+25.41m 	36,781.1
+Melee
+20.57m 	29,773.5
+Fan of Blades
+20.22m 	29,269.9
+Solar Flame
+10.17m 	14,722.7
+Light Ray
+8.90m 	12,887.4
+Dire Screech
+4.82m 	6,980.9
+Fiery Talon
+3.72m 	5,385.5
+Wrathful Wind
+3.67m 	5,306.1
+Supernova
+2.94m 	4,254.9
+Solar Barrier
+2.85m 	4,126.2
+Gale Surge
+2.56m 	3,704.8
+Blade Rush
+2.55m 	3,694.6
+Ricocheting Chakram
+2.11m 	3,050.2
+Solar Infusion
+1.56m 	2,263.9
+Dread Wind
+1.31m 	1,896.9
+Shear
+879.2k 	1,272.5
+Wind Claws
+736.2k 	1,065.5
+Wind Chakram
+626.7k 	906.9
+Solar Flare
+608.2k 	880.2
+Defensive Protocol
+465.6k 	673.9
+Mark of Death
+351.0k 	508.0
+Coalesced Wind
+349.4k 	505.7
+Chakram Vortex
+326.8k 	472.9
+Heat Exhaustion
+317.2k 	459.1
+Fiery Smash
+312.6k 	452.4
+Blessing of Sacrifice
+311.9k 	451.3
+Stretch Time
+142.9k 	206.8
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Ciniá 	Wind Chakram 	3:30
+Powerpegging 	Supernova 	10:27
+Ciniá 	Melee 	10:29
+Shàmaani 	Supernova 	11:21
+Theghouldogx 	Supernova 	11:21
+Miikfu 	Fiery Smash 	11:29
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+Miikfu
+Monk (Brewmaster)
+281 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Detox
+Grace of the Crane
+Calming Presence
+Spear Hand Strike
+Ancient Arts 2
+Pressure Points
+Jade Walk
+Transcendence
+Celerity
+Chi Burst
+Ring of Peace
+Improved Touch of Death
+Hasty Provocation
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Vigorous Expulsion
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Save Them All
+Expeditious Fortification
+Chi Proficiency 2
+Martial Instincts 2
+Chi Transfer
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Swift as a Coursing River
+Quick Sip
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Shadowboxing Treads
+Elusive Footwork
+Celestial Infusion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Walk with the Ox 1
+Face Palm
+Sal'salabim's Strength
+Black Ox Brew
+Zen State
+Counterstrike
+Dragonfire Brew
+Blackout Combo
+High Tolerance 2
+Invoke Niuzao, the Black Ox
+Exploding Keg
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+
+DPS
+
+Class Talents
+
+Spec Talents
+Theghouldogx
+Demon Hunter (Devourer)
+279 Item Level
+Vengeful Retreat
+Sigil of Misery
+Voidblade
+Unrestrained Fury
+Shattered Restoration
+Bouncing Glaives
+Imprison
+Improved Disrupt
+Consume Magic
+Void Nova
+Aura of Pain
+Disrupting Fury
+Blazing Path
+Focused Ire
+Soul Rending 2
+Felfire Haste
+Pursuit
+Soul Cleanse
+Illidari Knowledge 2
+Will of the Illidari 2
+Guile
+Remorseless
+Internal Struggle
+First In, Last Out
+Furious
+Demon Muzzle
+Soul Splitter 2
+Darkness
+Final Breath
+Pitch Black
+Demonic Resilience
+
+Void Ray
+Soul Immolation
+Predator's Thirst
+Void Metamorphosis
+Feast of Souls
+Spontaneous Immolation
+Collapsing Star
+Moment of Craving
+Soulshaper
+Waste Not
+Entropy
+Sweet Suffering 2
+Sweet Release 2
+Improved Consume
+Voidpurge
+Focused Ray
+Voidrage 2
+Devourer's Edge 2
+Demonic Instinct 2
+Rolling Torment
+Impending Apocalypse
+Calamitous
+Star Fragments
+Eradicate
+Emptiness
+Midnight 1
+Midnight 2
+Midnight 1
+Powerpegging
+Evoker (Augmentation)
+279 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Walloping Blow
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Time Spiral
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Ignition Rush
+Chrono Ward
+Bestow Weyrnstone
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+Ciniá
+Paladin (Retribution)
+282 Item Level
+Lay on Hands
+Auras of the Resolute
+Hammer of Wrath
+Blinding Light
+Fist of Justice
+Divine Steed
+Healing Hands
+Guided Prayer
+Greater Judgment
+Cavalier
+Shield of Vengeance
+Rebuke
+Steed of Liberty
+Obduracy 2
+Sanctified Plates 2
+Divine Toll
+Punishment
+Consecrated Ground
+Blessing of Sacrifice
+Quickened Invocation
+Blessing of Protection
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Recompense
+Light's Revocation
+Inspired Guard
+Worthy Sacrifice
+Lead the Charge
+Seal of Might 2
+Vengeful Wrath 2
+Lightbearer
+Blessing of Dusk
+
+Blade of Justice
+Divine Storm
+Expurgation
+Avenging Wrath
+Light of Justice
+Art of War
+Holy Blade
+Final Verdict
+Holy Flames
+Rush of Light
+Tempest of the Lightbringer
+Jurisdiction
+Improved Judgment
+Zealot's Fervor 2
+Blade of Vengeance
+Highlord's Wrath
+Burning Crusade
+Crusading Strikes
+Blessed Champion
+Wake of Ashes
+Divine Wrath 2
+Blades of Light 2
+Seething Flames
+Empyrean Legacy
+Execution Sentence
+Burn to Ash
+Crusade
+Light Within 1
+Light Within 2
+Light Within 1
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+Shàmaani
+Shaman (Restoration)
+278 Item Level
+Chain Lightning
+Lava Burst
+Chain Heal
+Thunderous Paws
+Earth Shield
+Elemental Orbit
+Nature's Guardian
+Astral Shift
+Brimming with Life 2
+Healing Stream Totem
+Planes Traveler
+Wind Shear
+Capacitor Totem
+Elemental Resistance
+Enhanced Imbues
+Earthgrab Totem
+Spiritual Awakening
+Improved Purify Spirit
+Refreshing Waters
+Wind Rush Totem
+Jet Stream
+Nature's Fury 2
+Purge
+Spiritwalker's Grace
+Elemental Warding
+Totemic Focus
+Totemic Projection
+Therazane's Resilience
+Graceful Spirit
+Poison Cleansing Totem
+Nature's Swiftness
+Instinctive Imbuements
+Totemic Surge
+
+Riptide
+Healing Stream Totem
+Healing Rain
+Water Totem Mastery
+Acid Rain
+Soothing Rain
+Healing Tide Totem
+Living Stream
+Resurgence
+First Ascendant
+Ancestral Vigor 1
+White Water
+Quickstream
+Earthliving Weapon
+Unleash Life
+Torrent
+Ancestral Reach
+Deluge
+Tidal Waves
+Improved Earthliving Weapon
+Earthen Accord
+Spirit Link Totem
+Echo of the Elements
+Earthen Harmony
+Ancestral Awakening 2
+Spouting Spirits
+Primal Tide Core
+Coalescing Water
+Deeply Rooted Elements
+Stormstream Totem 1
+Stormstream Totem 2
+Stormstream Totem 1
+
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+1 month ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

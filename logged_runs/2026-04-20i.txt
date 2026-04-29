@@ -1,0 +1,661 @@
+
+Warcraft Logs
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+    Log In
+    Sign Up
+
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+Mythic+ Season 1
+Created by BudoBoy07 on Mon Apr 20 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+Maisara Caverns+
+Level 17 [Tyrannical] [Fortified] [Xal'atath's Guile] 1 (2:46) 2:56 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Muro'jin and Nekraxx
+        Vordaza
+        Rak'tul, Vessel of Souls
+        Pull 1 (0:26) +0:11
+        Hulking Juggernaut
+
+Entire Dungeon
+
+    + All Friendlies
+        +Kïrâdk
+            Abomination
+
+            ID: 149555
+            High Inquisitor Whitemane
+
+            ID: 221633
+            Highlord Darion Mograine
+
+            ID: 221632
+            King Thoras Trollbane
+
+            ID: 221635
+            +Lesser Ghoul
+                1
+
+                2
+
+            ID: 258578
+            +Magus of the Dead
+                1
+
+                2
+
+            ID: 163366
+            Nazgrim
+
+            ID: 221634
+            Unknown
+        +Анон
+            Dryad
+
+            ID: 255363
+            +Efflorescence
+                1
+
+                2
+
+                3
+
+            ID: 47649
+            Treant
+
+            ID: 54983
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+            ID: 219827
+            Future Self
+
+            ID: 253466
+        +Belnoob
+            Niuzao
+
+            ID: 73967
+        +Chuckmcgill
+            Charhound
+
+            ID: 226269
+            Demonic Tyrant
+
+            ID: 250289
+            +Dreadstalker
+                1
+
+                2
+
+            ID: 98035
+            Fel Ravager
+
+            ID: 258587
+            Grand Warlock Alythess
+
+            ID: 260077
+            Leeshtom
+            Overlord
+
+            ID: 228575
+            +Wild Imp (Hand of Gul'dan)
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+            ID: 55659
+        Iíly
+
+
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0000:3001:0001:3002:0002:300k200k400k600k800k
+Group Composition Item Level: 276.14
+Tanks:	Belnoob
+DPS:	Kïrâdk Powerpegging Chuckmcgill
+Healers:	Анон
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Powerpegging
+3.10m 	18,592.3
+Chuckmcgill
+2.64m 	15,847.3
+Kïrâdk
+536.3k 	3,218.5
+Belnoob
+279.1k 	1,674.9
+Анон
+29.5k 	177.0
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Belnoob
+726.8k 	4,361.6
+Анон
+433.9k 	2,604.1
+Kïrâdk
+246.5k 	1,479.1
+Chuckmcgill
+176.4k 	1,058.3
+Powerpegging
+38.2k 	229.1
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+1.75m 	10,513.4
+Rending Gore
+629.9k 	3,780.3
+Necrotic Wave
+597.4k 	3,585.0
+Stagger
+569.1k 	3,415.4
+Throw Spear
+33.4k 	200.2
+Falling
+30.4k 	182.1
+Fel Armor
+10.4k 	62.3
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Belnoob 	Melee 	0:24
+Анон 	Melee 	0:26
+Kïrâdk 	Melee 	0:28
+Chuckmcgill 	Rending Gore 	0:35
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+Belnoob
+Monk (Brewmaster)
+276 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Grace of the Crane
+Calming Presence
+Detox
+Vivacious Vivification
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Transcendence
+Celerity
+Chi Burst
+Ring of Peace
+Improved Touch of Death
+Hasty Provocation
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Vigorous Expulsion
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Expeditious Fortification
+Chi Proficiency 2
+Chi Transfer
+Martial Instincts 2
+Windwalking
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Swift as a Coursing River
+Quick Sip
+Elixir of Determination
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Elusive Footwork
+Celestial Infusion
+Fluidity of Motion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Zen State
+Face Palm
+Sal'salabim's Strength
+Black Ox Brew
+Counterstrike
+Dragonfire Brew
+High Tolerance 2
+Blackout Combo
+Invoke Niuzao, the Black Ox
+Exploding Keg
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+
+DPS
+
+Class Talents
+
+Spec Talents
+Kïrâdk
+Death Knight (Unholy)
+279 Item Level
+Death Strike
+Icebound Fortitude
+Raise Dead
+Runic Attenuation
+Improved Death Strike
+Cleaving Strikes
+Blinding Sleet
+Gloom Ward 2
+Unholy Momentum 2
+Mind Freeze
+Enfeeble
+Wraith Walk
+Brittle
+Permafrost
+Veteran of the Third War
+Coldthirst
+Anti-Magic Zone
+Unholy Bond
+Icy Talons
+Death Notes
+Anti-Magic Barrier
+Death's Reach
+Unholy Endurance
+Blood Scent
+Suppression
+Insidious Chill
+Runic Protection
+Will of the Necropolis 2
+Rune Mastery 2
+Death's Echo
+Null Magic
+
+Outbreak
+Scourge Strike
+Sudden Doom
+Dark Transformation
+Putrefy
+Clawing Shadows
+Foul Infections
+Doomed Bidding
+Grave Mastery
+Magus of the Dead
+Infected Claws
+Festering Scythe
+March of Madness
+Ebon Fever
+Unholy Devotion
+Ghoulish Frenzy
+Army of the Dead
+Menacing Magus
+Coil of Devastation
+Raise Abomination
+Harbinger of Doom
+Putrid Echoes
+Blightburst
+Necromancer's Cunning
+Soul Reaper
+Commander of the Dead 2
+Reaping
+Outnumber
+Reanimation
+Forbidden Knowledge 1
+Forbidden Knowledge 2
+Forbidden Knowledge 1
+Powerpegging
+Evoker (Augmentation)
+275 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Scarlet Adaptation
+Tailwind
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Walloping Blow
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Twin Guardian
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Improved Defy Fate
+Power Nexus
+Volcanism
+Ignition Rush
+Blistering Scales
+Prescience
+Tectonic Locus
+Momentum Shift
+Regenerative Chitin
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+Chuckmcgill
+Warlock (Demonology)
+279 Item Level
+Fel Domination
+Burning Rush
+Soul Leech
+Fiendish Stride
+Fel Armor 2
+Demon Skin 2
+Demonic Fortitude
+Demonic Embrace
+Mortal Coil
+Banish
+Curse of Tongues
+Demonic Circle
+Improved Mortal Coil
+Pact of the Annihilan
+Pact of the Satyr
+Gorefiend's Avarice
+Dark Pact
+Foul Mouth
+Fortified Soul
+Empowered Healthstone
+Frequent Donor
+Pact of the Eredar
+Pact of the Nathrezim
+Shadowfury
+Demonic Gateway
+Strength of Will
+Swift Artifice
+Oppressive Darkness
+Soul Link 2
+Pact of Gluttony
+Soulburn
+Blight of Tongues
+
+Hand of Gul'dan
+Call Dreadstalkers
+Demoniac
+Dreadlash
+Fel Intellect
+Practiced Rituals
+Implosion
+Imp-erator
+Summon Felguard
+Carnivorous Stalkers 2
+Rune of Shadows 2
+Infernal Rapidity
+Summon Demonic Tyrant
+Demonic Brutality
+Blighted Maw
+Imp Gang Boss
+Flametouched
+Antoran Armaments
+Tyrant's Oblation
+Demonic Calling 2
+Master Summoner
+Reign of Tyranny
+Summon Vilefiend
+Grimoire: Fel Ravager
+Hellbent Commander
+Mark of F'harg
+To Hell and Back
+Dominion of Argus 1
+Dominion of Argus 2
+Dominion of Argus 1
+Healers
+
+Class Talents
+
+Spec Talents
+Анон
+Druid (Restoration)
+277 Item Level
+Frenzied Regeneration
+Starfire
+Rejuvenation
+Starsurge
+Ursoc's Spirit
+Wild Growth
+Verdant Heart
+Improved Nature's Cure
+Nurturing Instinct 2
+Improved Barkskin
+Natural Recovery
+Astral Influence
+Thick Hide
+Wild Charge
+Soothe
+Starlight Conduit
+Aessina's Renewal
+Typhoon
+Stampeding Roar
+Well-Honed Instincts
+Feline Swiftness
+Lingering Healing
+Matted Fur 2
+Ursol's Vortex
+Lycara's Teachings 2
+Gift of the Wild
+Oakskin
+Perfectly-Honed Instincts
+Improved Stampeding Roar
+Forestwalk 2
+Symbiotic Relationship
+Ursine Vigor
+Innervate
+
+Lifebloom
+Swiftmend
+Nature's Swiftness
+Omen of Clarity
+Nature's Splendor
+Verdant Infusion
+Improved Regrowth
+Soul of the Forest
+Tranquility
+Efflorescence
+Ironbark
+Improved Wild Growth
+Flourish
+Verdancy
+Grove Guardians
+Lifetreading
+Rampant Growth
+Renewing Surge
+Power of the Archdruid
+Wild Synthesis
+Improved Swiftmend
+Intensity
+Convoke the Spirits
+Cenarius' Guidance
+Thriving Vegetation 2
+Embrace of the Dream
+Nature's Bounty
+Nurturing Dormancy
+Master Shapeshifter
+Abundance
+Reforestation
+Germination
+Photosynthesis
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+1 month ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

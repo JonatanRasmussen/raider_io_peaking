@@ -1,0 +1,730 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+205
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Mon Apr 27 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 16 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+Algeth'ar Academy+
+Last Run - Level 18 [Fortified] [Tyrannical] [Xal'atath's Guile] (2:22) 7:51 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Vexamus
+        Overgrown Ancient
+        Crawth
+        Echo of Doragosa
+        Pull 1 (0:40) +0:40
+        Vile Lasher
+
+Entire Dungeon
+
+    + All Friendlies
+        +Crimson
+            Abomination
+
+            ID: 149555
+            Eyebasher
+            High Inquisitor Whitemane
+
+            ID: 221633
+            Highlord Darion Mograine
+
+            ID: 221632
+            King Thoras Trollbane
+
+            ID: 221635
+            +Lesser Ghoul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+
+            ID: 258578
+            +Lesser Ghoul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+            ID: 237409
+            +Magus of the Dead
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+            ID: 163366
+            Nazgrim
+
+            ID: 221634
+        Bàrathrum
+        +Dragetid
+            +Dracthyr Commando
+                1
+
+                2
+
+            ID: 219827
+            Future Self
+
+            ID: 253466
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 219827
+        Stonehill
+        +Dracthyr Freshscale
+            Groups:
+            1
+            Instances:
+            1
+
+            2
+
+            3
+
+            4
+
+        ID: 192857
+        Professor Ichistrasz
+
+        ID: 189667
+        Professor Mystakria
+
+        ID: 187287
+        +Studious Scholar
+            Groups:
+            1
+            Instances:
+            1
+
+            2
+
+            3
+
+        ID: 197468
+
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0000:1500:3000:4501:0001:1501:3001:4502:0002:150M2M4M6M8M
+Group Composition Item Level: 279.20
+Tanks:	Bàrathrum
+DPS:	Crimson Dragetid Powerpegging
+Healers:	Stonehill
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Crimson
+46.23%
+52.53m 	368,770.6
+Dragetid
+22.44%
+25.50m 	178,993.9
+Powerpegging
+20.15%
+22.90m 	160,774.8
+Bàrathrum
+8.12%
+9.23m 	64,797.4
+Stonehill
+3.06%
+3.48m 	24,423.7
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Bàrathrum
+44.54%
+4.23m 	29,713.8
+Stonehill
+28.34%
+2.69m 	18,906.8
+Dragetid
+9.99%
+949.2k 	6,663.1
+Powerpegging
+9.84%
+935.2k 	6,564.8
+Crimson
+7.28%
+692.2k 	4,859.4
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+58.44%
+8.89m 	62,380.8
+Vile Bite
+23.50%
+3.57m 	25,084.9
+Darting Sting
+12.00%
+1.83m 	12,813.2
+Stretch Time
+6.05%
+920.1k 	6,458.9
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Bàrathrum 	Vile Bite 	1:14
+Crimson 	Melee 	1:15
+Powerpegging 	Melee 	1:15
+Dragetid 	Melee 	1:19
+Stonehill 	Melee 	1:21
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Bàrathrum
+Druid (Guardian)
+279 Item Level
+Rake
+Frenzied Regeneration
+Ursoc's Spirit
+Grievous Wounds
+Swipe
+Remove Corruption
+Verdant Heart
+Nurturing Instinct 2
+Killer Instinct 2
+Ironfur
+Improved Barkskin
+Primal Fury
+Thick Hide
+Skull Bash
+Natural Recovery
+Wild Charge
+Soothe
+Aessina's Renewal
+Typhoon
+Stampeding Roar
+Well-Honed Instincts
+Feline Swiftness
+Ursol's Vortex
+Matted Fur 1
+Lycara's Teachings 2
+Gift of the Wild
+Oakskin
+Lore of the Grove
+Instincts of the Claw
+Incapacitating Roar
+Ursine Vigor
+Circle of the Wild
+Heart of the Wild
+Fluid Form
+
+Maul
+Gore
+Survival Instincts
+Persistence
+Dream Guide
+Vulnerable Flesh
+Berserk
+Innate Resolve
+After the Wildfire
+Survival of the Fittest 2
+Scintillating Moonlight 2
+Soul of the Forest
+Ursol's Warding
+Reinforced Fur
+Ursoc's Endurance
+Guardian of Elune
+Raze
+Rend and Tear
+Blood Frenzy
+Twin Moonfire
+Flashing Claws 1
+Ursoc's Fury
+Moonless Night
+Incarnation: Guardian of Ursoc
+Harnessed Rage
+Ursoc's Guidance
+Galactic Guardian
+Killing Blow
+Wild Guardian 1
+Wild Guardian 2
+Wild Guardian 1
+		1 	0
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Crimson
+Death Knight (Unholy)
+280 Item Level
+Death Strike
+Icebound Fortitude
+Raise Dead
+Runic Attenuation
+Improved Death Strike
+Cleaving Strikes
+Blinding Sleet
+Gloom Ward 2
+Unholy Momentum 2
+Mind Freeze
+Wraith Walk
+Enfeeble
+Brittle
+Permafrost
+Veteran of the Third War
+Coldthirst
+Anti-Magic Zone
+Unholy Bond
+Icy Talons
+Anti-Magic Barrier
+Grip of the Dead
+Death's Reach
+Unholy Endurance
+Blood Scent
+Suppression
+Insidious Chill
+Blood Draw
+Will of the Necropolis 2
+Rune Mastery 2
+Death's Echo
+Null Magic
+
+Outbreak
+Scourge Strike
+Sudden Doom
+Dark Transformation
+Putrefy
+Clawing Shadows
+Foul Infections
+Grave Mastery
+Necromancer's Cunning
+Magus of the Dead
+Soul Reaper
+Festering Scythe
+Ebon Fever
+Cycle of Death
+Coil of Devastation
+Army of the Dead
+Menacing Magus
+Reaping
+Harbinger of Doom
+Unholy Devotion
+Raise Abomination
+Doomed Bidding
+Blightburst
+Putrid Echoes
+Commander of the Dead 2
+Unholy Aura 2
+Outnumber
+Reanimation
+Forbidden Knowledge 1
+Forbidden Knowledge 2
+Forbidden Knowledge 1
+		1 	0
+Dragetid
+Evoker (Augmentation)
+280 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Twin Guardian
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Improved Defy Fate
+Power Nexus
+Volcanism
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		1 	0
+Powerpegging
+Evoker (Devastation)
+279 Item Level
+Obsidian Scales
+Expunge
+Landslide
+Verdant Embrace
+Heavy Wingbeats
+Natural Convergence
+Obsidian Bulwark
+Enkindled 2
+Scarlet Adaptation
+Tailwind
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Protracted Talons
+Exuberance
+Blast Furnace
+Regenerative Magic
+Renewing Blaze
+Rescue
+Stretch Time
+Foci of Life
+Twin Guardian
+Leaping Flames
+Aerial Mastery
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Pyre
+Ruby Essence Burst
+Azure Essence Burst
+Eternity Surge
+Lay Waste
+Quell
+Azure Sweep
+Arcane Intensity 2
+Dragonrage
+Essence Attunement
+Animosity
+Heat Wave 2
+Event Horizon
+Eternity's Span
+Honed Aggression 1
+Catalyze
+Shattering Stars
+Tyranny
+Burnout
+Spellweaver's Dominance
+Onyx Legacy
+Titanic Wrath
+Power Swell
+Azure Celerity
+Imminent Destruction
+Strafing Run
+Scintillation
+Causality
+Rising Fury 1
+Rising Fury 2
+Rising Fury 1
+		1 	0
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Stonehill
+Paladin (Holy)
+278 Item Level
+Hammer of Wrath
+Auras of the Resolute
+Lay on Hands
+Improved Cleanse
+Blinding Light
+Fist of Justice
+Afterimage
+Greater Judgment
+A Just Reward 2
+Guided Prayer
+Divine Steed
+Cavalier
+Blessing of Freedom
+Armory of Light
+Divine Toll
+Obduracy 2
+Sanctified Plates 2
+Echoing Blessings
+Blessing of Sacrifice
+Blessing of Protection
+Quickened Invocation
+Brought to Light
+Consecrated Ground
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Sacrifice of the Just
+Inspired Guard
+Holy Ritual
+Lead the Charge
+Seal of Might 2
+Selfless Healer
+Blessing of Dusk
+
+Holy Shock
+Light of Dawn
+Infusion of Light
+Aura Mastery
+Beacon of the Lightbringer
+Light's Conviction
+Awestruck
+Extrication
+Imbued Infusions
+Light of the Martyr
+Divine Favor
+Moment of Compassion
+Shining Righteousness
+Light's Protection
+Righteous Judgment
+Bestow Light
+Divine Revelations
+Commanding Light
+Divine Glimpse
+Crusader's Might
+Beacon of Faith
+Reclamation
+Avenging Wrath
+Divine Overload
+Sanctified Wrath
+Seek Deliverance
+Inflorescence of the Sunwell
+Rising Sunlight
+Glorious Dawn
+Hand of Divinity
+Beacon of the Savior 1
+Beacon of the Savior 2
+Beacon of the Savior 1
+		1 	0
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.

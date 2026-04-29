@@ -1,0 +1,743 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+203
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Fri Apr 24 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+Nexus-Point Xenas+
+Level 17 [Fortified] [Tyrannical] [Xal'atath's Guile] 6 (1:23) 2:36 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Chief Corewright Kasreth
+        Corewarden Nysarra
+        Lothraxion
+        Pull 1 (1:06) +0:17
+        Circuit Seer
+        Pull 2 (1:06) +0:17
+        Circuit Seer
+
+Entire Dungeon
+
+    + All Friendlies
+        +Crimson
+            High Inquisitor Whitemane
+
+            ID: 221633
+            Highlord Darion Mograine
+
+            ID: 221632
+            King Thoras Trollbane
+
+            ID: 221635
+            +Lesser Ghoul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+
+            ID: 258578
+            +Lesser Ghoul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+            ID: 237409
+            +Magus of the Dead
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+            ID: 163366
+            +Nazgrim
+                1
+
+                2
+
+            ID: 221634
+            Toothcatcher
+        Dragetid
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+            ID: 253466
+        +Kartone
+            Niuzao
+
+            ID: 73967
+        Sycilla
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0000:1000:2000:3000:4000:5001:0001:1001:200M1M2M3M4M5M
+Group Composition Item Level: 279.60
+Tanks:	Kartone
+DPS:	Crimson Dragetid Powerpegging
+Healers:	Sycilla
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Crimson
+34.08%
+25.75m 	307,767.0
+Dragetid
+26.64%
+20.13m 	240,601.3
+Powerpegging
+26.02%
+19.66m 	234,970.0
+Kartone
+9.65%
+7.29m 	87,128.7
+Sycilla
+3.61%
+2.73m 	32,578.2
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Sycilla
+58.58%
+10.32m 	123,393.0
+Kartone
+28.09%
+4.95m 	59,160.9
+Powerpegging
+5.95%
+1.05m 	12,535.3
+Crimson
+4.42%
+779.7k 	9,318.7
+Dragetid
+2.95%
+520.3k 	6,218.6
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Arcing Mana
+22.43%
+3.51m 	41,959.1
+Melee
+17.78%
+2.78m 	33,254.8
+Stagger
+15.23%
+2.38m 	28,492.7
+Corespark Overload
+11.51%
+1.80m 	21,537.6
+Erratic Zap
+7.58%
+1.19m 	14,175.0
+Suppression Field
+7.22%
+1.13m 	13,507.1
+Arcane Explosion
+4.45%
+696.6k 	8,324.9
+Null Sunder
+3.94%
+617.4k 	7,378.9
+Arcane Zap
+3.81%
+596.0k 	7,123.3
+Erratic Surge
+1.67%
+262.0k 	3,131.5
+Umbra Bolt
+1.46%
+228.6k 	2,731.6
+Arcane Spill
+1.26%
+197.6k 	2,361.3
+Suppression Field
+0.75%
+117.9k 	1,408.6
+Flux Collapse
+0.50%
+78.1k 	933.6
+Shadow Word: Death
+0.27%
+42.0k 	501.7
+Shadow Mend
+0.12%
+19.6k 	233.8
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Dragetid 	Arcing Mana 	1:14
+Kartone 	Arcane Zap 	1:20
+Crimson 	Corespark Overload 	1:21
+Powerpegging 	Erratic Zap 	1:23
+Sycilla 	Melee 	1:23
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Kartone
+Monk (Brewmaster)
+280 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Detox
+Grace of the Crane
+Calming Presence
+Vivacious Vivification
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Transcendence
+Celerity
+Chi Burst
+Ring of Peace
+Improved Touch of Death
+Hasty Provocation
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Vigorous Expulsion
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Save Them All
+Expeditious Fortification
+Chi Proficiency 2
+Chi Transfer
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Swift as a Coursing River
+Elixir of Determination
+Quick Sip
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Shadowboxing Treads
+Elusive Footwork
+Celestial Infusion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Zen State
+Face Palm
+Sal'salabim's Strength
+Black Ox Brew
+Counterstrike
+Dragonfire Brew
+High Tolerance 2
+Blackout Combo
+Invoke Niuzao, the Black Ox
+Exploding Keg
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+		0 	0
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Crimson
+Death Knight (Unholy)
+278 Item Level
+Death Strike
+Icebound Fortitude
+Raise Dead
+Runic Attenuation
+Improved Death Strike
+Cleaving Strikes
+Blinding Sleet
+Gloom Ward 2
+Unholy Momentum 2
+Mind Freeze
+Enfeeble
+Brittle
+Permafrost
+Veteran of the Third War
+Coldthirst
+Anti-Magic Zone
+Unholy Bond
+Icy Talons
+Anti-Magic Barrier
+Grip of the Dead
+Death's Reach
+Unholy Endurance
+Blood Scent
+Suppression
+Insidious Chill
+Runic Protection
+Blood Draw
+Will of the Necropolis 2
+Rune Mastery 2
+Death's Echo
+Null Magic
+
+Outbreak
+Scourge Strike
+Sudden Doom
+Dark Transformation
+Putrefy
+Clawing Shadows
+Foul Infections
+Grave Mastery
+Necromancer's Cunning
+Magus of the Dead
+Soul Reaper
+Infected Claws
+Festering Scythe
+Ebon Fever
+Cycle of Death
+Coil of Devastation
+Army of the Dead
+Menacing Magus
+Reaping
+Harbinger of Doom
+Unholy Devotion
+Doomed Bidding
+Blightburst
+Putrid Echoes
+Commander of the Dead 2
+Unholy Aura 2
+Outnumber
+Reanimation
+Forbidden Knowledge 1
+Forbidden Knowledge 2
+Forbidden Knowledge 1
+		1 	1
+Dragetid
+Evoker (Devastation)
+279 Item Level
+Obsidian Scales
+Expunge
+Landslide
+Verdant Embrace
+Heavy Wingbeats
+Natural Convergence
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Tailwind
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Protracted Talons
+Blast Furnace
+Regenerative Magic
+Renewing Blaze
+Rescue
+Unravel
+Foci of Life
+Twin Guardian
+Leaping Flames
+Aerial Mastery
+Terror of the Skies
+Zephyr
+
+Pyre
+Ruby Essence Burst
+Azure Essence Burst
+Eternity Surge
+Lay Waste
+Quell
+Azure Sweep
+Volatility 2
+Dragonrage
+Essence Attunement
+Animosity
+Heat Wave 2
+Eye of Infinity
+Eternity's Span
+Honed Aggression 1
+Catalyze
+Shattering Stars
+Tyranny
+Burnout
+Spellweaver's Dominance
+Titanic Wrath
+Font of Magic
+Power Swell
+Azure Celerity
+Scorching Embers
+Iridescence
+Scintillation
+Causality
+Rising Fury 1
+Rising Fury 2
+Rising Fury 1
+		1 	0
+Powerpegging
+Evoker (Augmentation)
+279 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Tailwind
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Walloping Blow
+Blast Furnace
+Renewing Blaze
+Exuberance
+Rescue
+Stretch Time
+Leaping Flames
+Aerial Mastery
+Twin Guardian
+Terror of the Skies
+Zephyr
+Time Spiral
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Bestow Weyrnstone
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		1 	0
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Sycilla
+Priest (Discipline)
+282 Item Level
+Angelic Feather
+Mind Blast
+Improved Flash Heal
+Spiritual Guidance
+Holy Nova
+Psychic Scream
+Power Infusion
+Painful Invocation
+Leap of Faith
+Lightburst
+Strength of Resolve
+Surge of Light
+Twins of the Sun Priestess
+Mass Dispel
+Twin Disciplines
+Everlasting Light
+Dark Enlightenment
+Binding Heals
+Shadow Word: Death
+Sanguine Teachings
+Inspiration
+Twist of Fate 2
+Desperate Prayer
+Fade
+Protective Light
+Improved Fade 2
+Mindpierce
+Unwavering Will 2
+Spell Warding 2
+Phantasm
+Translucent Image
+Benevolence
+
+Atonement
+Pain Suppression
+Power Word: Radiance
+Power of the Dark Side
+Light's Promise
+Dark Indulgence
+Encroaching Shadows
+Protector of the Frail
+Painful Punishment
+Ultimate Penitence
+Revel in Darkness
+Shield Discipline
+Shadow Tap
+Holy Ray
+Lenience
+Castigation
+Occultist
+Pain and Suffering 2
+Evangelism
+Harsh Discipline 2
+Archangel
+Shadow Mend
+Inner Focus
+Borrowed Time 2
+Divine Aegis
+Weal and Woe
+Eternal Barrier
+Master the Darkness 1
+Master the Darkness 2
+Master the Darkness 1
+		1 	0
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.

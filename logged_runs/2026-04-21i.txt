@@ -1,0 +1,922 @@
+
+Warcraft Logs
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+    Log In
+    Sign Up
+
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+Mythic+ Season 1
+Created by BudoBoy07 on Tue Apr 21 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+Nexus-Point Xenas+
+Level 17 [Tyrannical] [Fortified] [Xal'atath's Guile] (29:13) 6:59 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Chief Corewright Kasreth
+        Corewarden Nysarra
+        Lothraxion
+        Pull 1 (1:14) +0:16
+        Lingering Image
+        Pull 2 (2:13) +1:40
+        Circuit Seer
+        Pull 3 (2:21) +3:58
+        Circuit Seer
+        Pull 4 (3:32) +6:26
+        Chief Corewright Kasreth
+        Pull 5 (5:21) +10:30
+        Null Sentinel
+        Pull 6 (0:46) +15:59
+        Duskfright Herald
+        Pull 7 (1:01) +16:53
+        Null Sentinel
+        Pull 8 (3:22) +18:04
+        Corewarden Nysarra
+        Pull 9 (3:02) +22:04
+        Lingering Image
+        Pull 10 (3:44) +25:08
+        Lothraxion
+
+Entire Dungeon
+
+    + All Friendlies
+        Fluxyy
+        +Dragetid
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+            ID: 253466
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+            ID: 253466
+        +Forvirretgut
+            +Niuzao
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+            ID: 73967
+        Stonehill
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0005:0010:0015:0020:0025:000k250k500k750k1,000k1,250k
+Group Composition Item Level: 277.00
+Tanks:	Forvirretgut
+DPS:	Fluxyy Dragetid Powerpegging
+Healers:	Stonehill
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Fluxyy
+256.61m 	148,123.5
+Dragetid
+225.06m 	129,912.3
+Powerpegging
+205.40m 	118,563.6
+Forvirretgut
+119.95m 	69,242.5
+Stonehill
+13.96m 	8,061.0
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Stonehill
+116.11m 	67,023.9
+Forvirretgut
+95.94m 	55,379.7
+Dragetid
+13.19m 	7,614.1
+Powerpegging
+11.52m 	6,649.2
+Fluxyy
+11.22m 	6,475.7
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Stagger
+54.39m 	31,394.9
+Melee
+29.96m 	17,291.3
+Lightscar Flare
+18.07m 	10,432.7
+Dreadbellow
+13.90m 	8,025.5
+Brilliant Dispersion
+9.02m 	5,208.8
+Eclipsing Step
+8.84m 	5,101.6
+Arcing Mana
+8.50m 	4,905.3
+Burning Radiance
+7.85m 	4,533.9
+Blistering Smite
+7.31m 	4,218.7
+Arcane Zap
+7.29m 	4,209.9
+Searing Rend
+6.09m 	3,515.3
+Nullwark Blast
+6.04m 	3,487.7
+Arcane Zap
+5.95m 	3,433.0
+Dark Beckoning
+4.01m 	2,316.4
+Reflux Charge
+3.66m 	2,113.5
+Sparkburn
+3.63m 	2,095.1
+Suppression Field
+3.32m 	1,918.4
+Umbral Lash
+3.26m 	1,884.4
+Searing Rend
+2.93m 	1,692.9
+Melee
+2.05m 	1,181.8
+Null Sunder
+1.70m 	983.0
+Divine Guile
+1.65m 	949.6
+Arcane Explosion
+1.36m 	786.9
+Entropic Leech
+1.36m 	785.9
+Creeping Void
+1.31m 	754.8
+Blessing of Sacrifice
+1.31m 	754.1
+Flailstorm
+1.23m 	711.6
+Searing Rend
+1.04m 	597.9
+Stretch Time
+987.2k 	569.9
+Holy Bolt
+947.7k 	547.0
+Erratic Zap
+930.1k 	536.9
+Arcane Spill
+897.6k 	518.1
+Umbra Bolt
+782.7k 	451.8
+Dimensional Shred
+745.9k 	430.6
+Searing Rend
+701.8k 	405.1
+Dark Beckoning
+681.7k 	393.5
+Erratic Surge
+550.7k 	317.9
+Suppression Field
+495.4k 	286.0
+Soul Immolation
+465.1k 	268.5
+Radiant Scar
+389.5k 	224.9
+Void Lash
+309.2k 	178.5
+Melee
+307.3k 	177.4
+Flux Collapse
+299.0k 	172.6
+Void Lash
+236.2k 	136.4
+Lightscar Flare
+186.7k 	107.8
+Mirrored Rend
+175.0k 	101.0
+Melee
+168.0k 	97.0
+Flailstorm
+153.6k 	88.7
+Mirrored Rend
+153.1k 	88.4
+Flux Collapse
+152.4k 	88.0
+Ebon Might
+90.8k 	52.4
+Corespark Surge
+19.0k 	11.0
+Shifting Sands
+16.5k 	9.5
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Forvirretgut 	Arcane Zap 	0:54
+Forvirretgut 	Melee 	20:45
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+Forvirretgut
+Monk (Brewmaster)
+278 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Detox
+Grace of the Crane
+Calming Presence
+Vivacious Vivification
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Transcendence
+Celerity
+Chi Burst
+Ring of Peace
+Improved Touch of Death
+Hasty Provocation
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Vigorous Expulsion
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Save Them All
+Expeditious Fortification
+Chi Proficiency 2
+Chi Transfer
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Swift as a Coursing River
+Elixir of Determination
+Quick Sip
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Shadowboxing Treads
+Elusive Footwork
+Celestial Infusion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Zen State
+Face Palm
+Sal'salabim's Strength
+Black Ox Brew
+Counterstrike
+Dragonfire Brew
+High Tolerance 2
+Blackout Combo
+Invoke Niuzao, the Black Ox
+Exploding Keg
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+
+DPS
+
+Class Talents
+
+Spec Talents
+Fluxyy
+Demon Hunter (Devourer)
+279 Item Level
+Vengeful Retreat
+Sigil of Misery
+Voidblade
+Unrestrained Fury
+Shattered Restoration
+Bouncing Glaives
+Imprison
+Improved Disrupt
+Consume Magic
+Void Nova
+Aura of Pain
+Disrupting Fury
+Blazing Path
+Focused Ire
+Soul Rending 2
+Felfire Haste
+Pursuit
+Soul Cleanse
+Illidari Knowledge 2
+Will of the Illidari 2
+Guile
+Remorseless
+Internal Struggle
+First In, Last Out
+Furious
+Demon Muzzle
+Soul Splitter 2
+Darkness
+Final Breath
+Pitch Black
+Demonic Resilience
+
+Void Ray
+Soul Immolation
+Predator's Thirst
+Void Metamorphosis
+Feast of Souls
+Spontaneous Immolation
+Collapsing Star
+Moment of Craving
+Scythe's Embrace
+Soulshaper
+Gift of the Void
+Waste Not
+Entropy
+Sweet Release 2
+Improved Consume
+Voidpurge
+Focused Ray
+Voidrage 2
+Devourer's Edge 2
+Demonic Instinct 2
+Rolling Torment
+Impending Apocalypse
+Calamitous
+Star Fragments
+Eradicate
+Emptiness
+Midnight 1
+Midnight 2
+Midnight 1
+Dragetid
+Evoker (Augmentation)
+277 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 1
+Scarlet Adaptation
+Inner Radiance
+Cauterizing Flame
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Twin Guardian
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Zephyr
+Spatial Paradox
+Terror of the Skies
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Improved Defy Fate
+Power Nexus
+Volcanism
+Ignition Rush
+Chrono Ward
+Prescience
+Draconic Attunements
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+Powerpegging
+Evoker (Augmentation)
+275 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Walloping Blow
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Time Spiral
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Bestow Weyrnstone
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+Stonehill
+Paladin (Holy)
+276 Item Level
+Auras of the Resolute
+Lay on Hands
+Improved Cleanse
+Blinding Light
+Fist of Justice
+Afterimage
+Greater Judgment
+A Just Reward 2
+Guided Prayer
+Divine Steed
+Cavalier
+Blessing of Freedom
+Armory of Light
+Divine Toll
+Obduracy 2
+Sanctified Plates 2
+Unbound Freedom
+Blessing of Sacrifice
+Blessing of Protection
+Divine Reach
+Quickened Invocation
+Brought to Light
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Light's Revocation
+Inspired Guard
+Holy Ritual
+Lead the Charge
+Seal of Might 2
+Selfless Healer
+Lightbearer
+Blessing of Dusk
+
+Holy Shock
+Light of Dawn
+Infusion of Light
+Aura Mastery
+Beacon of the Lightbringer
+Light's Conviction
+Awestruck
+Unending Light
+Extrication
+Imbued Infusions
+Light of the Martyr
+Divine Favor
+Resplendent Light
+Light's Protection
+Bestow Light
+Divine Revelations
+Commanding Light
+Breaking Dawn 2
+Divine Glimpse
+Beacon of Faith
+Reclamation
+Avenging Wrath
+Divine Overload
+Sanctified Wrath
+Seek Deliverance
+Inflorescence of the Sunwell
+Rising Sunlight
+Glorious Dawn
+Hand of Divinity
+Beacon of the Savior 1
+Beacon of the Savior 2
+Beacon of the Savior 1
+
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.

@@ -1,0 +1,635 @@
+
+Warcraft Logs
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+    Log In
+    Sign Up
+
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+Mythic+ Season 1
+Created by BudoBoy07 on Sat Apr 18 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+Algeth'ar Academy+
+Level 16 [Tyrannical] [Fortified] [Xal'atath's Guile] 2 (6:17) 12:34 AM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Vexamus
+        Overgrown Ancient
+        Crawth
+        Echo of Doragosa
+        Pull 1 (1:37) +0:42
+        Vile Lasher
+        Pull 2 (2:29) +2:37
+        Overgrown Ancient
+
+Entire Dungeon
+
+    + All Friendlies
+        Dhaato
+        Lauree
+        +Dragetid
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+            ID: 253466
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+            ID: 219827
+        Negrasagrada
+        +Dracthyr Freshscale
+            Groups:
+            1
+            Instances:
+            1
+
+            2
+
+            3
+
+            4
+
+        ID: 192857
+        Professor Ichistrasz
+
+        ID: 189667
+        Professor Mystakria
+
+        ID: 187287
+        +Studious Scholar
+            Groups:
+            1
+            Instances:
+            1
+
+            2
+
+            3
+
+        ID: 197468
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0001:0002:0003:0004:0005:0006:000M1M2M3M4M
+Group Composition Item Level: 274.67
+Tanks:	Dhaato
+DPS:	Lauree Dragetid Powerpegging
+Healers:	Negrasagrada
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Powerpegging
+68.27m 	180,784.0
+Lauree
+62.99m 	166,790.4
+Dragetid
+61.58m 	163,067.0
+Dhaato
+35.72m 	94,582.2
+Negrasagrada
+2.17m 	5,756.8
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Negrasagrada
+17.27m 	45,741.3
+Dhaato
+15.46m 	40,937.2
+Lauree
+1.50m 	3,963.8
+Powerpegging
+1.26m 	3,334.1
+Dragetid
+948.9k 	2,512.6
+Ancient Branch
+267.2k 	707.5
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+15.25m 	40,379.6
+Vile Bite
+10.88m 	28,816.0
+Splinterbark
+6.12m 	16,193.9
+Darting Sting
+2.22m 	5,881.0
+Burst Forth
+2.06m 	5,445.9
+Lasher Toxin
+852.3k 	2,257.0
+Barkbreaker
+773.4k 	2,047.9
+Blessing of Sacrifice
+454.1k 	1,202.6
+Stretch Time
+241.2k 	638.6
+Soul Immolation
+81.9k 	216.9
+Ebon Might
+11.9k 	31.4
+Shifting Sands
+2.0k 	5.2
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Dhaato 	Melee 	4:47
+Powerpegging 	Melee 	4:49
+Lauree 	Melee 	4:59
+Dragetid 	Melee 	5:01
+Negrasagrada 	Melee 	5:05
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+Dhaato
+Demon Hunter (Vengeance)
+276 Item Level
+Vengeful Retreat
+Felblade
+Sigil of Misery
+Unrestrained Fury
+Shattered Restoration
+Bouncing Glaives
+Charred Warblades
+Imprison
+Improved Disrupt
+Aldrachi Design
+Consume Magic
+Chaos Nova
+Aura of Pain
+Blazing Path
+Live by the Glaive
+Champion of the Glaive
+Soul Rending 2
+Infernal Armor 2
+Illidari Knowledge 2
+Will of the Illidari 2
+Remorseless
+Internal Struggle
+First In, Last Out
+Furious
+Soul Splitter 2
+Erratic Felheart 2
+Darkness
+Final Breath
+Pitch Black
+
+Fel Devastation
+Fiery Brand
+Spirit Bomb
+Perfectly Balanced Glaive
+Quickened Sigils
+Calcified Spikes
+Tempered Steel
+Sigil of Silence
+Feed the Demon
+Agonizing Flames
+Sigil of Spite
+Burning Blood
+Soul Barrier
+Fallout
+Frailty
+Volatile Flameblood
+Sigil of Chains
+Fiery Demise 2
+Void Reaver
+Burning Alive
+Focused Cleave
+Charred Flesh 2
+Vulnerability 2
+Vengeful Beast
+Down in Flames
+Last Resort
+Soulcrush
+Untethered Rage 1
+Untethered Rage 2
+Untethered Rage 1
+
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+Lauree
+Demon Hunter (Devourer)
+273 Item Level
+Vengeful Retreat
+Sigil of Misery
+Voidblade
+Unrestrained Fury
+Shattered Restoration
+Bouncing Glaives
+Imprison
+Improved Disrupt
+Consume Magic
+Void Nova
+Aura of Pain
+Disrupting Fury
+Blazing Path
+Focused Ire
+Soul Rending 2
+Felfire Haste
+Pursuit
+Soul Cleanse
+Illidari Knowledge 2
+Will of the Illidari 2
+Guile
+Remorseless
+Internal Struggle
+First In, Last Out
+Furious
+Demon Muzzle
+Soul Splitter 2
+Darkness
+Final Breath
+Pitch Black
+Demonic Resilience
+
+Void Ray
+Soul Immolation
+Predator's Thirst
+Void Metamorphosis
+Feast of Souls
+Spontaneous Immolation
+Collapsing Star
+Moment of Craving
+Scythe's Embrace
+Soulshaper
+Gift of the Void
+Waste Not
+Entropy
+Sweet Release 2
+Improved Consume
+Voidpurge
+Focused Ray
+Voidrage 2
+Devourer's Edge 2
+Demonic Instinct 2
+Rolling Torment
+Impending Apocalypse
+Calamitous
+Star Fragments
+Eradicate
+Emptiness
+Midnight 1
+Midnight 2
+Midnight 1
+
+Dragetid
+Evoker (Augmentation)
+277 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 1
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Twin Guardian
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Improved Defy Fate
+Power Nexus
+Volcanism
+Ignition Rush
+Blistering Scales
+Prescience
+Tectonic Locus
+Momentum Shift
+Regenerative Chitin
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+
+Powerpegging
+Evoker (Devastation)
+275 Item Level
+Obsidian Scales
+Expunge
+Landslide
+Verdant Embrace
+Heavy Wingbeats
+Natural Convergence
+Obsidian Bulwark
+Enkindled 2
+Tailwind
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Sleep Walk
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Protracted Talons
+Blast Furnace
+Regenerative Magic
+Renewing Blaze
+Exuberance
+Rescue
+Oppressing Roar
+Stretch Time
+Twin Guardian
+Leaping Flames
+Aerial Mastery
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Pyre
+Ruby Essence Burst
+Azure Essence Burst
+Eternity Surge
+Lay Waste
+Quell
+Azure Sweep
+Arcane Intensity 2
+Dragonrage
+Essence Attunement
+Animosity
+Heat Wave 2
+Event Horizon
+Eternity's Span
+Catalyze
+Shattering Stars
+Charged Blast
+Tyranny
+Burnout
+Spellweaver's Dominance
+Onyx Legacy
+Titanic Wrath
+Power Swell
+Azure Celerity
+Imminent Destruction
+Strafing Run
+Scintillation
+Causality
+Rising Fury 1
+Rising Fury 2
+Rising Fury 1
+
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+Negrasagrada
+Paladin (Holy)
+276 Item Level
+Auras of the Resolute
+Lay on Hands
+Improved Cleanse
+Blinding Light
+Empyreal Ward
+Fist of Justice
+Afterimage
+Greater Judgment
+A Just Reward 2
+Guided Prayer
+Divine Steed
+Cavalier
+Blessing of Freedom
+Armory of Light
+Divine Toll
+Obduracy 2
+Sanctified Plates 2
+Echoing Blessings
+Blessing of Sacrifice
+Blessing of Protection
+Quickened Invocation
+Brought to Light
+Consecrated Ground
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Lightforged Blessing
+Inspired Guard
+Holy Ritual
+Lead the Charge
+Seal of Might 2
+Selfless Healer
+Blessing of Dusk
+
+Holy Shock
+Light of Dawn
+Infusion of Light
+Aura Mastery
+Beacon of the Lightbringer
+Light's Conviction
+Awestruck
+Extrication
+Imbued Infusions
+Light of the Martyr
+Divine Favor
+Resplendent Light
+Shining Righteousness
+Light's Protection
+Righteous Judgment
+Bestow Light
+Divine Revelations
+Commanding Light
+Divine Glimpse
+Crusader's Might
+Beacon of Faith
+Reclamation
+Avenging Wrath
+Divine Overload
+Sanctified Wrath
+Seek Deliverance
+Inflorescence of the Sunwell
+Rising Sunlight
+Glorious Dawn
+Hand of Divinity
+Beacon of the Savior 1
+Beacon of the Savior 2
+Beacon of the Savior 1
+
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.

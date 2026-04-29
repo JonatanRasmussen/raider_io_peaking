@@ -1,0 +1,803 @@
+
+Warcraft Logs
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+    Log In
+    Sign Up
+
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+Mythic+ Season 1
+Created by BudoBoy07 on Mon Apr 20 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+Windrunner Spire+
+Level 16 [Tyrannical] [Fortified] [Xal'atath's Guile] (8:59) 11:13 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Derelict Duo
+        Commander Kroluk
+        Emberdawn
+        Restless Heart
+        Pull 1 (1:04) +0:17
+        Spellguard Magus
+        Pull 2 (1:23) +1:25
+        Dutiful Groundskeeper
+        Pull 3 (0:55) +2:54
+        Apex Lynx
+        Pull 4 (1:48) +3:57
+        Bloated Lasher
+        Pull 5 (3:09) +5:50
+        Emberdawn
+
+Entire Dungeon
+
+    + All Friendlies
+        Аздру
+        +Dragetid
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+            ID: 253466
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+            ID: 253466
+        +Soulwatcher
+            +Beast
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+            ID: 260459
+            +Dark Hound
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+            ID: 225190
+            +Fenryr
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 228224
+            +Hati
+                1
+
+                2
+
+            ID: 228226
+            Lord Aj'qirai
+            Pitch
+            Vuk'laz the Earthbreaker
+        +Пивочай
+            +Chi-Ji
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+            ID: 166949
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0001:0002:0003:0004:0005:0006:0007:0008:000k500k1,000k1,500k2,000k2,500k
+Group Composition Item Level: 277.60
+Tanks:	Аздру
+DPS:	Dragetid Powerpegging Soulwatcher
+Healers:	Пивочай
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Soulwatcher
+87.71m 	162,471.6
+Dragetid
+68.47m 	126,832.8
+Powerpegging
+67.65m 	125,309.4
+Аздру
+42.91m 	79,491.8
+Пивочай
+20.58m 	38,119.5
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Пивочай
+47.39m 	87,795.8
+Аздру
+26.68m 	49,430.5
+Powerpegging
+3.91m 	7,244.7
+Dragetid
+3.62m 	6,713.8
+Soulwatcher
+1.15m 	2,125.5
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+27.80m 	51,498.5
+Soul Torment
+9.31m 	17,238.9
+Spore Dispersal
+8.17m 	15,138.8
+Flaming Updraft
+5.71m 	10,577.0
+Searing Beak
+3.53m 	6,531.4
+Arcane Salvo
+3.00m 	5,548.4
+Poison Spray
+2.94m 	5,448.3
+Flaming Twisters
+2.92m 	5,417.1
+Fire Spit
+2.07m 	3,835.2
+Spirit Bolt
+1.58m 	2,935.6
+Sporecharged
+1.46m 	2,708.2
+Searing Beak
+1.10m 	2,045.2
+Ferocious Pounce
+1.10m 	2,030.5
+Acidic Demise
+945.6k 	1,751.7
+Puncturing Bite
+670.6k 	1,242.2
+Fungal Bolt
+573.1k 	1,061.7
+Stretch Time
+253.7k 	469.9
+Falling
+119.3k 	221.1
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Soulwatcher 	Flaming Twisters 	6:26
+Soulwatcher 	Flaming Twisters 	7:21
+Dragetid 	Flaming Twisters 	8:09
+Пивочай 	Flaming Twisters 	8:20
+Powerpegging 	Flaming Updraft 	8:33
+Аздру 	Searing Beak 	8:34
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+Аздру
+Druid (Guardian)
+277 Item Level
+Rake
+Frenzied Regeneration
+Ursoc's Spirit
+Grievous Wounds
+Swipe
+Remove Corruption
+Verdant Heart
+Nurturing Instinct 2
+Killer Instinct 2
+Ironfur
+Improved Barkskin
+Natural Recovery
+Primal Fury
+Thick Hide
+Skull Bash
+Wild Charge
+Soothe
+Aessina's Renewal
+Typhoon
+Stampeding Roar
+Well-Honed Instincts
+Feline Swiftness
+Matted Fur 2
+Ursol's Vortex
+Lycara's Teachings 2
+Gift of the Wild
+Oakskin
+Lore of the Grove
+Instincts of the Claw
+Improved Stampeding Roar
+Incapacitating Roar
+Forestwalk 1
+Circle of the Wild
+
+Maul
+Gore
+Survival Instincts
+Persistence
+Dream of Cenarius
+Vulnerable Flesh
+Berserk
+Innate Resolve
+Survival of the Fittest 2
+Scintillating Moonlight 2
+Reinvigoration 2
+Soul of the Forest
+Natural Resilience
+Ursoc's Endurance
+Raze
+Rend and Tear
+Lunar Beam
+Blood Frenzy
+Twin Moonfire
+Flashing Claws 1
+Ursoc's Fury
+Moonless Night
+Incarnation: Guardian of Ursoc
+Harnessed Rage
+Ursoc's Guidance
+Galactic Guardian
+Killing Blow
+Wild Guardian 1
+Wild Guardian 2
+Wild Guardian 1
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+Dragetid
+Evoker (Augmentation)
+277 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 1
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Twin Guardian
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Improved Defy Fate
+Power Nexus
+Volcanism
+Ignition Rush
+Blistering Scales
+Prescience
+Tectonic Locus
+Momentum Shift
+Regenerative Chitin
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+
+Powerpegging
+Evoker (Augmentation)
+275 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Walloping Blow
+Blast Furnace
+Renewing Blaze
+Rescue
+Stretch Time
+Oppressing Roar
+Leaping Flames
+Aerial Mastery
+Twin Guardian
+Overawe
+Zephyr
+Spatial Paradox
+Terror of the Skies
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Improved Defy Fate
+Power Nexus
+Volcanism
+Ignition Rush
+Blistering Scales
+Prescience
+Tectonic Locus
+Momentum Shift
+Regenerative Chitin
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+
+Soulwatcher
+Hunter (Beast Mastery)
+280 Item Level
+Rejuvenating Wind
+Posthaste
+Survival of the Fittest
+Natural Mending 2
+Padded Armor
+Hunter's Avoidance
+Improved Aspect of the Cheetah
+Combat Experience
+Counter Shot
+Precision Strikes
+Serrated Tips 2
+Disruptive Rounds
+Misdirection
+Tranquilizing Shot
+Pathfinding
+Trigger Finger 2
+Touch of Grass 2
+Kodo Tranquilizer
+Specialized Arsenal
+Improved Aspect of the Turtle
+Lone Survivor
+Intimidation
+Shell Wall
+Keen Eyesight 2
+Born To Be Wild 2
+Guttural Roar
+Unnatural Causes
+Emergency Salve
+Guardian's Hide
+
+Kill Command
+Barbed Shot
+Animal Companion
+War Orders
+Stomp
+Alpha Predator
+Dire Beast
+Bestial Wrath
+Cobra Shot
+Wild Thrash
+Beast Cleave
+Scent of Blood
+Go for the Throat
+Thundering Hooves
+Barbed Scales
+Kill Cleave
+The Beast Within
+Pack Tactics
+Laceration
+Dire Cleave
+Dire Command
+Frenzy 2
+Dire Frenzy 2
+Savagery
+Bloodshed
+Huntmaster's Call
+Wild Instincts
+Wildspeaker
+Nature's Ally 1
+Nature's Ally 2
+Nature's Ally 1
+
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+Пивочай
+Monk (Mistweaver)
+279 Item Level
+Soothing Mist
+Paralysis
+Rising Sun Kick
+Elusive Mists
+Tiger's Lust
+Fast Feet
+Improved Detox
+Grace of the Crane
+Calming Presence
+Pressure Points
+Ancient Arts 2
+Vivacious Vivification
+Chi Warding
+Transcendence
+Celerity
+Ring of Peace
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Dance of the Wind
+Peace and Prosperity
+Yu'lon's Grace
+Fortifying Brew
+Mist Caller
+Swift Art
+Save Them All
+Ironshell Brew
+Diffuse Magic
+Vital Clarity
+Chi Proficiency 2
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+
+Enveloping Mist
+Misty Coalescence
+Thunder Focus Tea
+Life Cocoon
+Invigorating Mists
+Mana Tea
+Crane Style
+Healing Elixir
+Revival
+Calming Coalescence
+Energizing Brew
+Way of the Crane
+Mists of Life
+Rapid Diffusion 2
+Invoke Chi-Ji, the Red Crane
+Mist Wrap
+Chrysalis
+Lotus Infusion
+Celestial Harmony
+Gift of the Celestials
+Focused Thunder
+Sheilun's Gift
+Morning Breeze
+Pool of Mists
+Jadefire Teachings
+Veil of Pride
+Secret Infusion 2
+Emperor's Elixir
+Dance of Chi-Ji
+Rising Mist
+Legacy of Wisdom
+Mistline
+
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.

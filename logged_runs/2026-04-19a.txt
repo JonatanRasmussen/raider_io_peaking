@@ -1,0 +1,794 @@
+
+Warcraft Logs
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+    Log In
+    Sign Up
+
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+Mythic+ Season 1
+Created by BudoBoy07 on Mon Apr 20 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+Skyreach+
+Last Run - Level 16 [Tyrannical] [Fortified] [Xal'atath's Guile] (27:27) 12:35 AM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Ranjit
+        Araknath
+        Rukhran
+        High Save Viryx
+        Pull 1 (0:53) +0:10
+        Dread Raven
+        Pull 2 (1:56) +1:08
+        Dread Raven
+        Pull 3 (3:25) +3:10
+        Ranjit
+        Pull 4 (2:57) +6:42
+        Solar Elemental
+        Pull 5 (3:24) +9:45
+        Araknath
+        Pull 6 (0:46) +13:24
+        Suntalon Tamer
+        Pull 7 (2:55) +14:18
+        Rukhran
+        Pull 8 (0:55) +18:31
+        Adorned Bladetalon
+        Pull 9 (1:20) +19:29
+        Solar Elemental
+        Pull 10 (2:37) +20:53
+        Dread Raven
+        Pull 11 (2:52) +23:42
+        High Sage Viryx
+
+Entire Dungeon
+
+    + All Friendlies
+        Kuroexe
+        Ivusz
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+
+            ID: 253466
+        +Kenshiraa
+            +Chi-Ji
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+            ID: 166949
+        +Dobrymudzin
+            +Sacred Weapon
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+            ID: 217194
+
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0005:0010:0015:0020:0025:000k250k500k750k1,000k1,250k
+Group Composition Item Level: 275.40
+Tanks:	Dobrymudzin
+DPS:	Kuroexe Ivusz Powerpegging
+Healers:	Kenshiraa
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Kuroexe
+171.00m 	107,123.5
+Powerpegging
+158.84m 	99,502.9
+Ivusz
+155.06m 	97,137.0
+Dobrymudzin
+90.26m 	56,545.2
+Kenshiraa
+52.73m 	33,033.0
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Kenshiraa
+125.71m 	78,750.1
+Dobrymudzin
+50.83m 	31,842.8
+Kuroexe
+11.06m 	6,928.7
+Powerpegging
+5.10m 	3,194.6
+Ivusz
+4.59m 	2,872.6
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+57.64m 	36,109.1
+Scorching Ray
+20.02m 	12,539.0
+Light Ray
+17.09m 	10,705.6
+Fan of Blades
+16.12m 	10,099.0
+Burning Pursuit
+13.44m 	8,418.0
+Blade Rush
+12.79m 	8,013.4
+Fiery Talon
+12.20m 	7,640.2
+Solar Flame
+7.76m 	4,861.7
+Sunbreak
+7.45m 	4,667.5
+Dire Screech
+6.87m 	4,302.5
+Ricocheting Chakram
+4.17m 	2,613.6
+Supernova
+3.56m 	2,229.6
+Solar Flare
+2.74m 	1,716.8
+Shear
+2.61m 	1,638.0
+Gale Surge
+2.03m 	1,270.1
+Solar Barrier
+1.88m 	1,176.7
+Dread Wind
+1.61m 	1,006.2
+Wrathful Wind
+1.45m 	908.4
+Chakram Vortex
+1.36m 	851.5
+Burning Claws
+1.31m 	823.3
+Burning Claws
+1.09m 	680.0
+Solar Bolt
+797.1k 	499.4
+Blessing of Sacrifice
+763.1k 	478.1
+Stretch Time
+761.9k 	477.3
+Wind Claws
+712.2k 	446.2
+Falling
+697.0k 	436.7
+Solar Infusion
+663.7k 	415.8
+Set Fire to the Pain
+286.8k 	179.7
+Mark of Death
+175.1k 	109.7
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Kuroexe 	Chakram Vortex 	4:32
+Kuroexe 	Chakram Vortex 	6:31
+Dobrymudzin 	Falling 	17:44
+Dobrymudzin 	Falling 	18:08
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+Dobrymudzin
+Paladin (Protection)
+276 Item Level
+Hammer of Wrath
+Auras of the Resolute
+Lay on Hands
+Cleanse Toxins
+Blinding Light
+Fist of Justice
+Greater Judgment
+Afterimage
+Guided Prayer
+Divine Steed
+Rebuke
+Cavalier
+Blessing of Freedom
+Obduracy 2
+Sanctified Plates 2
+Punishment
+Unbound Freedom
+Divine Toll
+Divine Resonance
+Consecrated Ground
+Blessing of Sacrifice
+Blessing of Protection
+Brought to Light
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Inspired Guard
+Lead the Charge
+Faith's Armor
+Seal of Might 2
+Vengeful Wrath 2
+Lightbearer
+Blessing of Dusk
+
+Avenger's Shield
+Blessed Hammer
+Shining Light
+Grand Crusader
+Redoubt
+Seal of Charity
+Ardent Defender
+Solace
+Refining Fire
+Vision of Sanctity
+Undying Embers
+Bulwark of Order
+Light of the Titans
+Blessing of Spellwarding
+Sentinel
+Relentless Inquisitor
+Crusader's Judgment
+Soaring Shield
+Sanctuary
+Guardian of Ancient Kings
+Gift of the Golden Val'kyr
+Sanctified Wrath
+Zealot's Paragon 2
+Strength in Adversity
+Empyrean Authority
+Righteous Protector
+Bulwark of Righteous Fury
+Final Stand
+Sweeping Verdict
+Glory of the Vanguard 1
+Glory of the Vanguard 2
+Glory of the Vanguard 1
+
+DPS
+
+Class Talents
+
+Spec Talents
+Kuroexe
+Demon Hunter (Havoc)
+275 Item Level
+Sigil of Misery
+Felblade
+Vengeful Retreat
+Unrestrained Fury
+Shattered Restoration
+Bouncing Glaives
+Charred Warblades
+Imprison
+Improved Disrupt
+Chaos Nova
+Consume Magic
+Aura of Pain
+Blazing Path
+Champion of the Glaive
+Soul Rending 2
+Felfire Haste
+Pursuit
+Soul Cleanse
+Illidari Knowledge 2
+Will of the Illidari 2
+Felbound
+Remorseless
+Internal Struggle
+First In, Last Out
+Furious
+Demon Muzzle
+Soul Splitter 2
+Darkness
+Final Breath
+Pitch Black
+Demonic Resilience
+
+Eye Beam
+Burning Hatred
+Critical Chaos
+First Blood
+Demon Hide
+Improved Chaos Strike
+Deflecting Dance
+Desperate Instincts
+Scars of Suffering
+Trail of Ruin
+Demonic
+Initiative
+Growing Inferno
+Tactical Retreat
+Furious Gaze
+Blind Fury 2
+Burning Wound
+The Hunt
+Exergy
+Ragefire
+Chaotic Transformation
+Cycle of Hatred
+Know Your Enemy 2
+Chaotic Disposition 2
+A Fire Inside
+Glaive Tempest
+Collective Anguish
+Eternal Hunt 1
+Eternal Hunt 2
+Eternal Hunt 1
+Ivusz
+Druid (Balance)
+276 Item Level
+Frenzied Regeneration
+Starfire
+Ursoc's Spirit
+Starsurge
+Verdant Heart
+Remove Corruption
+Moonkin Form
+Nurturing Instinct 2
+Sunfire
+Improved Barkskin
+Natural Recovery
+Astral Influence
+Thick Hide
+Light of the Sun
+Wild Charge
+Soothe
+Starlight Conduit
+Aessina's Renewal
+Typhoon
+Stampeding Roar
+Well-Honed Instincts
+Feline Swiftness
+Matted Fur 2
+Ursol's Vortex
+Lycara's Teachings 2
+Gift of the Wild
+Oakskin
+Lore of the Grove
+Improved Stampeding Roar
+Incapacitating Roar
+Lycara's Inspiration
+Circle of the Heavens
+Heart of the Wild
+Fluid Form
+
+Eclipse
+Shooting Stars
+Solar Beam
+Twin Moons
+Solstice
+Umbral Intensity
+Aetherial Kindling
+Improved Eclipse
+Wild Surges
+Celestial Alignment
+Sunseeker Mushroom
+Stellar Amplification
+Whirling Stars
+Touch the Cosmos
+Starlord 2
+Cosmic Rapidity 2
+Hail of Stars
+Celestial Fire
+Balance of All Things 2
+Starweaver
+Incarnation: Chosen of Elune
+Fury of Elune
+Orbit Breaker
+Radiant Moonlight
+Elune's Guidance
+Umbral Embrace
+Harmony of the Heavens
+Ascendant Eclipses 1
+Ascendant Eclipses 2
+Ascendant Eclipses 1
+Powerpegging
+Evoker (Augmentation)
+275 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Scarlet Adaptation
+Tailwind
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Walloping Blow
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Twin Guardian
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Improved Defy Fate
+Power Nexus
+Volcanism
+Ignition Rush
+Blistering Scales
+Prescience
+Tectonic Locus
+Momentum Shift
+Regenerative Chitin
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+Kenshiraa
+Monk (Mistweaver)
+275 Item Level
+Soothing Mist
+Paralysis
+Rising Sun Kick
+Elusive Mists
+Tiger's Lust
+Fast Feet
+Improved Detox
+Grace of the Crane
+Calming Presence
+Ancient Arts 2
+Vivacious Vivification
+Chi Warding
+Transcendence
+Celerity
+Chi Wave
+Ring of Peace
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Dance of the Wind
+Peace and Prosperity
+Yu'lon's Grace
+Fortifying Brew
+Mist Caller
+Swift Art
+Save Them All
+Expeditious Fortification
+Diffuse Magic
+Vital Clarity
+Chi Proficiency 2
+Windwalking
+Martial Instincts 2
+Flow of Chi
+
+Enveloping Mist
+Misty Coalescence
+Thunder Focus Tea
+Life Cocoon
+Invigorating Mists
+Mana Tea
+Crane Style
+Healing Elixir
+Revival
+Calming Coalescence
+Energizing Brew
+Way of the Crane
+Mists of Life
+Rapid Diffusion 2
+Invoke Chi-Ji, the Red Crane
+Mist Wrap
+Chrysalis
+Lotus Infusion
+Celestial Harmony
+Gift of the Celestials
+Focused Thunder
+Sheilun's Gift
+Morning Breeze
+Pool of Mists
+Jadefire Teachings
+Veil of Pride
+Secret Infusion 2
+Emperor's Elixir
+Dance of Chi-Ji
+Rising Mist
+Legacy of Wisdom
+Mistline
+
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.

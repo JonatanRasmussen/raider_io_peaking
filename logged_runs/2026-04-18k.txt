@@ -1,0 +1,1353 @@
+
+Warcraft Logs
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+    Log In
+    Sign Up
+
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+Mythic+ Season 1
+Created by BudoBoy07 on Sat Apr 18 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 3 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+Magisters' Terrace+
+Level 15 [Tyrannical] [Fortified] [Xal'atath's Guile] 2 (5:02) 4:01 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Arcanotron Custos
+        Seranel Sunlash
+        Gemellus
+        Degentrius
+        Pull 1 (0:51) +0:14
+        Arcane Sentry
+        Pull 2 (1:04) +1:10
+        Sunblade Enforcer
+        Pull 3 (0:40) +2:29
+        Blazing Pyromancer
+        Pull 4 (1:40) +3:21
+        Arcane Sentry
+        Pull 5 (0:00) +5:02
+        Arcanotron Custos
+
+Entire Dungeon
+
+    + All Friendlies
+        +Cornichonen
+            +Abomination
+                1
+
+                2
+
+                3
+
+            ID: 149555
+            +High Inquisitor Whitemane
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+            ID: 221633
+            +Highlord Darion Mograine
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+            ID: 221632
+            +King Thoras Trollbane
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+            ID: 221635
+            +Lesser Ghoul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+                51
+
+                52
+
+                53
+
+                54
+
+                55
+
+                56
+
+                57
+
+                58
+
+                59
+
+                60
+                61
+
+                62
+
+                63
+
+                64
+
+                65
+
+                66
+
+                67
+
+                68
+
+                69
+
+                70
+                71
+
+                72
+
+                73
+
+                74
+
+                75
+
+                76
+
+                77
+
+                78
+
+                79
+
+                80
+                81
+
+                82
+
+                83
+
+                84
+
+                85
+
+                86
+
+                87
+
+                88
+
+                89
+
+                90
+                91
+
+                92
+
+                93
+
+                94
+
+                95
+
+                96
+
+                97
+
+                98
+
+                99
+
+                100
+                101
+
+                102
+
+                103
+
+                104
+
+                105
+
+                106
+
+                107
+
+                108
+
+                109
+
+                110
+                111
+
+                112
+
+                113
+
+                114
+
+                115
+
+                116
+
+                117
+
+                118
+
+                119
+
+                120
+                121
+
+                122
+
+                123
+
+                124
+
+                125
+
+                126
+
+                127
+
+                128
+
+                129
+
+                130
+                131
+
+                132
+
+                133
+
+                134
+
+                135
+
+                136
+
+                137
+
+                138
+
+                139
+
+                140
+                141
+
+                142
+
+                143
+
+                144
+
+                145
+
+                146
+
+                147
+
+                148
+
+                149
+
+                150
+
+            ID: 237409
+            +Lesser Ghoul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+            ID: 258578
+            +Magus of the Dead
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+                51
+
+                52
+
+            ID: 163366
+            +Nazgrim
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+            ID: 221634
+            Rotbender
+        +Tottank
+            +Dryad
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 255261
+            +Dryad
+                1
+
+                2
+
+                3
+
+            ID: 255363
+            +Efflorescence
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+
+            ID: 47649
+            +Treant
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+            ID: 54983
+        Dragetid
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+            ID: 219827
+        +Almü
+            +Niuzao
+                1
+
+                2
+
+                3
+
+            ID: 73967
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0001:0002:0003:0004:0005:000k500k1,000k1,500k2,000k
+Group Composition Item Level: 274.80
+Tanks:	Almü
+DPS:	Cornichonen Dragetid Powerpegging
+Healers:	Tottank
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Cornichonen
+45.07m 	149,054.9
+Dragetid
+40.61m 	134,312.7
+Powerpegging
+35.26m 	116,618.8
+Almü
+26.45m 	87,466.6
+Tottank
+1.69m 	5,588.6
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Tottank
+19.36m 	64,020.4
+Almü
+16.34m 	54,037.3
+Dragetid
+2.62m 	8,669.5
+Cornichonen
+2.35m 	7,761.4
+Powerpegging
+2.16m 	7,160.4
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+9.07m 	30,000.5
+Stagger
+8.94m 	29,560.3
+Ignition
+7.06m 	23,354.3
+Holy Fire
+3.78m 	12,489.4
+Crowd Dispersal
+3.25m 	10,765.2
+Blink
+3.03m 	10,016.1
+Arcane Bolt
+2.50m 	8,268.0
+Arcane Volley
+2.46m 	8,125.4
+Arcane Blade
+2.23m 	7,377.7
+Arcane Beam
+1.08m 	3,577.8
+Energy Release
+716.5k 	2,369.8
+Ethereal Shackles
+336.7k 	1,113.6
+Stretch Time
+315.2k 	1,042.3
+Arcane Residue
+165.9k 	548.8
+Falling
+82.5k 	273.0
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Dragetid 	Holy Fire 	2:03
+Powerpegging 	Crowd Dispersal 	4:29
+Powerpegging 	Arcane Residue 	4:46
+Tottank 	Crowd Dispersal 	4:57
+Dragetid 	Crowd Dispersal 	4:57
+Almü 	Melee 	4:59
+Cornichonen 	Melee 	5:00
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+Almü
+Monk (Brewmaster)
+277 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Grace of the Crane
+Calming Presence
+Vivacious Vivification
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Transcendence
+Celerity
+Chi Burst
+Ring of Peace
+Improved Touch of Death
+Hasty Provocation
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Vigorous Expulsion
+Peace and Prosperity
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Save Them All
+Expeditious Fortification
+Diffuse Magic
+Chi Proficiency 2
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Swift as a Coursing River
+Improved Blackout Kick
+Elixir of Determination
+Quick Sip
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Shadowboxing Treads
+Elusive Footwork
+Celestial Infusion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Walk with the Ox 2
+Face Palm
+Sal'salabim's Strength
+Black Ox Brew
+Counterstrike
+Dragonfire Brew
+Blackout Combo
+Invoke Niuzao, the Black Ox
+Exploding Keg
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+
+DPS
+
+Class Talents
+
+Spec Talents
+Cornichonen
+Death Knight (Unholy)
+271 Item Level
+Death Strike
+Icebound Fortitude
+Raise Dead
+Runic Attenuation
+Improved Death Strike
+Cleaving Strikes
+Blinding Sleet
+Gloom Ward 2
+Unholy Momentum 2
+Mind Freeze
+Enfeeble
+Brittle
+Permafrost
+Veteran of the Third War
+Coldthirst
+Anti-Magic Zone
+Unholy Bond
+Icy Talons
+Death Notes
+Anti-Magic Barrier
+Assimilation
+Death's Reach
+Unholy Endurance
+Blood Scent
+Suppression
+Insidious Chill
+Runic Protection
+Will of the Necropolis 2
+Rune Mastery 2
+Death's Echo
+Null Magic
+
+Outbreak
+Scourge Strike
+Sudden Doom
+Dark Transformation
+Putrefy
+Clawing Shadows
+Foul Infections
+Doomed Bidding
+Grave Mastery
+Magus of the Dead
+Infected Claws
+Festering Scythe
+March of Madness
+Coil of Devastation
+Ebon Fever
+Unholy Devotion
+Ghoulish Frenzy
+Army of the Dead
+Menacing Magus
+Raise Abomination
+Harbinger of Doom
+Putrid Echoes
+Soul Reaper
+Blightburst
+Necromancer's Cunning
+Commander of the Dead 2
+Reaping
+Outnumber
+Reanimation
+Forbidden Knowledge 1
+Forbidden Knowledge 2
+Forbidden Knowledge 1
+Dragetid
+Evoker (Devastation)
+275 Item Level
+Obsidian Scales
+Expunge
+Landslide
+Verdant Embrace
+Heavy Wingbeats
+Natural Convergence
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Tailwind
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Protracted Talons
+Blast Furnace
+Regenerative Magic
+Renewing Blaze
+Rescue
+Unravel
+Foci of Life
+Twin Guardian
+Leaping Flames
+Aerial Mastery
+Terror of the Skies
+Zephyr
+
+Pyre
+Ruby Essence Burst
+Azure Essence Burst
+Eternity Surge
+Lay Waste
+Quell
+Azure Sweep
+Volatility 2
+Dragonrage
+Ruby Embers
+Essence Attunement
+Animosity
+Engulfing Blaze
+Heat Wave 2
+Eye of Infinity
+Catalyze
+Shattering Stars
+Tyranny
+Feed the Flames
+Burnout
+Spellweaver's Dominance
+Titanic Wrath
+Font of Magic
+Power Swell
+Azure Celerity
+Scorching Embers
+Scintillation
+Causality
+Rising Fury 1
+Rising Fury 2
+Rising Fury 1
+Powerpegging
+Evoker (Devastation)
+275 Item Level
+Obsidian Scales
+Expunge
+Landslide
+Verdant Embrace
+Heavy Wingbeats
+Natural Convergence
+Obsidian Bulwark
+Enkindled 2
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Sleep Walk
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Protracted Talons
+Blast Furnace
+Panacea
+Regenerative Magic
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Twin Guardian
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Pyre
+Ruby Essence Burst
+Azure Essence Burst
+Eternity Surge
+Lay Waste
+Quell
+Azure Sweep
+Arcane Intensity 2
+Dragonrage
+Essence Attunement
+Animosity
+Heat Wave 2
+Event Horizon
+Eternity's Span
+Catalyze
+Shattering Stars
+Charged Blast
+Tyranny
+Burnout
+Spellweaver's Dominance
+Onyx Legacy
+Titanic Wrath
+Power Swell
+Azure Celerity
+Imminent Destruction
+Strafing Run
+Scintillation
+Causality
+Rising Fury 1
+Rising Fury 2
+Rising Fury 1
+Healers
+
+Class Talents
+
+Spec Talents
+Tottank
+Druid (Restoration)
+276 Item Level
+Rejuvenation
+Frenzied Regeneration
+Starfire
+Ursoc's Spirit
+Wild Growth
+Verdant Heart
+Improved Nature's Cure
+Nurturing Instinct 2
+Killer Instinct 2
+Improved Barkskin
+Natural Recovery
+Thick Hide
+Astral Influence
+Wild Charge
+Soothe
+Aessina's Renewal
+Typhoon
+Stampeding Roar
+Well-Honed Instincts
+Feline Swiftness
+Lingering Healing
+Ursol's Vortex
+Matted Fur 2
+Lycara's Teachings 2
+Gift of the Wild
+Oakskin
+Perfectly-Honed Instincts
+Symbiotic Relationship
+Circle of the Heavens
+Forestwalk 2
+Heart of the Wild
+Innervate
+
+Lifebloom
+Swiftmend
+Nature's Swiftness
+Omen of Clarity
+Verdant Infusion
+Improved Regrowth
+Nature's Splendor
+Soul of the Forest
+Tranquility
+Efflorescence
+Ironbark
+Verdancy
+Grove Guardians
+Lifetreading
+Cultivation
+Renewing Surge
+Power of the Archdruid
+Wild Synthesis
+Rampant Growth
+Unstoppable Growth 2
+Convoke the Spirits
+Intensity
+Call of the Elder Druid
+Cenarius' Guidance
+Thriving Vegetation 1
+Nature's Bounty
+Abundance
+Germination
+Reforestation
+Everbloom 1
+Everbloom 2
+Everbloom 1
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+1 month ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

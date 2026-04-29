@@ -1,0 +1,614 @@
+
+Warcraft Logs
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+    Log In
+    Sign Up
+
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+Mythic+ Season 1
+Created by BudoBoy07 on Mon Apr 20 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+Maisara Caverns+
+Level 16 [Tyrannical] [Fortified] [Xal'atath's Guile] 2 (2:14) 11:02 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Muro'jin and Nekraxx
+        Vordaza
+        Rak'tul, Vessel of Souls
+        Pull 1 (1:18) +0:11
+        Dread Souleater
+        Pull 2 (0:32) +1:42
+        Hex Guardian
+
+Entire Dungeon
+
+    + All Friendlies
+        +Dragetid
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+            ID: 253466
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+            ID: 219827
+        +Soulwatcher
+            +Bear
+                1
+
+                2
+
+            ID: 234018
+            +Beast
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+            ID: 260461
+            Lord Aj'qirai
+            Pitch
+            Vuk'laz the Earthbreaker
+        +Kalnoreï
+            Niuzao
+
+            ID: 73967
+        Matfiy
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0000:1500:3000:4501:0001:1501:3001:4502:000M1M2M3M4M
+Group Composition Item Level: 257.33
+Tanks:	Kalnoreï
+DPS:	Dragetid Powerpegging Soulwatcher
+Healers:	Matfiy
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Soulwatcher
+35.53m 	263,466.9
+Powerpegging
+32.02m 	237,473.2
+Dragetid
+30.72m 	227,821.8
+Kalnoreï
+12.91m 	95,743.8
+Matfiy
+1.66m 	12,276.2
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Kalnoreï
+10.68m 	79,166.8
+Matfiy
+10.39m 	77,022.3
+Powerpegging
+1.66m 	12,310.2
+Dragetid
+1.30m 	9,641.3
+Soulwatcher
+230.6k 	1,709.9
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+7.34m 	54,430.7
+Stagger
+6.43m 	47,712.6
+Throw Spear
+2.99m 	22,176.6
+Searing Presence
+2.19m 	16,261.4
+Necrotic Wave
+1.28m 	9,524.2
+Stretch Time
+721.7k 	5,351.6
+Sear
+654.4k 	4,852.9
+Magma Surge
+588.7k 	4,365.2
+Crunch Armor
+440.9k 	3,269.6
+Vile Potatoad
+272.7k 	2,022.1
+Hooked Snare
+262.2k 	1,944.2
+Falling
+192.7k 	1,428.8
+Shadow Mend
+153.0k 	1,134.6
+Shadow Word: Death
+18.7k 	138.4
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Matfiy 	Magma Surge 	1:55
+Kalnoreï 	Searing Presence 	2:01
+Dragetid 	Searing Presence 	2:09
+Soulwatcher 	Melee 	2:09
+Powerpegging 	Melee 	2:14
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+Kalnoreï
+Monk (Brewmaster)
+273 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Detox
+Grace of the Crane
+Calming Presence
+Bounding Agility
+Vivacious Vivification
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Transcendence
+Celerity
+Chi Burst
+Ring of Peace
+Hasty Provocation
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Vigorous Expulsion
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Expeditious Fortification
+Chi Proficiency 2
+Windwalking
+Chi Transfer
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Swift as a Coursing River
+Elixir of Determination
+Quick Sip
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Fluidity of Motion
+Elusive Footwork
+Celestial Infusion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Zen State
+Face Palm
+Sal'salabim's Strength
+Black Ox Brew
+Counterstrike
+Dragonfire Brew
+High Tolerance 2
+Blackout Combo
+Invoke Niuzao, the Black Ox
+Exploding Keg
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+
+DPS
+
+Class Talents
+
+Spec Talents
+Dragetid
+Evoker (Augmentation)
+277 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 1
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Twin Guardian
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Improved Defy Fate
+Power Nexus
+Volcanism
+Ignition Rush
+Blistering Scales
+Prescience
+Tectonic Locus
+Momentum Shift
+Regenerative Chitin
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+Powerpegging
+Evoker (Devastation)
+275 Item Level
+Obsidian Scales
+Expunge
+Landslide
+Verdant Embrace
+Heavy Wingbeats
+Natural Convergence
+Obsidian Bulwark
+Enkindled 2
+Tailwind
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Sleep Walk
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Protracted Talons
+Exuberance
+Blast Furnace
+Regenerative Magic
+Renewing Blaze
+Rescue
+Stretch Time
+Oppressing Roar
+Leaping Flames
+Aerial Mastery
+Twin Guardian
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Pyre
+Ruby Essence Burst
+Azure Essence Burst
+Eternity Surge
+Lay Waste
+Quell
+Azure Sweep
+Arcane Intensity 2
+Dragonrage
+Essence Attunement
+Animosity
+Heat Wave 2
+Event Horizon
+Eternity's Span
+Catalyze
+Shattering Stars
+Charged Blast
+Tyranny
+Burnout
+Spellweaver's Dominance
+Onyx Legacy
+Titanic Wrath
+Power Swell
+Azure Celerity
+Imminent Destruction
+Strafing Run
+Scintillation
+Causality
+Rising Fury 1
+Rising Fury 2
+Rising Fury 1
+Soulwatcher
+Hunter (Beast Mastery)
+280 Item Level
+Rejuvenating Wind
+Posthaste
+Survival of the Fittest
+Natural Mending 2
+Padded Armor
+Hunter's Avoidance
+Improved Aspect of the Cheetah
+Combat Experience
+Counter Shot
+Precision Strikes
+Serrated Tips 2
+Disruptive Rounds
+Misdirection
+Improved Feign Death 1
+Tranquilizing Shot
+Trigger Finger 2
+Touch of Grass 2
+Specialized Arsenal
+Improved Aspect of the Turtle
+Scout's Instincts
+Lone Survivor
+Intimidation
+Shell Wall
+Keen Eyesight 2
+Born To Be Wild 2
+Guttural Roar
+Unnatural Causes
+Emergency Salve
+Guardian's Hide
+
+Kill Command
+Barbed Shot
+Animal Companion
+War Orders
+Stomp
+Alpha Predator
+Bestial Wrath
+Cobra Shot
+Wild Thrash
+Beast Cleave
+Scent of Blood
+Go for the Throat
+Thundering Hooves
+Training Expert 1
+Barbed Scales
+Kill Cleave
+Laceration
+The Beast Within
+Pack Tactics
+Snakeskin Quiver
+Jagged Wounds
+Frenzy 2
+Killer Instinct 2
+Savagery
+Master Handler
+Bloodshed
+Wild Instincts
+Piercing Fangs
+Nature's Ally 1
+Nature's Ally 2
+Nature's Ally 1
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+Matfiy
+Priest (Discipline)
+280 Item Level
+Angelic Feather
+Mind Blast
+Improved Flash Heal
+Dispel Magic
+Spiritual Guidance
+Psychic Scream
+Power Infusion
+Painful Invocation
+Leap of Faith
+Strength of Resolve
+Surge of Light
+Twins of the Sun Priestess
+Mass Dispel
+Twin Disciplines
+Everlasting Light
+Mental Agility
+Dark Enlightenment
+Binding Heals
+Inspiration
+Shadow Word: Death
+Sanguine Teachings
+Twist of Fate 2
+Desperate Prayer
+Fade
+Protective Light
+Improved Fade 2
+Mindpierce
+Unwavering Will 2
+Spell Warding 2
+Angelic Bulwark
+Translucent Image
+Benevolence
+
+Atonement
+Pain Suppression
+Power Word: Radiance
+Power of the Dark Side
+Encroaching Shadows
+Protector of the Frail
+Light's Promise
+Dark Indulgence
+Revel in Darkness
+Shield Discipline
+Enduring Luminescence
+Ultimate Penitence
+Shadow Tap
+Holy Ray
+Lenience
+Purge the Wicked
+Castigation
+Evangelism
+Harsh Discipline 2
+Shadow Mend
+Archangel
+Inner Focus
+Blaze of Light 2
+Borrowed Time 2
+Divine Aegis
+Eternal Barrier
+Weal and Woe
+Master the Darkness 1
+Master the Darkness 2
+Master the Darkness 1
+		0
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.

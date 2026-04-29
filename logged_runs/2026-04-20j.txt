@@ -1,0 +1,1652 @@
+
+Warcraft Logs
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+    Log In
+    Sign Up
+
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+Mythic+ Season 1
+Created by BudoBoy07 on Mon Apr 20 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+Maisara Caverns+
+Level 17 [Tyrannical] [Fortified] [Xal'atath's Guile] 2 (3:46) 2:59 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Muro'jin and Nekraxx
+        Vordaza
+        Rak'tul, Vessel of Souls
+        Pull 1 (1:02) +0:11
+        Hulking Juggernaut
+        Pull 2 (2:25) +1:21
+        Hulking Juggernaut
+
+Entire Dungeon
+
+    + All Friendlies
+        +Kïrâdk
+            +Abomination
+                1
+
+                2
+
+                3
+
+            ID: 149555
+            +High Inquisitor Whitemane
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+            ID: 221633
+            +Highlord Darion Mograine
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 221632
+            +King Thoras Trollbane
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+            ID: 221635
+            +Lesser Ghoul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+            ID: 258578
+            +Lesser Ghoul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+                51
+
+                52
+
+                53
+
+                54
+
+                55
+
+                56
+
+                57
+
+                58
+
+                59
+
+                60
+                61
+
+                62
+
+                63
+
+                64
+
+                65
+
+                66
+
+                67
+
+                68
+
+                69
+
+                70
+                71
+
+                72
+
+                73
+
+                74
+
+                75
+
+                76
+
+                77
+
+                78
+
+                79
+
+                80
+                81
+
+                82
+
+                83
+
+                84
+
+                85
+
+                86
+
+                87
+
+                88
+
+                89
+
+                90
+                91
+
+                92
+
+                93
+
+                94
+
+                95
+
+                96
+
+                97
+
+                98
+
+                99
+
+                100
+                101
+
+                102
+
+                103
+
+                104
+
+                105
+
+                106
+
+                107
+
+                108
+
+                109
+
+            ID: 237409
+            +Magus of the Dead
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+            ID: 163366
+            +Nazgrim
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 221634
+            Unknown
+        +Анон
+            +Dryad
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 255261
+            Dryad
+
+            ID: 255363
+            +Efflorescence
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+                51
+
+                52
+
+                53
+
+            ID: 47649
+            +Treant
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+            ID: 54983
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+            ID: 253466
+        +Belnoob
+            +Niuzao
+                1
+
+                2
+
+            ID: 73967
+        +Chuckmcgill
+            +Antoran Inquisitor
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+            ID: 258242
+            +Antoran Jailer
+                1
+
+                2
+
+                3
+
+            ID: 255147
+            +Charhound
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+
+            ID: 226269
+            +Demonic Tyrant
+                1
+
+                2
+
+                3
+
+            ID: 250289
+            +Dreadstalker
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+
+            ID: 98035
+            Fel Ravager
+
+            ID: 258587
+            +Grand Warlock Alythess
+                1
+
+                2
+
+            ID: 260077
+            +Lady Sacrolash
+                1
+
+                2
+
+            ID: 260076
+            Leeshtom
+            +Mother of Chaos
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+            ID: 228576
+            +Overlord
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+            ID: 228575
+            +Pit Lord
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+            ID: 228574
+            +Wild Imp (Hand of Gul'dan)
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+                51
+
+                52
+
+                53
+
+                54
+
+                55
+
+                56
+
+                57
+
+                58
+
+                59
+
+                60
+                61
+
+                62
+
+                63
+
+                64
+
+                65
+
+                66
+
+                67
+
+                68
+
+                69
+
+                70
+                71
+
+                72
+
+                73
+
+                74
+
+                75
+
+                76
+
+                77
+
+                78
+
+                79
+
+                80
+                81
+
+                82
+
+                83
+
+                84
+
+                85
+
+                86
+
+                87
+
+                88
+
+                89
+
+                90
+                91
+
+                92
+
+                93
+
+                94
+
+                95
+
+                96
+
+                97
+
+                98
+
+                99
+
+                100
+                101
+
+                102
+
+                103
+
+                104
+
+                105
+
+                106
+
+                107
+
+                108
+
+                109
+
+                110
+                111
+
+                112
+
+                113
+
+                114
+
+                115
+
+                116
+
+                117
+
+                118
+
+                119
+
+                120
+                121
+
+                122
+
+                123
+
+                124
+
+                125
+
+                126
+
+                127
+
+                128
+
+                129
+
+                130
+                131
+
+                132
+
+                133
+
+                134
+
+                135
+
+                136
+
+                137
+
+                138
+
+                139
+
+                140
+                141
+
+                142
+
+                143
+
+                144
+
+            ID: 55659
+            +Wild Imp (Inner Demons/To Hell and Back)
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+            ID: 143622
+
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0000:3001:0001:3002:0002:3003:0003:300k500k1,000k1,500k2,000k2,500k3,000k
+Group Composition Item Level: 277.20
+Tanks:	Belnoob
+DPS:	Kïrâdk Powerpegging Chuckmcgill
+Healers:	Анон
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Chuckmcgill
+59.94m 	264,306.5
+Powerpegging
+50.98m 	224,804.3
+Kïrâdk
+43.50m 	191,835.9
+Belnoob
+20.92m 	92,266.0
+Анон
+3.24m 	14,268.0
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Анон
+22.08m 	97,383.1
+Belnoob
+20.56m 	90,661.4
+Chuckmcgill
+2.12m 	9,343.0
+Kïrâdk
+1.69m 	7,440.4
+Powerpegging
+1.58m 	6,959.0
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Stagger
+11.66m 	51,422.7
+Melee
+11.24m 	49,556.7
+Searing Presence
+9.71m 	42,832.7
+Deafening Roar
+4.10m 	18,064.9
+Necrotic Wave
+2.16m 	9,520.2
+Throw Spear
+1.82m 	8,045.8
+Magma Surge
+1.21m 	5,351.4
+Sear
+990.3k 	4,366.6
+Rending Gore
+700.1k 	3,087.3
+Hooked Snare
+441.8k 	1,948.2
+Crunch Armor
+211.3k 	931.8
+Shrink
+162.1k 	715.0
+Fel Armor
+104.1k 	459.2
+Burning Rush
+51.6k 	227.6
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Belnoob 	Melee 	3:38
+Kïrâdk 	Melee 	3:40
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+Belnoob
+Monk (Brewmaster)
+276 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Grace of the Crane
+Calming Presence
+Detox
+Vivacious Vivification
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Transcendence
+Celerity
+Chi Burst
+Ring of Peace
+Improved Touch of Death
+Hasty Provocation
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Vigorous Expulsion
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Expeditious Fortification
+Chi Proficiency 2
+Chi Transfer
+Martial Instincts 2
+Windwalking
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Swift as a Coursing River
+Quick Sip
+Elixir of Determination
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Elusive Footwork
+Celestial Infusion
+Fluidity of Motion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Zen State
+Face Palm
+Sal'salabim's Strength
+Black Ox Brew
+Counterstrike
+Dragonfire Brew
+High Tolerance 2
+Blackout Combo
+Invoke Niuzao, the Black Ox
+Exploding Keg
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+
+DPS
+
+Class Talents
+
+Spec Talents
+Kïrâdk
+Death Knight (Unholy)
+279 Item Level
+Death Strike
+Icebound Fortitude
+Raise Dead
+Runic Attenuation
+Improved Death Strike
+Cleaving Strikes
+Blinding Sleet
+Gloom Ward 2
+Unholy Momentum 2
+Mind Freeze
+Enfeeble
+Wraith Walk
+Brittle
+Permafrost
+Veteran of the Third War
+Coldthirst
+Anti-Magic Zone
+Unholy Bond
+Icy Talons
+Death Notes
+Anti-Magic Barrier
+Death's Reach
+Unholy Endurance
+Blood Scent
+Suppression
+Insidious Chill
+Runic Protection
+Will of the Necropolis 2
+Rune Mastery 2
+Death's Echo
+Null Magic
+
+Outbreak
+Scourge Strike
+Sudden Doom
+Dark Transformation
+Putrefy
+Clawing Shadows
+Foul Infections
+Doomed Bidding
+Grave Mastery
+Magus of the Dead
+Infected Claws
+Festering Scythe
+March of Madness
+Ebon Fever
+Unholy Devotion
+Ghoulish Frenzy
+Army of the Dead
+Menacing Magus
+Coil of Devastation
+Raise Abomination
+Harbinger of Doom
+Putrid Echoes
+Blightburst
+Necromancer's Cunning
+Soul Reaper
+Commander of the Dead 2
+Reaping
+Outnumber
+Reanimation
+Forbidden Knowledge 1
+Forbidden Knowledge 2
+Forbidden Knowledge 1
+Powerpegging
+Evoker (Augmentation)
+275 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Scarlet Adaptation
+Tailwind
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Walloping Blow
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Twin Guardian
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Improved Defy Fate
+Power Nexus
+Volcanism
+Ignition Rush
+Blistering Scales
+Prescience
+Tectonic Locus
+Momentum Shift
+Regenerative Chitin
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+Chuckmcgill
+Warlock (Demonology)
+279 Item Level
+Fel Domination
+Burning Rush
+Soul Leech
+Fiendish Stride
+Fel Armor 2
+Demon Skin 2
+Demonic Fortitude
+Demonic Embrace
+Mortal Coil
+Banish
+Curse of Tongues
+Demonic Circle
+Improved Mortal Coil
+Pact of the Annihilan
+Pact of the Satyr
+Gorefiend's Avarice
+Dark Pact
+Foul Mouth
+Fortified Soul
+Empowered Healthstone
+Frequent Donor
+Pact of the Eredar
+Pact of the Nathrezim
+Shadowfury
+Demonic Gateway
+Strength of Will
+Swift Artifice
+Oppressive Darkness
+Soul Link 2
+Pact of Gluttony
+Soulburn
+Blight of Tongues
+
+Hand of Gul'dan
+Call Dreadstalkers
+Demoniac
+Dreadlash
+Fel Intellect
+Practiced Rituals
+Implosion
+Imp-erator
+Summon Felguard
+Carnivorous Stalkers 2
+Rune of Shadows 2
+Infernal Rapidity
+Summon Demonic Tyrant
+Demonic Brutality
+Blighted Maw
+Imp Gang Boss
+Flametouched
+Antoran Armaments
+Tyrant's Oblation
+Demonic Calling 2
+Master Summoner
+Reign of Tyranny
+Summon Vilefiend
+Grimoire: Fel Ravager
+Hellbent Commander
+Mark of F'harg
+To Hell and Back
+Dominion of Argus 1
+Dominion of Argus 2
+Dominion of Argus 1
+Healers
+
+Class Talents
+
+Spec Talents
+Анон
+Druid (Restoration)
+277 Item Level
+Frenzied Regeneration
+Starfire
+Rejuvenation
+Starsurge
+Ursoc's Spirit
+Wild Growth
+Verdant Heart
+Improved Nature's Cure
+Nurturing Instinct 2
+Improved Barkskin
+Natural Recovery
+Astral Influence
+Thick Hide
+Wild Charge
+Soothe
+Starlight Conduit
+Aessina's Renewal
+Typhoon
+Stampeding Roar
+Well-Honed Instincts
+Feline Swiftness
+Lingering Healing
+Matted Fur 2
+Ursol's Vortex
+Lycara's Teachings 2
+Gift of the Wild
+Oakskin
+Perfectly-Honed Instincts
+Improved Stampeding Roar
+Forestwalk 2
+Symbiotic Relationship
+Ursine Vigor
+Innervate
+
+Lifebloom
+Swiftmend
+Nature's Swiftness
+Omen of Clarity
+Nature's Splendor
+Verdant Infusion
+Improved Regrowth
+Soul of the Forest
+Tranquility
+Efflorescence
+Ironbark
+Improved Wild Growth
+Flourish
+Verdancy
+Grove Guardians
+Lifetreading
+Rampant Growth
+Renewing Surge
+Power of the Archdruid
+Wild Synthesis
+Improved Swiftmend
+Intensity
+Convoke the Spirits
+Cenarius' Guidance
+Thriving Vegetation 2
+Embrace of the Dream
+Nature's Bounty
+Nurturing Dormancy
+Master Shapeshifter
+Abundance
+Reforestation
+Germination
+Photosynthesis
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+1 month ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

@@ -1,0 +1,783 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+204
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Fri Apr 24 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 16 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+Windrunner Spire+
+Last Run - Level 17 [Fortified] [Tyrannical] [Xal'atath's Guile] (32:11) 10:27 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Derelict Duo
+        Commander Kroluk
+        Emberdawn
+        Restless Heart
+        Pull 1 (0:52) +0:15
+        Spellguard Magus
+        Pull 2 (4:49) +1:13
+        Bloated Lasher
+        Pull 3 (3:53) +6:19
+        Emberdawn
+        Pull 4 (4:05) +10:40
+        Flesh Behemoth
+        Pull 5 (2:55) +14:48
+        Derelict Duo
+        Pull 6 (3:54) +18:02
+        Phalanx Breaker
+        Pull 7 (0:00) +22:00
+        Unknown
+        Pull 8 (4:14) +22:03
+        Commander Kroluk
+        Pull 9 (3:31) +26:48
+        Restless Heart
+
+Entire Dungeon
+
+    + All Friendlies
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0010:0020:0030:0005:0015:0025:000k250k500k750k1,000k1,250k
+Group Composition Item Level: 279.20
+Tanks:	Jingko
+DPS:	Crimson Powerpegging Gryko
+Healers:	Stonehill
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Crimson
+30.34%
+273.57m 	150,353.3
+Powerpegging
+26.70%
+240.78m 	132,327.7
+Gryko
+24.79%
+223.54m 	122,854.3
+Jingko
+14.10%
+127.18m 	69,898.9
+Stonehill
+4.07%
+36.72m 	20,179.5
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Stonehill
+46.86%
+127.16m 	69,886.0
+Jingko
+39.31%
+106.67m 	58,623.1
+Powerpegging
+5.06%
+13.73m 	7,546.7
+Gryko
+4.99%
+13.54m 	7,440.5
+Crimson
+3.77%
+10.24m 	5,628.0
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Stagger
+21.90%
+55.49m 	30,497.7
+Melee
+12.46%
+31.58m 	17,356.2
+Squall Leap
+7.75%
+19.65m 	10,797.6
+Throw Axe
+4.40%
+11.16m 	6,130.8
+Soul Torment
+3.83%
+9.70m 	5,329.0
+Reckless Leap
+3.67%
+9.30m 	5,110.3
+Splattered
+3.61%
+9.14m 	5,024.0
+Flaming Updraft
+3.16%
+8.00m 	4,394.5
+Spore Dispersal
+3.09%
+7.83m 	4,301.0
+Gust Shot
+2.20%
+5.57m 	3,062.4
+Pulsing Shriek
+2.19%
+5.55m 	3,052.8
+Fetid Spew
+1.97%
+5.00m 	2,747.1
+Shadowrive
+1.91%
+4.85m 	2,665.2
+Splattering Spew
+1.88%
+4.77m 	2,624.1
+Searing Beak
+1.87%
+4.74m 	2,604.4
+Rampage
+1.84%
+4.67m 	2,564.3
+Squall Leap
+1.83%
+4.65m 	2,554.8
+Debilitating Shriek
+1.70%
+4.31m 	2,369.3
+Interrupting Screech
+1.56%
+3.95m 	2,169.0
+Arcane Salvo
+1.43%
+3.61m 	1,985.4
+Flame Nova
+1.21%
+3.07m 	1,685.6
+Fire Spit
+1.14%
+2.88m 	1,582.7
+Rallying Bellow
+1.08%
+2.73m 	1,503.0
+Poison Spray
+1.07%
+2.70m 	1,486.5
+Flame Nova
+0.82%
+2.07m 	1,140.2
+Shoot
+0.74%
+1.88m 	1,031.3
+Melee
+0.74%
+1.87m 	1,028.5
+Falling Rubble
+0.71%
+1.80m 	988.5
+Bolt Gale
+0.57%
+1.45m 	798.6
+Ferocious Pounce
+0.55%
+1.40m 	770.4
+Bone Hack
+0.47%
+1.19m 	656.1
+Fetid Bile
+0.47%
+1.18m 	650.0
+Searing Beak
+0.46%
+1.16m 	637.8
+Flaming Twisters
+0.42%
+1.06m 	582.5
+Sporecharged
+0.40%
+1.02m 	561.6
+Gore Whirl
+0.40%
+1.01m 	552.7
+Spirit Bolt
+0.39%
+983.3k 	540.4
+Acidic Demise
+0.37%
+925.2k 	508.5
+Brutal Chop
+0.35%
+886.2k 	487.1
+Turbulent Arrows
+0.33%
+824.8k 	453.3
+Blessing of Sacrifice
+0.32%
+814.3k 	447.5
+Puncturing Bite
+0.29%
+745.4k 	409.7
+Fierce Slash
+0.27%
+683.0k 	375.4
+Chain Lightning
+0.23%
+593.3k 	326.1
+Tempest Slash
+0.22%
+548.4k 	301.4
+Bladestorm
+0.21%
+533.9k 	293.4
+Shadow Bolt
+0.18%
+452.5k 	248.7
+Shadow Bolt
+0.16%
+417.6k 	229.5
+Chain Lightning
+0.16%
+412.3k 	226.6
+Falling
+0.13%
+324.0k 	178.1
+Stretch Time
+0.11%
+276.1k 	151.7
+Shred Flesh
+0.11%
+269.8k 	148.3
+Intercepting Charge
+0.11%
+267.3k 	146.9
+Precise Cut
+0.10%
+246.7k 	135.6
+Phial Toss
+0.09%
+235.7k 	129.6
+Fungal Bolt
+0.09%
+231.4k 	127.2
+Arrow Rain
+0.09%
+223.8k 	123.0
+Intercepting Charge
+0.06%
+163.1k 	89.6
+Intimidating Shout
+0.05%
+139.3k 	76.6
+Gunk Splatter
+0.04%
+108.8k 	59.8
+Violent Manifestation
+0.02%
+62.5k 	34.4
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Jingko 	Sporecharged 	5:06
+Gryko 	Melee 	5:08
+Powerpegging 	Flaming Twisters 	7:55
+Stonehill 	Flaming Twisters 	9:43
+Jingko 	Fetid Bile 	12:40
+Gryko 	Melee 	12:47
+Stonehill 	Falling Rubble 	25:13
+Crimson 	Falling Rubble 	25:36
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Jingko
+Monk (Brewmaster)
+278 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Detox
+Grace of the Crane
+Calming Presence
+Vivacious Vivification
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Energy Transfer
+Transcendence
+Celerity
+Chi Burst
+Ring of Peace
+Improved Touch of Death
+Hasty Provocation
+Ferocity of Xuen 2
+Vigorous Expulsion
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Summon Black Ox Statue
+Expeditious Fortification
+Chi Proficiency 2
+Chi Transfer
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Swift as a Coursing River
+Elixir of Determination
+Quick Sip
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Fluidity of Motion
+Elusive Footwork
+Celestial Infusion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Zen State
+Face Palm
+Sal'salabim's Strength
+Black Ox Brew
+Counterstrike
+Dragonfire Brew
+High Tolerance 2
+Blackout Combo
+Invoke Niuzao, the Black Ox
+Exploding Keg
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+		5 	2
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Crimson
+Death Knight (Unholy)
+280 Item Level
+Death Strike
+Icebound Fortitude
+Raise Dead
+Runic Attenuation
+Improved Death Strike
+Cleaving Strikes
+Blinding Sleet
+Gloom Ward 2
+Unholy Momentum 2
+Mind Freeze
+Wraith Walk
+Enfeeble
+Brittle
+Permafrost
+Veteran of the Third War
+Coldthirst
+Anti-Magic Zone
+Unholy Bond
+Icy Talons
+Anti-Magic Barrier
+Grip of the Dead
+Death's Reach
+Unholy Endurance
+Blood Scent
+Suppression
+Insidious Chill
+Runic Protection
+Will of the Necropolis 2
+Rune Mastery 2
+Death's Echo
+Null Magic
+
+Outbreak
+Scourge Strike
+Sudden Doom
+Dark Transformation
+Putrefy
+Clawing Shadows
+Foul Infections
+Grave Mastery
+Necromancer's Cunning
+Magus of the Dead
+Soul Reaper
+Infected Claws
+Festering Scythe
+Ebon Fever
+Cycle of Death
+Coil of Devastation
+Army of the Dead
+Menacing Magus
+Reaping
+Harbinger of Doom
+Unholy Devotion
+Doomed Bidding
+Blightburst
+Putrid Echoes
+Commander of the Dead 2
+Unholy Aura 2
+Outnumber
+Reanimation
+Forbidden Knowledge 1
+Forbidden Knowledge 2
+Forbidden Knowledge 1
+		6 	3
+Powerpegging
+Evoker (Augmentation)
+279 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Walloping Blow
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Improved Defy Fate
+Power Nexus
+Volcanism
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		2 	2
+Gryko
+Warrior (Arms)
+280 Item Level
+Defensive Stance
+Battle Stance
+War Machine
+Leeching Strikes
+Impending Victory
+Storm Bolt
+Heroic Leap
+Frothing Berserker
+Pain and Gain
+Bounding Stride
+Rend
+Rallying Cry
+Shockwave
+Overwhelming Rage
+Spell Reflection
+Field Dressing
+Fearless
+Wrecking Throw
+Rumbling Earth
+Honed Reflexes
+Armored to the Teeth 2
+Reinforced Plates 2
+Double Time
+Barbaric Training
+Crushing Force
+Javelineer
+Two-Handed Weapon Specialization 2
+Wild Strikes 2
+Cruel Strikes 2
+Anger Management
+Battlefield Commander
+
+Mortal Strike
+Overpower
+Sudden Death
+Die by the Sword
+Fueled by Violence
+Improved Overpower
+Fervor of Battle
+Bloodsurge
+Tactician
+Colossus Smash
+Impale
+Cleave
+Sharpened Blades 2
+Broad Strokes
+Strength of Arms 2
+Powerful Momentum
+Dreadnaught
+Collateral Damage
+Crushing Combo
+Mass Execution
+Bloodborne 2
+Ravager
+Bloodletting
+Executioner's Precision
+Battlelord
+Mortal Wounds
+Avatar
+Master of Warfare 1
+Master of Warfare 2
+Master of Warfare 1
+		6 	0
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Stonehill
+Paladin (Holy)
+279 Item Level
+Hammer of Wrath
+Auras of the Resolute
+Lay on Hands
+Improved Cleanse
+Blinding Light
+Fist of Justice
+Afterimage
+Greater Judgment
+A Just Reward 2
+Guided Prayer
+Divine Steed
+Cavalier
+Blessing of Freedom
+Armory of Light
+Divine Toll
+Obduracy 2
+Sanctified Plates 2
+Echoing Blessings
+Consecrated Ground
+Blessing of Sacrifice
+Blessing of Protection
+Quickened Invocation
+Brought to Light
+Sacrifice of the Just
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Inspired Guard
+Holy Ritual
+Lead the Charge
+Seal of Might 2
+Selfless Healer
+Blessing of Dusk
+
+Holy Shock
+Light of Dawn
+Infusion of Light
+Aura Mastery
+Beacon of the Lightbringer
+Light's Conviction
+Awestruck
+Extrication
+Imbued Infusions
+Light of the Martyr
+Divine Favor
+Moment of Compassion
+Shining Righteousness
+Light's Protection
+Righteous Judgment
+Bestow Light
+Divine Revelations
+Commanding Light
+Divine Glimpse
+Crusader's Might
+Beacon of Faith
+Reclamation
+Avenging Wrath
+Divine Overload
+Sanctified Wrath
+Seek Deliverance
+Inflorescence of the Sunwell
+Rising Sunlight
+Glorious Dawn
+Hand of Divinity
+Beacon of the Savior 1
+Beacon of the Savior 2
+Beacon of the Savior 1
+		4 	3
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+1 month ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

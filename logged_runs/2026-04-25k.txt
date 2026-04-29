@@ -1,0 +1,741 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+204
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Fri Apr 24 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 16 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+The Seat of the Triumvirate+
+Level 18 [Fortified] [Tyrannical] [Xal'atath's Guile] (33:08) 7:05 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Zuraal the Ascended
+        Saprish
+        Viceroy Nezhar
+        L'ura
+        Pull 1 (2:36) +0:09
+        Merciless Subjugator
+        Pull 2 (3:20) +2:46
+        Zuraal the Ascended
+        Pull 3 (1:07) +6:32
+        Rift Warden
+        Pull 4 (1:06) +7:52
+        Merciless Subjugator
+        Pull 5 (0:59) +9:05
+        Rift Warden
+        Pull 6 (1:07) +10:07
+        Merciless Subjugator
+        Pull 7 (1:04) +11:33
+        Rift Warden
+        Pull 8 (1:34) +12:53
+        Saprish
+        Pull 9 (3:38) +14:28
+        Saprish
+        Pull 10 (1:15) +18:12
+        Merciless Subjugator
+        Pull 11 (1:59) +19:39
+        Void-Infused Destroyer
+        Pull 12 (1:12) +21:53
+        Grand Shadow-Weaver
+        Pull 13 (4:43) +23:24
+        Viceroy Nezhar
+        Pull 14 (3:42) +29:04
+        L'ura
+
+Entire Dungeon
+
+    + All Friendlies
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0005:0010:0015:0020:0025:0030:000k250k500k750k1,000k1,250k1,500k
+Group Composition Item Level: 279.60
+Tanks:	Пандазаврик
+DPS:	Savè Powerpegging Xsï
+Healers:	Claym
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Xsï
+31.48%
+317.26m 	161,225.0
+Powerpegging
+29.35%
+295.79m 	150,311.7
+Savè
+24.16%
+243.46m 	123,718.7
+Пандазаврик
+13.61%
+137.18m 	69,709.4
+Claym
+1.39%
+14.04m 	7,132.9
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Claym
+55.36%
+205.65m 	104,504.3
+Пандазаврик
+32.25%
+119.81m 	60,882.8
+Powerpegging
+5.26%
+19.53m 	9,926.5
+Xsï
+3.83%
+14.22m 	7,226.0
+Savè
+3.30%
+12.24m 	6,220.9
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Stagger
+22.40%
+81.01m 	41,169.6
+Melee
+13.50%
+48.81m 	24,802.0
+Dirge of Despair
+8.22%
+29.71m 	15,096.9
+Pulsing Void
+5.76%
+20.84m 	10,592.1
+Void Storm
+4.74%
+17.14m 	8,712.0
+Void Expulsion
+4.26%
+15.41m 	7,828.5
+Chains of Subjugation
+4.23%
+15.29m 	7,768.1
+Overload
+3.77%
+13.64m 	6,932.3
+Mind Flay
+3.22%
+11.64m 	5,913.0
+Backstab
+2.98%
+10.77m 	5,472.5
+Oozing Slam
+2.83%
+10.23m 	5,199.5
+Mass Void Infusion
+2.50%
+9.04m 	4,594.4
+Eruption
+2.34%
+8.47m 	4,303.1
+Shadow Pounce
+2.15%
+7.79m 	3,957.4
+Umbral Nova
+1.73%
+6.24m 	3,172.0
+Crashing Void
+1.41%
+5.08m 	2,582.8
+Rift Tear
+1.35%
+4.88m 	2,481.0
+Unstable Entrance
+1.28%
+4.64m 	2,360.0
+Void Infusion
+1.24%
+4.48m 	2,278.6
+Rupture
+1.04%
+3.77m 	1,913.4
+Backlash
+0.91%
+3.28m 	1,668.8
+Phase Dash
+0.76%
+2.76m 	1,402.0
+Dirge of Despair
+0.72%
+2.59m 	1,314.6
+Discordant Beam
+0.67%
+2.43m 	1,235.7
+Relentless Pursuit
+0.62%
+2.24m 	1,140.1
+Leeching Void
+0.50%
+1.79m 	911.1
+Void Slash
+0.48%
+1.73m 	878.1
+Umbral Waves
+0.43%
+1.57m 	797.0
+Devouring Frenzy
+0.38%
+1.37m 	694.4
+Stretch Time
+0.36%
+1.32m 	670.2
+Decimate
+0.36%
+1.28m 	652.3
+Mind Blast
+0.34%
+1.24m 	631.3
+Note of Despair
+0.34%
+1.23m 	626.1
+Umbral Bolt
+0.27%
+992.4k 	504.3
+Abyssal Lance
+0.26%
+946.9k 	481.2
+Void Bash
+0.26%
+938.5k 	476.9
+Abyssal Lance
+0.26%
+932.8k 	474.0
+Abyssal Lance
+0.26%
+926.6k 	470.9
+Fel Armor
+0.19%
+686.2k 	348.7
+Void Slash
+0.18%
+662.8k 	336.8
+Void Slash
+0.17%
+631.3k 	320.8
+Grim Chorus
+0.14%
+509.8k 	259.1
+Swoop
+0.10%
+344.9k 	175.2
+Void Bomb
+0.06%
+226.1k 	114.9
+Burning Rush
+0.01%
+53.4k 	27.2
+Falling
+0.01%
+32.2k 	16.4
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Savè 	Umbral Waves 	23:10
+Savè 	Umbral Waves 	26:16
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Пандазаврик
+Monk (Brewmaster)
+278 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Detox
+Grace of the Crane
+Calming Presence
+Pressure Points
+Vivacious Vivification
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Energy Transfer
+Transcendence
+Celerity
+Ring of Peace
+Improved Touch of Death
+Hasty Provocation
+Ferocity of Xuen 2
+Vigorous Expulsion
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Expeditious Fortification
+Chi Proficiency 2
+Chi Transfer
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+Transcendence: Linked Spirits
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Swift as a Coursing River
+Elixir of Determination
+Quick Sip
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Fluidity of Motion
+Elusive Footwork
+Celestial Infusion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Zen State
+Face Palm
+Sal'salabim's Strength
+Black Ox Brew
+Counterstrike
+Dragonfire Brew
+High Tolerance 2
+Blackout Combo
+Invoke Niuzao, the Black Ox
+Exploding Keg
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+		7 	4
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Savè
+Death Knight (Unholy)
+280 Item Level
+Death Strike
+Icebound Fortitude
+Raise Dead
+Runic Attenuation
+Improved Death Strike
+Cleaving Strikes
+Blinding Sleet
+Gloom Ward 2
+Unholy Momentum 2
+Mind Freeze
+Wraith Walk
+Enfeeble
+Brittle
+Permafrost
+Veteran of the Third War
+Coldthirst
+Anti-Magic Zone
+Unholy Bond
+Icy Talons
+Death Notes
+Anti-Magic Barrier
+Death's Reach
+Unholy Endurance
+Suppression
+Insidious Chill
+Runic Protection
+Blood Draw
+Will of the Necropolis 2
+Rune Mastery 2
+Death's Echo
+Null Magic
+
+Outbreak
+Scourge Strike
+Sudden Doom
+Dark Transformation
+Putrefy
+Clawing Shadows
+Foul Infections
+Grave Mastery
+Necromancer's Cunning
+Magus of the Dead
+Soul Reaper
+Infected Claws
+Festering Scythe
+Ebon Fever
+Cycle of Death
+Coil of Devastation
+Army of the Dead
+Menacing Magus
+Reaping
+Harbinger of Doom
+Unholy Devotion
+Raise Abomination
+Doomed Bidding
+Putrid Echoes
+Commander of the Dead 2
+Unholy Aura 2
+Outnumber
+Reanimation
+Forbidden Knowledge 1
+Forbidden Knowledge 2
+Forbidden Knowledge 1
+		2 	3
+Powerpegging
+Evoker (Augmentation)
+279 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Walloping Blow
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Time Spiral
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Improved Defy Fate
+Power Nexus
+Volcanism
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		5 	6
+Xsï
+Warlock (Demonology)
+281 Item Level
+Fel Domination
+Burning Rush
+Soul Leech
+Fiendish Stride
+Fel Armor 2
+Demon Skin 2
+Demonic Fortitude
+Demonic Embrace
+Mortal Coil
+Banish
+Curse of Tongues
+Demonic Circle
+Improved Mortal Coil
+Pact of the Annihilan
+Pact of the Satyr
+Dark Pact
+Foul Mouth
+Fortified Soul
+Empowered Healthstone
+Frequent Donor
+Pact of the Eredar
+Pact of the Nathrezim
+Shadowfury
+Demonic Gateway
+Strength of Will
+Swift Artifice
+Fel Synergy 2
+Soul Link 2
+Pact of Gluttony
+Soulburn
+Blight of Weakness
+
+Hand of Gul'dan
+Call Dreadstalkers
+Demoniac
+Dreadlash
+Fel Intellect
+Practiced Rituals
+Implosion
+Imp-erator
+Summon Felguard
+Carnivorous Stalkers 2
+Rune of Shadows 2
+Fel Armaments
+Summon Demonic Tyrant
+Demonic Brutality
+Blighted Maw
+Empowered Felstorm
+Flametouched
+Antoran Armaments
+Tyrant's Oblation
+Demonic Calling 2
+Master Summoner
+Reign of Tyranny
+Summon Vilefiend
+Grimoire: Imp Lord
+Hellbent Commander
+Mark of F'harg
+To Hell and Back
+Dominion of Argus 1
+Dominion of Argus 2
+Dominion of Argus 1
+		6 	8
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Claym
+Druid (Restoration)
+280 Item Level
+Frenzied Regeneration
+Rejuvenation
+Rake
+Ursoc's Spirit
+Wild Growth
+Verdant Heart
+Improved Nature's Cure
+Rip
+Nurturing Instinct 2
+Killer Instinct 2
+Improved Barkskin
+Natural Recovery
+Thick Hide
+Wild Charge
+Soothe
+Aessina's Renewal
+Typhoon
+Stampeding Roar
+Well-Honed Instincts
+Feline Swiftness
+Lingering Healing
+Matted Fur 2
+Ursol's Vortex
+Lycara's Teachings 2
+Gift of the Wild
+Oakskin
+Forestwalk 2
+Ursine Vigor
+Circle of the Wild
+Symbiotic Relationship
+Heart of the Wild
+Innervate
+
+Lifebloom
+Swiftmend
+Nature's Swiftness
+Omen of Clarity
+Nature's Splendor
+Prosperity
+Improved Regrowth
+Soul of the Forest
+Tranquility
+Efflorescence
+Ironbark
+Verdancy
+Improved Ironbark
+Grove Guardians
+Lifetreading
+Rampant Growth
+Renewing Surge
+Power of the Archdruid
+Wild Synthesis
+Improved Swiftmend
+Intensity
+Convoke the Spirits
+Cenarius' Guidance
+Thriving Vegetation 1
+Nature's Bounty
+Liveliness
+Abundance
+Germination
+Photosynthesis
+Harmonious Blooming
+Everbloom 1
+Everbloom 2
+Everbloom 1
+		4 	3
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+1 month ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

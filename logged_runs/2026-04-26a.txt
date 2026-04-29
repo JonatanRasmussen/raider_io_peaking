@@ -1,0 +1,579 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+210
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Mon Apr 27 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 16 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+Windrunner Spire+
+Level 18 [Fortified] [Tyrannical] [Xal'atath's Guile] 2 (2:48) 1:58 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Derelict Duo
+        Commander Kroluk
+        Emberdawn
+        Restless Heart
+        Pull 1 (1:12) +0:16
+        Spellguard Magus
+
+Entire Dungeon
+
+    + All Friendlies
+        Penyo
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 219827
+            Future Self
+
+            ID: 253466
+        Jigé
+        Tendub
+        Zeedarya
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0000:1500:3000:4501:0001:1501:3001:4502:0002:1502:3002:450M1M2M3M4M
+Group Composition Item Level: 281.00
+Tanks:	Penyo
+DPS:	Powerpegging Jigé Tendub
+Healers:	Zeedarya
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Tendub
+32.60%
+26.22m 	155,603.7
+Powerpegging
+25.05%
+20.15m 	119,590.8
+Jigé
+23.24%
+18.69m 	110,924.5
+Penyo
+16.70%
+13.43m 	79,694.1
+Zeedarya
+2.41%
+1.94m 	11,514.8
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Zeedarya
+57.42%
+14.20m 	84,289.4
+Penyo
+30.35%
+7.51m 	44,550.9
+Powerpegging
+5.56%
+1.38m 	8,166.7
+Tendub
+3.61%
+893.0k 	5,299.9
+Jigé
+3.06%
+757.8k 	4,497.7
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Arcane Salvo
+35.63%
+8.96m 	53,172.4
+Melee
+31.85%
+8.01m 	47,530.5
+Soul Torment
+23.93%
+6.02m 	35,712.9
+Spirit Bolt
+6.59%
+1.66m 	9,833.8
+Shadow Mend
+0.99%
+248.4k 	1,474.0
+Blessing of Dawn
+0.99%
+248.3k 	1,473.8
+Shadow Word: Death
+0.03%
+8.6k 	51.0
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Jigé 	Arcane Salvo 	1:03
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Penyo
+Druid (Guardian)
+281 Item Level
+Rake
+Frenzied Regeneration
+Ursoc's Spirit
+Grievous Wounds
+Swipe
+Remove Corruption
+Verdant Heart
+Nurturing Instinct 2
+Killer Instinct 2
+Ironfur
+Improved Barkskin
+Natural Recovery
+Astral Influence
+Primal Fury
+Thick Hide
+Skull Bash
+Wild Charge
+Soothe
+Aessina's Renewal
+Typhoon
+Stampeding Roar
+Well-Honed Instincts
+Feline Swiftness
+Ursol's Vortex
+Lycara's Teachings 2
+Gift of the Wild
+Oakskin
+Lore of the Grove
+Instincts of the Claw
+Perfectly-Honed Instincts
+Incapacitating Roar
+Forestwalk 1
+Symbiotic Relationship
+Circle of the Wild
+
+Maul
+Gore
+Survival Instincts
+Persistence
+Dream Guide
+Vulnerable Flesh
+Berserk
+Innate Resolve
+Survival of the Fittest 2
+Scintillating Moonlight 2
+Reinvigoration 2
+Soul of the Forest
+Natural Resilience
+Ursoc's Endurance
+Raze
+Rend and Tear
+Lunar Beam
+Blood Frenzy
+Twin Moonfire
+Flashing Claws 1
+Ursoc's Fury
+Moonless Night
+Incarnation: Guardian of Ursoc
+Harnessed Rage
+Ursoc's Guidance
+Galactic Guardian
+Killing Blow
+Wild Guardian 1
+Wild Guardian 2
+Wild Guardian 1
+		1 	0
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Powerpegging
+Evoker (Augmentation)
+279 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Oppressing Roar
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Overawe
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Bestow Weyrnstone
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		0 	0
+Jigé
+Paladin (Retribution)
+282 Item Level
+Lay on Hands
+Auras of the Resolute
+Hammer of Wrath
+Cleanse Toxins
+Blinding Light
+Empyreal Ward
+Fist of Justice
+Divine Steed
+Healing Hands
+Guided Prayer
+Greater Judgment
+Cavalier
+Blessing of Freedom
+Shield of Vengeance
+Rebuke
+Obduracy 2
+Sanctified Plates 2
+Unbound Freedom
+Divine Toll
+Consecrated Ground
+Blessing of Sacrifice
+Blessing of Protection
+Quickened Invocation
+Sacrifice of the Just
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Light's Revocation
+Righteous Protection
+Inspired Guard
+Seal of Might 2
+Vengeful Wrath 2
+Blessing of Dusk
+
+Blade of Justice
+Divine Storm
+Expurgation
+Swift Justice
+Avenging Wrath
+Art of War
+Final Verdict
+Holy Blade
+Holy Flames
+Tempest of the Lightbringer
+Rush of Light
+Sanctify
+Improved Judgment
+Blade of Vengeance
+Zealot's Fervor 2
+Highlord's Wrath
+Blessed Champion
+Burning Crusade
+Crusading Strikes
+Wake of Ashes
+Divine Wrath 2
+Blades of Light 2
+Seething Flames
+Execution Sentence
+Empyrean Legacy
+Burn to Ash
+Crusade
+Light Within 1
+Light Within 2
+Light Within 1
+		1 	1
+Tendub
+Paladin (Retribution)
+282 Item Level
+Lay on Hands
+Auras of the Resolute
+Hammer of Wrath
+Cleanse Toxins
+Blinding Light
+Fist of Justice
+Divine Steed
+Healing Hands
+Guided Prayer
+Greater Judgment
+Cavalier
+Blessing of Freedom
+Shield of Vengeance
+Rebuke
+Obduracy 2
+Sanctified Plates 2
+Unbound Freedom
+Divine Toll
+Punishment
+Consecrated Ground
+Blessing of Sacrifice
+Blessing of Protection
+Quickened Invocation
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Inspired Guard
+Lead the Charge
+Seal of Might 2
+Vengeful Wrath 2
+Blessing of Dawn
+Lightbearer
+Blessing of Dusk
+
+Blade of Justice
+Divine Storm
+Expurgation
+Avenging Wrath
+Light of Justice
+Art of War
+Final Verdict
+Holy Blade
+Jurisdiction
+Holy Flames
+Tempest of the Lightbringer
+Rush of Light
+Improved Judgment
+Blade of Vengeance
+Zealot's Fervor 2
+Highlord's Wrath
+Blessed Champion
+Burning Crusade
+Crusading Strikes
+Wake of Ashes
+Divine Wrath 2
+Blades of Light 2
+Seething Flames
+Execution Sentence
+Empyrean Legacy
+Burn to Ash
+Crusade
+Light Within 1
+Light Within 2
+Light Within 1
+		1 	0
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Zeedarya
+Priest (Discipline)
+281 Item Level
+Angelic Feather
+Mind Blast
+Improved Flash Heal
+Dispel Magic
+Spiritual Guidance
+Psychic Scream
+Power Infusion
+Painful Invocation
+Leap of Faith
+Strength of Resolve
+Surge of Light
+Twins of the Sun Priestess
+Mass Dispel
+Twin Disciplines
+Everlasting Light
+Dark Enlightenment
+Binding Heals
+Inspiration
+Shadow Word: Death
+Sanguine Teachings
+Twist of Fate 2
+Tithe Evasion
+Desperate Prayer
+Fade
+Protective Light
+Improved Fade 2
+Mindpierce
+Unwavering Will 2
+Phantasm
+Spell Warding 2
+Translucent Image
+Benevolence
+
+Atonement
+Pain Suppression
+Power Word: Radiance
+Power of the Dark Side
+Encroaching Shadows
+Protector of the Frail
+Light's Promise
+Dark Indulgence
+Revel in Darkness
+Shield Discipline
+Painful Punishment
+Ultimate Penitence
+Shadow Tap
+Holy Ray
+Lenience
+Castigation
+Occultist
+Evangelism
+Harsh Discipline 2
+Shadow Mend
+Archangel
+Inner Focus
+Blaze of Light 2
+Borrowed Time 2
+Divine Aegis
+Eternal Barrier
+Weal and Woe
+Master the Darkness 1
+Master the Darkness 2
+Master the Darkness 1
+		0 	1
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.

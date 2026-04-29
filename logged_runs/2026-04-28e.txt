@@ -1,0 +1,618 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+159
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Tue Apr 28 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 1 hour ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 5 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 16 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+
+BudoBoy07
+Personal Logs
++
+Nexus-Point Xenas+
+Level 19 [Fortified] [Tyrannical] [Xal'atath's Guile] (2:15) 10:37 AM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Chief Corewright Kasreth
+        Corewarden Nysarra
+        Lothraxion
+        Pull 1 (1:02) +0:15
+        Circuit Seer
+        Pull 2 (0:02) +1:32
+        Unknown
+        Pull 3 (0:05) +1:58
+        Unknown
+
+Entire Dungeon
+
+    + All Friendlies
+        Flokiys
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+            ID: 253466
+        +Wokmaster
+            Niuzao
+
+            ID: 73967
+        +Фоксифыр
+            +Healing Stream Totem
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 3527
+            Stormstream Totem
+
+            ID: 256196
+            +Surging Totem
+                1
+
+                2
+
+            ID: 225409
+        Iniminibambi
+
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0000:1500:3000:4501:0001:1501:3001:4502:0002:150M1M2M3M4M
+Group Composition Item Level: 277.17
+Tanks:	Wokmaster
+DPS:	Flokiys Powerpegging Iniminibambi
+Healers:	Фоксифыр
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Flokiys
+30.44%
+21.50m 	159,051.7
+Iniminibambi
+27.55%
+19.46m 	143,925.0
+Powerpegging
+26.90%
+19.00m 	140,558.4
+Wokmaster
+12.70%
+8.97m 	66,330.2
+Фоксифыр
+2.41%
+1.70m 	12,581.4
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Wokmaster
+47.14%
+6.08m 	44,954.5
+Фоксифыр
+38.52%
+4.97m 	36,733.8
+Powerpegging
+7.29%
+940.3k 	6,954.4
+Iniminibambi
+3.85%
+495.8k 	3,666.8
+Flokiys
+3.20%
+412.3k 	3,049.6
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+23.13%
+2.74m 	20,293.6
+Arcing Mana
+18.70%
+2.22m 	16,411.0
+Stagger
+13.71%
+1.63m 	12,030.2
+Suppression Field
+9.79%
+1.16m 	8,588.4
+Arcane Explosion
+9.74%
+1.16m 	8,546.3
+Arcane Zap
+6.89%
+817.4k 	6,045.8
+Null Sunder
+5.34%
+633.0k 	4,681.4
+Umbra Bolt
+4.00%
+475.0k 	3,513.0
+Suppression Field
+3.43%
+407.1k 	3,011.2
+Arcane Spill
+2.14%
+253.6k 	1,875.8
+Flux Collapse
+1.59%
+188.8k 	1,396.6
+Erratic Surge
+1.53%
+182.0k 	1,346.2
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Wokmaster 	Melee 	1:03
+Iniminibambi 	Null Sunder 	1:06
+Powerpegging 	Suppression Field 	1:11
+Фоксифыр 	Suppression Field 	1:35
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Wokmaster
+Monk (Brewmaster)
+282 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Detox
+Grace of the Crane
+Calming Presence
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Transcendence
+Celerity
+Chi Wave
+Stillstep Coil
+Ring of Peace
+Improved Touch of Death
+Hasty Provocation
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Vigorous Expulsion
+Strength of Spirit
+Expeditious Fortification
+Save Them All
+Chi Proficiency 2
+Chi Transfer
+Martial Instincts 2
+Flow of Chi
+Fatal Touch
+Lighter Than Air
+
+Keg Smash
+Purifying Brew
+Shuffle
+Swift as a Coursing River
+Elixir of Determination
+Quick Sip
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Fluidity of Motion
+Elusive Footwork
+Celestial Infusion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Zen State
+Face Palm
+Sal'salabim's Strength
+Black Ox Brew
+Dragonfire Brew
+High Tolerance 2
+Blackout Combo
+Anvil and Stave 1
+Invoke Niuzao, the Black Ox
+Exploding Keg
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+		1 	1
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Flokiys
+Demon Hunter (Devourer)
+280 Item Level
+Vengeful Retreat
+Sigil of Misery
+Voidblade
+Unrestrained Fury
+Shattered Restoration
+Bouncing Glaives
+Imprison
+Improved Disrupt
+Consume Magic
+Void Nova
+Aura of Pain
+Disrupting Fury
+Blazing Path
+Focused Ire
+Soul Rending 2
+Felfire Haste
+Pursuit
+Soul Cleanse
+Illidari Knowledge 2
+Will of the Illidari 2
+Guile
+Remorseless
+Internal Struggle
+First In, Last Out
+Furious
+Demon Muzzle
+Soul Splitter 2
+Darkness
+Final Breath
+Pitch Black
+Demonic Resilience
+
+Void Ray
+Soul Immolation
+Predator's Thirst
+Void Metamorphosis
+Feast of Souls
+Tempered Soul
+Collapsing Star
+Moment of Craving
+Soulshaper
+Waste Not
+Entropy
+Sweet Suffering 2
+Sweet Release 2
+Improved Consume
+Voidpurge
+Focused Ray
+Voidrage 2
+Devourer's Edge 2
+Demonic Instinct 2
+Rolling Torment
+Impending Apocalypse
+Calamitous
+Star Fragments
+Eradicate
+Emptiness
+Midnight 1
+Midnight 2
+Midnight 1
+		2 	0
+Powerpegging
+Evoker (Augmentation)
+279 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Bestow Weyrnstone
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		1 	0
+Iniminibambi
+Warrior (Arms)
+282 Item Level
+Defensive Stance
+Battle Stance
+War Machine
+Leeching Strikes
+Impending Victory
+Storm Bolt
+Heroic Leap
+Frothing Berserker
+Pain and Gain
+Bounding Stride
+Rend
+Rallying Cry
+Shockwave
+Overwhelming Rage
+Spell Reflection
+Fearless
+Wrecking Throw
+Rumbling Earth
+Honed Reflexes
+Intimidating Shout
+Armored to the Teeth 2
+Reinforced Plates 2
+Double Time
+Barbaric Training
+Resonant Voice
+Two-Handed Weapon Specialization 2
+Wild Strikes 2
+Cruel Strikes 2
+Stance Mastery
+Anger Management
+Battlefield Commander
+
+Mortal Strike
+Overpower
+Sudden Death
+Die by the Sword
+Fueled by Violence
+Bloodsurge
+Improved Overpower
+Fervor of Battle
+Tactician
+Colossus Smash
+Impale
+Cleave
+Sharpened Blades 2
+Powerful Momentum
+Broad Strokes
+Strength of Arms 2
+Dreadnaught
+Collateral Damage
+Crushing Combo
+Mass Execution
+Bloodborne 2
+Ravager
+Bloodletting
+Executioner's Precision
+Battlelord
+Mortal Wounds
+Avatar
+Master of Warfare 1
+Master of Warfare 2
+Master of Warfare 1
+		1 	0
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Фоксифыр
+Shaman (Restoration)
+281 Item Level
+Chain Lightning
+Lava Burst
+Chain Heal
+Thunderous Paws
+Earth Shield
+Gust of Wind
+Elemental Orbit
+Nature's Guardian
+Astral Shift
+Brimming with Life 2
+Healing Stream Totem
+Planes Traveler
+Wind Shear
+Capacitor Totem
+Elemental Resistance
+Enhanced Imbues
+Windveil
+Spiritual Awakening
+Improved Purify Spirit
+Refreshing Waters
+Wind Rush Totem
+Jet Stream
+Nature's Fury 2
+Purge
+Spiritwalker's Grace
+Elemental Warding
+Totemic Focus
+Totemic Projection
+Therazane's Resilience
+Graceful Spirit
+Nature's Swiftness
+Instinctive Imbuements
+Totemic Surge
+
+Riptide
+Healing Stream Totem
+Healing Rain
+Water Totem Mastery
+Acid Rain
+Soothing Rain
+Healing Tide Totem
+Living Stream
+Resurgence
+First Ascendant
+Ancestral Vigor 2
+White Water
+Quickstream
+Earthliving Weapon
+Unleash Life
+Torrent
+Flow of the Tides
+Deluge
+Tidal Waves
+Improved Earthliving Weapon
+Spirit Link Totem
+Echo of the Elements
+Earthen Harmony
+Ancestral Awakening 2
+Spouting Spirits
+Primal Tide Core
+Coalescing Water
+Deeply Rooted Elements
+Stormstream Totem 1
+Stormstream Totem 2
+Stormstream Totem 1
+		0 	0
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.

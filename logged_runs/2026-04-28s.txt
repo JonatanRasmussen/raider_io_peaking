@@ -1,0 +1,829 @@
+
+Warcraft Logs
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+    Log In
+    Sign Up
+
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+Mythic+ Season 1
+Created by BudoBoy07 on Tue Apr 28 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 40 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+
+BudoBoy07
+Personal Logs
++
+The Seat of the Triumvirate+
+Level 18 [Fortified] [Tyrannical] [Xal'atath's Guile] 2 (8:58) 9:09 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Zuraal the Ascended
+        Saprish
+        Viceroy Nezhar
+        L'ura
+        Pull 1 (3:29) +0:08
+        Merciless Subjugator
+        Pull 2 (3:41) +3:38
+        Zuraal the Ascended
+        Pull 3 (1:14) +7:44
+        Rift Warden
+        Pull 4 (1:14) +7:44
+        Rift Warden
+
+Entire Dungeon
+
+    + All Friendlies
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+
+            ID: 253466
+        +Pepezz
+            +Niuzao
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+            ID: 73967
+        Added
+        Molníe
+        +Chessidot
+            +Shadow
+                1
+
+                2
+
+                3
+
+            ID: 225672
+            +Shadowfiend
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+
+            ID: 19668
+            +Thing From Beyond
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+            ID: 189988
+            +Void Lasher
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+            ID: 198757
+            +Void Tendril
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+            ID: 192337
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0001:0002:0003:0004:0005:0006:0007:0008:000M1M2M3M4M
+
+
+Group Composition Item Level: 280.80
+Tanks:	Pepezz
+DPS:	Powerpegging Molníe Chessidot
+Healers:	Added
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Powerpegging
+111.07m 	206,329.8
+Chessidot
+104.68m 	194,464.6
+Molníe
+91.81m 	170,554.0
+Pepezz
+51.80m 	96,221.4
+Added
+14.54m 	27,002.3
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Pepezz
+51.96m 	96,533.5
+Added
+43.46m 	80,732.0
+Chessidot
+8.96m 	16,651.4
+Powerpegging
+4.82m 	8,952.2
+Molníe
+4.06m 	7,538.0
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Stagger
+37.50m 	69,658.8
+Melee
+24.67m 	45,823.4
+Oozing Slam
+10.99m 	20,423.7
+Pulsing Void
+5.82m 	10,815.7
+Rupture
+4.59m 	8,528.5
+Crashing Void
+4.16m 	7,734.6
+Backstab
+3.73m 	6,923.0
+Void Expulsion
+3.46m 	6,431.6
+Relentless Pursuit
+3.16m 	5,862.0
+Blessing of Sacrifice
+2.79m 	5,191.8
+Chains of Subjugation
+2.71m 	5,036.4
+Decimate
+1.88m 	3,493.3
+Blessing of Dawn
+1.81m 	3,360.1
+Void Slash
+1.77m 	3,291.2
+Rift Tear
+1.65m 	3,064.7
+Void Sludge
+731.6k 	1,359.0
+Leeching Void
+678.9k 	1,261.3
+Void Slash
+622.5k 	1,156.4
+Void Slash
+597.6k 	1,110.2
+Void Expulsion
+495.4k 	920.2
+Void Bash
+439.8k 	817.1
+Devouring Frenzy
+374.6k 	696.0
+Stretch Time
+354.4k 	658.4
+Umbral Bolt
+229.2k 	425.7
+Rupture
+131.0k 	243.3
+Shadow Word: Death
+102.7k 	190.7
+Falling
+40.6k 	75.5
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Added 	Umbral Bolt 	2:06
+Molníe 	Void Sludge 	6:29
+Added 	Backstab 	8:46
+Pepezz 	Melee 	8:47
+Molníe 	Melee 	8:48
+Chessidot 	Void Expulsion 	8:51
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+Pepezz
+Monk (Brewmaster)
+282 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Detox
+Grace of the Crane
+Calming Presence
+Vivacious Vivification
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Energy Transfer
+Transcendence
+Celerity
+Chi Burst
+Ring of Peace
+Improved Touch of Death
+Hasty Provocation
+Ferocity of Xuen 2
+Vigorous Expulsion
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Expeditious Fortification
+Chi Proficiency 2
+Windwalking
+Chi Transfer
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Swift as a Coursing River
+Elixir of Determination
+Quick Sip
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Fluidity of Motion
+Elusive Footwork
+Celestial Infusion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Zen State
+Face Palm
+Sal'salabim's Strength
+Black Ox Brew
+Counterstrike
+Dragonfire Brew
+High Tolerance 2
+Blackout Combo
+Invoke Niuzao, the Black Ox
+Exploding Keg
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+
+DPS
+
+Class Talents
+
+Spec Talents
+Powerpegging
+Evoker (Augmentation)
+279 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Bestow Weyrnstone
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+Molníe
+Paladin (Retribution)
+281 Item Level
+Lay on Hands
+Auras of the Resolute
+Hammer of Wrath
+Blinding Light
+Empyreal Ward
+Fist of Justice
+Divine Steed
+Healing Hands
+Guided Prayer
+Greater Judgment
+Cavalier
+Blessing of Freedom
+Shield of Vengeance
+Rebuke
+Obduracy 2
+Sanctified Plates 2
+Unbound Freedom
+Divine Toll
+Consecrated Ground
+Blessing of Sacrifice
+Blessing of Protection
+Quickened Invocation
+Sacrifice of the Just
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Light's Revocation
+Inspired Guard
+Lead the Charge
+Seal of Might 2
+Vengeful Wrath 2
+Lightbearer
+Blessing of Dusk
+
+Blade of Justice
+Divine Storm
+Expurgation
+Avenging Wrath
+Light of Justice
+Art of War
+Final Verdict
+Holy Blade
+Holy Flames
+Tempest of the Lightbringer
+Rush of Light
+Sanctify
+Improved Judgment
+Blade of Vengeance
+Zealot's Fervor 2
+Highlord's Wrath
+Blessed Champion
+Burning Crusade
+Crusading Strikes
+Wake of Ashes
+Divine Wrath 2
+Blades of Light 2
+Seething Flames
+Execution Sentence
+Empyrean Legacy
+Burn to Ash
+Crusade
+Light Within 1
+Light Within 2
+Light Within 1
+Chessidot
+Priest (Shadow)
+281 Item Level
+Angelic Feather
+Mind Blast
+Dispel Magic
+Spiritual Guidance
+Psychic Scream
+Power Infusion
+Painful Invocation
+Purify Disease
+Leap of Faith
+Petrifying Scream
+Strength of Resolve
+Psychic Voice
+Twins of the Sun Priestess
+Mass Dispel
+Body and Soul
+Twin Disciplines
+Dark Enlightenment
+Binding Heals
+Shadow Word: Death
+Sanguine Teachings
+Twist of Fate 2
+Tithe Evasion
+Desperate Prayer
+Fade
+Protective Light
+Angel's Mercy
+Improved Fade 2
+Mindpierce
+Spell Warding 2
+Phantasm
+Phantom Reach
+Translucent Image
+Focused Power
+
+Shadow Word: Madness
+Psychic Link
+Mental Fortitude
+Misery
+Shadowy Apparitions
+Tentacle Slam
+Tormenting Whispers
+Surge of Insanity
+Voidform
+Haunting Shadows
+Shadowy Insight
+Mental Decay
+Voidtouched
+Phantom Menace
+Improved Voidform
+Shadowfiend
+Shattered Psyche
+Subservient Shadows
+Spectral Horrors
+Mind's Eye
+Maddening Tentacles
+Auspicious Spirits
+Insidious Ire 2
+Screams of the Void 2
+Tormented Spirits
+Idol of N'Zoth
+Idol of C'Thun
+Idol of Yogg-Saron
+Void Apparitions 1
+Void Apparitions 2
+Void Apparitions 1
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+Added
+Paladin (Holy)
+281 Item Level
+Hammer of Wrath
+Auras of the Resolute
+Lay on Hands
+Improved Cleanse
+Blinding Light
+Fist of Justice
+Afterimage
+Greater Judgment
+Guided Prayer
+Divine Steed
+Cavalier
+Blessing of Freedom
+Armory of Light
+Divine Toll
+Obduracy 2
+Sanctified Plates 2
+Unbound Freedom
+Consecrated Ground
+Blessing of Sacrifice
+Blessing of Protection
+Quickened Invocation
+Sacrifice of the Just
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Lightforged Blessing
+Inspired Guard
+Holy Ritual
+Lead the Charge
+Seal of Might 2
+Selfless Healer
+Blessing of Dawn
+Lightbearer
+Blessing of Dusk
+
+Holy Shock
+Light of Dawn
+Infusion of Light
+Aura Mastery
+Beacon of the Lightbringer
+Light's Conviction
+Awestruck
+Extrication
+Imbued Infusions
+Light of the Martyr
+Divine Favor
+Moment of Compassion
+Shining Righteousness
+Light's Protection
+Righteous Judgment
+Bestow Light
+Divine Revelations
+Commanding Light
+Divine Glimpse
+Crusader's Might
+Beacon of Faith
+Reclamation
+Avenging Wrath
+Divine Overload
+Sanctified Wrath
+Seek Deliverance
+Inflorescence of the Sunwell
+Rising Sunlight
+Glorious Dawn
+Hand of Divinity
+Beacon of the Savior 1
+Beacon of the Savior 2
+Beacon of the Savior 1
+
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+1 month ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

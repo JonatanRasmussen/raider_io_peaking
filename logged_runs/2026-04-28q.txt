@@ -1,0 +1,673 @@
+
+Warcraft Logs
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+    Log In
+    Sign Up
+
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+Mythic+ Season 1
+Created by BudoBoy07 on Tue Apr 28 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 40 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+
+BudoBoy07
+Personal Logs
++
+Nexus-Point Xenas+
+Level 19 [Fortified] [Tyrannical] [Xal'atath's Guile] 1 (9:33) 7:05 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Chief Corewright Kasreth
+        Corewarden Nysarra
+        Lothraxion
+        Pull 1 (1:01) +0:16
+        Circuit Seer
+        Pull 2 (2:32) +1:23
+        Circuit Seer
+        Pull 3 (3:22) +4:00
+        Chief Corewright Kasreth
+        Pull 4 (1:09) +7:49
+        Null Sentinel
+        Pull 5 (0:05) +9:28
+        Null Sentinel
+
+Entire Dungeon
+
+    + All Friendlies
+        Jamesv
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+            ID: 253466
+        +Nyrggeilijä
+            +Niuzao
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+            ID: 73967
+        Hyllepa
+        Stonehill
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0001:0002:0003:0004:0005:0006:0007:0008:0009:000M1M2M3M4M
+Group Composition Item Level: 280.60
+Tanks:	Nyrggeilijä
+DPS:	Jamesv Powerpegging Hyllepa
+Healers:	Stonehill
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Jamesv
+110.48m 	192,729.3
+Powerpegging
+92.46m 	161,278.6
+Hyllepa
+86.44m 	150,777.0
+Nyrggeilijä
+44.27m 	77,224.9
+Stonehill
+8.74m 	15,251.5
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Stonehill
+41.28m 	72,016.5
+Nyrggeilijä
+36.84m 	64,270.2
+Powerpegging
+4.52m 	7,883.7
+Jamesv
+3.96m 	6,913.7
+Hyllepa
+2.31m 	4,023.2
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Stagger
+13.97m 	24,366.5
+Melee
+9.34m 	16,299.9
+Arcane Zap
+8.55m 	14,917.3
+Arcing Mana
+5.54m 	9,670.6
+Dreadbellow
+5.40m 	9,419.9
+Suppression Field
+5.21m 	9,090.4
+Reflux Charge
+5.10m 	8,894.6
+Arcane Zap
+4.93m 	8,605.5
+Sparkburn
+3.64m 	6,357.6
+Nullwark Blast
+2.48m 	4,327.2
+Dark Beckoning
+1.99m 	3,478.1
+Null Sunder
+1.56m 	2,724.7
+Nullify
+1.01m 	1,767.0
+Creeping Void
+813.9k 	1,419.8
+Arcane Spill
+766.5k 	1,337.0
+Arcane Explosion
+730.2k 	1,273.8
+Blessing of Sacrifice
+712.9k 	1,243.5
+Umbra Bolt
+680.8k 	1,187.6
+Dark Beckoning
+572.1k 	998.0
+Suppression Field
+542.9k 	947.1
+Erratic Surge
+460.2k 	802.7
+Entropic Leech
+252.6k 	440.7
+Stretch Time
+193.4k 	337.4
+Falling
+12.5k 	21.7
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Hyllepa 	Dark Beckoning 	8:47
+Stonehill 	Nullify 	8:49
+Nyrggeilijä 	Dreadbellow 	8:58
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+Nyrggeilijä
+Monk (Brewmaster)
+282 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Detox
+Grace of the Crane
+Calming Presence
+Bounding Agility
+Pressure Points
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Transcendence
+Celerity
+Chi Burst
+Ring of Peace
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Improved Touch of Death
+Vigorous Expulsion
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Expeditious Fortification
+Save Them All
+Chi Proficiency 2
+Windwalking
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Swift as a Coursing River
+Quick Sip
+Elixir of Determination
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Elusive Footwork
+Celestial Infusion
+Fluidity of Motion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Face Palm
+Sal'salabim's Strength
+Bob and Weave
+Zen State
+Dragonfire Brew
+Counterstrike
+Blackout Combo
+High Tolerance 2
+Anvil and Stave 1
+Invoke Niuzao, the Black Ox
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+
+DPS
+
+Class Talents
+
+Spec Talents
+Jamesv
+Demon Hunter (Devourer)
+281 Item Level
+Vengeful Retreat
+Sigil of Misery
+Voidblade
+Unrestrained Fury
+Shattered Restoration
+Bouncing Glaives
+Imprison
+Improved Disrupt
+Consume Magic
+Void Nova
+Aura of Pain
+Disrupting Fury
+Swallowed Anger
+Blazing Path
+Focused Ire
+Soul Rending 2
+Pursuit
+Soul Cleanse
+Illidari Knowledge 2
+Will of the Illidari 2
+Guile
+Remorseless
+Internal Struggle
+First In, Last Out
+Furious
+Demon Muzzle
+Soul Splitter 2
+Darkness
+Final Breath
+Pitch Black
+Demonic Resilience
+
+Void Ray
+Soul Immolation
+Predator's Thirst
+Void Metamorphosis
+Feast of Souls
+Tempered Soul
+Collapsing Star
+Moment of Craving
+Soulshaper
+Waste Not
+Entropy
+Sweet Suffering 2
+Sweet Release 2
+Improved Consume
+Voidpurge
+Focused Ray
+Voidrage 2
+Devourer's Edge 2
+Demonic Instinct 2
+Rolling Torment
+Impending Apocalypse
+Calamitous
+Star Fragments
+Eradicate
+Emptiness
+Midnight 1
+Midnight 2
+Midnight 1
+Powerpegging
+Evoker (Augmentation)
+279 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Bestow Weyrnstone
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+Hyllepa
+Paladin (Retribution)
+281 Item Level
+Lay on Hands
+Auras of the Resolute
+Hammer of Wrath
+Blinding Light
+Empyreal Ward
+Fist of Justice
+Cleanse Toxins
+Divine Steed
+Healing Hands
+Guided Prayer
+Greater Judgment
+Cavalier
+Blessing of Freedom
+Shield of Vengeance
+Rebuke
+Obduracy 2
+Sanctified Plates 2
+Unbound Freedom
+Divine Toll
+Consecrated Ground
+Blessing of Sacrifice
+Blessing of Protection
+Quickened Invocation
+Sacrifice of the Just
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Light's Revocation
+Inspired Guard
+Lead the Charge
+Seal of Might 2
+Vengeful Wrath 2
+Blessing of Dusk
+
+Blade of Justice
+Divine Storm
+Expurgation
+Avenging Wrath
+Light of Justice
+Art of War
+Final Verdict
+Holy Blade
+Holy Flames
+Tempest of the Lightbringer
+Rush of Light
+Sanctify
+Improved Judgment
+Blade of Vengeance
+Zealot's Fervor 2
+Highlord's Wrath
+Blessed Champion
+Burning Crusade
+Crusading Strikes
+Wake of Ashes
+Divine Wrath 2
+Blades of Light 2
+Seething Flames
+Execution Sentence
+Empyrean Legacy
+Burn to Ash
+Crusade
+Light Within 1
+Light Within 2
+Light Within 1
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+Stonehill
+Paladin (Holy)
+280 Item Level
+Hammer of Wrath
+Auras of the Resolute
+Lay on Hands
+Improved Cleanse
+Blinding Light
+Fist of Justice
+Afterimage
+Greater Judgment
+A Just Reward 2
+Guided Prayer
+Divine Steed
+Cavalier
+Blessing of Freedom
+Armory of Light
+Divine Toll
+Obduracy 2
+Sanctified Plates 2
+Unbound Freedom
+Consecrated Ground
+Blessing of Sacrifice
+Blessing of Protection
+Quickened Invocation
+Brought to Light
+Sacrifice of the Just
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Inspired Guard
+Holy Ritual
+Lead the Charge
+Seal of Might 2
+Selfless Healer
+Blessing of Dusk
+
+Holy Shock
+Light of Dawn
+Infusion of Light
+Aura Mastery
+Beacon of the Lightbringer
+Light's Conviction
+Awestruck
+Extrication
+Imbued Infusions
+Light of the Martyr
+Divine Favor
+Moment of Compassion
+Shining Righteousness
+Light's Protection
+Righteous Judgment
+Bestow Light
+Divine Revelations
+Commanding Light
+Divine Glimpse
+Crusader's Might
+Beacon of Faith
+Reclamation
+Avenging Wrath
+Divine Overload
+Sanctified Wrath
+Seek Deliverance
+Inflorescence of the Sunwell
+Rising Sunlight
+Glorious Dawn
+Hand of Divinity
+Beacon of the Savior 1
+Beacon of the Savior 2
+Beacon of the Savior 1
+
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+1 month ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

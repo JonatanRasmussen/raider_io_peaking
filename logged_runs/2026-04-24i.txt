@@ -1,0 +1,948 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+203
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Fri Apr 24 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 2 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 6 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+
+BudoBoy07
+Personal Logs
++
+Nexus-Point Xenas+
+Level 18 [Fortified] [Tyrannical] [Xal'atath's Guile] 1 (3:30) 11:52 AM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Chief Corewright Kasreth
+        Corewarden Nysarra
+        Lothraxion
+        Pull 1 (1:31) +0:18
+        Circuit Seer
+
+Entire Dungeon
+
+    + All Friendlies
+        Depressdh
+        +Hadoukenx
+            +Efflorescence
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+            ID: 47649
+            +Treant
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+            ID: 54983
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+            ID: 253466
+        +Jackeichan
+            Niuzao
+
+            ID: 73967
+        +Elyý
+            +Antoran Inquisitor
+                1
+
+                2
+
+            ID: 258242
+            +Antoran Jailer
+                1
+
+                2
+
+            ID: 255147
+            +Charhound
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 226269
+            Demonic Tyrant
+
+            ID: 250289
+            +Dreadstalker
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+            ID: 98035
+            Erakzinul
+            Imp Lord
+
+            ID: 258584
+            Lady Sacrolash
+
+            ID: 260076
+            +Mother of Chaos
+                1
+
+                2
+
+            ID: 228576
+            +Overlord
+                1
+
+                2
+
+            ID: 228575
+            +Pit Lord
+                1
+
+                2
+
+            ID: 228574
+            +Wild Imp (Hand of Gul'dan)
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+                51
+
+                52
+
+                53
+
+                54
+
+            ID: 55659
+            +Wild Imp (Inner Demons/To Hell and Back)
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+            ID: 143622
+
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0000:3001:0001:3002:0002:3003:0003:300M1M2M3M4M5M
+Group Composition Item Level: 280.40
+Tanks:	Jackeichan
+DPS:	Depressdh Powerpegging Elyý
+Healers:	Hadoukenx
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Depressdh
+31.74%
+32.61m 	154,911.3
+Elyý
+28.85%
+29.63m 	140,792.9
+Powerpegging
+23.40%
+24.04m 	114,192.2
+Jackeichan
+12.85%
+13.20m 	62,713.1
+Hadoukenx
+3.17%
+3.25m 	15,450.6
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Hadoukenx
+41.98%
+8.73m 	41,481.9
+Jackeichan
+38.99%
+8.11m 	38,530.9
+Powerpegging
+9.82%
+2.04m 	9,705.0
+Elyý
+5.22%
+1.09m 	5,161.1
+Depressdh
+3.99%
+830.3k 	3,944.7
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Arcing Mana
+28.55%
+5.83m 	27,720.3
+Stagger
+17.91%
+3.66m 	17,387.6
+Melee
+16.36%
+3.34m 	15,887.5
+Suppression Field
+5.85%
+1.20m 	5,677.7
+Arcane Zap
+5.80%
+1.19m 	5,631.3
+Corespark Overload
+4.76%
+972.7k 	4,621.3
+Arcane Explosion
+4.11%
+840.1k 	3,991.1
+Erratic Zap
+3.82%
+779.9k 	3,705.2
+Umbra Bolt
+3.75%
+767.1k 	3,644.5
+Null Sunder
+2.23%
+455.7k 	2,165.0
+Arcane Spill
+2.08%
+425.1k 	2,019.7
+Erratic Surge
+1.90%
+387.7k 	1,842.1
+Burning Rush
+1.13%
+231.5k 	1,100.1
+Suppression Field
+0.92%
+187.9k 	892.9
+Stretch Time
+0.70%
+143.8k 	682.9
+Fel Armor
+0.13%
+25.7k 	121.9
+Falling
+0.01%
+2.2k 	10.4
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Elyý 	Umbra Bolt 	1:32
+Hadoukenx 	Erratic Zap 	1:40
+Jackeichan 	Melee 	1:47
+Depressdh 	Arcing Mana 	1:47
+Powerpegging 	Corespark Overload 	1:48
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Jackeichan
+Monk (Brewmaster)
+281 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Detox
+Grace of the Crane
+Calming Presence
+Vivacious Vivification
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Energy Transfer
+Transcendence
+Celerity
+Chi Burst
+Ring of Peace
+Improved Touch of Death
+Hasty Provocation
+Ferocity of Xuen 2
+Vigorous Expulsion
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Expeditious Fortification
+Chi Proficiency 2
+Windwalking
+Chi Transfer
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Swift as a Coursing River
+Elixir of Determination
+Quick Sip
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Fluidity of Motion
+Elusive Footwork
+Celestial Infusion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Zen State
+Face Palm
+Sal'salabim's Strength
+Black Ox Brew
+Counterstrike
+Dragonfire Brew
+High Tolerance 2
+Blackout Combo
+Invoke Niuzao, the Black Ox
+Exploding Keg
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+		0 	1
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Depressdh
+Demon Hunter (Devourer)
+280 Item Level
+Vengeful Retreat
+Sigil of Misery
+Voidblade
+Unrestrained Fury
+Shattered Restoration
+Bouncing Glaives
+Imprison
+Improved Disrupt
+Consume Magic
+Void Nova
+Aura of Pain
+Disrupting Fury
+Blazing Path
+Focused Ire
+Soul Rending 2
+Felfire Haste
+Pursuit
+Soul Cleanse
+Illidari Knowledge 2
+Will of the Illidari 2
+Guile
+Remorseless
+Internal Struggle
+First In, Last Out
+Furious
+Soul Splitter 2
+Erratic Felheart 1
+Darkness
+Final Breath
+Pitch Black
+Demonic Resilience
+
+Void Ray
+Soul Immolation
+Predator's Thirst
+Void Metamorphosis
+Feast of Souls
+Tempered Soul
+Collapsing Star
+Moment of Craving
+Soulshaper
+Waste Not
+Entropy
+Sweet Suffering 2
+Sweet Release 2
+Improved Consume
+Voidpurge
+Focused Ray
+Voidrage 2
+Devourer's Edge 2
+Demonic Instinct 2
+Rolling Torment
+Impending Apocalypse
+Calamitous
+Star Fragments
+Eradicate
+Emptiness
+Midnight 1
+Midnight 2
+Midnight 1
+		1 	0
+Powerpegging
+Evoker (Augmentation)
+279 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Walloping Blow
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Time Spiral
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Bestow Weyrnstone
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		0 	2
+Elyý
+Warlock (Demonology)
+283 Item Level
+Fel Domination
+Burning Rush
+Soul Leech
+Fiendish Stride
+Fel Armor 2
+Demon Skin 2
+Demonic Fortitude
+Demonic Embrace
+Mortal Coil
+Banish
+Curse of Tongues
+Demonic Circle
+Improved Mortal Coil
+Pact of the Annihilan
+Pact of the Satyr
+Dark Pact
+Fortified Soul
+Empowered Healthstone
+Foul Mouth
+Frequent Donor
+Pact of the Eredar
+Pact of the Nathrezim
+Demonic Gateway
+Strength of Will
+Shadowfury
+Swift Artifice
+Fel Synergy 2
+Soul Link 2
+Pact of Gluttony
+Soulburn
+Blight of Tongues
+
+Hand of Gul'dan
+Call Dreadstalkers
+Demoniac
+Dreadlash
+Fel Intellect
+Implosion
+Imp-erator
+Summon Felguard
+Carnivorous Stalkers 2
+Rune of Shadows 2
+Infernal Rapidity
+Summon Demonic Tyrant
+Demonic Brutality
+Blighted Maw
+Imp Gang Boss
+Inner Demons
+Flametouched
+Antoran Armaments
+Tyrant's Oblation
+Demonic Calling 2
+Master Summoner
+Reign of Tyranny
+Summon Vilefiend
+Grimoire: Imp Lord
+Hellbent Commander
+Mark of F'harg
+To Hell and Back
+Dominion of Argus 1
+Dominion of Argus 2
+Dominion of Argus 1
+		1 	2
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Hadoukenx
+Druid (Restoration)
+279 Item Level
+Frenzied Regeneration
+Starfire
+Rejuvenation
+Starsurge
+Ursoc's Spirit
+Wild Growth
+Moonkin Form
+Verdant Heart
+Improved Nature's Cure
+Nurturing Instinct 2
+Killer Instinct 2
+Sunfire
+Improved Barkskin
+Natural Recovery
+Astral Influence
+Thick Hide
+Wild Charge
+Soothe
+Starlight Conduit
+Aessina's Renewal
+Stampeding Roar
+Well-Honed Instincts
+Lingering Healing
+Ursol's Vortex
+Typhoon
+Lycara's Teachings 2
+Gift of the Wild
+Oakskin
+Forestwalk 2
+Lycara's Inspiration
+Ursine Vigor
+Circle of the Heavens
+Heart of the Wild
+
+Lifebloom
+Swiftmend
+Nature's Swiftness
+Omen of Clarity
+Nature's Splendor
+Verdant Infusion
+Improved Regrowth
+Soul of the Forest
+Tranquility
+Efflorescence
+Ironbark
+Verdancy
+Improved Ironbark
+Grove Guardians
+Lifetreading
+Rampant Growth
+Renewing Surge
+Power of the Archdruid
+Wild Synthesis
+Improved Swiftmend
+Intensity
+Convoke the Spirits
+Call of the Elder Druid
+Cenarius' Guidance
+Dream of Cenarius
+Thriving Vegetation 1
+Master Shapeshifter
+Abundance
+Germination
+Photosynthesis
+Everbloom 1
+Everbloom 2
+Everbloom 1
+		1 	1
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
