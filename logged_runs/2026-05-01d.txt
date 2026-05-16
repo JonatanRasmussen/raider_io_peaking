@@ -1,0 +1,744 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+50
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Fri May 01 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+    VS / DR / MQD
+    BudoBoy07 - (Public) - 1 day ago
+    VS / DR / MQD
+    BudoBoy07 - (Public) - 1 day ago
+
+BudoBoy07
+Personal Logs
++
+Nexus-Point Xenas+
+Level 19 [Tyrannical] [Fortified] [Xal'atath's Guile] 2 (6:22) 2:20 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Chief Corewright Kasreth
+        Corewarden Nysarra
+        Lothraxion
+        Pull 1 (3:25) +0:14
+        Circuit Seer
+
+Entire Dungeon
+
+Analyze
+Compare
+Mechanics
+Rankings
+Replay
+
+    + All Friendlies
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 253466
+        +Shïfu
+            +Niuzao
+                1
+
+                2
+
+            ID: 73967
+        Kloudz
+        Növà
+        +Lillsha
+            +Capacitor Totem
+                1
+
+                2
+
+            ID: 61245
+            +Healing Stream Totem
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+            ID: 3527
+            Healing Tide Totem
+
+            ID: 59764
+            Spirit Link Totem
+
+            ID: 53006
+            +Stormstream Totem
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 256196
+            +Surging Totem
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+            ID: 225409
+
+
+
+
+
+Friendlies Enemies
+
+Tables
+Timelines
+Events
+Queries
+Components
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0000:3001:0001:3002:0002:3003:0003:3004:0004:3005:0005:3006:000M1M2M3M
+Group Composition Item Level: 282.20
+Tanks:	Shïfu
+DPS:	Powerpegging Kloudz Növà
+Healers:	Lillsha
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Növà
+29.49%
+53.77m 	140,745.6
+Kloudz
+27.79%
+50.67m 	132,633.1
+Powerpegging
+26.27%
+47.91m 	125,394.6
+Shïfu
+13.32%
+24.28m 	63,556.0
+Lillsha
+3.13%
+5.71m 	14,938.1
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Shïfu
+45.45%
+20.67m 	54,090.5
+Lillsha
+39.80%
+18.10m 	47,368.8
+Powerpegging
+6.80%
+3.09m 	8,097.1
+Kloudz
+4.41%
+2.01m 	5,250.8
+Növà
+3.54%
+1.61m 	4,216.3
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+17.79%
+7.20m 	18,846.0
+Stagger
+17.72%
+7.17m 	18,776.5
+Corespark Overload
+13.93%
+5.64m 	14,758.5
+Arcane Explosion
+10.72%
+4.34m 	11,360.8
+Arcing Mana
+10.09%
+4.09m 	10,694.6
+Arcane Zap
+8.38%
+3.39m 	8,880.6
+Blistering Smite
+5.08%
+2.06m 	5,382.6
+Umbra Bolt
+4.86%
+1.97m 	5,149.2
+Null Sunder
+3.81%
+1.54m 	4,037.1
+Searing Rend
+3.48%
+1.41m 	3,689.1
+Suppression Field
+1.70%
+686.4k 	1,796.6
+Arcane Spill
+0.56%
+227.8k 	596.1
+Suppression Field
+0.53%
+213.9k 	560.0
+Erratic Surge
+0.53%
+212.9k 	557.3
+Radiant Scar
+0.51%
+205.2k 	537.1
+Searing Rend
+0.31%
+125.1k 	327.3
+Falling
+0.01%
+5.8k 	15.2
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Lillsha 	Arcing Mana 	3:32
+Növà 	Corespark Overload 	3:33
+Shïfu 	Umbra Bolt 	3:36
+Kloudz 	Arcane Spill 	3:38
+Powerpegging 	Melee 	3:40
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Shïfu
+Monk (Brewmaster)
+282 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Detox
+Grace of the Crane
+Calming Presence
+Pressure Points
+Vivacious Vivification
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Transcendence
+Celerity
+Chi Burst
+Ring of Peace
+Improved Touch of Death
+Hasty Provocation
+Ferocity of Xuen 2
+Vigorous Expulsion
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Expeditious Fortification
+Chi Proficiency 2
+Chi Transfer
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+Transcendence: Linked Spirits
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Improved Blackout Kick
+Elixir of Determination
+Quick Sip
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Shadowboxing Treads
+Elusive Footwork
+Celestial Infusion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Zen State
+Face Palm
+Sal'salabim's Strength
+Bob and Weave
+Counterstrike
+Dragonfire Brew
+High Tolerance 2
+Blackout Combo
+Invoke Niuzao, the Black Ox
+Exploding Keg
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+		2 	0
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Powerpegging
+Evoker (Augmentation)
+283 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Improved Defy Fate
+Power Nexus
+Volcanism
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		1 	1
+Kloudz
+Paladin (Retribution)
+282 Item Level
+Lay on Hands
+Auras of the Resolute
+Hammer of Wrath
+Cleanse Toxins
+Blinding Light
+Empyreal Ward
+Fist of Justice
+Divine Steed
+Healing Hands
+Guided Prayer
+Greater Judgment
+Cavalier
+Blessing of Freedom
+Shield of Vengeance
+Rebuke
+Obduracy 2
+Sanctified Plates 2
+Unbound Freedom
+Divine Toll
+Punishment
+Blessing of Sacrifice
+Blessing of Protection
+Quickened Invocation
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Inspired Guard
+Lead the Charge
+Blessed Calling
+Seal of Might 2
+Vengeful Wrath 2
+Lightbearer
+Blessing of Dusk
+
+Blade of Justice
+Divine Storm
+Expurgation
+Avenging Wrath
+Light of Justice
+Art of War
+Final Verdict
+Holy Blade
+Holy Flames
+Tempest of the Lightbringer
+Rush of Light
+Sanctify
+Improved Judgment
+Blade of Vengeance
+Zealot's Fervor 2
+Highlord's Wrath
+Blessed Champion
+Burning Crusade
+Crusading Strikes
+Wake of Ashes
+Divine Wrath 2
+Blades of Light 2
+Seething Flames
+Execution Sentence
+Empyrean Legacy
+Burn to Ash
+Crusade
+Light Within 1
+Light Within 2
+Light Within 1
+		2 	0
+Növà
+Rogue (Assassination)
+281 Item Level
+Blind
+Cloak of Shadows
+Shiv
+Thrill Seeking
+Fleet Footed
+Toxic Stiletto
+Master Poisoner
+Tricks of the Trade
+Elusiveness
+Improved Sprint
+Nimble Fingers
+Quick Fingers
+Deadened Nerves
+Iron Stomach
+Virulent Poisons
+Graceful Guile
+Evasion
+Featherfoot
+Deadly Precision
+Atrophic Poison
+Deep Cuts
+Swift Slasher
+Danger Sense
+Tight Spender
+Recuperator
+Lethality 2
+Alacrity 2
+Leeching Poison
+Vigor 2
+Cold Blooded Killer
+Deeper Stratagem
+Thistle Tea
+
+Deadly Poison
+Motivated Murderer
+Path of Blood
+Improved Garrote
+Crimson Tempest
+Internal Bleeding
+Thrown Precision
+Seal Fate
+Razor Wire
+Bloody Mess
+Deathmark
+Caustic Spatter
+Lethal Dose 2
+Finish the Job
+Fatal Concoction 1
+Sanguine Stratagem
+Poison Bomb
+Venomous Wounds
+Amplifying Poison
+Rapid Injection 2
+Kingsbane
+Shrouded Suffocation
+Inspiring Strike
+Scent of Blood 1
+Zoldyck Recipe 2
+Dashing Scoundrel
+Dragon-Tempered Blades
+Implacable 1
+Implacable 2
+Implacable 1
+		1 	1
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Lillsha
+Shaman (Restoration)
+283 Item Level
+Chain Lightning
+Lava Burst
+Chain Heal
+Thunderous Paws
+Earth Shield
+Spirit Walk
+Elemental Orbit
+Nature's Guardian
+Astral Shift
+Brimming with Life 2
+Healing Stream Totem
+Planes Traveler
+Wind Shear
+Capacitor Totem
+Enhanced Imbues
+Spiritual Awakening
+Elemental Resistance
+Refreshing Waters
+Wind Rush Totem
+Static Charge 1
+Ascending Air
+Nature's Fury 2
+Purge
+Spiritwalker's Grace
+Elemental Warding
+Totemic Focus
+Totemic Projection
+Mana Spring
+Therazane's Resilience
+Graceful Spirit
+Nature's Swiftness
+Instinctive Imbuements
+Totemic Surge
+
+Riptide
+Healing Stream Totem
+Healing Rain
+Water Totem Mastery
+Acid Rain
+Healing Tide Totem
+Living Stream
+Resurgence
+First Ascendant
+Ancestral Vigor 2
+Current Control
+White Water
+Quickstream
+Earthliving Weapon
+Unleash Life
+Torrent
+Rip Current
+Ancestral Reach
+Deluge
+Tidal Waves
+Spirit Link Totem
+Echo of the Elements
+Earthen Harmony
+Ancestral Awakening 2
+Spouting Spirits
+Primal Tide Core
+Coalescing Water
+Deeply Rooted Elements
+Stormstream Totem 1
+Stormstream Totem 2
+Stormstream Totem 1
+		0 	1
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+2 months ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

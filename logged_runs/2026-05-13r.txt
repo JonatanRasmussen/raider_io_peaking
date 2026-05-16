@@ -1,0 +1,853 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+55
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Wed May 13 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Unknown Zone
+    BudoBoy07 - (Public) - 20 minutes ago
+    Unknown Zone
+    BudoBoy07 - (Public) - 23 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 19 hours ago
+
+BudoBoy07
+Personal Logs
++
+Maisara Caverns+
+Level 20 [Tyrannical] [Fortified] [Xal'atath's Guile] 3 (3:19) 10:15 AM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Muro'jin and Nekraxx
+        Vordaza
+        Rak'tul, Vessel of Souls
+        Pull 1 (1:05) +0:10
+        Dread Souleater
+        Pull 2 (0:30) +1:35
+        Hex Guardian
+
+Entire Dungeon
+
+Analyze
+Compare
+Mechanics
+Rankings
+Replay
+
+    + All Friendlies
+        +Elypsia
+            +Abomination
+                1
+
+                2
+
+            ID: 149555
+            +High Inquisitor Whitemane
+                1
+
+                2
+
+            ID: 221633
+            Highlord Darion Mograine
+
+            ID: 221632
+            +King Thoras Trollbane
+                1
+
+                2
+
+            ID: 221635
+            +Lesser Ghoul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+            ID: 237409
+            +Lesser Ghoul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+            ID: 258578
+            Limbdrinker
+            +Magus of the Dead
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+            ID: 163366
+            +Nazgrim
+                1
+
+                2
+
+                3
+
+            ID: 221634
+        Pinki
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+            ID: 253466
+        +Андромедаа
+            Capacitor Totem
+
+            ID: 61245
+            Greater Earth Elemental
+
+            ID: 95072
+            +Healing Stream Totem
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 3527
+            Healing Tide Totem
+
+            ID: 59764
+            Spirit Link Totem
+
+            ID: 53006
+            +Stormstream Totem
+                1
+
+                2
+
+                3
+
+            ID: 256196
+            +Surging Totem
+                1
+
+                2
+
+                3
+
+            ID: 225409
+        Keÿ
+
+
+
+
+
+Friendlies Enemies
+
+Tables
+Timelines
+Events
+Queries
+Components
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0000:1500:3000:4501:0001:1501:3001:4502:0002:1502:3002:4503:0003:150M1M2M3M4M5M
+Group Composition Item Level: 283.80
+Tanks:	Keÿ
+DPS:	Elypsia Pinki Powerpegging
+Healers:	Андромедаа
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Elypsia
+30.11%
+46.09m 	231,555.5
+Pinki
+28.67%
+43.89m 	220,483.5
+Powerpegging
+24.26%
+37.14m 	186,565.3
+Keÿ
+15.27%
+23.37m 	117,405.6
+Андромедаа
+1.69%
+2.59m 	13,024.3
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Андромедаа
+44.52%
+10.93m 	54,902.1
+Keÿ
+36.91%
+9.06m 	45,517.7
+Powerpegging
+11.01%
+2.70m 	13,577.3
+Pinki
+3.99%
+979.5k 	4,921.1
+Elypsia
+3.57%
+876.6k 	4,404.1
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+57.04%
+14.97m 	75,189.4
+Searing Presence
+15.09%
+3.96m 	19,890.7
+Throw Spear
+10.46%
+2.74m 	13,789.9
+Necrotic Wave
+5.23%
+1.37m 	6,894.6
+Sear
+5.10%
+1.34m 	6,721.2
+Crunch Armor
+3.89%
+1.02m 	5,126.6
+Magma Surge
+2.26%
+593.1k 	2,979.5
+Stretch Time
+0.62%
+162.8k 	818.1
+Falling
+0.32%
+83.6k 	420.2
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Keÿ 	Melee 	2:00
+Pinki 	Melee 	2:02
+Elypsia 	Melee 	2:02
+Андромедаа 	Melee 	2:05
+Powerpegging 	Sear 	2:06
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Keÿ
+Warrior (Protection)
+284 Item Level
+Defensive Stance
+Battle Stance
+War Machine
+Thunder Clap
+Leeching Strikes
+Impending Victory
+Storm Bolt
+Heroic Leap
+Crackling Thunder
+Second Wind
+Pain and Gain
+Bounding Stride
+Rend
+Rallying Cry
+Spell Reflection
+Field Dressing
+Shockwave
+Wrecking Throw
+Honed Reflexes
+Rumbling Earth
+Intimidating Shout
+Armored to the Teeth 2
+Reinforced Plates 2
+Crushing Force
+Javelineer
+One-Handed Weapon Specialization 2
+Wild Strikes 2
+Cruel Strikes 2
+Stance Mastery
+Anger Management
+Battlefield Commander
+
+Ignore Pain
+Revenge
+Demoralizing Shout
+Devastator
+Brace For Impact
+Armor Specialization
+Strategist
+Disrupting Shout
+Instigate
+Shield Wall
+Best Served Cold
+Brutal Vitality
+Thunderlord
+Defender's Aegis
+Punish
+Enduring Defenses 2
+Fueled by Violence
+Tough as Nails
+Unyielding Stance
+Avatar
+Focused Vigor
+Into the Fray
+Shield Specialization
+Violent Outburst
+Booming Voice
+Indomitable
+Shield Charge
+Whirling Blade
+Battle-Scarred Veteran
+Phalanx 1
+Phalanx 2
+Phalanx 1
+		1 	1
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Elypsia
+Death Knight (Unholy)
+284 Item Level
+Death Strike
+Icebound Fortitude
+Raise Dead
+Runic Attenuation
+Improved Death Strike
+Cleaving Strikes
+Gloom Ward 2
+Unholy Momentum 2
+Mind Freeze
+Wraith Walk
+Enfeeble
+Blinding Sleet
+Brittle
+Permafrost
+Veteran of the Third War
+Coldthirst
+Anti-Magic Zone
+Unholy Bond
+Icy Talons
+Anti-Magic Barrier
+Death's Reach
+Grip of the Dead
+Unholy Endurance
+Blood Scent
+Suppression
+Insidious Chill
+Blood Draw
+Will of the Necropolis 2
+Rune Mastery 2
+Death's Echo
+Null Magic
+
+Outbreak
+Scourge Strike
+Sudden Doom
+Dark Transformation
+Putrefy
+Clawing Shadows
+Foul Infections
+Grave Mastery
+Necromancer's Cunning
+Magus of the Dead
+Soul Reaper
+Festering Scythe
+Ebon Fever
+Army of the Dead
+Reaping
+Cycle of Death
+Ghoulish Frenzy
+Menacing Magus
+Raise Abomination
+Harbinger of Doom
+Unholy Devotion
+Doomed Bidding
+Blightburst
+Putrid Echoes
+Commander of the Dead 2
+Unholy Aura 2
+Outnumber
+Reanimation
+Forbidden Knowledge 1
+Forbidden Knowledge 2
+Forbidden Knowledge 1
+		1 	0
+Pinki
+Demon Hunter (Devourer)
+283 Item Level
+Vengeful Retreat
+Sigil of Misery
+Voidblade
+Unrestrained Fury
+Shattered Restoration
+Bouncing Glaives
+Imprison
+Improved Disrupt
+Consume Magic
+Void Nova
+Aura of Pain
+Disrupting Fury
+Blazing Path
+Focused Ire
+Soul Rending 2
+Felfire Haste
+Pursuit
+Soul Cleanse
+Illidari Knowledge 2
+Will of the Illidari 2
+Guile
+Remorseless
+Internal Struggle
+First In, Last Out
+Furious
+Demon Muzzle
+Soul Splitter 2
+Darkness
+Final Breath
+Pitch Black
+Demonic Resilience
+
+Void Ray
+Soul Immolation
+Predator's Thirst
+Void Metamorphosis
+Feast of Souls
+Tempered Soul
+Collapsing Star
+Moment of Craving
+Soulshaper
+Waste Not
+Entropy
+Sweet Suffering 2
+Sweet Release 2
+Improved Consume
+Voidpurge
+Focused Ray
+Voidrage 2
+Devourer's Edge 2
+Demonic Instinct 2
+Rolling Torment
+Impending Apocalypse
+Calamitous
+Star Fragments
+Eradicate
+Emptiness
+Midnight 1
+Midnight 2
+Midnight 1
+		1 	0
+Powerpegging
+Evoker (Augmentation)
+284 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Innate Magic 2
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Attuned to the Dream 2
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Exuberance
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Bestow Weyrnstone
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		0 	1
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Андромедаа
+Shaman (Restoration)
+284 Item Level
+Chain Lightning
+Lava Burst
+Chain Heal
+Thunderous Paws
+Earth Shield
+Elemental Orbit
+Nature's Guardian
+Astral Shift
+Gust of Wind
+Brimming with Life 2
+Healing Stream Totem
+Planes Traveler
+Wind Shear
+Capacitor Totem
+Elemental Resistance
+Enhanced Imbues
+Spiritual Awakening
+Refreshing Waters
+Wind Rush Totem
+Earth Elemental
+Jet Stream
+Nature's Fury 2
+Purge
+Primordial Bond
+Spiritwalker's Grace
+Elemental Warding
+Totemic Focus
+Totemic Projection
+Therazane's Resilience
+Graceful Spirit
+Nature's Swiftness
+Instinctive Imbuements
+Totemic Surge
+
+Riptide
+Healing Stream Totem
+Healing Rain
+Water Totem Mastery
+Acid Rain
+Soothing Rain
+Healing Tide Totem
+Living Stream
+Resurgence
+First Ascendant
+Ancestral Vigor 2
+White Water
+Quickstream
+Earthliving Weapon
+Unleash Life
+Torrent
+Ancestral Reach
+Deluge
+Tidal Waves
+Improved Earthliving Weapon
+Spirit Link Totem
+Echo of the Elements
+Earthen Harmony
+Ancestral Awakening 2
+Spouting Spirits
+Primal Tide Core
+Coalescing Water
+Deeply Rooted Elements
+Stormstream Totem 1
+Stormstream Totem 2
+Stormstream Totem 1
+		0 	0
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+2 months ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

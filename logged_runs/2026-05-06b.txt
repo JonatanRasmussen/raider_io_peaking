@@ -1,0 +1,3414 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+57
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Wed May 06 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Unknown Zone
+    BudoBoy07 - (Public) - 4 minutes ago
+    Unknown Zone
+    BudoBoy07 - (Public) - 8 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 19 hours ago
+
+BudoBoy07
+Personal Logs
++
+Nexus-Point Xenas+
+Level 10 [Xal'atath's Bargain: Devour] [Fortified] [Tyrannical] 2 (20:28) 12:52 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Chief Corewright Kasreth
+        Corewarden Nysarra
+        Lothraxion
+        Pull 1 (0:42) +0:16
+        Lingering Image
+        Pull 2 (3:00) +1:08
+        Circuit Seer
+        Pull 3 (0:27) +4:12
+        Circuit Seer
+        Pull 4 (2:02) +4:48
+        Chief Corewright Kasreth
+        Pull 5 (0:33) +7:24
+        Duskfright Herald
+        Pull 6 (1:17) +8:02
+        Null Sentinel
+        Pull 7 (0:40) +9:25
+        Duskfright Herald
+        Pull 8 (1:00) +10:10
+        Dreadflail
+        Pull 9 (0:34) +11:14
+        Lingering Image
+        Pull 10 (0:46) +11:53
+        Duskfright Herald
+        Pull 11 (0:54) +12:47
+        Null Sentinel
+        Pull 12 (1:40) +13:53
+        Corewarden Nysarra
+        Pull 13 (0:36) +16:27
+        Lingering Image
+        Pull 14 (0:56) +17:10
+        Lingering Image
+        Pull 15 (2:19) +18:17
+        Lothraxion
+
+Entire Dungeon
+
+Analyze
+Compare
+Mechanics
+Rankings
+Replay
+
+    + All Friendlies
+        +Powerpegging
+            +Past Self
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+            ID: 185800
+        +Foxonk
+            +Black Ox Statue
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+            ID: 61146
+            +Niuzao
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+            ID: 73967
+        +Hypno
+            +Capacitor Totem
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+            ID: 61245
+            +Primal Fire Elemental
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+            ID: 61029
+            +Primal Storm Elemental
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+
+            ID: 77942
+        +Incineration
+            +Antoran Inquisitor
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+            ID: 258242
+            +Antoran Jailer
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+            ID: 255147
+            Bleekghun
+            +Charhound
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+            ID: 226269
+            +Demonic Tyrant
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+            ID: 250289
+            +Dreadstalker
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+                51
+
+                52
+
+                53
+
+                54
+
+                55
+
+                56
+
+                57
+
+                58
+
+                59
+
+                60
+                61
+
+                62
+
+                63
+
+                64
+
+                65
+
+                66
+
+                67
+
+                68
+
+                69
+
+                70
+                71
+
+                72
+
+                73
+
+                74
+
+                75
+
+                76
+
+                77
+
+                78
+
+                79
+
+                80
+                81
+
+                82
+
+                83
+
+                84
+
+                85
+
+                86
+
+                87
+
+                88
+
+                89
+
+                90
+                91
+
+                92
+
+                93
+
+                94
+
+                95
+
+                96
+
+                97
+
+                98
+
+            ID: 98035
+            +Grand Warlock Alythess
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+            ID: 260077
+            +Imp Lord
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+            ID: 258584
+            +Lady Sacrolash
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+            ID: 260076
+            +Mother of Chaos
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+            ID: 228576
+            +Overlord
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+            ID: 228575
+            +Pit Lord
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+            ID: 228574
+            +Wild Imp (Hand of Gul'dan)
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+                51
+
+                52
+
+                53
+
+                54
+
+                55
+
+                56
+
+                57
+
+                58
+
+                59
+
+                60
+                61
+
+                62
+
+                63
+
+                64
+
+                65
+
+                66
+
+                67
+
+                68
+
+                69
+
+                70
+                71
+
+                72
+
+                73
+
+                74
+
+                75
+
+                76
+
+                77
+
+                78
+
+                79
+
+                80
+                81
+
+                82
+
+                83
+
+                84
+
+                85
+
+                86
+
+                87
+
+                88
+
+                89
+
+                90
+                91
+
+                92
+
+                93
+
+                94
+
+                95
+
+                96
+
+                97
+
+                98
+
+                99
+
+                100
+                101
+
+                102
+
+                103
+
+                104
+
+                105
+
+                106
+
+                107
+
+                108
+
+                109
+
+                110
+                111
+
+                112
+
+                113
+
+                114
+
+                115
+
+                116
+
+                117
+
+                118
+
+                119
+
+                120
+                121
+
+                122
+
+                123
+
+                124
+
+                125
+
+                126
+
+                127
+
+                128
+
+                129
+
+                130
+                131
+
+                132
+
+                133
+
+                134
+
+                135
+
+                136
+
+                137
+
+                138
+
+                139
+
+                140
+                141
+
+                142
+
+                143
+
+                144
+
+                145
+
+                146
+
+                147
+
+                148
+
+                149
+
+                150
+                151
+
+                152
+
+                153
+
+                154
+
+                155
+
+                156
+
+                157
+
+                158
+
+                159
+
+                160
+                161
+
+                162
+
+                163
+
+                164
+
+                165
+
+                166
+
+                167
+
+                168
+
+                169
+
+                170
+                171
+
+                172
+
+                173
+
+                174
+
+                175
+
+                176
+
+                177
+
+                178
+
+                179
+
+                180
+                181
+
+                182
+
+                183
+
+                184
+
+                185
+
+                186
+
+                187
+
+                188
+
+                189
+
+                190
+                191
+
+                192
+
+                193
+
+                194
+
+                195
+
+                196
+
+                197
+
+                198
+
+                199
+
+                200
+                201
+
+                202
+
+                203
+
+                204
+
+                205
+
+                206
+
+                207
+
+                208
+
+                209
+
+                210
+                211
+
+                212
+
+                213
+
+                214
+
+                215
+
+                216
+
+                217
+
+                218
+
+                219
+
+                220
+                221
+
+                222
+
+                223
+
+                224
+
+                225
+
+                226
+
+                227
+
+                228
+
+                229
+
+                230
+                231
+
+                232
+
+                233
+
+                234
+
+                235
+
+                236
+
+                237
+
+                238
+
+                239
+
+                240
+                241
+
+                242
+
+                243
+
+                244
+
+                245
+
+                246
+
+                247
+
+                248
+
+                249
+
+                250
+                251
+
+                252
+
+                253
+
+                254
+
+                255
+
+                256
+
+                257
+
+                258
+
+                259
+
+                260
+                261
+
+                262
+
+                263
+
+                264
+
+                265
+
+                266
+
+                267
+
+                268
+
+                269
+
+                270
+                271
+
+                272
+
+                273
+
+                274
+
+                275
+
+                276
+
+                277
+
+                278
+
+                279
+
+                280
+                281
+
+                282
+
+                283
+
+                284
+
+                285
+
+                286
+
+                287
+
+                288
+
+                289
+
+                290
+                291
+
+                292
+
+                293
+
+                294
+
+                295
+
+                296
+
+                297
+
+                298
+
+                299
+
+                300
+                301
+
+                302
+
+                303
+
+                304
+
+                305
+
+                306
+
+                307
+
+                308
+
+                309
+
+                310
+                311
+
+                312
+
+                313
+
+                314
+
+                315
+
+                316
+
+                317
+
+                318
+
+                319
+
+                320
+                321
+
+                322
+
+                323
+
+                324
+
+                325
+
+                326
+
+                327
+
+                328
+
+                329
+
+                330
+                331
+
+                332
+
+                333
+
+                334
+
+                335
+
+                336
+
+                337
+
+                338
+
+                339
+
+                340
+                341
+
+                342
+
+                343
+
+                344
+
+                345
+
+                346
+
+                347
+
+                348
+
+                349
+
+                350
+                351
+
+                352
+
+                353
+
+                354
+
+                355
+
+                356
+
+                357
+
+                358
+
+                359
+
+                360
+                361
+
+                362
+
+                363
+
+                364
+
+                365
+
+                366
+
+                367
+
+                368
+
+                369
+
+                370
+                371
+
+                372
+
+                373
+
+                374
+
+                375
+
+                376
+
+                377
+
+                378
+
+                379
+
+                380
+                381
+
+                382
+
+                383
+
+                384
+
+                385
+
+                386
+
+                387
+
+                388
+
+                389
+
+                390
+                391
+
+                392
+
+                393
+
+                394
+
+                395
+
+                396
+
+                397
+
+                398
+
+                399
+
+                400
+                401
+
+                402
+
+                403
+
+                404
+
+                405
+
+                406
+
+                407
+
+                408
+
+                409
+
+                410
+                411
+
+                412
+
+                413
+
+                414
+
+                415
+
+                416
+
+                417
+
+                418
+
+                419
+
+                420
+                421
+
+                422
+
+                423
+
+                424
+
+                425
+
+                426
+
+                427
+
+                428
+
+                429
+
+                430
+                431
+
+                432
+
+                433
+
+                434
+
+                435
+
+                436
+
+                437
+
+                438
+
+                439
+
+                440
+                441
+
+                442
+
+                443
+
+                444
+
+                445
+
+                446
+
+                447
+
+                448
+
+                449
+
+                450
+                451
+
+                452
+
+                453
+
+                454
+
+                455
+
+                456
+
+                457
+
+                458
+
+                459
+
+                460
+                461
+
+                462
+
+                463
+
+                464
+
+                465
+
+                466
+
+                467
+
+                468
+
+                469
+
+                470
+                471
+
+                472
+
+                473
+
+                474
+
+                475
+
+                476
+
+                477
+
+                478
+
+                479
+
+                480
+                481
+
+                482
+
+                483
+
+                484
+
+                485
+
+                486
+
+                487
+
+                488
+
+                489
+
+                490
+                491
+
+                492
+
+                493
+
+                494
+
+                495
+
+                496
+
+                497
+
+                498
+
+                499
+
+                500
+                501
+
+                502
+
+                503
+
+                504
+
+                505
+
+                506
+
+                507
+
+                508
+
+                509
+
+                510
+                511
+
+                512
+
+                513
+
+                514
+
+                515
+
+                516
+
+                517
+
+                518
+
+                519
+
+                520
+                521
+
+                522
+
+                523
+
+                524
+
+                525
+
+                526
+
+                527
+
+                528
+
+                529
+
+                530
+                531
+
+                532
+
+                533
+
+                534
+
+                535
+
+                536
+
+                537
+
+                538
+
+                539
+
+                540
+                541
+
+                542
+
+                543
+
+                544
+
+                545
+
+                546
+
+                547
+
+                548
+
+                549
+
+                550
+                551
+
+                552
+
+                553
+
+                554
+
+                555
+
+                556
+
+                557
+
+                558
+
+                559
+
+                560
+                561
+
+                562
+
+                563
+
+                564
+
+                565
+
+                566
+
+                567
+
+                568
+
+                569
+
+                570
+                571
+
+                572
+
+                573
+
+                574
+
+                575
+
+                576
+
+                577
+
+                578
+
+                579
+
+                580
+                581
+
+                582
+
+                583
+
+                584
+
+                585
+
+                586
+
+                587
+
+                588
+
+                589
+
+                590
+                591
+
+                592
+
+                593
+
+                594
+
+                595
+
+                596
+
+                597
+
+                598
+
+                599
+
+                600
+                601
+
+                602
+
+                603
+
+                604
+
+                605
+
+                606
+
+                607
+
+                608
+
+                609
+
+                610
+                611
+
+                612
+
+                613
+
+                614
+
+                615
+
+                616
+
+                617
+
+                618
+
+                619
+
+                620
+                621
+
+                622
+
+                623
+
+                624
+
+                625
+
+                626
+
+                627
+
+                628
+
+                629
+
+                630
+                631
+
+                632
+
+                633
+
+                634
+
+                635
+
+                636
+
+                637
+
+                638
+
+                639
+
+                640
+                641
+
+                642
+
+                643
+
+                644
+
+                645
+
+                646
+
+                647
+
+                648
+
+                649
+
+                650
+                651
+
+                652
+
+                653
+
+                654
+
+                655
+
+                656
+
+                657
+
+                658
+
+                659
+
+                660
+                661
+
+                662
+
+                663
+
+                664
+
+                665
+
+                666
+
+                667
+
+                668
+
+                669
+
+                670
+                671
+
+                672
+
+                673
+
+                674
+
+                675
+
+                676
+
+                677
+
+                678
+
+                679
+
+                680
+                681
+
+                682
+
+                683
+
+                684
+
+                685
+
+                686
+
+                687
+
+                688
+
+                689
+
+                690
+                691
+
+                692
+
+                693
+
+                694
+
+                695
+
+                696
+
+                697
+
+                698
+
+                699
+
+                700
+                701
+
+                702
+
+                703
+
+                704
+
+                705
+
+                706
+
+                707
+
+                708
+
+                709
+
+                710
+                711
+
+                712
+
+                713
+
+                714
+
+                715
+
+                716
+
+                717
+
+                718
+
+                719
+
+                720
+                721
+
+                722
+
+                723
+
+                724
+
+                725
+
+                726
+
+                727
+
+                728
+
+                729
+
+                730
+                731
+
+                732
+
+                733
+
+                734
+
+                735
+
+                736
+
+                737
+
+                738
+
+            ID: 55659
+            +Wild Imp (Inner Demons/To Hell and Back)
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+                51
+
+                52
+
+                53
+
+                54
+
+                55
+
+                56
+
+                57
+
+                58
+
+                59
+
+                60
+                61
+
+                62
+
+                63
+
+                64
+
+                65
+
+                66
+
+                67
+
+                68
+
+                69
+
+                70
+                71
+
+                72
+
+                73
+
+                74
+
+                75
+
+                76
+
+                77
+
+                78
+
+                79
+
+                80
+                81
+
+                82
+
+                83
+
+                84
+
+                85
+
+                86
+
+                87
+
+                88
+
+                89
+
+                90
+                91
+
+                92
+
+                93
+
+                94
+
+                95
+
+                96
+
+                97
+
+                98
+
+                99
+
+                100
+                101
+
+                102
+
+                103
+
+                104
+
+                105
+
+                106
+
+                107
+
+                108
+
+                109
+
+                110
+                111
+
+                112
+
+                113
+
+                114
+
+                115
+
+                116
+
+                117
+
+                118
+
+                119
+
+                120
+                121
+
+                122
+
+                123
+
+                124
+
+                125
+
+                126
+
+                127
+
+                128
+
+                129
+
+                130
+                131
+
+                132
+
+                133
+
+                134
+
+                135
+
+                136
+
+                137
+
+                138
+
+                139
+
+                140
+                141
+
+                142
+
+                143
+
+                144
+
+                145
+
+                146
+
+                147
+
+                148
+
+                149
+
+                150
+                151
+
+                152
+
+                153
+
+                154
+
+                155
+
+                156
+
+                157
+
+                158
+
+                159
+
+                160
+                161
+
+                162
+
+                163
+
+                164
+
+                165
+
+                166
+
+                167
+
+                168
+
+                169
+
+                170
+                171
+
+                172
+
+                173
+
+                174
+
+                175
+
+                176
+
+                177
+
+                178
+
+                179
+
+                180
+                181
+
+                182
+
+                183
+
+                184
+
+            ID: 143622
+        +Zxu
+            +Darkglare
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+            ID: 103673
+            +Demonic Soul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+            ID: 256413
+            +Desperate Soul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+            ID: 254505
+            Khiighun
+
+
+
+
+Friendlies Enemies
+
+Tables
+Timelines
+Events
+Queries
+Components
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0002:0004:0006:0008:0010:0012:0014:0016:0018:0020:000k1,000k250k500k750k
+Group Composition Item Level: 271.20
+Tanks:	Foxonk
+DPS:	Hypno Incineration Zxu
+Healers:	Powerpegging
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Zxu
+32.24%
+139.09m 	112,389.4
+Incineration
+25.28%
+109.09m 	88,147.6
+Hypno
+23.38%
+100.88m 	81,518.8
+Foxonk
+13.79%
+59.48m 	48,064.2
+Powerpegging
+5.31%
+22.93m 	18,530.2
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Powerpegging
+59.61%
+72.98m 	58,972.9
+Foxonk
+30.75%
+37.65m 	30,422.5
+Zxu
+5.55%
+6.80m 	5,492.8
+Incineration
+3.40%
+4.16m 	3,364.5
+Hypno
+0.69%
+843.0k 	681.2
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Stagger
+22.69%
+26.04m 	21,041.7
+Melee
+13.71%
+15.74m 	12,715.6
+Arcing Mana
+5.40%
+6.20m 	5,008.3
+Dreadbellow
+5.00%
+5.73m 	4,631.9
+Suppression Field
+4.54%
+5.21m 	4,206.4
+Lightscar Flare
+4.23%
+4.86m 	3,924.5
+Brilliant Dispersion
+3.41%
+3.91m 	3,160.6
+Dark Beckoning
+3.08%
+3.53m 	2,854.8
+Eclipsing Step
+2.78%
+3.19m 	2,574.0
+Burning Radiance
+2.74%
+3.15m 	2,543.2
+Blistering Smite
+2.73%
+3.13m 	2,527.5
+Arcane Zap
+2.41%
+2.77m 	2,236.2
+Nullwark Blast
+2.27%
+2.61m 	2,108.9
+Arcane Zap
+2.09%
+2.40m 	1,937.1
+Searing Rend
+2.05%
+2.35m 	1,897.4
+Arcane Explosion
+1.94%
+2.23m 	1,802.1
+Devouring Rift
+1.32%
+1.52m 	1,225.3
+Sparkburn
+1.27%
+1.46m 	1,178.7
+Melee
+1.26%
+1.45m 	1,170.8
+Burning Rush
+1.13%
+1.30m 	1,049.7
+Searing Rend
+1.05%
+1.21m 	976.6
+Umbral Lash
+0.93%
+1.07m 	861.2
+Reflux Charge
+0.89%
+1.02m 	827.4
+Divine Guile
+0.81%
+935.0k 	755.5
+Time Dilation
+0.71%
+812.7k 	656.7
+Null Sunder
+0.68%
+775.9k 	627.0
+Erratic Zap
+0.65%
+748.9k 	605.1
+Melee
+0.65%
+745.2k 	602.1
+Umbra Bolt
+0.62%
+710.5k 	574.1
+Creeping Void
+0.61%
+702.6k 	567.7
+Melee
+0.50%
+573.8k 	463.6
+Fel Armor
+0.48%
+545.5k 	440.8
+Entropic Leech
+0.47%
+537.0k 	433.9
+Dark Beckoning
+0.42%
+482.3k 	389.7
+Searing Rend
+0.39%
+446.4k 	360.7
+Dimensional Shred
+0.37%
+426.5k 	344.7
+Searing Rend
+0.37%
+423.9k 	342.6
+Radiant Scar
+0.37%
+421.9k 	340.9
+Nullify
+0.34%
+389.5k 	314.7
+Holy Bolt
+0.26%
+299.4k 	242.0
+Mirrored Rend
+0.26%
+294.6k 	238.0
+Leyline Array
+0.25%
+285.7k 	230.9
+Lightscar Flare
+0.25%
+284.8k 	230.1
+Suppression Field
+0.23%
+268.1k 	216.6
+Mirrored Rend
+0.22%
+249.8k 	201.9
+Erratic Surge
+0.22%
+249.5k 	201.6
+Void Lash
+0.20%
+226.9k 	183.4
+Flailstorm
+0.18%
+206.6k 	167.0
+Void Lash
+0.16%
+184.7k 	149.3
+Holy Echo
+0.14%
+161.6k 	130.6
+Arcane Spill
+0.14%
+158.2k 	127.9
+Arcane Spill
+0.10%
+112.6k 	91.0
+Flux Collapse
+0.04%
+40.6k 	32.8
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+No data available in table
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Foxonk
+Monk (Brewmaster)
+270 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Detox
+Grace of the Crane
+Calming Presence
+Vivacious Vivification
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Transcendence
+Celerity
+Chi Burst
+Ring of Peace
+Improved Touch of Death
+Hasty Provocation
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Vigorous Expulsion
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Save Them All
+Summon Black Ox Statue
+Expeditious Fortification
+Chi Proficiency 2
+Chi Transfer
+Martial Instincts 1
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Swift as a Coursing River
+Elixir of Determination
+Quick Sip
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Fluidity of Motion
+Elusive Footwork
+Celestial Infusion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Zen State
+Face Palm
+Sal'salabim's Strength
+Black Ox Brew
+Counterstrike
+Dragonfire Brew
+High Tolerance 2
+Blackout Combo
+Invoke Niuzao, the Black Ox
+Exploding Keg
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+		0 	3
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Hypno
+Shaman (Elemental)
+277 Item Level
+Chain Lightning
+Chain Heal
+Lava Burst
+Spirit Wolf
+Earth Shield
+Fire and Ice
+Gust of Wind
+Elemental Orbit
+Nature's Guardian
+Astral Shift
+Brimming with Life 2
+Healing Stream Totem
+Planes Traveler
+Winds of Al'Akir 2
+Wind Shear
+Capacitor Totem
+Enhanced Imbues
+Windveil
+Spiritual Awakening
+Earth Elemental
+Cleanse Spirit
+Primordial Bond
+Nature's Fury 2
+Purge
+Spiritwalker's Grace
+Elemental Warding
+Totemic Focus
+Therazane's Resilience
+Graceful Spirit
+Nature's Swiftness
+Instinctive Imbuements
+Totemic Surge
+
+Elemental Blast
+Echo of the Elements
+Elemental Fury
+Earthquake
+Flash of Lightning
+Aftershock
+Stormkeeper
+Lightning Capacitor
+Fury of the Storms
+Swelling Maelstrom
+Storm Frenzy
+Primordial Fury
+Elemental Resonance
+Elemental Unity
+Amped Up
+Path of the Seer
+Earthshatter
+Echo Chamber
+Everlasting Elements
+Storm Infusion
+Ascendance
+Eye of the Storm
+Inferno Arc
+Call of Fire
+Mountains Will Fall
+Voltaic Blaze
+Lightning Rod
+Primal Elementalist
+Charged Conduit
+First Ascendant
+Feedback Loop 1
+Feedback Loop 2
+Feedback Loop 1
+		0 	0
+Incineration
+Warlock (Demonology)
+251 Item Level
+Fel Domination
+Burning Rush
+Soul Leech
+Fiendish Stride
+Fel Armor 2
+Demon Skin 2
+Demonic Fortitude
+Demonic Embrace
+Mortal Coil
+Banish
+Curse of Tongues
+Demonic Circle
+Improved Mortal Coil
+Pact of the Annihilan
+Pact of the Satyr
+Dark Pact
+Foul Mouth
+Fortified Soul
+Empowered Healthstone
+Frequent Donor
+Pact of the Eredar
+Pact of the Nathrezim
+Shadowfury
+Demonic Gateway
+Strength of Will
+Swift Artifice
+Fel Synergy 1
+Oppressive Darkness
+Soul Link 2
+Pact of Gluttony
+Soulburn
+Blight of Tongues
+
+Hand of Gul'dan
+Call Dreadstalkers
+Demoniac
+Dreadlash
+Fel Intellect
+Implosion
+Imp-erator
+Summon Felguard
+Carnivorous Stalkers 2
+Rune of Shadows 2
+Infernal Rapidity
+Summon Demonic Tyrant
+Demonic Brutality
+Blighted Maw
+Imp Gang Boss
+Inner Demons
+Flametouched
+Antoran Armaments
+Tyrant's Oblation
+Demonic Calling 2
+Master Summoner
+Reign of Tyranny
+Summon Vilefiend
+Grimoire: Imp Lord
+Hellbent Commander
+Mark of F'harg
+To Hell and Back
+Dominion of Argus 1
+Dominion of Argus 2
+Dominion of Argus 1
+		2 	1
+Zxu
+Warlock (Affliction)
+275 Item Level
+Fel Domination
+Burning Rush
+Soul Leech
+Fiendish Stride
+Fel Armor 2
+Demon Skin 2
+Demonic Fortitude
+Demonic Embrace
+Mortal Coil
+Infernal Beneficiary
+Curse of Exhaustion
+Demonic Circle
+Pact of the Annihilan
+Pact of the Satyr
+Gorefiend's Avarice
+Dark Pact
+Foul Mouth
+Fortified Soul
+Ichor of Devils
+Pact of the Eredar
+Pact of the Nathrezim
+Empowered Drain Life
+Shadowfury
+Demonic Gateway
+Strength of Will
+Fel Synergy 2
+Oppressive Darkness
+Frequent Traveler
+Soul Link 2
+Pact of Gluttony
+Soulburn
+
+Agony
+Seed of Corruption
+Unstable Affliction
+Haunt
+Nightfall
+Shared Agony
+Improved Shadow Bolt
+Siphon Life
+Improved Haunt
+Cunning Cruelty
+Creeping Death 2
+Dark Harvest
+Summon Darkglare
+Cull the Weak
+Practiced Pestilence
+Nether Plating
+Contagion
+Malediction
+Sudden Onset
+Eye Contract
+Nocturnal Yield
+Niskaran Methods
+Potent Soul Shards
+Ravenous Afflictions
+Seeds of Destruction 2
+Death's Embrace
+Patient Zero
+Sow the Seeds
+Shadow of Nathreza 1
+Shadow of Nathreza 2
+Shadow of Nathreza 1
+		0 	1
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Powerpegging
+Evoker (Preservation)
+283 Item Level
+Obsidian Scales
+Landslide
+Expunge
+Natural Convergence
+Heavy Wingbeats
+Verdant Embrace
+Obsidian Bulwark
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Ancient Flame
+Attuned to the Dream 2
+Sleep Walk
+Tip the Scales
+Bountiful Bloom
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Exuberance
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Oppressing Roar
+Foci of Life
+Lush Growth 2
+Overawe
+Leaping Flames
+Aerial Mastery
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Echo
+Dream Breath
+Reversion
+Essence Burst
+Temporal Compression
+Rewind
+Essence Attunement
+Lifebind
+Time Dilation
+Unshakable
+Golden Hour
+Temporal Anomaly
+Just in Time
+Spiritual Clarity
+Time Lord 2
+Nozdormu's Teachings
+Call of Ysera
+Grace Period
+Stasis
+Life-Giver's Flame
+Time of Need
+Timeless Magic 2
+Renewing Breath 2
+Dream Simulacrum
+Tempo Charged
+Twin Echoes
+Titan's Gift
+Merithra's Blessing 1
+Merithra's Blessing 2
+Merithra's Blessing 1
+		0 	1
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+2 months ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

@@ -10,7 +10,10 @@ Warcraft Logs
 Enter a player, guild, or realm
 Enter a player, guild, or realm
 Search
-203
+129 Players Streaming
+Statistics
+Latest News
+Recruitment
 Download Archon App
 
     Deutsch
@@ -33,13 +36,13 @@ Settings
 +
 
     Mythic+ Season 1
-    BudoBoy07 - (Public) - 2 hours ago
+    BudoBoy07 - (Public) - 1 day ago
     Mythic+ Season 1
-    BudoBoy07 - (Public) - 6 hours ago
+    BudoBoy07 - (Public) - 1 day ago
     Mythic+ Season 1
-    BudoBoy07 - (Public) - 17 hours ago
+    BudoBoy07 - (Public) - 2 days ago
     Mythic+ Season 1
-    BudoBoy07 - (Public) - 18 hours ago
+    BudoBoy07 - (Public) - 2 days ago
 
 BudoBoy07
 Personal Logs
@@ -86,23 +89,15 @@ Level 18 [Fortified] [Tyrannical] [Xal'atath's Guile] (25:23) 11:19 AM
 
 Entire Dungeon
 
+Analyze
+Compare
+Mechanics
+Rankings
+Replay
+
     + All Friendlies
         Tehzâ
         +Senjimaru
-            +Dryad
-                1
-
-                2
-
-                3
-
-                4
-
-                5
-
-                6
-
-            ID: 255363
             +Dryad
                 1
 
@@ -153,6 +148,20 @@ Entire Dungeon
                 25
 
             ID: 255261
+            +Dryad
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+            ID: 255363
             +Efflorescence
                 1
 
@@ -4429,6 +4438,12 @@ Entire Dungeon
 
 
 Friendlies Enemies
+
+Tables
+Timelines
+Events
+Queries
+Components
 Summary
 Damage Done
 Damage Taken
@@ -4459,10 +4474,10 @@ Filter Expression:
         Hide All Entries
 
 ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0002:0004:0006:0008:0010:0012:0014:0016:0018:0020:0022:0024:000k500k1,000k1,500k2,000k2,500k3,000k
-Group Composition Item Level: 279.20
-Tanks:	Leendert
-DPS:	Starkito Sisora Powerpegging
-Healers:	Sohot
+Group Composition Item Level: 280.20
+Tanks:	Chenmar
+DPS:	Tehzâ Powerpegging Angie
+Healers:	Senjimaru
 Damage Done By Source
 Name
 
@@ -4470,21 +4485,21 @@ Amount
 
 DPS
 
-Starkito
-28.47%
-75.09m 	206,750.0
+Angie
+29.87%
+275.97m 	181,116.5
+Tehzâ
+26.66%
+246.35m 	161,677.4
 Powerpegging
-28.19%
-74.35m 	204,724.9
-Sisora
-27.04%
-71.31m 	196,338.2
-Leendert
-14.03%
-37.01m 	101,894.5
-Sohot
-2.26%
-5.97m 	16,424.7
+22.66%
+209.37m 	137,405.8
+Chenmar
+15.19%
+140.39m 	92,139.2
+Senjimaru
+5.61%
+51.88m 	34,048.3
 Healing Done By Source
 Name
 
@@ -4492,21 +4507,24 @@ Amount
 
 HPS
 
-Sohot
-49.84%
-35.56m 	97,906.0
-Leendert
-36.93%
-26.35m 	72,550.6
+Senjimaru
+45.66%
+112.91m 	74,099.4
+Chenmar
+40.53%
+100.22m 	65,770.0
+Angie
+4.63%
+11.45m 	7,513.2
+Tehzâ
+4.39%
+10.86m 	7,125.1
 Powerpegging
-6.42%
-4.58m 	12,603.6
-Sisora
-3.84%
-2.74m 	7,542.2
-Starkito
-2.98%
-2.13m 	5,855.7
+4.19%
+10.37m 	6,806.0
+Ancient Branch
+0.60%
+1.49m 	979.7
 Damage Taken By Ability
 Name
 
@@ -4515,56 +4533,110 @@ Amount
 DTPS
 
 Stagger
-21.00%
-14.87m 	40,947.8
+24.24%
+58.84m 	38,618.4
 Melee
-20.97%
-14.85m 	40,895.5
-Oozing Slam
-11.85%
-8.39m 	23,101.5
-Chains of Subjugation
-11.70%
-8.28m 	22,808.6
-Pulsing Void
-10.43%
-7.38m 	20,328.9
-Crashing Void
-5.48%
-3.88m 	10,685.2
-Dark Expulsion
-4.68%
-3.31m 	9,119.9
-Rupture
-4.66%
-3.30m 	9,078.1
-Void Slash
-2.08%
-1.48m 	4,065.0
-Void Sludge
-1.61%
-1.14m 	3,129.7
-Decimate
-1.24%
-879.9k 	2,422.9
-Leeching Void
-1.15%
-812.1k 	2,236.1
-Void Slash
-0.91%
-646.0k 	1,778.7
-Void Slash
-0.79%
-558.3k 	1,537.2
+15.33%
+37.20m 	24,415.3
+Splinterbark
+9.19%
+22.32m 	14,648.5
+Deafening Screech
+7.61%
+18.47m 	12,118.5
+Vicious Lunge
+4.67%
+11.33m 	7,435.2
+Spellbound Weapon
+4.04%
+9.80m 	6,433.6
+Blistering Fire
+3.93%
+9.55m 	6,266.5
+Mana Bomb
+3.93%
+9.53m 	6,255.2
+Savage Peck
+2.70%
+6.56m 	4,304.9
+Vile Bite
+2.39%
+5.81m 	3,812.8
+Arcane Smash
+2.07%
+5.03m 	3,301.4
+Arcane Fissure
+1.86%
+4.51m 	2,959.6
+Vicious Ambush
+1.84%
+4.47m 	2,934.1
+Mana Bomb
+1.70%
+4.14m 	2,714.4
+Arcane Expulsion
+1.62%
+3.94m 	2,583.1
+Raging Screech
+1.59%
+3.87m 	2,537.0
+Burst Forth
+1.49%
+3.61m 	2,367.3
+Darting Sting
+1.48%
+3.59m 	2,356.6
+Arcane Bolt
+1.39%
+3.38m 	2,215.7
+Astral Whirlwind
+1.19%
+2.89m 	1,894.6
+Arcane Orb
+0.88%
+2.14m 	1,406.5
+Storm Slash
+0.73%
+1.77m 	1,164.3
+Peck
+0.68%
+1.66m 	1,086.3
+Lasher Toxin
+0.59%
+1.43m 	939.7
+Barkbreaker
+0.51%
+1.25m 	818.0
+Mana Void
+0.49%
+1.19m 	779.1
+Expel Intruders
+0.38%
+928.2k 	609.1
+Fel Armor
+0.32%
+767.7k 	503.8
+Burning Rush
+0.26%
+631.4k 	414.4
+Overpowering Gust
+0.21%
+501.3k 	329.0
 Stretch Time
-0.75%
-532.8k 	1,466.9
-Relentless Pursuit
-0.39%
-273.5k 	753.1
-Umbral Bolt
-0.33%
-230.8k 	635.4
+0.17%
+409.5k 	268.8
+Deadly Winds
+0.17%
+400.8k 	263.0
+Corrupted Mana
+0.16%
+391.9k 	257.2
+Mana Void
+0.14%
+346.2k 	227.2
+Riftbreath
+0.05%
+116.3k 	76.3
 Deaths
 Name
 
@@ -4572,12 +4644,13 @@ Killing Blow
 
 Time
 
-Leendert 	Void Sludge 	5:51
-Sohot 	Dark Expulsion 	5:55
-Starkito 	Dark Expulsion 	5:55
-Sisora 	Dark Expulsion 	5:57
-Powerpegging 	Crashing Void 	5:59
-Leendert 	Melee 	6:01
+Tehzâ 	Burst Forth 	5:19
+Powerpegging 		7:07
+Powerpegging 	Mana Bomb 	20:49
+Powerpegging 	Astral Whirlwind 	24:56
+Angie 	Arcane Bolt 	25:07
+Powerpegging 	Arcane Smash 	25:14
+Senjimaru 	Arcane Smash 	25:18
 Characters
 Tanks
 
@@ -4590,17 +4663,18 @@ Gear
 Potions
 
 Healthstones
-Leendert
+Chenmar
 Monk (Brewmaster)
-278 Item Level
+280 Item Level
 Stagger
 Paralysis
 Tiger's Lust
 Fast Feet
-Detox
 Grace of the Crane
 Calming Presence
+Detox
 Pressure Points
+Vivacious Vivification
 Spear Hand Strike
 Jade Walk
 Ancient Arts 2
@@ -4611,14 +4685,13 @@ Ring of Peace
 Improved Touch of Death
 Hasty Provocation
 Ferocity of Xuen 2
-Tiger Tail Sweep
 Vigorous Expulsion
 Yu'lon's Grace
 Fortifying Brew
 Dance of the Wind
 Strength of Spirit
-Save Them All
 Expeditious Fortification
+Summon Black Ox Statue
 Chi Proficiency 2
 Chi Transfer
 Martial Instincts 2
@@ -4635,7 +4708,7 @@ Quick Sip
 Gift of the Ox
 Spirit of the Ox
 Special Delivery
-Fluidity of Motion
+Shadowboxing Treads
 Elusive Footwork
 Celestial Infusion
 Breath of Fire
@@ -4645,11 +4718,11 @@ Pretense of Instability
 Zen State
 Face Palm
 Sal'salabim's Strength
-Bob and Weave
-Counterstrike
+Black Ox Brew
 Dragonfire Brew
 High Tolerance 2
 Blackout Combo
+Counterstrike
 Invoke Niuzao, the Black Ox
 Exploding Keg
 Vital Flame
@@ -4658,7 +4731,7 @@ Heart of the Ox
 Bring Me Another 1
 Bring Me Another 2
 Bring Me Another 1
-		1 	0
+		5 	10
 DPS
 
 Class Talents
@@ -4670,94 +4743,27 @@ Gear
 Potions
 
 Healthstones
-Starkito
-Death Knight (Unholy)
-279 Item Level
-Death Strike
-Icebound Fortitude
-Raise Dead
-Runic Attenuation
-Improved Death Strike
-Cleaving Strikes
-Blinding Sleet
-Gloom Ward 2
-Unholy Momentum 2
-Mind Freeze
-Wraith Walk
-Enfeeble
-Brittle
-Permafrost
-Veteran of the Third War
-Coldthirst
-Anti-Magic Zone
-Unholy Bond
-Icy Talons
-Death Notes
-Anti-Magic Barrier
-Death's Reach
-Unholy Endurance
-Suppression
-Insidious Chill
-Runic Protection
-Will of the Necropolis 2
-Rune Mastery 2
-Subduing Grasp
-Death's Echo
-Null Magic
-
-Outbreak
-Scourge Strike
-Sudden Doom
-Dark Transformation
-Putrefy
-Clawing Shadows
-Foul Infections
-Grave Mastery
-Necromancer's Cunning
-Magus of the Dead
-Soul Reaper
-Infected Claws
-Festering Scythe
-Ebon Fever
-Cycle of Death
-Coil of Devastation
-Army of the Dead
-Menacing Magus
-Reaping
-Harbinger of Doom
-Unholy Devotion
-Doomed Bidding
-Blightburst
-Putrid Echoes
-Commander of the Dead 2
-Unholy Aura 2
-Outnumber
-Reanimation
-Forbidden Knowledge 1
-Forbidden Knowledge 2
-Forbidden Knowledge 1
-		2 	0
-Sisora
+Tehzâ
 Demon Hunter (Devourer)
-279 Item Level
+280 Item Level
 Vengeful Retreat
 Sigil of Misery
 Voidblade
 Unrestrained Fury
 Shattered Restoration
 Bouncing Glaives
-Charred Warblades
 Imprison
 Improved Disrupt
 Consume Magic
 Void Nova
 Aura of Pain
+Disrupting Fury
 Blazing Path
 Focused Ire
+Burn It Out
 Soul Rending 2
 Felfire Haste
 Pursuit
-Soul Cleanse
 Illidari Knowledge 2
 Will of the Illidari 2
 Guile
@@ -4800,7 +4806,7 @@ Emptiness
 Midnight 1
 Midnight 2
 Midnight 1
-		2 	1
+		5 	0
 Powerpegging
 Evoker (Augmentation)
 279 Item Level
@@ -4869,7 +4875,73 @@ Mighty Inferno
 Duplicate 1
 Duplicate 2
 Duplicate 1
-		0 	1
+		2 	0
+Angie
+Warlock (Demonology)
+282 Item Level
+Fel Domination
+Burning Rush
+Soul Leech
+Fiendish Stride
+Fel Armor 2
+Demon Skin 2
+Demonic Fortitude
+Demonic Embrace
+Mortal Coil
+Banish
+Curse of Tongues
+Demonic Circle
+Improved Mortal Coil
+Pact of the Annihilan
+Pact of the Satyr
+Gorefiend's Avarice
+Dark Pact
+Foul Mouth
+Fortified Soul
+Frequent Donor
+Pact of the Eredar
+Pact of the Nathrezim
+Shadowfury
+Demonic Gateway
+Strength of Will
+Swift Artifice
+Fel Synergy 2
+Soul Link 2
+Pact of Gluttony
+Soulburn
+Blight of Tongues
+
+Hand of Gul'dan
+Call Dreadstalkers
+Demoniac
+Dreadlash
+Fel Intellect
+Implosion
+Imp-erator
+Summon Felguard
+Carnivorous Stalkers 2
+Rune of Shadows 2
+Fel Armaments
+Summon Demonic Tyrant
+Demonic Brutality
+Blighted Maw
+Empowered Felstorm
+Inner Demons
+Flametouched
+Antoran Armaments
+Tyrant's Oblation
+Demonic Calling 2
+Master Summoner
+Reign of Tyranny
+Summon Vilefiend
+Grimoire: Imp Lord
+Hellbent Commander
+Mark of F'harg
+To Hell and Back
+Dominion of Argus 1
+Dominion of Argus 2
+Dominion of Argus 1
+		4 	7
 Healers
 
 Class Talents
@@ -4881,9 +4953,10 @@ Gear
 Potions
 
 Healthstones
-Sohot
+Senjimaru
 Druid (Restoration)
-281 Item Level
+280 Item Level
+Frenzied Regeneration
 Starfire
 Rejuvenation
 Starsurge
@@ -4896,8 +4969,9 @@ Nurturing Instinct 2
 Sunfire
 Improved Barkskin
 Natural Recovery
+Astral Influence
 Thick Hide
-Tiger Dash
+Wild Charge
 Soothe
 Starlight Conduit
 Aessina's Renewal
@@ -4906,25 +4980,23 @@ Stampeding Roar
 Well-Honed Instincts
 Feline Swiftness
 Lingering Healing
-Matted Fur 2
 Ursol's Vortex
 Lycara's Teachings 2
 Gift of the Wild
 Oakskin
-Improved Stampeding Roar
-Incapacitating Roar
-Forestwalk 1
+Forestwalk 2
 Symbiotic Relationship
+Ursine Vigor
 Circle of the Heavens
 Heart of the Wild
-Innervate
+Fluid Form
 
 Lifebloom
 Swiftmend
 Nature's Swiftness
 Omen of Clarity
 Nature's Splendor
-Prosperity
+Verdant Infusion
 Improved Regrowth
 Soul of the Forest
 Tranquility
@@ -4937,13 +5009,14 @@ Lifetreading
 Rampant Growth
 Renewing Surge
 Power of the Archdruid
+Regenerative Heartwood
 Wild Synthesis
-Improved Swiftmend
 Intensity
 Convoke the Spirits
+Call of the Elder Druid
 Cenarius' Guidance
-Thriving Vegetation 2
-Master Shapeshifter
+Dream of Cenarius
+Liveliness
 Abundance
 Germination
 Photosynthesis
@@ -4951,8 +5024,47 @@ Harmonious Blooming
 Everbloom 1
 Everbloom 2
 Everbloom 1
-		1 	0
+		1 	2
 Warcraft Logs Logo
 HEY THERE.We all want Warcraft Logs to remain free.
 We work hard to offer you the best possible experience.
 Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+2 months ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

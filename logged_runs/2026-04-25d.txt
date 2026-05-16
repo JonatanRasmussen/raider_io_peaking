@@ -10,7 +10,10 @@ Warcraft Logs
 Enter a player, guild, or realm
 Enter a player, guild, or realm
 Search
-207
+121 Players Streaming
+Statistics
+Latest News
+Recruitment
 Download Archon App
 
     Deutsch
@@ -33,13 +36,13 @@ Settings
 +
 
     Mythic+ Season 1
-    BudoBoy07 - (Public) - 2 hours ago
+    BudoBoy07 - (Public) - 1 day ago
     Mythic+ Season 1
-    BudoBoy07 - (Public) - 6 hours ago
+    BudoBoy07 - (Public) - 1 day ago
     Mythic+ Season 1
-    BudoBoy07 - (Public) - 16 hours ago
+    BudoBoy07 - (Public) - 2 days ago
     Mythic+ Season 1
-    BudoBoy07 - (Public) - 18 hours ago
+    BudoBoy07 - (Public) - 2 days ago
 
 BudoBoy07
 Personal Logs
@@ -82,6 +85,12 @@ Last Run - Level 19 [Fortified] [Tyrannical] [Xal'atath's Guile] (28:43) 12:53 A
         Scourgelord Tyrannus
 
 Entire Dungeon
+
+Analyze
+Compare
+Mechanics
+Rankings
+Replay
 
     + All Friendlies
         +Vikac
@@ -5030,6 +5039,12 @@ Entire Dungeon
 
 
 Friendlies Enemies
+
+Tables
+Timelines
+Events
+Queries
+Components
 Summary
 Damage Done
 Damage Taken
@@ -5060,9 +5075,12 @@ Filter Expression:
         Hide All Entries
 
 ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0002:0004:0006:0008:0010:0012:0014:0016:0018:0020:0022:0024:0026:0028:000k500k1,000k1,500k2,000k2,500k
-Group Composition Item Level: 280.40
-Tanks:	Epokhe
-DPS:	Pugenjoyer Selunite Powerpegging
+
+
+
+Group Composition Item Level: 280.20
+Tanks:	Флеймсочник
+DPS:	Vikac Lilgup Powerpegging
 Healers:	Díverz
 Damage Done By Source
 Name
@@ -5071,21 +5089,21 @@ Amount
 
 DPS
 
-Pugenjoyer
-28.95%
-74.00m 	191,219.5
+Lilgup
+31.14%
+341.53m 	202,374.0
+Vikac
+28.17%
+308.99m 	183,090.7
 Powerpegging
-28.95%
-73.98m 	191,165.3
-Selunite
-26.19%
-66.94m 	172,960.9
-Epokhe
-14.94%
-38.18m 	98,648.7
+26.61%
+291.85m 	172,935.5
+Флеймсочник
+13.44%
+147.38m 	87,327.6
 Díverz
-0.98%
-2.49m 	6,446.6
+0.65%
+7.15m 	4,239.2
 Healing Done By Source
 Name
 
@@ -5094,20 +5112,20 @@ Amount
 HPS
 
 Díverz
-45.82%
-32.22m 	83,260.7
-Epokhe
-40.40%
-28.41m 	73,421.1
+49.29%
+155.73m 	92,277.0
+Флеймсочник
+36.05%
+113.92m 	67,500.5
+Lilgup
+5.75%
+18.16m 	10,762.2
 Powerpegging
-6.11%
-4.30m 	11,101.5
-Pugenjoyer
-5.46%
-3.84m 	9,920.0
-Selunite
-2.22%
-1.56m 	4,027.9
+5.24%
+16.54m 	9,802.4
+Vikac
+3.68%
+11.61m 	6,881.4
 Damage Taken By Ability
 Name
 
@@ -5116,71 +5134,125 @@ Amount
 DTPS
 
 Stagger
-20.95%
-13.21m 	34,125.7
-Arcing Mana
-16.69%
-10.52m 	27,186.3
+26.26%
+81.17m 	48,097.0
 Melee
-13.53%
-8.53m 	22,042.5
-Suppression Field
-13.06%
-8.23m 	21,266.2
-Arcane Zap
-11.24%
-7.09m 	18,313.4
-Leyline Array
-4.66%
-2.94m 	7,591.2
-Arcane Zap
-3.12%
-1.96m 	5,075.5
-Null Sunder
-2.94%
-1.85m 	4,786.3
-Arcane Explosion
-2.24%
-1.41m 	3,652.0
-Reflux Charge
+16.08%
+49.71m 	29,453.4
+Siphoning Chill
+10.96%
+33.88m 	20,074.7
+Permeating Cold
+3.92%
+12.11m 	7,178.6
+Festering Pulse
+3.88%
+12.00m 	7,107.9
+Dread Pulse
+3.56%
+11.00m 	6,515.3
+Leaping Maul
+3.46%
+10.71m 	6,346.0
+Bone Infusion
+2.71%
+8.37m 	4,959.4
+Shade Shift
+2.25%
+6.97m 	4,128.1
+Focused Guard
+2.25%
+6.96m 	4,123.8
+Plague Expulsion
+2.08%
+6.44m 	3,818.3
+Curse of Torment
 1.76%
-1.11m 	2,865.0
-Umbra Bolt
-1.66%
-1.05m 	2,703.8
-Erratic Surge
-1.48%
-933.4k 	2,411.8
-Arcane Spill
-1.21%
-764.9k 	1,976.4
-Flux Collapse
-1.05%
-661.1k 	1,708.4
-Suppression Field
-1.04%
-657.8k 	1,699.8
-Arcane Spill
-0.76%
-477.6k 	1,234.2
-Erratic Zap
+5.45m 	3,227.7
+Charging Slash
+1.76%
+5.44m 	3,225.5
+Tormenting Blade
+1.73%
+5.36m 	3,178.2
+Cryoburst
+1.65%
+5.10m 	3,022.0
+Frostbane Slash
+1.49%
+4.61m 	2,731.5
+Cryostomp
+1.36%
+4.19m 	2,485.0
+Shadow Lance
+1.30%
+4.03m 	2,386.9
+Frostbane Slash
+1.24%
+3.85m 	2,280.3
+Shadow Bolt
+1.18%
+3.66m 	2,169.5
+Frostbite
+1.15%
+3.56m 	2,109.3
+Torrent of Misery
+0.90%
+2.77m 	1,642.4
+Shadowbind
+0.88%
+2.73m 	1,617.5
+Rime Blast
 0.73%
-460.2k 	1,189.2
-Sparkburn
-0.54%
-342.5k 	885.1
-Stretch Time
+2.27m 	1,344.6
+Frost Spit
+0.69%
+2.12m 	1,259.0
+Ice Bolt
 0.50%
-317.8k 	821.1
-Corespark Detonation
-0.45%
-281.5k 	727.4
-Flux Collapse
+1.55m 	918.6
+Melee
+0.47%
+1.45m 	860.9
+Melee
+0.46%
+1.43m 	846.0
+Blight Smash
+0.42%
+1.30m 	772.3
+Sunderstrike
+0.41%
+1.28m 	758.0
+Orebreaker
 0.37%
-234.4k 	605.8
-Falling
-0.02%
-9.9k 	25.5
+1.16m 	684.5
+Icy Strikes
+0.32%
+992.9k 	588.4
+Scourgelord's Brand
+0.31%
+954.2k 	565.4
+Plungegrip
+0.30%
+922.8k 	546.8
+Frost Breath
+0.29%
+910.7k 	539.6
+Stretch Time
+0.28%
+857.2k 	507.9
+Blight
+0.22%
+672.3k 	398.4
+Blight Splatter
+0.17%
+539.9k 	319.9
+Cryopatch
+0.14%
+428.6k 	254.0
+Saronite Sludge
+0.08%
+237.2k 	140.6
 Deaths
 Name
 
@@ -5188,13 +5260,9 @@ Killing Blow
 
 Time
 
-Selunite 	Arcing Mana 	4:10
-Selunite 	Erratic Zap 	5:17
-Díverz 	Leyline Array 	6:02
-Pugenjoyer 	Leyline Array 	6:09
-Epokhe 	Arcane Spill 	6:25
-Selunite 	Arcane Spill 	6:26
-Powerpegging 	Leyline Array 	6:26
+Díverz 	Leaping Maul 	2:06
+Lilgup 	Curse of Torment 	3:01
+Díverz 	Cryoburst 	24:11
 Characters
 Tanks
 
@@ -5207,20 +5275,20 @@ Gear
 Potions
 
 Healthstones
-Epokhe
+Флеймсочник
 Monk (Brewmaster)
-281 Item Level
+279 Item Level
 Stagger
 Paralysis
 Tiger's Lust
 Fast Feet
+Detox
 Grace of the Crane
 Calming Presence
-Detox
+Vivacious Vivification
 Spear Hand Strike
-Ancient Arts 2
-Silent Sanctuary
 Jade Walk
+Ancient Arts 2
 Transcendence
 Celerity
 Chi Burst
@@ -5234,8 +5302,8 @@ Yu'lon's Grace
 Fortifying Brew
 Dance of the Wind
 Strength of Spirit
-Expeditious Fortification
 Save Them All
+Expeditious Fortification
 Chi Proficiency 2
 Chi Transfer
 Martial Instincts 2
@@ -5246,9 +5314,9 @@ Fatal Touch
 Keg Smash
 Purifying Brew
 Shuffle
-Quick Sip
 Swift as a Coursing River
 Elixir of Determination
+Quick Sip
 Gift of the Ox
 Spirit of the Ox
 Special Delivery
@@ -5259,14 +5327,14 @@ Breath of Fire
 Training of Niuzao
 Gai Plin's Imperial Brew
 Pretense of Instability
+Zen State
 Face Palm
 Sal'salabim's Strength
 Black Ox Brew
-Walk with the Ox 1
 Counterstrike
 Dragonfire Brew
-Blackout Combo
 High Tolerance 2
+Blackout Combo
 Invoke Niuzao, the Black Ox
 Exploding Keg
 Vital Flame
@@ -5275,7 +5343,7 @@ Heart of the Ox
 Bring Me Another 1
 Bring Me Another 2
 Bring Me Another 1
-		2 	1
+		0 	2
 DPS
 
 Class Talents
@@ -5287,36 +5355,36 @@ Gear
 Potions
 
 Healthstones
-Pugenjoyer
+Vikac
 Death Knight (Unholy)
-281 Item Level
+282 Item Level
 Death Strike
 Icebound Fortitude
 Raise Dead
 Runic Attenuation
 Improved Death Strike
 Cleaving Strikes
+Blinding Sleet
 Gloom Ward 2
 Unholy Momentum 2
 Mind Freeze
 Wraith Walk
-Enfeeble
 Brittle
 Permafrost
 Veteran of the Third War
 Death Pact
+Coldthirst
 Anti-Magic Zone
 Unholy Bond
 Icy Talons
-Death Notes
 Anti-Magic Barrier
-Assimilation
+Grip of the Dead
 Death's Reach
 Unholy Endurance
 Blood Scent
 Suppression
 Insidious Chill
-Blood Draw
+Runic Protection
 Will of the Necropolis 2
 Rune Mastery 2
 Death's Echo
@@ -5353,15 +5421,14 @@ Reanimation
 Forbidden Knowledge 1
 Forbidden Knowledge 2
 Forbidden Knowledge 1
-		2 	1
-Selunite
+		6 	3
+Lilgup
 Demon Hunter (Devourer)
 280 Item Level
 Vengeful Retreat
 Sigil of Misery
 Voidblade
 Unrestrained Fury
-Improved Sigil of Misery
 Shattered Restoration
 Bouncing Glaives
 Imprison
@@ -5373,6 +5440,7 @@ Disrupting Fury
 Blazing Path
 Focused Ire
 Soul Rending 2
+Felfire Haste
 Pursuit
 Soul Cleanse
 Illidari Knowledge 2
@@ -5400,10 +5468,10 @@ Moment of Craving
 Soulshaper
 Waste Not
 Entropy
-Sweet Suffering 2
 Sweet Release 2
 Improved Consume
 Voidpurge
+Sweet Suffering 2
 Focused Ray
 Voidrage 2
 Devourer's Edge 2
@@ -5417,7 +5485,7 @@ Emptiness
 Midnight 1
 Midnight 2
 Midnight 1
-		3 	1
+		6 	0
 Powerpegging
 Evoker (Augmentation)
 279 Item Level
@@ -5486,7 +5554,7 @@ Mighty Inferno
 Duplicate 1
 Duplicate 2
 Duplicate 1
-		2 	0
+		2 	1
 Healers
 
 Class Talents
@@ -5567,8 +5635,47 @@ Harmonious Blooming
 Everbloom 1
 Everbloom 2
 Everbloom 1
-		2 	0
+		4 	0
 Warcraft Logs Logo
 HEY THERE.We all want Warcraft Logs to remain free.
 We work hard to offer you the best possible experience.
 Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+2 months ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

@@ -1,0 +1,1200 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+57
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Fri May 08 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Unknown Zone
+    BudoBoy07 - (Public) - 7 minutes ago
+    Unknown Zone
+    BudoBoy07 - (Public) - 10 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 19 hours ago
+
+BudoBoy07
+Personal Logs
++
+Maisara Caverns+
+Last Run - Level 20 [Fortified] [Tyrannical] [Xal'atath's Guile] (25:53) 1:36 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Muro'jin and Nekraxx
+        Vordaza
+        Rak'tul, Vessel of Souls
+        Pull 1 (2:40) +0:10
+        Hex Guardian
+        Pull 2 (1:19) +3:03
+        Hulking Juggernaut
+        Pull 3 (1:33) +4:40
+        Dread Souleater
+        Pull 4 (0:55) +6:32
+        Hex Guardian
+        Pull 5 (1:41) +7:34
+        Dread Souleater
+        Pull 6 (3:49) +9:16
+        Muro'jin and Nekraxx
+        Pull 7 (7:44) +13:38
+        Rokh'zal
+        Pull 8 (3:45) +21:22
+        Vordaza
+        Pull 9 (0:02) +25:51
+        Hex Guardian
+        Pull 10 (0:02) +25:51
+        Hex Guardian
+
+Entire Dungeon
+
+Analyze
+Compare
+Mechanics
+Rankings
+Replay
+
+    + All Friendlies
+        +Daddylosti
+            +Invisible Stalker
+                1
+
+                2
+
+                3
+
+            ID: 254980
+            +Vengeful Lasher
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 239569
+        +Yuliä
+            +Dread Shade
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+            ID: 251422
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+            ID: 253466
+        +Kevrar
+            +Chi-Ji
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+            ID: 166949
+            +Jade Serpent Statue
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+                51
+
+            ID: 60849
+        Peyonee
+        +Inflames
+            +Capacitor Totem
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+            ID: 61245
+            +Primal Earth Elemental
+                1
+
+                2
+
+            ID: 61056
+            +Primal Fire Elemental
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+
+            ID: 61029
+            +Primal Storm Elemental
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+            ID: 77942
+
+
+
+
+
+Friendlies Enemies
+
+Tables
+Timelines
+Events
+Queries
+Components
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0002:0004:0006:0008:0010:0012:0014:0016:0018:0020:0022:0024:000k500k1,000k1,500k2,000k
+Group Composition Item Level: 278.67
+Tanks:	Yuliä
+DPS:	Daddylosti Powerpegging Peyonee Inflames
+Healers:	Kevrar
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Inflames
+25.74%
+290.45m 	186,964.6
+Powerpegging
+25.04%
+282.58m 	181,893.5
+Peyonee
+24.83%
+280.27m 	180,410.2
+Yuliä
+17.06%
+192.56m 	123,953.8
+Kevrar
+7.25%
+81.87m 	52,699.0
+Daddylosti
+0.07%
+823.0k 	529.7
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Kevrar
+55.45%
+172.53m 	111,060.0
+Yuliä
+33.78%
+105.09m 	67,646.5
+Powerpegging
+5.31%
+16.51m 	10,628.5
+Peyonee
+3.17%
+9.86m 	6,348.9
+Inflames
+2.29%
+7.12m 	4,580.7
+Daddylosti
+0.01%
+23.4k 	15.1
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+34.79%
+102.53m 	65,997.7
+Withering Miasma
+9.89%
+29.14m 	18,760.2
+Spectral Strikes
+7.94%
+23.39m 	15,055.4
+Searing Presence
+7.03%
+20.73m 	13,342.5
+Grim Ward
+4.75%
+14.01m 	9,016.9
+Infected Pinions
+4.70%
+13.84m 	8,909.7
+Necrotic Wave
+3.33%
+9.82m 	6,324.0
+Necrotic Convergence
+3.12%
+9.20m 	5,924.5
+Lingering Dread
+2.89%
+8.50m 	5,474.5
+Barrage
+2.08%
+6.13m 	3,948.9
+Soulstorms
+1.82%
+5.36m 	3,449.0
+Crunch Armor
+1.80%
+5.30m 	3,411.7
+Dread Slash
+1.67%
+4.91m 	3,161.0
+Open Wound
+1.22%
+3.61m 	2,323.0
+Sear
+1.13%
+3.33m 	2,142.0
+Piercing Screech
+1.08%
+3.19m 	2,051.1
+Rending Gore
+0.95%
+2.81m 	1,805.6
+Drain Soul
+0.90%
+2.66m 	1,715.3
+Deafening Roar
+0.85%
+2.51m 	1,616.6
+Frost Nova
+0.82%
+2.41m 	1,551.1
+Shadow Bolt
+0.79%
+2.32m 	1,494.4
+Shadowfrost Blast
+0.77%
+2.26m 	1,452.1
+Magma Surge
+0.75%
+2.22m 	1,430.4
+Rain of Toads
+0.74%
+2.18m 	1,405.1
+Shrink
+0.49%
+1.45m 	935.6
+Spirit Rend
+0.48%
+1.41m 	910.5
+Stretch Time
+0.43%
+1.28m 	824.0
+Cries of the Fallen
+0.41%
+1.20m 	772.7
+Throw Spear
+0.40%
+1.18m 	761.9
+Flanking Spear
+0.32%
+952.8k 	613.3
+Falling
+0.27%
+788.9k 	507.8
+Shredding Talons
+0.24%
+694.5k 	447.0
+Vile Potatoad
+0.20%
+577.0k 	371.4
+Rended Soul
+0.16%
+471.1k 	303.2
+Diseased Claws
+0.15%
+445.5k 	286.8
+Coalesced Death
+0.14%
+421.2k 	271.1
+Soulrot
+0.14%
+409.0k 	263.2
+Icy Slick
+0.11%
+335.0k 	215.6
+Unmake
+0.10%
+305.9k 	196.9
+Carrion Swoop
+0.08%
+240.8k 	155.0
+Ritual Sacrifice
+0.04%
+127.2k 	81.9
+Bonesplinter Swing
+0.01%
+27.7k 	17.8
+Serrated Petals
+0.00%
+14.4k 	9.3
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Peyonee 	Magma Surge 	2:34
+Inflames 	Magma Surge 	2:34
+Inflames 	Rain of Toads 	7:54
+Peyonee 	Grim Ward 	18:19
+Peyonee 	Coalesced Death 	24:32
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Yuliä
+Druid (Guardian)
+284 Item Level
+Rake
+Frenzied Regeneration
+Ursoc's Spirit
+Grievous Wounds
+Swipe
+Remove Corruption
+Verdant Heart
+Nurturing Instinct 2
+Killer Instinct 2
+Ironfur
+Improved Barkskin
+Natural Recovery
+Primal Fury
+Thick Hide
+Skull Bash
+Wild Charge
+Soothe
+Aessina's Renewal
+Typhoon
+Stampeding Roar
+Well-Honed Instincts
+Feline Swiftness
+Lingering Healing
+Ursol's Vortex
+Lycara's Teachings 2
+Gift of the Wild
+Oakskin
+Lore of the Grove
+Instincts of the Claw
+Incapacitating Roar
+Forestwalk 2
+Circle of the Wild
+Heart of the Wild
+
+Maul
+Gore
+Survival Instincts
+Persistence
+Dream Guide
+Vulnerable Flesh
+Berserk
+Innate Resolve
+After the Wildfire
+Survival of the Fittest 2
+Scintillating Moonlight 2
+Reinvigoration 1
+Ursol's Warding
+Reinforced Fur
+Gift of an Ancient Guardian
+Ursoc's Endurance
+Brambles
+Rend and Tear
+Lunar Beam
+Fury of Nature 2
+Blood Frenzy
+Twin Moonfire
+Flashing Claws 2
+Ursoc's Fury
+Elune's Favored
+Incarnation: Guardian of Ursoc
+Ursoc's Guidance
+Galactic Guardian
+Sundering Roar
+Waking Nightmare
+		2 	1
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Daddylosti
+Druid (Feral)
+253 Item Level 				0 	0
+Powerpegging
+Evoker (Augmentation)
+284 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Sleep Walk
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Bestow Weyrnstone
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		5 	4
+Peyonee
+Paladin (Retribution)
+283 Item Level
+Lay on Hands
+Auras of the Resolute
+Hammer of Wrath
+Cleanse Toxins
+Blinding Light
+Fist of Justice
+Divine Steed
+Healing Hands
+Guided Prayer
+Greater Judgment
+Cavalier
+Blessing of Freedom
+Shield of Vengeance
+Rebuke
+Obduracy 2
+Sanctified Plates 2
+Unbound Freedom
+Divine Toll
+Punishment
+Consecrated Ground
+Blessing of Sacrifice
+Blessing of Protection
+Quickened Invocation
+Sacrifice of the Just
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Light's Revocation
+Inspired Guard
+Lead the Charge
+Seal of Might 2
+Vengeful Wrath 2
+Blessing of Dusk
+
+Blade of Justice
+Divine Storm
+Expurgation
+Avenging Wrath
+Light of Justice
+Art of War
+Final Verdict
+Holy Blade
+Holy Flames
+Tempest of the Lightbringer
+Rush of Light
+Sanctify
+Improved Judgment
+Blade of Vengeance
+Zealot's Fervor 2
+Highlord's Wrath
+Blessed Champion
+Burning Crusade
+Crusading Strikes
+Wake of Ashes
+Divine Wrath 2
+Blades of Light 2
+Seething Flames
+Execution Sentence
+Empyrean Legacy
+Burn to Ash
+Crusade
+Light Within 1
+Light Within 2
+Light Within 1
+		4 	1
+Inflames
+Shaman (Elemental)
+284 Item Level
+Chain Lightning
+Chain Heal
+Lava Burst
+Thunderous Paws
+Earth Shield
+Fire and Ice
+Frost Shock
+Gust of Wind
+Elemental Orbit
+Nature's Guardian
+Astral Shift
+Brimming with Life 2
+Planes Traveler
+Winds of Al'Akir 2
+Wind Shear
+Capacitor Totem
+Enhanced Imbues
+Windveil
+Spiritual Awakening
+Earth Elemental
+Cleanse Spirit
+Static Charge 1
+Wind Rush Totem
+Primordial Bond
+Nature's Fury 2
+Purge
+Spiritwalker's Grace
+Elemental Warding
+Therazane's Resilience
+Graceful Spirit
+Nature's Swiftness
+Instinctive Imbuements
+
+Elemental Blast
+Echo of the Elements
+Elemental Fury
+Earthquake
+Flash of Lightning
+Aftershock
+Stormkeeper
+Lightning Capacitor
+Fury of the Storms
+Swelling Maelstrom
+Storm Frenzy
+Primordial Fury
+Elemental Resonance
+Elemental Unity
+Amped Up
+Path of the Seer
+Earthshatter
+Echo Chamber
+Everlasting Elements
+Storm Infusion
+Ascendance
+Eye of the Storm
+Inferno Arc
+Call of Fire
+Mountains Will Fall
+Voltaic Blaze
+Lightning Rod
+Primal Elementalist
+Charged Conduit
+First Ascendant
+Feedback Loop 1
+Feedback Loop 2
+Feedback Loop 1
+		3 	1
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Kevrar
+Monk (Mistweaver)
+284 Item Level
+Soothing Mist
+Paralysis
+Rising Sun Kick
+Elusive Mists
+Tiger's Lust
+Fast Feet
+Improved Detox
+Grace of the Crane
+Calming Presence
+Bounding Agility
+Vivacious Vivification
+Chi Warding
+Ancient Arts 1
+Transcendence
+Celerity
+Chi Wave
+Ring of Peace
+Improved Touch of Death
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Dance of the Wind
+Yu'lon's Grace
+Fortifying Brew
+Mist Caller
+Save Them All
+Jade Infusion
+Expeditious Fortification
+Chi Proficiency 2
+Windwalking
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+Transcendence: Linked Spirits
+
+Enveloping Mist
+Misty Coalescence
+Thunder Focus Tea
+Life Cocoon
+Invigorating Mists
+Mana Tea
+Healing Elixir
+Revival
+Crane Style
+Calming Coalescence
+Way of the Crane
+Energizing Brew
+Rapid Diffusion 2
+Mists of Life
+Invoke Chi-Ji, the Red Crane
+Mist Wrap
+Lotus Infusion
+Celestial Harmony
+Chrysalis
+Focused Thunder
+Pool of Mists
+Gift of the Celestials
+Sheilun's Gift
+Morning Breeze
+Secret Infusion 2
+Jadefire Teachings
+Veil of Pride
+Rising Mist
+Mistline
+Emperor's Elixir
+Dance of Chi-Ji
+Legacy of Wisdom
+		0 	0
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+2 months ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

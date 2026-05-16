@@ -1,0 +1,655 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+101
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+VS / DR / MQD
+Created by BudoBoy07 on Wed Apr 29 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 24 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 4 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 4 hours ago
+
+BudoBoy07
+Personal Logs
++
+Algeth'ar Academy+
+Level 19 [Tyrannical] [Fortified] [Xal'atath's Guile] 1 (2:10) 1:20 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Vexamus
+        Overgrown Ancient
+        Crawth
+        Echo of Doragosa
+        Pull 1 (1:29) +0:40
+        Vile Lasher
+
+Entire Dungeon
+
+    + All Friendlies
+        Legacydh
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+            ID: 253466
+        +Ricottina
+            Niuzao
+
+            ID: 73967
+        Luàg
+        Lînnt
+        +Dracthyr Freshscale
+            Groups:
+            1
+            Instances:
+            1
+
+            2
+
+            3
+
+            4
+
+        ID: 192857
+        Professor Ichistrasz
+
+        ID: 189667
+        Professor Mystakria
+
+        ID: 187287
+        +Studious Scholar
+            Groups:
+            1
+            Instances:
+            1
+
+            2
+
+            3
+
+        ID: 197468
+
+
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0000:1500:3000:4501:0001:1501:3001:4502:000M2M4M6M
+Group Composition Item Level: 280.80
+Tanks:	Ricottina
+DPS:	Legacydh Powerpegging Luàg
+Healers:	Lînnt
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Legacydh
+53.61%
+86.26m 	659,885.4
+Powerpegging
+18.70%
+30.09m 	230,160.4
+Luàg
+13.51%
+21.74m 	166,318.1
+Ricottina
+11.62%
+18.71m 	143,088.9
+Lînnt
+2.56%
+4.12m 	31,535.2
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Ricottina
+49.61%
+12.84m 	98,240.3
+Lînnt
+40.15%
+10.39m 	79,498.3
+Powerpegging
+5.76%
+1.49m 	11,408.1
+Luàg
+3.36%
+868.8k 	6,646.1
+Legacydh
+1.12%
+290.0k 	2,218.2
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+35.56%
+11.07m 	84,643.2
+Vile Bite
+27.83%
+8.66m 	66,232.1
+Stagger
+19.94%
+6.21m 	47,466.8
+Darting Sting
+14.62%
+4.55m 	34,792.2
+Blessing of Sacrifice
+2.00%
+621.1k 	4,751.2
+Shadow Mend
+0.06%
+17.4k 	132.8
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Luàg 	Melee 	1:06
+Ricottina 	Vile Bite 	2:01
+Legacydh 	Melee 	2:02
+Luàg 	Melee 	2:04
+Powerpegging 	Melee 	2:09
+Lînnt 	Melee 	2:10
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Ricottina
+Monk (Brewmaster)
+281 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Crashing Momentum
+Fast Feet
+Detox
+Grace of the Crane
+Calming Presence
+Vivacious Vivification
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Transcendence
+Celerity
+Chi Wave
+Ring of Peace
+Improved Touch of Death
+Hasty Provocation
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Save Them All
+Expeditious Fortification
+Chi Proficiency 2
+Windwalking
+Chi Transfer
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Improved Blackout Kick
+Elixir of Determination
+Quick Sip
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Fluidity of Motion
+Elusive Footwork
+Celestial Infusion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Zen State
+Face Palm
+Sal'salabim's Strength
+Bob and Weave
+Anvil and Stave 1
+Dragonfire Brew
+High Tolerance 2
+Blackout Combo
+Invoke Niuzao, the Black Ox
+Exploding Keg
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+		0 	1
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Legacydh
+Demon Hunter (Devourer)
+280 Item Level
+Vengeful Retreat
+Sigil of Misery
+Voidblade
+Unrestrained Fury
+Shattered Restoration
+Bouncing Glaives
+Imprison
+Improved Disrupt
+Consume Magic
+Void Nova
+Aura of Pain
+Disrupting Fury
+Swallowed Anger
+Blazing Path
+Focused Ire
+Burn It Out
+Soul Rending 2
+Pursuit
+Illidari Knowledge 2
+Will of the Illidari 2
+Guile
+Remorseless
+Internal Struggle
+First In, Last Out
+Furious
+Demon Muzzle
+Soul Splitter 2
+Darkness
+Final Breath
+Pitch Black
+Demonic Resilience
+
+Void Ray
+Soul Immolation
+Predator's Thirst
+Void Metamorphosis
+Feast of Souls
+Tempered Soul
+Collapsing Star
+Moment of Craving
+Soulshaper
+Waste Not
+Entropy
+Sweet Suffering 2
+Sweet Release 2
+Improved Consume
+Voidpurge
+Focused Ray
+Voidrage 2
+Devourer's Edge 2
+Demonic Instinct 2
+Rolling Torment
+Impending Apocalypse
+Calamitous
+Star Fragments
+Eradicate
+Emptiness
+Midnight 1
+Midnight 2
+Midnight 1
+		1 	0
+Powerpegging
+Evoker (Augmentation)
+282 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Ignition Rush
+Chrono Ward
+Improved Defy Fate
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		1 	0
+Luàg
+Paladin (Retribution)
+280 Item Level
+Lay on Hands
+Auras of the Resolute
+Hammer of Wrath
+Cleanse Toxins
+Blinding Light
+Fist of Justice
+Divine Steed
+Healing Hands
+Guided Prayer
+Greater Judgment
+Cavalier
+Blessing of Freedom
+Shield of Vengeance
+Rebuke
+Obduracy 2
+Sanctified Plates 2
+Unbound Freedom
+Divine Toll
+Consecrated Ground
+Blessing of Sacrifice
+Blessing of Protection
+Quickened Invocation
+Sacrifice of the Just
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Light's Revocation
+Lightforged Blessing
+Inspired Guard
+Worthy Sacrifice
+Seal of Might 2
+Vengeful Wrath 2
+Blessing of Dusk
+
+Blade of Justice
+Divine Storm
+Expurgation
+Avenging Wrath
+Light of Justice
+Art of War
+Final Verdict
+Holy Blade
+Holy Flames
+Tempest of the Lightbringer
+Rush of Light
+Sanctify
+Improved Judgment
+Blade of Vengeance
+Zealot's Fervor 2
+Highlord's Wrath
+Blessed Champion
+Burning Crusade
+Crusading Strikes
+Wake of Ashes
+Divine Wrath 2
+Blades of Light 2
+Seething Flames
+Execution Sentence
+Empyrean Legacy
+Burn to Ash
+Crusade
+Light Within 1
+Light Within 2
+Light Within 1
+		1 	0
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Lînnt
+Priest (Discipline)
+281 Item Level
+Angelic Feather
+Mind Blast
+Improved Flash Heal
+Dispel Magic
+Spiritual Guidance
+Psychic Scream
+Power Infusion
+Painful Invocation
+Improved Purify
+Leap of Faith
+Dominate Mind
+Strength of Resolve
+Surge of Light
+Twins of the Sun Priestess
+Mass Dispel
+Twin Disciplines
+Everlasting Light
+Dark Enlightenment
+Binding Heals
+Shadow Word: Death
+Sanguine Teachings
+Twist of Fate 2
+Desperate Prayer
+Fade
+Protective Light
+Improved Fade 2
+Mindpierce
+Unwavering Will 2
+Phantasm
+Spell Warding 1
+Angelic Bulwark
+Translucent Image
+Benevolence
+
+Atonement
+Pain Suppression
+Power Word: Radiance
+Power of the Dark Side
+Encroaching Shadows
+Protector of the Frail
+Light's Promise
+Dark Indulgence
+Revel in Darkness
+Shield Discipline
+Painful Punishment
+Ultimate Penitence
+Shadow Tap
+Holy Ray
+Lenience
+Castigation
+Pain and Suffering 2
+Occultist
+Evangelism
+Shadow Mend
+Archangel
+Inner Focus
+Blaze of Light 2
+Borrowed Time 2
+Divine Aegis
+Eternal Barrier
+Weal and Woe
+Master the Darkness 1
+Master the Darkness 2
+Master the Darkness 1
+		0 	0
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+1 month ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

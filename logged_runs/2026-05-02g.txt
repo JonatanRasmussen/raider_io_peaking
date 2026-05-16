@@ -1,0 +1,1575 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+51
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Sat May 02 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+    VS / DR / MQD
+    BudoBoy07 - (Public) - 1 day ago
+    VS / DR / MQD
+    BudoBoy07 - (Public) - 1 day ago
+
+BudoBoy07
+Personal Logs
++
+Windrunner Spire+
+Level 19 [Tyrannical] [Fortified] [Xal'atath's Guile] (33:08) 1:48 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Derelict Duo
+        Commander Kroluk
+        Emberdawn
+        Restless Heart
+        Pull 1 (0:56) +0:17
+        Spellguard Magus
+        Pull 2 (2:41) +1:25
+        Apex Lynx
+        Pull 3 (1:35) +4:20
+        Bloated Lasher
+        Pull 4 (3:40) +6:05
+        Emberdawn
+        Pull 5 (0:00) +9:46
+        Emberdawn
+        Pull 6 (3:58) +10:14
+        Flesh Behemoth
+        Pull 7 (4:10) +14:17
+        Derelict Duo
+        Pull 8 (1:20) +18:47
+        Phalanx Breaker
+        Pull 9 (3:37) +20:11
+        Phantasmal Mystic
+        Pull 10 (0:00) +23:53
+        Unknown
+        Pull 11 (3:40) +23:57
+        Commander Kroluk
+        Pull 12 (4:08) +28:07
+        Restless Heart
+
+Entire Dungeon
+
+Analyze
+Compare
+Mechanics
+Rankings
+Replay
+
+    + All Friendlies
+        +Урсосок
+            +Risen Ghoul
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+            ID: 26125
+        Stkk
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+                51
+
+                52
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+            ID: 253466
+        +Shilu
+            +Chi-Ji
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+            ID: 166949
+            +Jade Serpent Statue
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+                51
+
+                52
+
+                53
+
+                54
+
+                55
+
+                56
+
+                57
+
+                58
+
+                59
+
+                60
+                61
+
+                62
+
+                63
+
+                64
+
+                65
+
+            ID: 60849
+        +Shadowmagor
+            +Shadow
+                1
+
+                2
+
+                3
+
+            ID: 225672
+            +Shadowfiend
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+            ID: 19668
+            +Thing From Beyond
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+                51
+
+                52
+
+                53
+
+                54
+
+                55
+
+                56
+
+                57
+
+                58
+
+                59
+
+                60
+                61
+
+                62
+
+                63
+
+                64
+
+                65
+
+                66
+
+                67
+
+                68
+
+                69
+
+                70
+                71
+
+                72
+
+                73
+
+                74
+
+                75
+
+                76
+
+            ID: 189988
+            +Void Lasher
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+            ID: 198757
+            +Void Tendril
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+                51
+
+                52
+
+                53
+
+                54
+
+                55
+
+                56
+
+                57
+
+                58
+
+                59
+
+                60
+                61
+
+                62
+
+                63
+
+                64
+
+                65
+
+                66
+
+            ID: 192337
+
+
+
+
+
+Friendlies Enemies
+
+Tables
+Timelines
+Events
+Queries
+Components
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0002:0004:0006:0008:0010:0012:0014:0016:0018:0020:0022:0024:0026:0028:0030:0032:000k500k1,000k1,500k2,000k
+Group Composition Item Level: 281.40
+Tanks:	Stkk
+DPS:	Урсосок Powerpegging Shadowmagor
+Healers:	Shilu
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Powerpegging
+26.07%
+284.32m 	146,853.6
+Урсосок
+25.67%
+279.98m 	144,609.7
+Shadowmagor
+25.40%
+277.04m 	143,092.0
+Stkk
+16.29%
+177.66m 	91,762.0
+Shilu
+6.56%
+71.55m 	36,958.2
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Shilu
+54.60%
+196.40m 	101,444.4
+Stkk
+28.69%
+103.19m 	53,295.8
+Shadowmagor
+7.11%
+25.59m 	13,215.2
+Powerpegging
+5.43%
+19.51m 	10,079.3
+Урсосок
+4.17%
+15.02m 	7,755.5
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+32.75%
+109.11m 	56,353.9
+Squall Leap
+6.74%
+22.45m 	11,593.3
+Splattered
+4.99%
+16.63m 	8,587.8
+Throw Axe
+4.12%
+13.72m 	7,085.8
+Soul Torment
+3.35%
+11.15m 	5,756.7
+Splattering Spew
+3.12%
+10.38m 	5,363.3
+Flaming Updraft
+2.85%
+9.51m 	4,911.7
+Reckless Leap
+2.57%
+8.56m 	4,419.0
+Spore Dispersal
+2.45%
+8.16m 	4,213.3
+Arcane Salvo
+2.28%
+7.60m 	3,927.6
+Squall Leap
+2.26%
+7.53m 	3,890.2
+Gust Shot
+2.16%
+7.18m 	3,709.4
+Flame Nova
+2.10%
+6.99m 	3,608.2
+Debilitating Shriek
+2.07%
+6.90m 	3,566.2
+Fetid Spew
+1.91%
+6.38m 	3,294.4
+Rampage
+1.84%
+6.12m 	3,163.4
+Searing Beak
+1.77%
+5.89m 	3,041.9
+Shadowrive
+1.54%
+5.12m 	2,645.5
+Poison Spray
+1.53%
+5.11m 	2,638.2
+Melee
+1.25%
+4.17m 	2,153.1
+Pulsing Shriek
+1.20%
+4.00m 	2,066.2
+Interrupting Screech
+1.19%
+3.97m 	2,051.0
+Gunk Splatter
+0.99%
+3.29m 	1,698.8
+Rallying Bellow
+0.85%
+2.84m 	1,464.6
+Sporecharged
+0.84%
+2.79m 	1,443.2
+Flame Nova
+0.77%
+2.57m 	1,326.8
+Shoot
+0.77%
+2.56m 	1,323.7
+Bolt Gale
+0.64%
+2.13m 	1,098.1
+Puncturing Bite
+0.62%
+2.05m 	1,059.3
+Fire Spit
+0.58%
+1.92m 	993.3
+Turbulent Arrows
+0.52%
+1.74m 	896.1
+Spirit Bolt
+0.52%
+1.72m 	888.0
+Bone Hack
+0.50%
+1.65m 	853.6
+Gore Whirl
+0.46%
+1.52m 	783.3
+Chain Lightning
+0.45%
+1.48m 	765.8
+Billowing Wind
+0.39%
+1.30m 	673.9
+Searing Beak
+0.39%
+1.30m 	672.8
+Ferocious Pounce
+0.39%
+1.30m 	670.1
+Fierce Slash
+0.39%
+1.29m 	668.7
+Storming Soulfont
+0.34%
+1.14m 	588.3
+Brutal Chop
+0.33%
+1.10m 	570.1
+Stretch Time
+0.33%
+1.09m 	562.5
+Intercepting Charge
+0.31%
+1.04m 	537.2
+Shadow Bolt
+0.31%
+1.03m 	532.4
+Precise Cut
+0.31%
+1.03m 	532.0
+Flaming Twisters
+0.31%
+1.02m 	528.7
+Shadow Word: Death
+0.24%
+783.3k 	404.6
+Shred Flesh
+0.22%
+743.5k 	384.0
+Shadow Bolt
+0.22%
+734.1k 	379.2
+Phial Toss
+0.22%
+721.1k 	372.4
+Tempest Slash
+0.20%
+679.3k 	350.9
+Fetid Bile
+0.17%
+574.7k 	296.8
+Intercepting Charge
+0.16%
+546.1k 	282.1
+Acidic Demise
+0.13%
+430.0k 	222.1
+Fungal Bolt
+0.08%
+252.3k 	130.3
+Violent Manifestation
+0.03%
+84.1k 	43.4
+Falling
+0.02%
+79.8k 	41.2
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Shadowmagor 	Flaming Twisters 	6:41
+Stkk 	Melee 	20:18
+Shilu 	Melee 	20:19
+Stkk 	Billowing Wind 	30:59
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Stkk
+Druid (Guardian)
+280 Item Level
+Rake
+Starfire
+Frenzied Regeneration
+Ursoc's Spirit
+Grievous Wounds
+Swipe
+Moonkin Form
+Remove Corruption
+Verdant Heart
+Nurturing Instinct 2
+Killer Instinct 2
+Ironfur
+Improved Barkskin
+Natural Recovery
+Primal Fury
+Thick Hide
+Skull Bash
+Wild Charge
+Soothe
+Aessina's Renewal
+Typhoon
+Stampeding Roar
+Well-Honed Instincts
+Feline Swiftness
+Matted Fur 1
+Ursol's Vortex
+Lycara's Teachings 2
+Gift of the Wild
+Oakskin
+Lore of the Grove
+Instincts of the Claw
+Incapacitating Roar
+Circle of the Wild
+Heart of the Wild
+
+Maul
+Gore
+Survival Instincts
+Persistence
+Dream Guide
+Vulnerable Flesh
+Berserk
+Innate Resolve
+After the Wildfire
+Survival of the Fittest 2
+Scintillating Moonlight 2
+Soul of the Forest
+Reinforced Fur
+Ursoc's Endurance
+Guardian of Elune
+Raze
+Rend and Tear
+Lunar Beam
+Blood Frenzy
+Twin Moonfire
+Flashing Claws 1
+Ursoc's Fury
+Moonless Night
+Incarnation: Guardian of Ursoc
+Harnessed Rage
+Ursoc's Guidance
+Galactic Guardian
+Killing Blow
+Wild Guardian 1
+Wild Guardian 2
+Wild Guardian 1
+		7 	5
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Урсосок
+Death Knight (Frost)
+280 Item Level
+Death Strike
+Raise Dead
+Icebound Fortitude
+Runic Attenuation
+Improved Death Strike
+Cleaving Strikes
+Blinding Sleet
+Gloom Ward 2
+Unholy Momentum 2
+March of Darkness
+Mind Freeze
+Brittle
+Permafrost
+Veteran of the Third War
+Coldthirst
+Anti-Magic Zone
+Unholy Bond
+Icy Talons
+Anti-Magic Barrier
+Assimilation
+Death's Reach
+Unholy Endurance
+Blood Scent
+Suppression
+Insidious Chill
+Runic Protection
+Blood Draw
+Will of the Necropolis 2
+Rune Mastery 2
+Death's Echo
+Null Magic
+
+Frost Strike
+Howling Blast
+Obliterate
+Empower Rune Weapon
+Frostscythe
+Killing Machine
+Runic Overflow 2
+Biting Cold
+Arctic Assault
+Frostbound Will
+Gathering Storm
+Pillar of Frost
+Icy Onslaught
+Enduring Strength
+Rage of the Frozen Champion
+Frozen Dominion
+Everfrost
+Frostwyrm's Fury
+Cryogenic Chamber
+Icebreaker 2
+Bonegrinder 2
+Obliteration
+Shattering Blade
+Hyperpyrexia
+Breath of Sindragosa
+Frostbane
+Killing Streak
+Chosen of Frostbrood 1
+Chosen of Frostbrood 2
+Chosen of Frostbrood 1
+		7 	2
+Powerpegging
+Evoker (Augmentation)
+283 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Sleep Walk
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Improved Defy Fate
+Power Nexus
+Volcanism
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		4 	2
+Shadowmagor
+Priest (Shadow)
+282 Item Level
+Angelic Feather
+Improved Flash Heal
+Mind Blast
+Dispel Magic
+Spiritual Guidance
+Psychic Scream
+Power Infusion
+Painful Invocation
+Leap of Faith
+Petrifying Scream
+Strength of Resolve
+Psychic Voice
+Twins of the Sun Priestess
+Mass Dispel
+Body and Soul
+Twin Disciplines
+Dark Enlightenment
+Binding Heals
+Shadow Word: Death
+Sanguine Teachings
+Twist of Fate 2
+Tithe Evasion
+Desperate Prayer
+Fade
+Protective Light
+Angel's Mercy
+Improved Fade 2
+Mindpierce
+Light's Inspiration
+Phantasm
+Spell Warding 2
+Translucent Image
+Focused Power
+
+Shadow Word: Madness
+Psychic Link
+Misery
+Mental Fortitude
+Shadowy Apparitions
+Tentacle Slam
+Tormenting Whispers
+Surge of Insanity
+Voidform
+Haunting Shadows
+Shadowy Insight
+Mental Decay
+Phantom Menace
+Improved Voidform
+Maddening Touch
+Shattered Psyche
+Shadowfiend
+Subservient Shadows
+Spectral Horrors
+Mind's Eye
+Maddening Tentacles
+Auspicious Spirits
+Insidious Ire 2
+Screams of the Void 2
+Tormented Spirits
+Idol of N'Zoth
+Idol of C'Thun
+Idol of Yogg-Saron
+Void Apparitions 1
+Void Apparitions 2
+Void Apparitions 1
+		6 	4
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Shilu
+Monk (Mistweaver)
+282 Item Level
+Soothing Mist
+Paralysis
+Rising Sun Kick
+Elusive Mists
+Tiger's Lust
+Fast Feet
+Improved Detox
+Grace of the Crane
+Calming Presence
+Bounding Agility
+Vivacious Vivification
+Chi Warding
+Transcendence
+Celerity
+Chi Wave
+Ring of Peace
+Improved Touch of Death
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Dance of the Wind
+Peace and Prosperity
+Yu'lon's Grace
+Fortifying Brew
+Mist Caller
+Save Them All
+Jade Infusion
+Expeditious Fortification
+Diffuse Magic
+Vital Clarity
+Chi Proficiency 2
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+
+Enveloping Mist
+Misty Coalescence
+Thunder Focus Tea
+Life Cocoon
+Invigorating Mists
+Mana Tea
+Healing Elixir
+Revival
+Uplifted Spirits
+Calming Coalescence
+Lifecycles
+Way of the Crane
+Mists of Life
+Rapid Diffusion 2
+Invoke Chi-Ji, the Red Crane
+Mist Wrap
+Chrysalis
+Lotus Infusion
+Celestial Harmony
+Gift of the Celestials
+Focused Thunder
+Sheilun's Gift
+Morning Breeze
+Pool of Mists
+Jadefire Teachings
+Tranquil Tea
+Secret Infusion 2
+Emperor's Elixir
+Dance of Chi-Ji
+Rising Mist
+Legacy of Wisdom
+Mistline
+		1 	0
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+2 months ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

@@ -1,0 +1,320 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+52
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Sun May 03 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 18 hours ago
+    VS / DR / MQD
+    BudoBoy07 - (Public) - 1 day ago
+    VS / DR / MQD
+    BudoBoy07 - (Public) - 1 day ago
+
+BudoBoy07
+Personal Logs
++
+UNKNOWN AREA+
+Level 19 [Tyrannical] [Fortified] [Xal'atath's Guile] 3 (6:28) 11:08 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Zuraal the Ascended
+        Saprish
+        Viceroy Nezhar
+        L'ura
+        Pull 1 (0:56) +0:00
+        Viceroy Nezhar
+
+Entire Dungeon
+
+Analyze
+Compare
+Mechanics
+Rankings
+Replay
+
+    + All Friendlies
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+            ID: 219827
+        +Snez
+            Niuzao
+
+            ID: 73967
+        Djgham
+        Фехо
+        +Ayéfinezerbe
+            Primal Fire Elemental
+
+            ID: 61029
+            Primal Storm Elemental
+
+            ID: 77942
+
+
+
+
+
+Friendlies Enemies
+
+Tables
+Timelines
+Events
+Queries
+Components
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0000:3001:0001:3002:0002:3003:0003:3004:0004:3005:0005:3006:000k100k200k300k400k
+Group Composition Item Level: 281.40
+Tanks:	Snez
+DPS:	Djgham Ayéfinezerbe
+Healers:	Фехо
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Ayéfinezerbe
+47.34%
+5.95m 	15,312.2
+Djgham
+25.93%
+3.26m 	8,387.5
+Snez
+18.63%
+2.34m 	6,027.0
+Фехо
+7.75%
+973.7k 	2,507.7
+Powerpegging
+0.34%
+42.1k 	108.4
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Фехо
+71.34%
+7.07m 	18,209.7
+Snez
+17.23%
+1.71m 	4,398.3
+Djgham
+7.22%
+715.7k 	1,843.3
+Ayéfinezerbe
+4.14%
+410.2k 	1,056.5
+Powerpegging
+0.07%
+6.8k 	17.4
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Mind Flay
+17.50%
+2.23m 	5,752.9
+Pulsing Void
+17.17%
+2.19m 	5,644.7
+Mass Void Infusion
+16.22%
+2.07m 	5,331.5
+Void Storm
+14.25%
+1.82m 	4,686.7
+Void Storm
+12.23%
+1.56m 	4,021.7
+Unstable Entrance
+8.19%
+1.05m 	2,691.5
+Mind Blast
+6.42%
+820.1k 	2,112.1
+Stagger
+6.38%
+814.2k 	2,097.0
+Melee
+1.65%
+210.3k 	541.7
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Powerpegging 	Unstable Entrance 	0:23
+Фехо 	Void Storm 	0:52
+Djgham 	Void Storm 	0:54
+Ayéfinezerbe 	Void Storm 	0:55
+Snez 	Void Storm 	0:56
+Characters
+Tanks
+
+Gear
+
+Talents
+
+Azerite
+
+Essences
+
+Potions
+
+Healthstones
+Snez
+Monk (Brewmaster)
+280 Item Level 					0 	0
+DPS
+
+Gear
+
+Talents
+
+Azerite
+
+Essences
+
+Potions
+
+Healthstones
+Djgham
+Paladin (Retribution)
+281 Item Level 					1 	0
+Ayéfinezerbe
+Shaman (Elemental)
+281 Item Level 					1 	0
+Healers
+
+Gear
+
+Talents
+
+Azerite
+
+Essences
+
+Potions
+
+Healthstones
+Фехо
+Priest (Discipline)
+282 Item Level 					0 	0
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+2 months ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

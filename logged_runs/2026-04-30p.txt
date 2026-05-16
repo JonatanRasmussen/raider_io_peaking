@@ -1,0 +1,1557 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+107
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Thu Apr 30 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 34 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 41 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 4 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 5 hours ago
+
+BudoBoy07
+Personal Logs
++
+The Seat of the Triumvirate+
+Level 19 [Tyrannical] [Fortified] [Xal'atath's Guile] 6 (6:34) 8:15 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Zuraal the Ascended
+        Saprish
+        Viceroy Nezhar
+        L'ura
+        Pull 1 (1:12) +0:09
+        Merciless Subjugator
+        Pull 2 (1:03) +1:25
+        Merciless Subjugator
+        Pull 3 (1:10) +2:33
+        Merciless Subjugator
+        Pull 4 (2:49) +3:44
+        Zuraal the Ascended
+
+Entire Dungeon
+
+    + All Friendlies
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+            ID: 253466
+        +Zupahmonk
+            +Niuzao
+                1
+
+                2
+
+            ID: 73967
+        Gnudius
+        +Jonnychainz
+            Capacitor Totem
+
+            ID: 61245
+            +Earthgrab Totem
+                1
+
+                2
+
+                3
+
+            ID: 60561
+            +Healing Stream Totem
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+
+            ID: 3527
+            Healing Tide Totem
+
+            ID: 59764
+            +Stormstream Totem
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+            ID: 256196
+            +Surging Totem
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+            ID: 225409
+        +Tempestwl
+            +Antoran Inquisitor
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+            ID: 258242
+            +Antoran Jailer
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+
+            ID: 255147
+            Blagkazul
+            +Charhound
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+            ID: 226269
+            +Demonic Tyrant
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+            ID: 250289
+            +Dreadstalker
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+            ID: 98035
+            +Grand Warlock Alythess
+                1
+
+                2
+
+                3
+
+            ID: 260077
+            +Imp Lord
+                1
+
+                2
+
+                3
+
+            ID: 258584
+            +Lady Sacrolash
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+            ID: 260076
+            +Mother of Chaos
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+            ID: 228576
+            +Overlord
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+            ID: 228575
+            +Pit Lord
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+            ID: 228574
+            +Wild Imp (Hand of Gul'dan)
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+                51
+
+                52
+
+                53
+
+                54
+
+                55
+
+                56
+
+                57
+
+                58
+
+                59
+
+                60
+                61
+
+                62
+
+                63
+
+                64
+
+                65
+
+                66
+
+                67
+
+                68
+
+                69
+
+                70
+                71
+
+                72
+
+                73
+
+                74
+
+                75
+
+                76
+
+                77
+
+                78
+
+                79
+
+                80
+                81
+
+                82
+
+                83
+
+                84
+
+                85
+
+                86
+
+                87
+
+                88
+
+                89
+
+                90
+                91
+
+                92
+
+                93
+
+                94
+
+                95
+
+                96
+
+                97
+
+                98
+
+                99
+
+                100
+                101
+
+                102
+
+                103
+
+                104
+
+                105
+
+                106
+
+                107
+
+                108
+
+                109
+
+                110
+                111
+
+                112
+
+                113
+
+                114
+
+                115
+
+                116
+
+                117
+
+                118
+
+                119
+
+                120
+                121
+
+                122
+
+                123
+
+                124
+
+                125
+
+                126
+
+                127
+
+                128
+
+                129
+
+                130
+                131
+
+                132
+
+                133
+
+                134
+
+                135
+
+                136
+
+                137
+
+                138
+
+                139
+
+                140
+                141
+
+                142
+
+                143
+
+                144
+
+                145
+
+                146
+
+                147
+
+                148
+
+                149
+
+                150
+                151
+
+                152
+
+                153
+
+                154
+
+                155
+
+                156
+
+                157
+
+                158
+
+                159
+
+                160
+                161
+
+                162
+
+                163
+
+                164
+
+                165
+
+                166
+
+                167
+
+                168
+
+                169
+
+                170
+                171
+
+                172
+
+                173
+
+                174
+
+                175
+
+                176
+
+                177
+
+                178
+
+                179
+
+                180
+                181
+
+                182
+
+                183
+
+                184
+
+                185
+
+                186
+
+                187
+
+                188
+
+                189
+
+                190
+                191
+
+                192
+
+                193
+
+                194
+
+                195
+
+                196
+
+                197
+
+                198
+
+                199
+
+                200
+                201
+
+                202
+
+                203
+
+                204
+
+                205
+
+                206
+
+                207
+
+                208
+
+                209
+
+                210
+                211
+
+                212
+
+                213
+
+                214
+
+                215
+
+                216
+
+                217
+
+                218
+
+                219
+
+                220
+                221
+
+                222
+
+                223
+
+                224
+
+                225
+
+                226
+
+                227
+
+                228
+
+                229
+
+                230
+                231
+
+                232
+
+                233
+
+                234
+
+                235
+
+                236
+
+                237
+
+                238
+
+                239
+
+                240
+                241
+
+                242
+
+                243
+
+                244
+
+                245
+
+                246
+
+                247
+
+                248
+
+                249
+
+                250
+                251
+
+                252
+
+                253
+
+                254
+
+                255
+
+                256
+
+                257
+
+                258
+
+                259
+
+                260
+                261
+
+                262
+
+                263
+
+                264
+
+            ID: 55659
+            +Wild Imp (Inner Demons/To Hell and Back)
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+            ID: 143622
+
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0001:0002:0003:0004:0005:0006:000M1M2M3M4M
+Group Composition Item Level: 281.67
+Tanks:	Zupahmonk
+DPS:	Powerpegging Gnudius Tempestwl
+Healers:	Jonnychainz
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Tempestwl
+28.70%
+88.22m 	223,832.4
+Gnudius
+28.43%
+87.39m 	221,720.6
+Powerpegging
+27.26%
+83.80m 	212,611.3
+Zupahmonk
+12.89%
+39.61m 	100,509.6
+Jonnychainz
+2.74%
+8.41m 	21,337.3
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Jonnychainz
+42.76%
+34.99m 	88,788.2
+Zupahmonk
+42.56%
+34.83m 	88,374.9
+Powerpegging
+5.31%
+4.35m 	11,035.4
+Tempestwl
+5.20%
+4.25m 	10,788.7
+Gnudius
+4.17%
+3.41m 	8,652.9
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Stagger
+27.81%
+22.63m 	57,423.2
+Melee
+25.37%
+20.65m 	52,387.1
+Oozing Slam
+11.94%
+9.72m 	24,667.8
+Pulsing Void
+10.14%
+8.25m 	20,937.8
+Rupture
+5.58%
+4.54m 	11,523.4
+Chains of Subjugation
+5.39%
+4.38m 	11,121.7
+Crashing Void
+3.98%
+3.24m 	8,216.5
+Void Slash
+1.76%
+1.43m 	3,640.1
+Blessing of Dawn
+1.62%
+1.32m 	3,338.4
+Leeching Void
+1.57%
+1.28m 	3,239.8
+Relentless Pursuit
+1.38%
+1.12m 	2,839.7
+Decimate
+1.12%
+915.6k 	2,323.1
+Void Slash
+0.65%
+532.6k 	1,351.2
+Void Slash
+0.59%
+483.4k 	1,226.4
+Burning Rush
+0.52%
+426.5k 	1,082.0
+Umbral Bolt
+0.27%
+222.2k 	563.8
+Fel Armor
+0.25%
+202.6k 	514.1
+Stretch Time
+0.06%
+47.0k 	119.2
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Zupahmonk 	Void Slash 	6:25
+Gnudius 	Melee 	6:27
+Powerpegging 	Melee 	6:30
+Tempestwl 	Melee 	6:31
+Jonnychainz 	Melee 	6:33
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Zupahmonk
+Monk (Brewmaster)
+281 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Detox
+Grace of the Crane
+Calming Presence
+Vivacious Vivification
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Energy Transfer
+Transcendence
+Celerity
+Chi Burst
+Ring of Peace
+Improved Touch of Death
+Hasty Provocation
+Ferocity of Xuen 2
+Vigorous Expulsion
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Expeditious Fortification
+Chi Proficiency 2
+Windwalking
+Chi Transfer
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Elixir of Determination
+Quick Sip
+Swift as a Coursing River
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Shadowboxing Treads
+Elusive Footwork
+Celestial Infusion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Zen State
+Face Palm
+Sal'salabim's Strength
+Bob and Weave
+Counterstrike
+Dragonfire Brew
+High Tolerance 2
+Blackout Combo
+Exploding Keg
+Vital Flame
+Invoke Niuzao, the Black Ox
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+		2 	0
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Powerpegging
+Evoker (Augmentation)
+283 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Improved Defy Fate
+Power Nexus
+Volcanism
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		1 	2
+Gnudius
+Paladin (Retribution)
+282 Item Level
+Lay on Hands
+Auras of the Resolute
+Hammer of Wrath
+Cleanse Toxins
+Blinding Light
+Fist of Justice
+Divine Steed
+Healing Hands
+Guided Prayer
+Greater Judgment
+Cavalier
+Blessing of Freedom
+Shield of Vengeance
+Rebuke
+Obduracy 2
+Sanctified Plates 2
+Unbound Freedom
+Divine Toll
+Punishment
+Consecrated Ground
+Blessing of Sacrifice
+Blessing of Protection
+Divine Resonance
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Inspired Guard
+Lead the Charge
+Seal of Might 2
+Vengeful Wrath 2
+Blessing of Dawn
+Lightbearer
+Blessing of Dusk
+
+Blade of Justice
+Divine Storm
+Expurgation
+Avenging Wrath
+Light of Justice
+Art of War
+Final Verdict
+Holy Blade
+Jurisdiction
+Holy Flames
+Tempest of the Lightbringer
+Rush of Light
+Improved Judgment
+Blade of Vengeance
+Zealot's Fervor 2
+Highlord's Wrath
+Blessed Champion
+Burning Crusade
+Crusading Strikes
+Wake of Ashes
+Divine Wrath 2
+Blades of Light 2
+Seething Flames
+Execution Sentence
+Empyrean Legacy
+Burn to Ash
+Crusade
+Light Within 1
+Light Within 2
+Light Within 1
+		1 	1
+Tempestwl
+Warlock (Demonology)
+282 Item Level
+Fel Domination
+Burning Rush
+Soul Leech
+Fiendish Stride
+Fel Armor 2
+Demon Skin 2
+Demonic Fortitude
+Demonic Embrace
+Mortal Coil
+Banish
+Curse of Tongues
+Demonic Circle
+Improved Mortal Coil
+Pact of the Annihilan
+Pact of the Satyr
+Dark Pact
+Foul Mouth
+Fortified Soul
+Empowered Healthstone
+Frequent Donor
+Pact of the Eredar
+Pact of the Nathrezim
+Shadowfury
+Demonic Gateway
+Dark Accord
+Swift Artifice
+Fel Synergy 1
+Oppressive Darkness
+Soul Link 2
+Pact of Gluttony
+Soulburn
+Blight of Tongues
+
+Hand of Gul'dan
+Call Dreadstalkers
+Demoniac
+Dreadlash
+Fel Intellect
+Practiced Rituals
+Implosion
+Imp-erator
+Summon Felguard
+Carnivorous Stalkers 2
+Rune of Shadows 2
+Infernal Rapidity
+Summon Demonic Tyrant
+Demonic Brutality
+Blighted Maw
+Imp Gang Boss
+Flametouched
+Antoran Armaments
+Tyrant's Oblation
+Demonic Calling 2
+Master Summoner
+Reign of Tyranny
+Summon Vilefiend
+Grimoire: Imp Lord
+Hellbent Commander
+Mark of F'harg
+To Hell and Back
+Dominion of Argus 1
+Dominion of Argus 2
+Dominion of Argus 1
+		2 	3
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Jonnychainz
+Shaman (Restoration)
+280 Item Level
+Chain Lightning
+Lava Burst
+Chain Heal
+Thunderous Paws
+Earth Shield
+Gust of Wind
+Elemental Orbit
+Nature's Guardian
+Astral Shift
+Brimming with Life 2
+Healing Stream Totem
+Planes Traveler
+Wind Shear
+Capacitor Totem
+Enhanced Imbues
+Earthgrab Totem
+Spiritual Awakening
+Improved Purify Spirit
+Earth Elemental
+Wind Rush Totem
+Primordial Bond
+Nature's Fury 2
+Purge
+Spiritwalker's Grace
+Elemental Warding
+Totemic Focus
+Totemic Projection
+Therazane's Resilience
+Graceful Spirit
+Mana Spring
+Nature's Swiftness
+Instinctive Imbuements
+Totemic Surge
+
+Riptide
+Healing Stream Totem
+Healing Rain
+Water Totem Mastery
+Acid Rain
+Healing Tide Totem
+Living Stream
+Resurgence
+First Ascendant
+Ancestral Vigor 2
+White Water
+Quickstream
+Earthliving Weapon
+Unleash Life
+Torrent
+Ancestral Reach
+Deluge
+Tidal Waves
+Improved Earthliving Weapon
+Spirit Link Totem
+Echo of the Elements
+Earthen Harmony
+Ancestral Awakening 2
+Wavespeaker's Blessing 1
+Spouting Spirits
+Primal Tide Core
+Coalescing Water
+Deeply Rooted Elements
+Stormstream Totem 1
+Stormstream Totem 2
+Stormstream Totem 1
+		1 	0
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.

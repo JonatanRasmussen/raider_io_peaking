@@ -1,0 +1,1467 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+56
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Thu May 14 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Unknown Zone
+    BudoBoy07 - (Public) - 24 minutes ago
+    Unknown Zone
+    BudoBoy07 - (Public) - 27 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 19 hours ago
+
+BudoBoy07
+Personal Logs
++
+Nexus-Point Xenas+
+Level 20 [Tyrannical] [Fortified] [Xal'atath's Guile] 9 (21:28) 3:23 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Chief Corewright Kasreth
+        Corewarden Nysarra
+        Lothraxion
+        Pull 1 (2:04) +0:15
+        Circuit Seer
+        Pull 2 (2:37) +2:27
+        Circuit Seer
+        Pull 3 (3:12) +5:10
+        Chief Corewright Kasreth
+        Pull 4 (3:13) +8:50
+        Null Sentinel
+        Pull 5 (3:26) +12:07
+        Lingering Image
+        Pull 6 (0:53) +15:40
+        Duskfright Herald
+        Pull 7 (0:53) +16:42
+        Null Sentinel
+        Pull 8 (3:15) +17:47
+        Corewarden Nysarra
+        Pull 9 (0:01) +21:26
+        Marauding Trigore
+
+Entire Dungeon
+
+Analyze
+Compare
+Mechanics
+Rankings
+Replay
+
+    + All Friendlies
+        +Uldreht
+            High Inquisitor Whitemane
+
+            ID: 221633
+            Toothgobbler
+        +Милкганстер
+            +Dread Shade
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+            ID: 251422
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+            ID: 253466
+        Zyntharen
+        +Nitchi
+            +Mindbender
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+            ID: 62982
+            +Shadowfiend
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+            ID: 19668
+            +Thing From Beyond
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+
+            ID: 189988
+            +Void Lasher
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+            ID: 198757
+            +Void Tendril
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+            ID: 192337
+            +Voidwraith
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+
+            ID: 224466
+        +Фэйтзи
+            +Capacitor Totem
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 61245
+            +Healing Stream Totem
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+            ID: 3527
+            +Healing Tide Totem
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+            ID: 59764
+            +Spirit Link Totem
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 53006
+            +Stormstream Totem
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+            ID: 256196
+            +Surging Totem
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+            ID: 225409
+
+
+
+
+
+
+Friendlies Enemies
+
+Tables
+Timelines
+Events
+Queries
+Components
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0002:0004:0006:0008:0010:0012:0014:0016:0018:0020:000k500k1,000k1,500k2,000k
+Group Composition Item Level: 285.83
+Tanks:	Милкганстер
+DPS:	Uldreht Powerpegging Zyntharen Nitchi
+Healers:	Фэйтзи
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Powerpegging
+31.04%
+259.21m 	201,177.3
+Zyntharen
+28.02%
+233.98m 	181,592.8
+Nitchi
+26.75%
+223.36m 	173,352.2
+Милкганстер
+10.73%
+89.61m 	69,546.0
+Фэйтзи
+3.45%
+28.78m 	22,333.2
+Uldreht
+0.01%
+46.6k 	36.2
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Фэйтзи
+41.94%
+98.78m 	76,663.7
+Милкганстер
+38.90%
+91.62m 	71,107.1
+Nitchi
+10.70%
+25.21m 	19,565.1
+Powerpegging
+6.64%
+15.63m 	12,129.0
+Zyntharen
+1.82%
+4.28m 	3,318.0
+Uldreht
+0.00%
+266.0 	0.2
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+29.83%
+63.53m 	49,307.4
+Lightscar Flare
+7.85%
+16.72m 	12,977.7
+Dreadbellow
+7.84%
+16.69m 	12,954.0
+Arcing Mana
+6.93%
+14.76m 	11,458.1
+Arcane Zap
+5.53%
+11.78m 	9,144.4
+Eclipsing Step
+5.46%
+11.62m 	9,019.9
+Nullwark Blast
+4.54%
+9.67m 	7,502.6
+Arcane Zap
+3.46%
+7.37m 	5,720.4
+Dark Beckoning
+3.20%
+6.81m 	5,286.8
+Reflux Charge
+3.17%
+6.75m 	5,235.8
+Umbral Lash
+2.98%
+6.35m 	4,930.1
+Suppression Field
+2.63%
+5.61m 	4,354.9
+Sparkburn
+1.88%
+4.01m 	3,110.7
+Null Sunder
+1.87%
+3.98m 	3,090.1
+Entropic Leech
+1.44%
+3.07m 	2,380.7
+Melee
+1.40%
+2.98m 	2,313.6
+Leyline Array
+1.32%
+2.82m 	2,185.8
+Melee
+1.20%
+2.55m 	1,982.1
+Stretch Time
+0.95%
+2.03m 	1,573.7
+Creeping Void
+0.92%
+1.95m 	1,515.9
+Searing Rend
+0.64%
+1.37m 	1,062.0
+Erratic Zap
+0.62%
+1.31m 	1,019.4
+Void Lash
+0.56%
+1.18m 	919.7
+Void Lash
+0.54%
+1.15m 	893.1
+Blistering Smite
+0.49%
+1.05m 	811.6
+Nullify
+0.43%
+920.9k 	714.7
+Shadow Word: Death
+0.41%
+870.7k 	675.8
+Erratic Surge
+0.35%
+745.7k 	578.7
+Suppression Field
+0.34%
+722.1k 	560.4
+Flailstorm
+0.33%
+706.7k 	548.4
+Umbra Bolt
+0.29%
+613.4k 	476.1
+Dark Beckoning
+0.19%
+397.9k 	308.8
+Devour the Unworthy
+0.18%
+379.9k 	294.8
+Dimensional Shred
+0.13%
+267.6k 	207.7
+Searing Rend
+0.12%
+251.7k 	195.3
+Infused Strikes
+0.00%
+3.4k 	2.6
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Zyntharen 	Leyline Array 	7:45
+Фэйтзи 	Leyline Array 	7:46
+Zyntharen 	Melee 	10:28
+Фэйтзи 	Nullify 	18:17
+Милкганстер 	Melee 	20:26
+Zyntharen 	Melee 	20:28
+Nitchi 	Melee 	20:31
+Фэйтзи 	Lightscar Flare 	20:38
+Powerpegging 	Umbral Lash 	21:03
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Милкганстер
+Druid (Guardian)
+287 Item Level
+Rake
+Starfire
+Frenzied Regeneration
+Ursoc's Spirit
+Grievous Wounds
+Swipe
+Moonkin Form
+Remove Corruption
+Verdant Heart
+Nurturing Instinct 2
+Killer Instinct 2
+Ironfur
+Improved Barkskin
+Natural Recovery
+Thick Hide
+Skull Bash
+Wild Charge
+Soothe
+Aessina's Renewal
+Typhoon
+Stampeding Roar
+Well-Honed Instincts
+Feline Swiftness
+Ursol's Vortex
+Lycara's Teachings 2
+Gift of the Wild
+Oakskin
+Lore of the Grove
+Improved Stampeding Roar
+Incapacitating Roar
+Symbiotic Relationship
+Circle of the Wild
+Heart of the Wild
+Fluid Form
+
+Maul
+Gore
+Survival Instincts
+Persistence
+Dream of Cenarius
+Vulnerable Flesh
+Berserk
+Innate Resolve
+After the Wildfire
+Survival of the Fittest 2
+Scintillating Moonlight 2
+Reinvigoration 1
+Ursol's Warding
+Natural Resilience
+Reinforced Fur
+Gift of an Ancient Guardian
+Ursoc's Endurance
+Rend and Tear
+Lunar Beam
+Fury of Nature 2
+Blood Frenzy
+Twin Moonfire
+Flashing Claws 2
+Ursoc's Fury
+Elune's Favored
+Incarnation: Guardian of Ursoc
+Ursoc's Guidance
+Galactic Guardian
+Sundering Roar
+Waking Nightmare
+		1 	2
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Uldreht
+Death Knight (Unholy)
+281 Item Level 				0 	0
+Powerpegging
+Evoker (Augmentation)
+287 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Innate Magic 2
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Attuned to the Dream 2
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Exuberance
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Bestow Weyrnstone
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		2 	3
+Zyntharen
+Monk (Windwalker)
+288 Item Level
+Paralysis
+Rising Sun Kick
+Tiger's Lust
+Fast Feet
+Grace of the Crane
+Detox
+Calming Presence
+Jade Walk
+Ancient Arts 2
+Vivacious Vivification
+Spear Hand Strike
+Pressure Points
+Tiger Fang
+Transcendence
+Celerity
+Ring of Peace
+Improved Touch of Death
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Dance of the Wind
+Yu'lon's Grace
+Fortifying Brew
+Vigorous Expulsion
+Zenith Stomp
+Strength of Spirit
+Expeditious Fortification
+Chi Proficiency 2
+Martial Instincts 2
+Chi Transfer
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Fists of Fury
+Sharp Reflexes
+Momentum Boost
+Combat Wisdom
+Ferociousness 2
+Ascension
+Glory of the Dawn
+Teachings of the Monastery
+Dual Threat
+Zenith
+Rising Star
+Hit Combo
+Crane Vortex
+Spiritual Focus
+Combo Breaker
+Crashing Fists
+Jade Ignition
+Dance of Chi-Ji
+Whirling Dragon Punch
+Universal Energy
+Sequenced Strikes
+Revolving Whirl
+Sunfire Spiral
+Communion With Wind
+Weapon of Wind
+Xuen's Battlegear
+Rushing Wind Kick
+Martial Agility
+Skyfire Heel
+Tigereye Brew 1
+Tigereye Brew 2
+Tigereye Brew 1
+		4 	1
+Nitchi
+Priest (Shadow)
+288 Item Level
+Angelic Feather
+Improved Flash Heal
+Mind Blast
+Dispel Magic
+Spiritual Guidance
+Psychic Scream
+Power Infusion
+Painful Invocation
+Leap of Faith
+Petrifying Scream
+Strength of Resolve
+Psychic Voice
+Twins of the Sun Priestess
+Mass Dispel
+Body and Soul
+Dominate Mind
+Twin Disciplines
+Dark Enlightenment
+Binding Heals
+Shadow Word: Death
+Sanguine Teachings
+Twist of Fate 2
+Desperate Prayer
+Fade
+Protective Light
+Angel's Mercy
+Improved Fade 2
+Mindpierce
+Light's Inspiration
+Spell Warding 2
+Translucent Image
+Focused Power
+Angelic Bulwark
+
+Shadow Word: Madness
+Psychic Link
+Invoked Nightmare
+Mental Fortitude
+Shadowy Apparitions
+Tentacle Slam
+Tormenting Whispers
+Surge of Insanity
+Voidform
+Haunting Shadows
+Shadowy Insight
+Phantom Menace
+Improved Voidform
+Maddening Touch
+Shadowfiend
+Subservient Shadows
+Spectral Horrors
+Mind's Eye
+Instilled Doubt 2
+Mindbender
+Maddening Tentacles
+Auspicious Spirits
+Inescapable Torment
+Screams of the Void 2
+Tormented Spirits
+Idol of N'Zoth
+Idol of Y'Shaarj
+Idol of Yogg-Saron
+Void Apparitions 1
+Void Apparitions 2
+Void Apparitions 1
+		4 	2
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Фэйтзи
+Shaman (Restoration)
+284 Item Level
+Lava Burst
+Chain Heal
+Chain Lightning
+Thunderous Paws
+Earth Shield
+Elemental Orbit
+Nature's Guardian
+Astral Shift
+Spirit Walk
+Brimming with Life 2
+Healing Stream Totem
+Planes Traveler
+Wind Shear
+Elemental Resistance
+Enhanced Imbues
+Spiritual Awakening
+Capacitor Totem
+Earth Elemental
+Refreshing Waters
+Wind Rush Totem
+Primordial Bond
+Nature's Fury 2
+Purge
+Jet Stream
+Spiritwalker's Grace
+Elemental Warding
+Totemic Focus
+Totemic Projection
+Therazane's Resilience
+Graceful Spirit
+Nature's Swiftness
+Instinctive Imbuements
+Totemic Surge
+
+Riptide
+Healing Stream Totem
+Healing Rain
+Water Totem Mastery
+Acid Rain
+Healing Tide Totem
+Living Stream
+First Ascendant
+Ancestral Vigor 2
+White Water
+Quickstream
+Current Control
+Earthliving Weapon
+Unleash Life
+Torrent
+Crashing Waves
+Ancestral Reach
+Deluge
+Tidal Waves
+Improved Earthliving Weapon
+Earthen Accord
+Spirit Link Totem
+Echo of the Elements
+Earthen Harmony
+Ancestral Awakening 2
+Spouting Spirits
+Coalescing Water
+Deeply Rooted Elements
+Stormstream Totem 1
+Stormstream Totem 2
+Stormstream Totem 1
+		0 	3
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+2 months ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

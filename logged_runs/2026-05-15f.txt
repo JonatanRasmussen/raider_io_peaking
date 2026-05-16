@@ -1,0 +1,772 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+56
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Thu May 14 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Unknown Zone
+    BudoBoy07 - (Public) - 24 minutes ago
+    Unknown Zone
+    BudoBoy07 - (Public) - 27 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 19 hours ago
+
+BudoBoy07
+Personal Logs
++
+Nexus-Point Xenas+
+Level 20 [Tyrannical] [Fortified] [Xal'atath's Guile] 6 (2:22) 2:52 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Chief Corewright Kasreth
+        Corewarden Nysarra
+        Lothraxion
+        Pull 1 (0:50) +0:15
+        Circuit Seer
+
+Entire Dungeon
+
+Analyze
+Compare
+Mechanics
+Rankings
+Replay
+
+    + All Friendlies
+        +Spritelfie
+            Dread Shade
+
+            ID: 251422
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+            ID: 219827
+            Future Self
+
+            ID: 253466
+        +Berrybad
+            Splinter
+        +Lebonpseudal
+            Chi-Ji
+
+            ID: 166949
+            +Jade Serpent Statue
+                1
+
+                2
+
+            ID: 60849
+        +Devilnectarr
+            +Antoran Inquisitor
+                1
+
+                2
+
+            ID: 258242
+            Antoran Jailer
+
+            ID: 255147
+            +Charhound
+                1
+
+                2
+
+            ID: 226269
+            Demonic Tyrant
+
+            ID: 250289
+            +Dreadstalker
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 98035
+            Imp Lord
+
+            ID: 258584
+            Keekrill
+            Lady Sacrolash
+
+            ID: 260076
+            Mother of Chaos
+
+            ID: 228576
+            Overlord
+
+            ID: 228575
+            +Wild Imp (Hand of Gul'dan)
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+            ID: 55659
+            +Wild Imp (Inner Demons/To Hell and Back)
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+            ID: 143622
+
+
+
+
+
+Friendlies Enemies
+
+Tables
+Timelines
+Events
+Queries
+Components
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0000:1500:3000:4501:0001:1501:3001:4502:0002:150M1M2M3M4M5M6M
+Group Composition Item Level: 285.80
+Tanks:	Spritelfie
+DPS:	Powerpegging Berrybad Devilnectarr
+Healers:	Lebonpseudal
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Devilnectarr
+29.14%
+22.52m 	157,683.8
+Powerpegging
+26.08%
+20.15m 	141,091.3
+Berrybad
+25.55%
+19.74m 	138,252.9
+Spritelfie
+15.83%
+12.23m 	85,627.6
+Lebonpseudal
+3.40%
+2.63m 	18,418.1
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Lebonpseudal
+46.36%
+8.64m 	60,472.0
+Spritelfie
+42.00%
+7.82m 	54,785.6
+Powerpegging
+7.84%
+1.46m 	10,231.6
+Devilnectarr
+3.79%
+706.3k 	4,946.4
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+45.69%
+6.71m 	47,005.8
+Arcing Mana
+17.38%
+2.55m 	17,880.7
+Suppression Field
+9.98%
+1.47m 	10,270.5
+Null Sunder
+6.47%
+950.8k 	6,658.6
+Arcane Zap
+4.98%
+732.4k 	5,128.7
+Arcane Explosion
+3.78%
+555.9k 	3,893.2
+Erratic Zap
+2.76%
+404.8k 	2,835.0
+Umbra Bolt
+2.27%
+333.7k 	2,336.7
+Burning Rush
+2.09%
+306.5k 	2,146.7
+Flux Collapse
+2.01%
+295.5k 	2,069.6
+Suppression Field
+1.37%
+201.3k 	1,409.8
+Erratic Surge
+1.09%
+160.0k 	1,120.5
+Fel Armor
+0.13%
+18.4k 	128.6
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Lebonpseudal 	Erratic Zap 	0:55
+Spritelfie 	Melee 	1:00
+Berrybad 	Melee 	1:01
+Devilnectarr 	Arcane Zap 	1:03
+Powerpegging 	Melee 	1:06
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Spritelfie
+Druid (Guardian)
+285 Item Level
+Rake
+Frenzied Regeneration
+Ursoc's Spirit
+Grievous Wounds
+Swipe
+Remove Corruption
+Verdant Heart
+Nurturing Instinct 2
+Killer Instinct 2
+Ironfur
+Improved Barkskin
+Natural Recovery
+Thick Hide
+Skull Bash
+Wild Charge
+Soothe
+Aessina's Renewal
+Typhoon
+Stampeding Roar
+Well-Honed Instincts
+Feline Swiftness
+Matted Fur 2
+Ursol's Vortex
+Lycara's Teachings 2
+Gift of the Wild
+Oakskin
+Lore of the Grove
+Improved Stampeding Roar
+Incapacitating Roar
+Forestwalk 2
+Symbiotic Relationship
+Circle of the Wild
+
+Maul
+Gore
+Survival Instincts
+Persistence
+Dream Guide
+Vulnerable Flesh
+Berserk
+Innate Resolve
+After the Wildfire
+Survival of the Fittest 2
+Scintillating Moonlight 2
+Reinvigoration 1
+Ursol's Warding
+Natural Resilience
+Reinforced Fur
+Gift of an Ancient Guardian
+Ursoc's Endurance
+Brambles
+Rend and Tear
+Lunar Beam
+Fury of Nature 2
+Blood Frenzy
+Twin Moonfire
+Flashing Claws 2
+Ursoc's Fury
+Incarnation: Guardian of Ursoc
+Ursoc's Guidance
+Galactic Guardian
+Sundering Roar
+Waking Nightmare
+		0 	1
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Powerpegging
+Evoker (Augmentation)
+287 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Innate Magic 2
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Attuned to the Dream 2
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Exuberance
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Bestow Weyrnstone
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		1 	0
+Berrybad
+Hunter (Survival)
+286 Item Level
+Rejuvenating Wind
+Posthaste
+Survival of the Fittest
+Natural Mending 2
+Padded Armor
+Hunter's Avoidance
+Improved Aspect of the Cheetah
+Combat Experience
+Muzzle
+Precision Strikes
+Serrated Tips 2
+Disruptive Rounds
+Pathfinding
+Misdirection
+Improved Feign Death 2
+Tranquilizing Shot
+Trigger Finger 2
+Touch of Grass 2
+Specialized Arsenal
+Improved Aspect of the Turtle
+Lone Survivor
+Intimidation
+Shell Wall
+Keen Eyesight 2
+Born To Be Wild 2
+Guttural Roar
+Unnatural Causes
+Guardian's Hide
+
+Kill Command
+Raptor Strike
+Wildfire Bomb
+Tip of the Spear
+Guerrilla Tactics
+Lunge
+Strike as One
+Boomstick
+Bloodseeker
+Shrapnel Bomb
+Quick Reload
+Two Against Many
+Sic 'Em
+Mongoose Fury
+Mongoose Rounds
+Shellshock
+Vulnerability
+Bloody Claws
+Bonding
+Sweeping Spear 2
+Killer Companion 2
+Takedown
+Wildfire Infusion
+Savagery 2
+Lethal Calibration
+Primal Surge
+Flanked
+Raptor Swipe 1
+Raptor Swipe 2
+Raptor Swipe 1
+		1 	0
+Devilnectarr
+Warlock (Demonology)
+287 Item Level
+Fel Domination
+Burning Rush
+Soul Leech
+Fiendish Stride
+Fel Armor 2
+Demon Skin 2
+Demonic Fortitude
+Demonic Embrace
+Mortal Coil
+Banish
+Curse of Tongues
+Demonic Circle
+Improved Mortal Coil
+Pact of the Annihilan
+Pact of the Satyr
+Dark Pact
+Abyss Walker
+Foul Mouth
+Fortified Soul
+Empowered Healthstone
+Frequent Donor
+Pact of the Eredar
+Pact of the Nathrezim
+Shadowfury
+Demonic Gateway
+Strength of Will
+Swift Artifice
+Oppressive Darkness
+Soul Link 2
+Pact of Gluttony
+Soulburn
+Blight of Tongues
+
+Hand of Gul'dan
+Call Dreadstalkers
+Demoniac
+Dreadlash
+Fel Intellect
+Implosion
+Imp-erator
+Summon Felguard
+Carnivorous Stalkers 2
+Rune of Shadows 2
+Infernal Rapidity
+Summon Demonic Tyrant
+Demonic Brutality
+Blighted Maw
+Imp Gang Boss
+Inner Demons
+Flametouched
+Antoran Armaments
+Tyrant's Oblation
+Demonic Calling 2
+Master Summoner
+Reign of Tyranny
+Summon Vilefiend
+Grimoire: Imp Lord
+Hellbent Commander
+Mark of F'harg
+To Hell and Back
+Dominion of Argus 1
+Dominion of Argus 2
+Dominion of Argus 1
+		1 	0
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Lebonpseudal
+Monk (Mistweaver)
+284 Item Level
+Soothing Mist
+Paralysis
+Rising Sun Kick
+Elusive Mists
+Tiger's Lust
+Fast Feet
+Improved Detox
+Grace of the Crane
+Calming Presence
+Ancient Arts 2
+Vivacious Vivification
+Chi Warding
+Transcendence
+Celerity
+Chi Wave
+Ring of Peace
+Improved Touch of Death
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Dance of the Wind
+Yu'lon's Grace
+Fortifying Brew
+Mist Caller
+Save Them All
+Jade Infusion
+Expeditious Fortification
+Vital Clarity
+Chi Proficiency 2
+Martial Instincts 2
+Flow of Chi
+Lighter Than Air
+Fatal Touch
+
+Enveloping Mist
+Misty Coalescence
+Thunder Focus Tea
+Life Cocoon
+Invigorating Mists
+Mana Tea
+Crane Style
+Healing Elixir
+Revival
+Calming Coalescence
+Energizing Brew
+Way of the Crane
+Mists of Life
+Rapid Diffusion 2
+Invoke Chi-Ji, the Red Crane
+Mist Wrap
+Chrysalis
+Lotus Infusion
+Celestial Harmony
+Gift of the Celestials
+Focused Thunder
+Sheilun's Gift
+Morning Breeze
+Pool of Mists
+Jadefire Teachings
+Tranquil Tea
+Secret Infusion 2
+Emperor's Elixir
+Dance of Chi-Ji
+Rising Mist
+Legacy of Wisdom
+Mistline
+		0 	0
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+2 months ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

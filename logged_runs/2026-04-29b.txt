@@ -1,0 +1,971 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+101
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+VS / DR / MQD
+Created by BudoBoy07 on Wed Apr 29 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 24 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 4 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 4 hours ago
+
+BudoBoy07
+Personal Logs
++
+Magisters' Terrace+
+Level 18 [Tyrannical] [Fortified] [Xal'atath's Guile] 2 (6:40) 4:07 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Arcanotron Custos
+        Seranel Sunlash
+        Gemellus
+        Degentrius
+        Pull 1 (2:42) +0:14
+        Arcane Sentry
+        Pull 2 (0:42) +3:13
+        Blazing Pyromancer
+        Pull 3 (2:02) +4:07
+        Arcane Sentry
+        Pull 4 (0:25) +6:15
+        Blazing Pyromancer
+        Pull 5 (0:25) +6:15
+        Blazing Pyromancer
+
+Entire Dungeon
+
+    + All Friendlies
+        Jonnydash
+        +Proédros
+            +Efflorescence
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+                40
+                41
+
+                42
+
+                43
+
+                44
+
+                45
+
+                46
+
+                47
+
+                48
+
+                49
+
+                50
+                51
+
+                52
+
+                53
+
+                54
+
+                55
+
+                56
+
+                57
+
+                58
+
+                59
+
+                60
+                61
+
+                62
+
+                63
+
+                64
+
+                65
+
+                66
+
+                67
+
+                68
+
+                69
+
+                70
+                71
+
+                72
+
+                73
+
+                74
+
+                75
+
+                76
+
+                77
+
+                78
+
+                79
+
+                80
+                81
+
+                82
+
+                83
+
+                84
+
+                85
+
+                86
+
+                87
+
+                88
+
+                89
+
+                90
+                91
+
+                92
+
+                93
+
+                94
+
+                95
+
+                96
+
+                97
+
+                98
+
+                99
+
+                100
+                101
+
+            ID: 47649
+            +Treant
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+                13
+
+                14
+
+                15
+
+                16
+
+                17
+
+                18
+
+                19
+
+                20
+                21
+
+                22
+
+                23
+
+                24
+
+                25
+
+                26
+
+                27
+
+                28
+
+                29
+
+                30
+                31
+
+                32
+
+                33
+
+                34
+
+                35
+
+                36
+
+                37
+
+                38
+
+                39
+
+            ID: 54983
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+                8
+
+                9
+
+                10
+                11
+
+                12
+
+            ID: 219827
+            +Future Self
+                1
+
+                2
+
+                3
+
+                4
+
+                5
+
+                6
+
+                7
+
+            ID: 253466
+        +Lanthymonky
+            +Niuzao
+                1
+
+                2
+
+                3
+
+                4
+
+            ID: 73967
+        Reíía
+
+
+
+
+
+Friendlies Enemies
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0001:0002:0003:0004:0005:0006:000k500k1,000k1,500k
+Group Composition Item Level: 281.40
+Tanks:	Lanthymonky
+DPS:	Jonnydash Powerpegging Reíía
+Healers:	Proédros
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Powerpegging
+27.53%
+54.44m 	135,794.7
+Reíía
+26.97%
+53.34m 	133,046.4
+Jonnydash
+26.81%
+53.01m 	132,230.4
+Lanthymonky
+18.04%
+35.68m 	89,011.5
+Proédros
+0.65%
+1.28m 	3,205.0
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Proédros
+48.18%
+25.76m 	64,250.4
+Lanthymonky
+35.25%
+18.84m 	47,004.5
+Powerpegging
+5.63%
+3.01m 	7,506.8
+Jonnydash
+5.59%
+2.99m 	7,457.8
+Reíía
+5.34%
+2.86m 	7,121.6
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+20.29%
+11.88m 	29,625.1
+Stagger
+17.46%
+10.22m 	25,500.4
+Ignition
+14.05%
+8.22m 	20,512.9
+Crowd Dispersal
+12.19%
+7.14m 	17,801.1
+Arcane Volley
+8.60%
+5.03m 	12,555.7
+Blink
+6.36%
+3.72m 	9,290.4
+Holy Fire
+5.88%
+3.45m 	8,594.1
+Arcane Beam
+4.97%
+2.91m 	7,251.9
+Arcane Blade
+3.78%
+2.21m 	5,513.9
+Arcane Bolt
+2.89%
+1.69m 	4,222.3
+Pyroblast
+1.29%
+753.2k 	1,878.8
+Energy Release
+0.94%
+548.9k 	1,369.2
+Ethereal Shackles
+0.86%
+505.8k 	1,261.6
+Arcane Residue
+0.19%
+110.0k 	274.4
+Stretch Time
+0.15%
+89.9k 	224.3
+Falling
+0.12%
+67.3k 	168.0
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Proédros 	Holy Fire 	1:31
+Reíía 	Blink 	5:49
+Proédros 	Blink 	5:49
+Powerpegging 	Blink 	5:49
+Jonnydash 	Pyroblast 	6:00
+Powerpegging 	Melee 	6:33
+Reíía 	Melee 	6:37
+Jonnydash 	Ignition 	6:38
+Proédros 	Melee 	6:39
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Lanthymonky
+Monk (Brewmaster)
+281 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Detox
+Grace of the Crane
+Calming Presence
+Spear Hand Strike
+Jade Walk
+Ancient Arts 2
+Transcendence
+Celerity
+Chi Burst
+Stillstep Coil
+Ring of Peace
+Hasty Provocation
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Vigorous Expulsion
+Peace and Prosperity
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Expeditious Fortification
+Chi Proficiency 2
+Windwalking
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+Transcendence: Linked Spirits
+
+Keg Smash
+Purifying Brew
+Shuffle
+Swift as a Coursing River
+Elixir of Determination
+Quick Sip
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Fluidity of Motion
+Elusive Footwork
+Celestial Infusion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Zen State
+Face Palm
+Sal'salabim's Strength
+Bob and Weave
+Anvil and Stave 1
+Dragonfire Brew
+High Tolerance 2
+Blackout Combo
+Invoke Niuzao, the Black Ox
+Exploding Keg
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+		0 	0
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Jonnydash
+Demon Hunter (Devourer)
+281 Item Level
+Vengeful Retreat
+Sigil of Misery
+Voidblade
+Unrestrained Fury
+Shattered Restoration
+Bouncing Glaives
+Imprison
+Improved Disrupt
+Consume Magic
+Void Nova
+Aura of Pain
+Disrupting Fury
+Blazing Path
+Focused Ire
+Soul Rending 2
+Felfire Haste
+Pursuit
+Soul Cleanse
+Illidari Knowledge 2
+Will of the Illidari 2
+Guile
+Remorseless
+Internal Struggle
+First In, Last Out
+Furious
+Soul Splitter 2
+Erratic Felheart 1
+Darkness
+Final Breath
+Pitch Black
+Demonic Resilience
+
+Void Ray
+Soul Immolation
+Predator's Thirst
+Void Metamorphosis
+Feast of Souls
+Tempered Soul
+Collapsing Star
+Moment of Craving
+Soulshaper
+Waste Not
+Entropy
+Sweet Suffering 2
+Sweet Release 2
+Improved Consume
+Voidpurge
+Focused Ray
+Voidrage 2
+Devourer's Edge 2
+Demonic Instinct 2
+Rolling Torment
+Impending Apocalypse
+Calamitous
+Star Fragments
+Eradicate
+Emptiness
+Midnight 1
+Midnight 2
+Midnight 1
+		1 	0
+Powerpegging
+Evoker (Augmentation)
+283 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Enkindled 2
+Innate Magic 2
+Scarlet Adaptation
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Ignition Rush
+Chrono Ward
+Bestow Weyrnstone
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		1 	0
+Reíía
+Paladin (Retribution)
+281 Item Level
+Lay on Hands
+Auras of the Resolute
+Hammer of Wrath
+Cleanse Toxins
+Fist of Justice
+Blinding Light
+Divine Steed
+Healing Hands
+Guided Prayer
+Greater Judgment
+Cavalier
+Blessing of Freedom
+Shield of Vengeance
+Rebuke
+Obduracy 2
+Sanctified Plates 2
+Unbound Freedom
+Divine Toll
+Consecrated Ground
+Blessing of Sacrifice
+Blessing of Protection
+Quickened Invocation
+Holy Aegis
+Unbreakable Spirit
+Divine Purpose
+Sacrifice of the Just
+Light's Revocation
+Inspired Guard
+Lead the Charge
+Seal of Might 2
+Vengeful Wrath 2
+Blessing of Dusk
+Lightbearer
+
+Blade of Justice
+Divine Storm
+Expurgation
+Avenging Wrath
+Light of Justice
+Art of War
+Holy Blade
+Final Verdict
+Holy Flames
+Rush of Light
+Sanctify
+Tempest of the Lightbringer
+Improved Judgment
+Blade of Vengeance
+Zealot's Fervor 2
+Highlord's Wrath
+Blessed Champion
+Burning Crusade
+Crusading Strikes
+Wake of Ashes
+Divine Wrath 2
+Blades of Light 2
+Seething Flames
+Empyrean Legacy
+Execution Sentence
+Burn to Ash
+Crusade
+Light Within 1
+Light Within 2
+Light Within 1
+		2 	0
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Proédros
+Druid (Restoration)
+281 Item Level
+Rake
+Frenzied Regeneration
+Starfire
+Rejuvenation
+Ursoc's Spirit
+Wild Growth
+Moonkin Form
+Verdant Heart
+Rip
+Improved Nature's Cure
+Nurturing Instinct 2
+Killer Instinct 2
+Sunfire
+Improved Barkskin
+Natural Recovery
+Thick Hide
+Wild Charge
+Soothe
+Aessina's Renewal
+Typhoon
+Stampeding Roar
+Well-Honed Instincts
+Lingering Healing
+Ursol's Vortex
+Lycara's Teachings 2
+Gift of the Wild
+Oakskin
+Forestwalk 1
+Symbiotic Relationship
+Ursine Vigor
+Circle of the Wild
+Heart of the Wild
+Innervate
+Fluid Form
+
+Lifebloom
+Swiftmend
+Nature's Swiftness
+Omen of Clarity
+Nature's Splendor
+Prosperity
+Improved Regrowth
+Soul of the Forest
+Tranquility
+Efflorescence
+Ironbark
+Verdancy
+Improved Ironbark
+Grove Guardians
+Lifetreading
+Rampant Growth
+Renewing Surge
+Power of the Archdruid
+Wild Synthesis
+Improved Swiftmend
+Intensity
+Convoke the Spirits
+Cenarius' Guidance
+Thriving Vegetation 2
+Liveliness
+Abundance
+Germination
+Photosynthesis
+Harmonious Blooming
+Everbloom 1
+Everbloom 2
+Everbloom 1
+		0 	1
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+1 month ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

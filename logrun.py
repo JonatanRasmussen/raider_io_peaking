@@ -2,6 +2,7 @@ import re
 import csv
 import os
 import traceback
+import hashlib
 from datetime import datetime
 
 LOGS_FOLDER = "logged_runs"
@@ -630,17 +631,23 @@ def build_csv_row(data):
     row['IsScoreUpgrade'] = ''
 
     deaths       = data.get('deaths', [])
-    for i in range(1, 21):
-        if i <= len(deaths):
-            d = deaths[i - 1]
-            row[f'death{i}'] = f"{d['player']}: {d['killing_blow']} ({d['timestamp']})"
-        else:
-            row[f'death{i}'] = ''
-
-    players      = data.get('players',      [])
+    players      = data.get('players', [])
     damage_done  = data.get('damage_done',  {})
     healing_done = data.get('healing_done', {})
     dps_pcts     = data.get('dps_pcts',     {})
+
+    # Build lookup: player name -> "Spec Class" string
+    player_label = {}
+    for p in players:
+        label = f"{p.get('spec', '')} {p.get('class', '')}".strip()
+        player_label[p['name']] = label if label else p['name']
+    for i in range(1, 21):
+        if i <= len(deaths):
+            d = deaths[i - 1]
+            label = player_label.get(d['player'], d['player'])
+            row[f'death{i}'] = f"{label}: {d['killing_blow']} ({d['timestamp']})"
+        else:
+            row[f'death{i}'] = ''
 
     for idx in range(1, 6):
         px = f'player{idx}_'
@@ -654,10 +661,35 @@ def build_csv_row(data):
             row[px + 'role']           = p.get('role',  '')
             di = damage_done.get(name,  {})
             hi = healing_done.get(name, {})
-            row[px + 'damage_amount']  = di.get('amount',  '')
+            raw_amount = di.get('amount', '')
+            duration_secs = duration_to_seconds(data.get('duration', ''))
+            if raw_amount and duration_secs > 0:
+                total_dmg = amount_to_float(raw_amount)
+                avg_dps   = total_dmg / duration_secs
+                if avg_dps >= 1_000_000:
+                    avg_str = f"{avg_dps / 1_000_000:.1f}m"
+                elif avg_dps >= 1_000:
+                    avg_str = f"{avg_dps / 1_000:.1f}k"
+                else:
+                    avg_str = f"{avg_dps:.1f}"
+                row[px + 'damage_amount'] = f"{raw_amount} ({avg_str})"
+            else:
+                row[px + 'damage_amount'] = raw_amount
             row[px + 'dps']            = di.get('dps_hps', '')
             row[px + 'damage_pct']     = dps_pcts.get(name, '')
-            row[px + 'healing_amount'] = hi.get('amount',  '')
+            raw_heal = hi.get('amount', '')
+            if raw_heal and duration_secs > 0:
+                total_heal = amount_to_float(raw_heal)
+                avg_hps    = total_heal / duration_secs
+                if avg_hps >= 1_000_000:
+                    avg_str = f"{avg_hps / 1_000_000:.1f}m"
+                elif avg_hps >= 1_000:
+                    avg_str = f"{avg_hps / 1_000:.1f}k"
+                else:
+                    avg_str = f"{avg_hps:.1f}"
+                row[px + 'healing_amount'] = f"{raw_heal} ({avg_str})"
+            else:
+                row[px + 'healing_amount'] = raw_heal
             row[px + 'hps']            = hi.get('dps_hps', '')
             row[px + 'deaths']         = count_deaths(deaths, name)
             row[px + 'potions']        = p.get('potions',      '0')
@@ -696,11 +728,14 @@ def get_csv_headers():
 # ---------------------------------------------------------------------------
 
 def process_file(filepath):
+    SHOW_DEBUG_PRINTS = False
+
     with open(filepath, 'r', encoding='utf-8') as f:
         text = f.read()
 
-    print(f"\n{'='*60}")
-    print(f"Processing: {filepath}")
+    if SHOW_DEBUG_PRINTS:
+        print(f"\n{'='*60}")
+        print(f"Processing: {filepath}")
 
     data = parse_log(text)
 
@@ -722,30 +757,57 @@ def process_file(filepath):
     )
 
     # ── debug ─────────────────────────────────────────────────
-    print(f"  Uploader   : {data.get('uploader')}")
-    print(f"  Log date   : {data.get('log_date')}")
-    print(f"  Dungeon    : {data.get('dungeon')}")
-    print(f"  Key Level  : {data.get('key_level')}")
-    print(f"  Duration   : {data.get('duration')}")
-    print(f"  Timestamp  : {data.get('timestamp')}")
-    print(f"  Completion : {data.get('completion')}")
-    print(f"  Players    : {len(data.get('players', []))}")
-    for p in data.get('players', []):
-        print(f"    - {p['name']} ({p['class']} {p['spec']}, "
-              f"{p['ilvl']} ilvl, Role={p['role']}, "
-              f"Pot={p['potions']}, HS={p['healthstones']})")
-    print(f"  Deaths     : {len(data.get('deaths', []))}")
-    for d in data.get('deaths', []):
-        print(f"    - {d['player']} by {d['killing_blow']} at {d['timestamp']}")
-    print(f"  DMG entries : {len(dmg)}")
-    for nm, v in dmg.items():
-        pct = data['dps_pcts'].get(nm, '?')
-        print(f"    {nm}: {v}  →  group DMG% = {pct}")
-    print(f"  Heal entries: {len(heal)}")
-    for nm, v in heal.items():
-        print(f"    {nm}: {v}")
+    if SHOW_DEBUG_PRINTS:
+        print(f"  Uploader   : {data.get('uploader')}")
+        print(f"  Log date   : {data.get('log_date')}")
+        print(f"  Dungeon    : {data.get('dungeon')}")
+        print(f"  Key Level  : {data.get('key_level')}")
+        print(f"  Duration   : {data.get('duration')}")
+        print(f"  Timestamp  : {data.get('timestamp')}")
+        print(f"  Completion : {data.get('completion')}")
+        print(f"  Players    : {len(data.get('players', []))}")
+        for p in data.get('players', []):
+            print(f"    - {p['name']} ({p['class']} {p['spec']}, "
+                f"{p['ilvl']} ilvl, Role={p['role']}, "
+                f"Pot={p['potions']}, HS={p['healthstones']})")
+        print(f"  Deaths     : {len(data.get('deaths', []))}")
+        for d in data.get('deaths', []):
+            print(f"    - {d['player']} by {d['killing_blow']} at {d['timestamp']}")
+        print(f"  DMG entries : {len(dmg)}")
+        for nm, v in dmg.items():
+            pct = data['dps_pcts'].get(nm, '?')
+            print(f"    {nm}: {v}  →  group DMG% = {pct}")
+        print(f"  Heal entries: {len(heal)}")
+        for nm, v in heal.items():
+            print(f"    {nm}: {v}")
 
     return build_csv_row(data)
+
+
+# ---------------------------------------------------------------------------
+# Log data validation
+# ---------------------------------------------------------------------------
+
+
+def compute_log_fingerprint(data):
+    """
+    Compute a fingerprint from the damage, healing, and death data.
+    This is used to detect files where a previous run's stats were
+    not replaced before the page was saved.
+    """
+    parts = []
+
+    for name, entry in sorted(data.get('damage_done', {}).items()):
+        parts.append(f"dmg:{name}:{entry.get('amount', '')}:{entry.get('dps_hps', '')}")
+
+    for name, entry in sorted(data.get('healing_done', {}).items()):
+        parts.append(f"heal:{name}:{entry.get('amount', '')}:{entry.get('dps_hps', '')}")
+
+    for d in data.get('deaths', []):
+        parts.append(f"death:{d.get('player', '')}:{d.get('killing_blow', '')}:{d.get('timestamp', '')}")
+
+    combined = '|'.join(parts)
+    return hashlib.md5(combined.encode('utf-8')).hexdigest()
 
 
 # ---------------------------------------------------------------------------
@@ -768,11 +830,45 @@ def main():
         return
 
     rows = []
+    seen_fingerprints = {}   # fingerprint -> filepath
+
     for fp in log_files:
         try:
             row = process_file(fp)
-            if row:
-                rows.append(row)
+            if not row:
+                continue
+
+            # Re-parse just enough to compute fingerprint
+            with open(fp, 'r', encoding='utf-8') as f:
+                text = f.read()
+            data = parse_log(text)
+            dmg, heal = parse_damage_healing_flexible(text)
+            if not dmg or not heal:
+                dmg2, heal2 = parse_damage_healing_tables(text)
+                if not dmg:
+                    dmg  = dmg2
+                if not heal:
+                    heal = heal2
+            data['damage_done']  = dmg
+            data['healing_done'] = heal
+            data['deaths']       = data.get('deaths', [])
+
+            fp_hash = compute_log_fingerprint(data)
+
+            if fp_hash in seen_fingerprints:
+                print(
+                    f"\n  WARNING: Duplicate stats detected!\n"
+                    f"    File      : {fp}\n"
+                    f"    Matches   : {seen_fingerprints[fp_hash]}\n"
+                    f"    Dungeon   : {row.get('dungeon')} +{row.get('key_level')}\n"
+                    f"    The file above likely has stale data from the earlier run.\n"
+                    f"    Skipping  : {fp}"
+                )
+                continue
+
+            seen_fingerprints[fp_hash] = fp
+            rows.append(row)
+
         except Exception as e:
             print(f"  ERROR in {fp}: {e}")
             traceback.print_exc()
@@ -793,6 +889,224 @@ def main():
 
     print(f"\n{'='*60}")
     print(f"Written {len(rows)} rows to {OUTPUT_FILE}")
+
+    print_milestone_summary(OUTPUT_FILE)
+
+
+def score_to_avg_keylevel(total_score: float) -> float:
+    """
+    Given a player's total raider.io M+ score, return the average key level
+    they timed across 8 dungeons, using the model:
+        S(k) = 15k + 185  (for k >= 12, all affixes unlocked)
+
+    Per-dungeon score = total_score / 8
+    Solving for k: k = (per_dungeon_score - 185) / 15
+    """
+    per_dungeon = total_score / 8
+    return (per_dungeon - 185) / 15
+
+
+def print_milestone_summary(csv_file, player_scores=None):
+    """
+    Print a formatted milestone summary.
+
+    Parameters
+    ----------
+    csv_file : str
+        Path to the summary CSV produced by this script.
+    player_scores : dict | None
+        Optional { player_name: float } of current raider.io scores.
+        When supplied, each player line includes their current score.
+        Pass None (default) to omit scores.
+    """
+
+    # ── configuration ─────────────────────────────────────────────────────────
+    ANONYMOUS   = False          # Set True to anonymise all player names
+    MY_NAME     = "Powerpegging" # Your own character name (always shown as "Me")
+    # ──────────────────────────────────────────────────────────────────────────
+
+    if not os.path.isfile(csv_file):
+        print(f"No file '{csv_file}' found.")
+        return
+
+    with open(csv_file, 'r', encoding='utf-8') as f:
+        rows = list(csv.DictReader(f))
+
+    # Sort chronologically (oldest first)
+    rows.sort(key=lambda r: get_sort_dt(r.get('timestamp', '')))
+
+    # Anonymisation map  { real_name -> "anonXXX" }
+    anon_map     = {}
+    anon_counter = [0]  # mutable so the helper can increment it
+
+    def get_anon_name(real_name):
+        """Return the anonymised label for real_name."""
+        if real_name == MY_NAME:
+            return "Me"
+        if real_name not in anon_map:
+            anon_counter[0] += 1
+            anon_map[real_name] = f"anon{anon_counter[0]:03d}"
+        return anon_map[real_name]
+
+    # Per-dungeon state
+    state      = {}
+    milestones = []
+
+    for row in rows:
+        dungeon    = row.get('dungeon',    '').strip()
+        key_level  = row.get('key_level',  '').strip()
+        timestamp  = row.get('timestamp',  '').strip()
+        completion = row.get('completion', '').strip()
+        duration   = row.get('duration',   '').strip()
+
+        if not dungeon or not key_level:
+            continue
+        try:
+            kl = int(key_level)
+        except ValueError:
+            continue
+
+        if dungeon not in state:
+            state[dungeon] = {
+                'best_level':   None,
+                'attempts':     0,
+                'target_level': kl,
+            }
+
+        st = state[dungeon]
+
+        if kl > st['target_level']:
+            st['target_level'] = kl
+            st['attempts']     = 0
+
+        if kl < st['target_level']:
+            continue
+
+        st['attempts'] += 1
+
+        if completion == '1' and (st['best_level'] is None or kl > st['best_level']):
+            date_part    = timestamp[:10]
+            attempt_word = 'attempt' if st['attempts'] == 1 else 'attempts'
+
+            # ── time under timer ──────────────────────────────────────────
+            timer_secs    = get_dungeon_timer(dungeon)
+            duration_secs = duration_to_seconds(duration)
+            if timer_secs and duration_secs:
+                under_secs = timer_secs - duration_secs
+                under_min  = under_secs // 60
+                under_sec  = under_secs % 60
+                under_str  = f"{under_min}min {under_sec:02d}sec time remaining"
+            else:
+                under_str  = "timer unknown"
+
+            # ── header line – build with fixed-width fields so | aligns ──
+            # "2026-04-24  " = 12 chars (date + 2 spaces)
+            # dungeon name varies; key level "+ XX" varies; pad dungeon+key
+            # We use a generous fixed width for the dungeon+key portion.
+            # Longest dungeon name in the data: "The Seat of the Triumvirate" = 27
+            # "+XX" = 3, space = 1  →  27+1+3 = 31 chars for dungeon+key block
+            # attempts "(XX attempts)" longest = 14 chars
+            # We'll just left-justify the dungeon+key in 32 chars.
+            dungeon_key   = f"{dungeon} +{kl}"
+            attempts_str  = f"({st['attempts']} {attempt_word})"
+
+            # ── team composition ──────────────────────────────────────────
+            # Column widths:
+            #   name      : 20
+            #   spec_cls  : 28  (bracket included)
+            #   ilvl_col  : 8
+            #   dps_col   : 10
+            COL_NAME     = 20
+            COL_SPEC_CLS = 28
+            COL_ILVL     = 8
+            COL_DPS      = 10
+
+            team = []
+            for idx in range(1, 6):
+                px   = f'player{idx}_'
+                name = row.get(px + 'name', '').strip()
+                if not name:
+                    continue
+
+                spec  = row.get(px + 'spec',  '').strip()
+                cls   = row.get(px + 'class', '').strip()
+                ilvl  = row.get(px + 'ilvl',  '').strip()
+
+                # Always show DPS regardless of role
+                dmg_raw = row.get(px + 'damage_amount', '').strip()
+                m = re.search(r'\(([^)]+)\)$', dmg_raw)
+                avg_dps_str = f"{m.group(1)} dps" if m else ''
+
+                # RIO score — always shown; use ???? if missing/zero
+                score_str = 'rio ????'
+                if player_scores is not None:
+                    score_val = player_scores.get(name)
+                    if score_val is not None and score_val != '':
+                        try:
+                            val = float(score_val)
+                            if val > 0:
+                                resil = score_to_avg_keylevel(val)
+                                score_str = f"rio {val:.0f} (resil {resil:.1f})"
+                        except (ValueError, TypeError):
+                            pass
+
+                # Anonymise if requested
+                display_name = get_anon_name(name) if ANONYMOUS else name
+
+                spec_cls = f"{spec} {cls}".strip() if (spec or cls) else '?'
+
+                # Build padded columns
+                name_col     = display_name.ljust(COL_NAME)
+                spec_cls_col = f"[{spec_cls}]".ljust(COL_SPEC_CLS)
+                ilvl_col     = (f"ilvl {ilvl}" if ilvl else '').ljust(COL_ILVL)
+                dps_col      = avg_dps_str.ljust(COL_DPS) if avg_dps_str else ''.ljust(COL_DPS)
+
+                line = f"    {name_col}  |  {spec_cls_col}  |  {ilvl_col}  |  {dps_col}  |  {score_str}"
+
+                team.append(line)
+
+            milestones.append({
+                'date':          date_part,
+                'dungeon':       dungeon,
+                'dungeon_key':   dungeon_key,
+                'attempts_str':  attempts_str,
+                'kl':            kl,
+                'attempts':      st['attempts'],
+                'sort_dt':       get_sort_dt(timestamp),
+                'attempt_word':  attempt_word,
+                'under_str':     under_str,
+                'team':          team,
+            })
+
+            st['best_level']   = kl
+            st['target_level'] = kl + 1
+            st['attempts']     = 0
+
+    milestones.sort(key=lambda m: m['sort_dt'])
+
+    # ── compute column widths for the header line ─────────────────────────────
+    # "DATE  DUNGEON +KL  (X attempts)  —  Xmin XXsec time remaining"
+    # We want the "—" to line up, so pad dungeon_key and attempts_str.
+    max_dk  = max((len(m['dungeon_key'])  for m in milestones), default=0)
+    max_att = max((len(m['attempts_str']) for m in milestones), default=0)
+
+    print(f"\n{'='*60}")
+    print("Mythic+ Milestone Summary")
+    print('='*60)
+
+    for m in milestones:
+        dk_padded  = m['dungeon_key'].ljust(max_dk)
+        att_padded = m['attempts_str'].ljust(max_att)
+        print(
+            f"\n{m['date']}  {dk_padded}  {att_padded}  —  {m['under_str']}"
+        )
+        for player_line in m['team']:
+            print(player_line)
+
+    print(f"\n{'='*60}")
+    print(f"Total milestones: {len(milestones)}")
+    print('='*60)
+
 
 
 if __name__ == '__main__':

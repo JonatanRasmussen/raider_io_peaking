@@ -10,7 +10,10 @@ Warcraft Logs
 Enter a player, guild, or realm
 Enter a player, guild, or realm
 Search
-201
+130 Players Streaming
+Statistics
+Latest News
+Recruitment
 Download Archon App
 
     Deutsch
@@ -33,13 +36,13 @@ Settings
 +
 
     Mythic+ Season 1
-    BudoBoy07 - (Public) - 2 hours ago
+    BudoBoy07 - (Public) - 1 day ago
     Mythic+ Season 1
-    BudoBoy07 - (Public) - 6 hours ago
+    BudoBoy07 - (Public) - 1 day ago
     Mythic+ Season 1
-    BudoBoy07 - (Public) - 16 hours ago
+    BudoBoy07 - (Public) - 2 days ago
     Mythic+ Season 1
-    BudoBoy07 - (Public) - 18 hours ago
+    BudoBoy07 - (Public) - 2 days ago
 
 BudoBoy07
 Personal Logs
@@ -75,6 +78,12 @@ Level 19 [Fortified] [Tyrannical] [Xal'atath's Guile] (26:45) 4:37 PM
         High Sage Viryx
 
 Entire Dungeon
+
+Analyze
+Compare
+Mechanics
+Rankings
+Replay
 
     + All Friendlies
         +Мэрукраины
@@ -4729,6 +4738,12 @@ Entire Dungeon
 
 
 Friendlies Enemies
+
+Tables
+Timelines
+Events
+Queries
+Components
 Summary
 Damage Done
 Damage Taken
@@ -4759,10 +4774,10 @@ Filter Expression:
         Hide All Entries
 
 ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0002:0004:0006:0008:0010:0012:0014:0016:0018:0020:0022:0024:0026:000k500k1,000k1,500k2,000k
-Group Composition Item Level: 279.83
-Tanks:	Zombamonk
-DPS:	Kepi Chainzrøw Powerpegging
-Healers:	Serpillère
+Group Composition Item Level: 280.00
+Tanks:	Rxdiant
+DPS:	Мэрукраины Benndh Powerpegging
+Healers:	Ellysian
 Damage Done By Source
 Name
 
@@ -4770,21 +4785,21 @@ Amount
 
 DPS
 
-Kepi
-29.88%
-82.16m 	172,597.6
+Мэрукраины
+32.74%
+264.37m 	168,532.6
+Benndh
+26.95%
+217.57m 	138,697.6
 Powerpegging
-26.89%
-73.95m 	155,346.5
-Chainzrøw
-26.58%
-73.10m 	153,552.2
-Zombamonk
-14.52%
-39.94m 	83,898.9
-Serpillère
-2.13%
-5.86m 	12,305.8
+26.42%
+213.30m 	135,973.9
+Rxdiant
+13.10%
+105.78m 	67,430.7
+Ellysian
+0.80%
+6.44m 	4,105.5
 Healing Done By Source
 Name
 
@@ -4792,21 +4807,21 @@ Amount
 
 HPS
 
-Serpillère
-46.88%
-30.86m 	64,823.6
-Zombamonk
-33.93%
-22.33m 	46,918.1
+Ellysian
+54.18%
+163.09m 	103,970.2
+Rxdiant
+31.81%
+95.77m 	61,052.6
+Benndh
+5.04%
+15.17m 	9,669.8
 Powerpegging
-8.03%
-5.28m 	11,098.8
-Chainzrøw
-6.03%
-3.97m 	8,339.8
-Kepi
-5.14%
-3.38m 	7,101.3
+4.91%
+14.78m 	9,421.1
+Мэрукраины
+4.06%
+12.23m 	7,795.1
 Damage Taken By Ability
 Name
 
@@ -4815,62 +4830,98 @@ Amount
 DTPS
 
 Stagger
-18.04%
-12.44m 	26,138.7
+22.43%
+66.49m 	42,389.6
 Melee
-17.59%
-12.13m 	25,486.5
-Ignition
-16.33%
-11.26m 	23,657.4
-Arcane Expulsion
-8.55%
-5.90m 	12,385.4
-Crowd Dispersal
-6.16%
-4.24m 	8,917.0
-Energy Release
-4.97%
-3.43m 	7,197.4
-Holy Fire
-4.58%
-3.16m 	6,630.7
-Arcane Volley
-3.98%
-2.75m 	5,766.9
-Blink
-3.86%
-2.66m 	5,597.1
-Unstable Energy
-3.72%
-2.56m 	5,383.7
-Repulsing Slam
-2.93%
-2.02m 	4,246.7
-Arcane Blade
+15.38%
+45.59m 	29,065.6
+Light Ray
+8.50%
+25.19m 	16,060.8
+Fan of Blades
+7.67%
+22.74m 	14,493.9
+Burning Pursuit
+7.65%
+22.68m 	14,457.7
+Scorching Ray
+7.19%
+21.31m 	13,581.8
+Blade Rush
+4.19%
+12.43m 	7,926.1
+Solar Flame
+4.00%
+11.86m 	7,557.6
+Sunbreak
+3.82%
+11.32m 	7,219.5
+Dire Screech
+3.00%
+8.90m 	5,671.4
+Fiery Talon
 2.37%
-1.64m 	3,435.6
-Arcane Bolt
-2.18%
-1.51m 	3,162.7
-Arcane Beam
-1.90%
-1.31m 	2,749.4
-Flamestrike
-1.19%
-822.3k 	1,727.5
-Arcane Residue
-0.55%
-379.0k 	796.1
-Ethereal Shackles
-0.52%
-360.7k 	757.8
+7.03m 	4,479.1
+Solar Barrier
+2.09%
+6.18m 	3,941.4
+Supernova
+1.77%
+5.24m 	3,341.6
+Ricocheting Chakram
+1.69%
+5.01m 	3,196.5
+Gale Surge
+1.20%
+3.56m 	2,271.7
+Dread Wind
+1.05%
+3.11m 	1,985.5
+Shear
+1.03%
+3.05m 	1,946.5
+Wrathful Wind
+0.94%
+2.77m 	1,769.0
 Stretch Time
-0.39%
-268.1k 	563.3
-Falling
+0.65%
+1.93m 	1,233.1
+Searing Quills
+0.58%
+1.73m 	1,102.2
+Burning Claws
+0.57%
+1.70m 	1,086.6
+Solar Flare
+0.53%
+1.56m 	993.7
+Burning Claws
+0.44%
+1.30m 	826.0
+Coalesced Wind
+0.43%
+1.26m 	804.8
+Wind Claws
+0.22%
+638.9k 	407.3
+Chakram Vortex
 0.18%
-123.0k 	258.4
+545.6k 	347.8
+Mark of Death
+0.13%
+391.2k 	249.4
+Wind Blast
+0.11%
+311.6k 	198.7
+Defensive Protocol
+0.10%
+286.1k 	182.4
+Fiery Smash
+0.08%
+226.7k 	144.5
+Solar Infusion
+0.04%
+119.8k 	76.4
 Deaths
 Name
 
@@ -4878,13 +4929,9 @@ Killing Blow
 
 Time
 
-Serpillère 	Flamestrike 	2:46
-Chainzrøw 	Holy Fire 	3:08
-Serpillère 	Unstable Energy 	7:08
-Chainzrøw 	Melee 	7:33
-Kepi 	Arcane Expulsion 	7:37
-Zombamonk 	Arcane Bolt 	7:54
-Powerpegging 	Blink 	7:55
+Powerpegging 	Solar Flame 	8:07
+Powerpegging 	Solar Flame 	8:20
+Benndh 	Solar Barrier 	18:42
 Characters
 Tanks
 
@@ -4897,9 +4944,9 @@ Gear
 Potions
 
 Healthstones
-Zombamonk
+Rxdiant
 Monk (Brewmaster)
-281 Item Level
+279 Item Level
 Stagger
 Paralysis
 Tiger's Lust
@@ -4907,9 +4954,9 @@ Fast Feet
 Detox
 Grace of the Crane
 Calming Presence
+Pressure Points
 Vivacious Vivification
 Spear Hand Strike
-Jade Walk
 Ancient Arts 2
 Transcendence
 Celerity
@@ -4924,14 +4971,14 @@ Yu'lon's Grace
 Fortifying Brew
 Dance of the Wind
 Strength of Spirit
-Expeditious Fortification
+Ironshell Brew
 Chi Proficiency 2
+Windwalking
 Chi Transfer
 Martial Instincts 2
 Lighter Than Air
 Flow of Chi
 Fatal Touch
-Transcendence: Linked Spirits
 
 Keg Smash
 Purifying Brew
@@ -4952,20 +4999,20 @@ Pretense of Instability
 Zen State
 Face Palm
 Sal'salabim's Strength
-Bob and Weave
+Black Ox Brew
 Counterstrike
 Dragonfire Brew
 High Tolerance 2
 Blackout Combo
 Invoke Niuzao, the Black Ox
-Vital Flame
 Exploding Keg
+Vital Flame
 Stormstout's Last Keg
 Heart of the Ox
 Bring Me Another 1
 Bring Me Another 2
 Bring Me Another 1
-		3 	0
+		2 	2
 DPS
 
 Class Talents
@@ -4977,7 +5024,7 @@ Gear
 Potions
 
 Healthstones
-Kepi
+Мэрукраины
 Death Knight (Unholy)
 281 Item Level
 Death Strike
@@ -4999,8 +5046,8 @@ Coldthirst
 Anti-Magic Zone
 Unholy Bond
 Icy Talons
-Death Notes
 Anti-Magic Barrier
+Assimilation
 Death's Reach
 Unholy Endurance
 Blood Scent
@@ -5026,7 +5073,7 @@ Soul Reaper
 Festering Scythe
 Ebon Fever
 Cycle of Death
-Coil of Devastation
+Ghoulish Frenzy
 Army of the Dead
 Menacing Magus
 Reaping
@@ -5043,26 +5090,26 @@ Reanimation
 Forbidden Knowledge 1
 Forbidden Knowledge 2
 Forbidden Knowledge 1
-		1 	0
-Chainzrøw
+		5 	2
+Benndh
 Demon Hunter (Devourer)
-280 Item Level
+281 Item Level
 Vengeful Retreat
 Sigil of Misery
 Voidblade
 Unrestrained Fury
 Shattered Restoration
 Bouncing Glaives
-Charred Warblades
 Imprison
 Improved Disrupt
 Consume Magic
 Void Nova
 Aura of Pain
-Disrupting Fury
 Blazing Path
 Focused Ire
-Burn It Out
+Disrupting Fury
+Swallowed Anger
+Soul Cleanse
 Soul Rending 2
 Pursuit
 Illidari Knowledge 2
@@ -5072,12 +5119,12 @@ Remorseless
 Internal Struggle
 First In, Last Out
 Furious
-Demon Muzzle
 Soul Splitter 2
-Erratic Felheart 1
-Darkness
 Final Breath
+Demon Muzzle
+Darkness
 Demonic Resilience
+Pitch Black
 
 Void Ray
 Soul Immolation
@@ -5090,10 +5137,10 @@ Moment of Craving
 Soulshaper
 Waste Not
 Entropy
-Sweet Suffering 2
 Sweet Release 2
 Improved Consume
 Voidpurge
+Sweet Suffering 2
 Focused Ray
 Voidrage 2
 Devourer's Edge 2
@@ -5107,7 +5154,7 @@ Emptiness
 Midnight 1
 Midnight 2
 Midnight 1
-		2 	0
+		4 	1
 Powerpegging
 Evoker (Augmentation)
 279 Item Level
@@ -5176,7 +5223,7 @@ Mighty Inferno
 Duplicate 1
 Duplicate 2
 Duplicate 1
-		0 	0
+		3 	2
 Healers
 
 Class Talents
@@ -5188,25 +5235,24 @@ Gear
 Potions
 
 Healthstones
-Serpillère
+Ellysian
 Druid (Restoration)
 280 Item Level
 Rake
 Frenzied Regeneration
-Starfire
 Rejuvenation
 Ursoc's Spirit
+Swipe
 Grievous Wounds
 Wild Growth
-Moonkin Form
 Verdant Heart
 Rip
 Improved Nature's Cure
 Nurturing Instinct 2
-Killer Instinct 1
-Sunfire
+Killer Instinct 2
 Improved Barkskin
 Natural Recovery
+Astral Influence
 Thick Hide
 Wild Charge
 Soothe
@@ -5219,12 +5265,13 @@ Ursol's Vortex
 Lycara's Teachings 2
 Gift of the Wild
 Oakskin
-Forestwalk 2
+Incapacitating Roar
+Forestwalk 1
 Symbiotic Relationship
 Ursine Vigor
 Circle of the Wild
 Heart of the Wild
-Innervate
+Fluid Form
 
 Lifebloom
 Swiftmend
@@ -5249,8 +5296,7 @@ Improved Swiftmend
 Intensity
 Convoke the Spirits
 Cenarius' Guidance
-Thriving Vegetation 1
-Nature's Bounty
+Thriving Vegetation 2
 Liveliness
 Abundance
 Germination
@@ -5259,8 +5305,47 @@ Harmonious Blooming
 Everbloom 1
 Everbloom 2
 Everbloom 1
-		1 	0
+		4 	1
 Warcraft Logs Logo
 HEY THERE.We all want Warcraft Logs to remain free.
 We work hard to offer you the best possible experience.
 Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+2 months ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs

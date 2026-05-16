@@ -1,0 +1,652 @@
+
+
+    Midnight
+    Mists of Pandaria
+    Classic Fresh
+    Season of Discovery
+    Vanilla
+
+Warcraft Logs
+Enter a player, guild, or realm
+Enter a player, guild, or realm
+Search
+56
+Download Archon App
+
+    Deutsch
+    English
+    Español
+    Français
+    Italiano
+    Português (Brasil)
+    Русский
+    한국어
+    繁體中文
+    简体中文
+
+Mythic+ Season 1
+Created by BudoBoy07 on Thu May 14 2026
+
+    View in Anonymous Mode
+
+Settings
++
+
+    Unknown Zone
+    BudoBoy07 - (Public) - 24 minutes ago
+    Unknown Zone
+    BudoBoy07 - (Public) - 27 minutes ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 17 hours ago
+    Mythic+ Season 1
+    BudoBoy07 - (Public) - 19 hours ago
+
+BudoBoy07
+Personal Logs
++
+Nexus-Point Xenas+
+Level 20 [Tyrannical] [Fortified] [Xal'atath's Guile] 2 (1:43) 2:30 PM
+
+    + Bosses and Trash
+        Bosses and Trash
+        Bosses
+        Trash
+        Chief Corewright Kasreth
+        Corewarden Nysarra
+        Lothraxion
+        Pull 1 (1:26) +0:17
+        Circuit Seer
+
+Entire Dungeon
+
+Analyze
+Compare
+Mechanics
+Rankings
+Replay
+
+    + All Friendlies
+        +Powerpegging
+            +Dracthyr Commando
+                1
+
+                2
+
+            ID: 219827
+            Future Self
+
+            ID: 253466
+        +Berrybad
+            Splinter
+        +Psychedelic
+            Niuzao
+
+            ID: 73967
+        Zyntharen
+        Сфериель
+
+
+
+
+Friendlies Enemies
+
+Tables
+Timelines
+Events
+Queries
+Components
+Summary
+Damage Done
+Damage Taken
+Healing
+Threat
+Buffs
+Debuffs
+Deaths
+Interrupts
+Dispels
+Resources
+Casts
+
+    +Ignore Events After Player Deaths
+        Ignore Events After Player Deaths
+        Ignore Events After A Called Wipe
+
+Filter Expression:
+
+    +
+        Heroism
+        Downtime
+        Player Deaths
+        Player Resurrections
+        Boss Deaths
+        NPC Deaths
+        Show All Entries
+        Hide All Entries
+
+ZoomPer Second AmountDamage DoneDamage TakenHealing Done00:0000:1000:2000:3000:4000:5001:0001:1001:2001:3001:400M1M2M3M4M5M
+Group Composition Item Level: 286.80
+Tanks:	Psychedelic
+DPS:	Powerpegging Berrybad Zyntharen
+Healers:	Сфериель
+Damage Done By Source
+Name
+
+Amount
+
+DPS
+
+Zyntharen
+47.15%
+39.07m 	375,977.8
+Powerpegging
+27.01%
+22.39m 	215,427.6
+Psychedelic
+13.54%
+11.22m 	107,965.9
+Berrybad
+8.49%
+7.03m 	67,682.5
+Сфериель
+3.82%
+3.16m 	30,436.7
+Healing Done By Source
+Name
+
+Amount
+
+HPS
+
+Сфериель
+51.26%
+12.55m 	120,731.5
+Psychedelic
+40.41%
+9.89m 	95,169.1
+Powerpegging
+6.17%
+1.51m 	14,533.7
+Zyntharen
+2.16%
+528.1k 	5,082.1
+Damage Taken By Ability
+Name
+
+Amount
+
+DTPS
+
+Melee
+21.91%
+4.57m 	43,933.5
+Arcing Mana
+17.64%
+3.68m 	35,379.3
+Stagger
+15.05%
+3.14m 	30,167.7
+Suppression Field
+11.67%
+2.43m 	23,402.6
+Arcane Explosion
+7.52%
+1.57m 	15,083.2
+Umbra Bolt
+5.47%
+1.14m 	10,960.9
+Null Sunder
+4.68%
+975.9k 	9,391.1
+Arcane Zap
+4.63%
+964.2k 	9,277.9
+Erratic Zap
+2.99%
+622.0k 	5,985.6
+Flux Collapse
+2.81%
+585.9k 	5,637.8
+Suppression Field
+2.07%
+432.1k 	4,158.1
+Erratic Surge
+1.26%
+262.0k 	2,521.2
+Arcane Spill
+1.23%
+257.3k 	2,475.9
+Stretch Time
+0.97%
+203.0k 	1,953.0
+Shadow Mend
+0.09%
+18.6k 	179.5
+Deaths
+Name
+
+Killing Blow
+
+Time
+
+Berrybad 	Melee 	0:46
+Сфериель 	Erratic Zap 	1:31
+Powerpegging 	Suppression Field 	1:40
+Psychedelic 	Arcane Explosion 	1:41
+Zyntharen 	Arcane Explosion 	1:43
+Berrybad 	Arcane Explosion 	1:43
+Characters
+Tanks
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Psychedelic
+Monk (Brewmaster)
+287 Item Level
+Stagger
+Paralysis
+Tiger's Lust
+Fast Feet
+Detox
+Grace of the Crane
+Calming Presence
+Pressure Points
+Vivacious Vivification
+Spear Hand Strike
+Ancient Arts 2
+Transcendence
+Celerity
+Chi Burst
+Ring of Peace
+Improved Touch of Death
+Hasty Provocation
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Vigorous Expulsion
+Yu'lon's Grace
+Fortifying Brew
+Dance of the Wind
+Strength of Spirit
+Expeditious Fortification
+Chi Proficiency 2
+Windwalking
+Chi Transfer
+Martial Instincts 2
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Keg Smash
+Purifying Brew
+Shuffle
+Improved Blackout Kick
+Elixir of Determination
+Quick Sip
+Gift of the Ox
+Spirit of the Ox
+Special Delivery
+Shadowboxing Treads
+Elusive Footwork
+Celestial Infusion
+Breath of Fire
+Training of Niuzao
+Gai Plin's Imperial Brew
+Pretense of Instability
+Zen State
+Face Palm
+Sal'salabim's Strength
+Bob and Weave
+Counterstrike
+Anvil and Stave 2
+Dragonfire Brew
+High Tolerance 1
+Blackout Combo
+Invoke Niuzao, the Black Ox
+Vital Flame
+Stormstout's Last Keg
+Heart of the Ox
+Bring Me Another 1
+Bring Me Another 2
+Bring Me Another 1
+		1 	1
+DPS
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Powerpegging
+Evoker (Augmentation)
+287 Item Level
+Expunge
+Obsidian Scales
+Landslide
+Natural Convergence
+Verdant Embrace
+Heavy Wingbeats
+Obsidian Bulwark
+Innate Magic 2
+Cauterizing Flame
+Inner Radiance
+Clobbering Sweep
+Attuned to the Dream 2
+Instinctive Arcana 2
+Tip the Scales
+Draconic Legacy
+Extended Flight 2
+Inherent Resistance 2
+Exuberance
+Blast Furnace
+Panacea
+Renewing Blaze
+Rescue
+Stretch Time
+Source of Magic
+Foci of Life
+Leaping Flames
+Aerial Mastery
+Potent Mana
+Terror of the Skies
+Zephyr
+Spatial Paradox
+
+Ebon Might
+Eruption
+Essence Burst
+Ricocheting Pyroclast
+Essence Attunement
+Pupil of Alexstrasza
+Quell
+Upheaval
+Defy Fate
+Breath of Eons
+Power Nexus
+Volcanism
+Bestow Weyrnstone
+Ignition Rush
+Chrono Ward
+Draconic Attunements
+Prescience
+Tectonic Locus
+Momentum Shift
+Fate Mirror
+Hoarded Power
+Anachronism
+Inferno's Blessing
+Accretion
+Time Skip
+Imminent Destruction
+Rumbling Earth
+Plot the Future
+Interwoven Threads
+Mighty Inferno
+Duplicate 1
+Duplicate 2
+Duplicate 1
+		0 	1
+Berrybad
+Hunter (Survival)
+286 Item Level
+Rejuvenating Wind
+Posthaste
+Survival of the Fittest
+Natural Mending 2
+Padded Armor
+Hunter's Avoidance
+Improved Aspect of the Cheetah
+Combat Experience
+Muzzle
+Precision Strikes
+Serrated Tips 2
+Disruptive Rounds
+Pathfinding
+Misdirection
+Improved Feign Death 2
+Tranquilizing Shot
+Trigger Finger 2
+Kodo Tranquilizer
+Touch of Grass 2
+Specialized Arsenal
+Improved Aspect of the Turtle
+Lone Survivor
+Intimidation
+Keen Eyesight 2
+Born To Be Wild 2
+Guttural Roar
+Unnatural Causes
+Guardian's Hide
+
+Kill Command
+Raptor Strike
+Wildfire Bomb
+Tip of the Spear
+Guerrilla Tactics
+Lunge
+Strike as One
+Boomstick
+Bloodseeker
+Shrapnel Bomb
+Quick Reload
+Two Against Many
+Sic 'Em
+Mongoose Fury
+Mongoose Rounds
+Shellshock
+Vulnerability
+Bloody Claws
+Bonding
+Sweeping Spear 2
+Killer Companion 2
+Takedown
+Wildfire Infusion
+Savagery 2
+Lethal Calibration
+Primal Surge
+Flanked
+Raptor Swipe 1
+Raptor Swipe 2
+Raptor Swipe 1
+		1 	0
+Zyntharen
+Monk (Windwalker)
+288 Item Level
+Paralysis
+Rising Sun Kick
+Tiger's Lust
+Fast Feet
+Grace of the Crane
+Detox
+Calming Presence
+Jade Walk
+Ancient Arts 2
+Vivacious Vivification
+Spear Hand Strike
+Pressure Points
+Tiger Fang
+Transcendence
+Celerity
+Ring of Peace
+Improved Touch of Death
+Ferocity of Xuen 2
+Tiger Tail Sweep
+Dance of the Wind
+Yu'lon's Grace
+Fortifying Brew
+Vigorous Expulsion
+Zenith Stomp
+Strength of Spirit
+Expeditious Fortification
+Chi Proficiency 2
+Martial Instincts 2
+Chi Transfer
+Lighter Than Air
+Flow of Chi
+Fatal Touch
+
+Fists of Fury
+Sharp Reflexes
+Momentum Boost
+Combat Wisdom
+Ferociousness 2
+Ascension
+Glory of the Dawn
+Teachings of the Monastery
+Dual Threat
+Zenith
+Rising Star
+Hit Combo
+Crane Vortex
+Spiritual Focus
+Combo Breaker
+Crashing Fists
+Jade Ignition
+Dance of Chi-Ji
+Whirling Dragon Punch
+Universal Energy
+Sequenced Strikes
+Revolving Whirl
+Sunfire Spiral
+Communion With Wind
+Weapon of Wind
+Xuen's Battlegear
+Rushing Wind Kick
+Martial Agility
+Skyfire Heel
+Tigereye Brew 1
+Tigereye Brew 2
+Tigereye Brew 1
+		1 	0
+Healers
+
+Class Talents
+
+Spec Talents
+
+Gear
+
+Potions
+
+Healthstones
+Сфериель
+Priest (Discipline)
+286 Item Level
+Angelic Feather
+Mind Blast
+Improved Flash Heal
+Dispel Magic
+Spiritual Guidance
+Psychic Scream
+Power Infusion
+Painful Invocation
+Leap of Faith
+Strength of Resolve
+Surge of Light
+Twins of the Sun Priestess
+Mass Dispel
+Body and Soul
+Twin Disciplines
+Everlasting Light
+Dark Enlightenment
+Binding Heals
+Inspiration
+Shadow Word: Death
+Sanguine Teachings
+Twist of Fate 2
+Desperate Prayer
+Fade
+Protective Light
+Improved Fade 2
+Unwavering Will 2
+Phantasm
+Spell Warding 1
+Angelic Bulwark
+Translucent Image
+Benevolence
+Phantom Reach
+
+Atonement
+Pain Suppression
+Power Word: Radiance
+Power of the Dark Side
+Encroaching Shadows
+Protector of the Frail
+Light's Promise
+Revel in Darkness
+Shield Discipline
+Ultimate Penitence
+Painful Punishment
+Shadow Tap
+Holy Ray
+Lenience
+Castigation
+Occultist
+Evangelism
+Abyssal Reverie 2
+Harsh Discipline 2
+Shadow Mend
+Shadowfiend
+Archangel
+Inner Focus
+Borrowed Time 2
+Divine Aegis
+Eternal Barrier
+Weal and Woe
+Master the Darkness 1
+Master the Darkness 2
+Master the Darkness 1
+		1 	0
+Warcraft Logs Logo
+HEY THERE.We all want Warcraft Logs to remain free.
+We work hard to offer you the best possible experience.
+Help us by disabling your Adblock or supporting us on Patreon.
+Guild logo
+Warcraft Logs
+Contact Us
+-
+Privacy Policy
+-
+Careers
+twitter's Icon Logo
+discord's Icon Logo
+patreon's Icon Logo
+Latest Article
+Wipefest: Voidspire and Dreamrift
+2 months ago
+Resources
+Forums
+Subscribe
+Help and Info
+Brand
+Our Websites
+Archon
+WoW Retail
+WoW Classic
+WoW SoD
+WoW Classic Fresh
+WoW Vanilla
+Final Fantasy XIV
+Elder Scrolls Online
+SWTOR
+Latest Raid
+Statistics
+Rankings
+Progress
+All Reports
+Our Tools
+Download App
+WoWAnalyzer
+Wipefest
+Recruitment
+© 2013-2026 Warcraft Logs
