@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>WoW Player Lookup</title>
+  <style>
+    body {
+      font-family: monospace;
+      background: #1a1a1a;
+      color: #ccc;
+      padding: 20px;
+      font-size: 12px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      font-size: 11px;
+    }
+
+    th,
+    td {
+      border: 1px solid #444;
+      padding: 3px 6px;
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    th {
+      background: #333;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    tr:hover {
+      background: #2a2a2a;
+    }
+
+    #status {
+      margin-bottom: 10px;
+      color: #aaa;
+    }
+
+    .role-dps {
+      color: #ff7070;
+    }
+
+    .role-heal {
+      color: #70ff70;
+    }
+
+    .role-tank {
+      color: #7070ff;
+    }
+
+    button {
+      background: #333;
+      color: #ccc;
+      border: 1px solid #555;
+      padding: 6px 12px;
+      cursor: pointer;
+      margin-right: 8px;
+    }
+
+    button:hover {
+      background: #444;
+    }
+
+    progress {
+      width: 300px;
+    }
+
+    /* Modal / raw data inspector */
+    #modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 100;
+      overflow: auto;
+    }
+
+    #modal-box {
+      background: #1e1e1e;
+      border: 1px solid #555;
+      margin: 40px auto;
+      width: 90%;
+      max-height: 85vh;
+      overflow: auto;
+      padding: 20px;
+      position: relative;
+    }
+
+    #modal-close {
+      position: sticky;
+      top: 0;
+      float: right;
+      background: #555;
+      border: none;
+      color: #fff;
+      padding: 4px 10px;
+      cursor: pointer;
+    }
+
+    #modal-content {
+      white-space: pre-wrap;
+      font-size: 11px;
+      color: #ddd;
+    }
+
+    /* Tabs inside modal */
+    .tab-btn {
+      background: #333;
+      border: 1px solid #555;
+      color: #ccc;
+      padding: 4px 10px;
+      cursor: pointer;
+      margin-right: 4px;
+    }
+
+    .tab-btn.active {
+      background: #555;
+      color: #fff;
+    }
+
+    .tab-section {
+      display: none;
+    }
+
+    .tab-section.active {
+      display: block;
+    }
+
+    .score-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .score-card {
+      background: #2a2a2a;
+      border: 1px solid #444;
+      padding: 8px;
+    }
+
+    .score-card h4 {
+      margin: 0 0 4px 0;
+      color: #aaa;
+      font-size: 11px;
+    }
+
+    .score-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 1px 0;
+    }
+
+    .score-label {
+      color: #888;
+    }
+
+    .score-val {
+      color: #ddd;
+    }
+
+    .run-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 4px;
+    }
+
+    .run-table th,
+    .run-table td {
+      border: 1px solid #333;
+      padding: 2px 6px;
+      font-size: 10px;
+    }
+
+    .run-table th {
+      background: #2a2a2a;
+    }
+
+    .timed {
+      color: #70ff70;
+    }
+
+    .depleted {
+      color: #ff7070;
+    }
+
+    .gear-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 4px;
+    }
+
+    .gear-table th,
+    .gear-table td {
+      border: 1px solid #333;
+      padding: 2px 6px;
+      font-size: 10px;
+    }
+
+    .gear-table th {
+      background: #2a2a2a;
+    }
+
+    .raid-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 4px;
+    }
+
+    .raid-table th,
+    .raid-table td {
+      border: 1px solid #333;
+      padding: 2px 6px;
+      font-size: 10px;
+    }
+
+    .raid-table th {
+      background: #2a2a2a;
+    }
+
+    .ranks-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .rank-card {
+      background: #2a2a2a;
+      border: 1px solid #444;
+      padding: 8px;
+    }
+
+    .rank-card h4 {
+      margin: 0 0 4px 0;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h3>WoW Player Checker</h3>
+  <div>
+    <button onclick="loadFromFile()">Load input.json</button>
+    <input type="file" id="fileInput" accept=".json" style="display:none" onchange="handleFile(event)">
+    <span id="status">No data loaded.</span>
+  </div>
+  <br>
+  <div id="progress-area" style="display:none">
+    <progress id="prog" value="0" max="100"></progress>
+    <span id="prog-label"></span>
+  </div>
+  <br>
+  <div id="table-area"></div>
+
+  <!-- Modal inspector -->
+  <div id="modal-overlay" onclick="closeModal(event)">
+    <div id="modal-box">
+      <button id="modal-close" onclick="document.getElementById('modal-overlay').style.display='none'">✕ Close</button>
+      <h3 id="modal-title" style="margin-top:0"></h3>
+      <div id="modal-tabs"></div>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <script>
+    const CURRENT_SEASON = "season-mn-1";
+    const RIO_API = "https://raider.io/api/v1/characters/profile";
+    const FIELDS = [
+      "gear",
+      "talents",
+      "guild",
+      "raid_progression",
+      "mythic_plus_scores_by_season:season-sl-1:season-sl-2:season-sl-3:season-sl-4:season-df-1:season-df-2:season-df-3:season-df-4:season-tww-1:season-tww-2:season-tww-3:season-mn-1",
+      "mythic_plus_ranks",
+      "mythic_plus_recent_runs",
+      "mythic_plus_best_runs:all",
+      "mythic_plus_alternate_runs:all",
+      "mythic_plus_highest_level_runs",
+      "mythic_plus_weekly_highest_level_runs",
+      "mythic_plus_previous_weekly_highest_level_runs",
+      "previous_mythic_plus_ranks"
+    ].join(",");
+
+    let allPlayers = [];
+    let rawDataStore = {};
+    let sortCol = null;
+    let sortAsc = true;
+
+    function loadFromFile() { document.getElementById("fileInput").click(); }
+
+    function handleFile(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = e => {
+        try {
+          const json = JSON.parse(e.target.result);
+          processInput(json);
+        } catch {
+          document.getElementById("status").textContent = "Invalid JSON file.";
+        }
+      };
+      reader.readAsText(file);
+    }
+
+    function parseSignups(raw) {
+      const region = raw.region || "eu";
+      const queue = raw.queue || [];
+      const players = [];
+      const stack = [...queue];
+      while (stack.length) {
+        const item = stack.pop();
+        if (Array.isArray(item)) { stack.push(...item); continue; }
+        if (typeof item === "string") {
+          const m = item.match(/^(\d+)-(.+?)-(.+)$/);
+          if (m) {
+            const roleNum = parseInt(m[1]);
+            const name = m[2], realm = m[3];
+            const role = roleNum === 1 ? "dps" : [2, 3].includes(roleNum) ? "heal" : [4, 5, 6, 7].includes(roleNum) ? "tank" : "?";
+            players.push({ role, name, realm, region });
+          }
+        }
+      }
+      const seen = new Set();
+      return players.filter(p => {
+        const key = `${p.name}-${p.realm}-${p.region}`;
+        if (seen.has(key)) return false;
+        seen.add(key); return true;
+      });
+    }
+
+    async function processInput(raw) {
+      const players = parseSignups(raw);
+      document.getElementById("status").textContent = `Fetching ${players.length} players...`;
+      document.getElementById("progress-area").style.display = "";
+      const prog = document.getElementById("prog");
+      const progLabel = document.getElementById("prog-label");
+      prog.max = players.length; prog.value = 0;
+
+      allPlayers = [];
+      rawDataStore = {};
+
+      const BATCH = 10;
+      for (let i = 0; i < players.length; i += BATCH) {
+        const batch = players.slice(i, i + BATCH);
+        await Promise.all(batch.map(async p => {
+          const data = await fetchPlayer(p);
+          const key = `${p.name}-${p.realm}`;
+          rawDataStore[key] = data;
+          allPlayers.push(analyzePlayer(p, data));
+          prog.value++;
+          progLabel.textContent = `${prog.value} / ${players.length}`;
+        }));
+      }
+
+      document.getElementById("status").textContent = `Done. ${allPlayers.length} players loaded.`;
+      document.getElementById("progress-area").style.display = "none";
+      renderTable(allPlayers);
+    }
+
+    async function fetchPlayer(p) {
+      const url = `${RIO_API}?region=${p.region}&realm=${encodeURIComponent(p.realm)}&name=${encodeURIComponent(p.name)}&fields=${encodeURIComponent(FIELDS)}`;
+      try {
+        const res = await fetch(url);
+        if (!res.ok) return null;
+        return await res.json();
+      } catch { return null; }
+    }
+
+    function analyzePlayer(p, data) {
+      if (!data) return { name: p.name, realm: p.realm, region: p.region, role: p.role, error: true };
+
+      // Raid
+      let heroic = 0, mythic = 0;
+      for (const raid of Object.values(data.raid_progression || {})) {
+        if (raid.heroic_bosses_killed === raid.total_bosses) heroic++;
+        if (raid.mythic_bosses_killed === raid.total_bosses) mythic++;
+      }
+
+      // iLvl
+      const ilvl = Math.round(data.gear?.item_level_equipped || 0);
+
+      // Scores - inspect actual structure
+      const seasons = data.mythic_plus_scores_by_season || [];
+      let currentScore = 0;
+      let currentScoreDebug = null;
+      let prevBest = 0;
+      let prevBestSeason = "-";
+      for (const s of seasons) {
+        // scores.all is the combined score across all roles
+        const allScore = s.scores?.all || 0;
+        if (s.season === CURRENT_SEASON) {
+          currentScore = allScore;
+          currentScoreDebug = s; // keep full object for debugging
+        }
+        else if (allScore > prevBest) {
+          prevBest = allScore;
+          prevBestSeason = s.season;
+        }
+      }
+      const ksmCount = seasons.filter(s => (s.scores?.all || 0) >= 2000).length;
+
+      // Best runs
+      const bestRunsData = data.mythic_plus_best_runs || [];
+      const bestRuns = {};
+      for (const run of bestRunsData) {
+        const sn = run.short_name;
+        if (!bestRuns[sn] || run.mythic_level > bestRuns[sn]) bestRuns[sn] = run.mythic_level;
+      }
+      const dungeonKeys = Object.keys(bestRuns).sort();
+      const dungeonStr = dungeonKeys.map(k => `${k}:${bestRuns[k]}`).join(" ");
+
+      // Recent runs
+      const recentRuns = data.mythic_plus_recent_runs || [];
+      const highestTimed = Math.max(0, ...recentRuns
+        .filter(r => r.clear_time_ms > 0 && r.clear_time_ms <= r.par_time_ms)
+        .map(r => r.mythic_level));
+      const minKey = Math.max(2, highestTimed - 2);
+      const inRange = recentRuns.filter(r => r.mythic_level >= minKey);
+      const inTime = inRange.filter(r => r.clear_time_ms > 0 && r.clear_time_ms <= r.par_time_ms).length;
+
+      // Ranks
+      const ranks = data.mythic_plus_ranks || {};
+      const overallWorld = ranks.overall?.world || "-";
+      const overallRegion = ranks.overall?.region || "-";
+
+      // Guild
+      const guild = data.guild?.name || "-";
+
+      // Weekly
+      const weeklyRuns = data.mythic_plus_weekly_highest_level_runs || [];
+      const weeklyBest = weeklyRuns.length ? Math.max(...weeklyRuns.map(r => r.mythic_level)) : 0;
+
+      return {
+        name: p.name, realm: p.realm, region: p.region, role: p.role,
+        ilvl, mythic, heroic, ksmCount,
+        currentScore, prevBest, prevBestSeason,
+        currentScoreDebug,
+        highestTimed, weeklyBest,
+        recentStr: inRange.length ? `${inTime}/${inRange.length}` : "N/A",
+        dungeonStr, guild,
+        overallWorld, overallRegion,
+        error: false
+      };
+    }
+
+    // ── Render main table ──────────────────────────────────────────────────────
+    function renderTable(players) {
+      const cols = [
+        { key: "name", label: "Player" },
+        { key: "role", label: "Role" },
+        { key: "guild", label: "Guild" },
+        { key: "ilvl", label: "iLvl" },
+        { key: "mythic", label: "CE" },
+        { key: "heroic", label: "AOTC" },
+        { key: "ksmCount", label: "KSM" },
+        { key: "prevBest", label: "Best" },
+        { key: "currentScore", label: "Current" },
+        { key: "highestTimed", label: "Hi Key" },
+        { key: "weeklyBest", label: "Weekly" },
+        { key: "recentStr", label: "Recent" },
+        { key: "overallWorld", label: "World#" },
+        { key: "overallRegion", label: "Region#" },
+        { key: "dungeonStr", label: "Dungeons" },
+        { key: "_inspect", label: "Inspect" },
+      ];
+
+      let sorted = [...players];
+      if (sortCol && sortCol !== "_inspect") {
+        sorted.sort((a, b) => {
+          let va = a[sortCol] ?? "", vb = b[sortCol] ?? "";
+          if (typeof va === "number" && typeof vb === "number") return sortAsc ? va - vb : vb - va;
+          return sortAsc ? String(va).localeCompare(String(vb)) : String(vb).localeCompare(String(va));
+        });
+      }
+
+      const roleClass = r => r === "dps" ? "role-dps" : r === "heal" ? "role-heal" : r === "tank" ? "role-tank" : "";
+
+      let html = "<table><thead><tr>";
+      for (const c of cols) {
+        if (c.key === "_inspect") { html += `<th>${c.label}</th>`; continue; }
+        const arrow = sortCol === c.key ? (sortAsc ? " ▲" : " ▼") : "";
+        html += `<th onclick="setSort('${c.key}')">${c.label}${arrow}</th>`;
+      }
+      html += "</tr></thead><tbody>";
+
+      for (const p of sorted) {
+        const key = `${p.name}-${p.realm}`;
+        if (p.error) {
+          html += `<tr><td>${p.name}-${p.realm}</td><td colspan="${cols.length - 1}" style="color:#f66">Fetch error</td></tr>`;
+          continue;
+        }
+        // Flag missing current score for visibility
+        const curDisplay = p.currentScore > 0
+          ? fmtScore(p.currentScore)
+          : `<span style="color:#f90" title="Season data: ${JSON.stringify(p.currentScoreDebug)}">0?</span>`;
+
+        html += `<tr>
+      <td>${p.name}<span style="color:#666">-${p.realm}</span></td>
+      <td class="${roleClass(p.role)}">${p.role}</td>
+      <td>${p.guild}</td>
+      <td>${p.ilvl || "-"}</td>
+      <td>${p.mythic}</td>
+      <td>${p.heroic}</td>
+      <td>${p.ksmCount}</td>
+      <td>${p.prevBest > 0 ? fmtScore(p.prevBest) : "-"}</td>
+      <td>${curDisplay}</td>
+      <td>${p.highestTimed || "-"}</td>
+      <td>${p.weeklyBest || "-"}</td>
+      <td>${p.recentStr}</td>
+      <td>${p.overallWorld}</td>
+      <td>${p.overallRegion}</td>
+      <td style="max-width:400px;overflow:hidden;text-overflow:ellipsis">${p.dungeonStr}</td>
+      <td><button onclick="openInspector('${key}')">🔍</button></td>
+    </tr>`;
+      }
+      html += "</tbody></table>";
+      document.getElementById("table-area").innerHTML = html;
+    }
+
+    function fmtScore(s) {
+      return s >= 1000 ? `${(s / 1000).toFixed(1)}k` : `${s}`;
+    }
+
+    function setSort(col) {
+      if (sortCol === col) sortAsc = !sortAsc;
+      else { sortCol = col; sortAsc = false; }
+      renderTable(allPlayers);
+    }
+
+    // ── Modal inspector ────────────────────────────────────────────────────────
+    function closeModal(event) {
+      if (event.target === document.getElementById("modal-overlay"))
+        document.getElementById("modal-overlay").style.display = "none";
+    }
+
+    function openInspector(key) {
+      const data = rawDataStore[key];
+      if (!data) { alert("No raw data for " + key); return; }
+      document.getElementById("modal-title").textContent = key;
+      document.getElementById("modal-overlay").style.display = "block";
+
+      const tabs = [
+        { id: "scores", label: "Scores", fn: () => renderScoresTab(data) },
+        { id: "runs", label: "Best Runs", fn: () => renderRunsTab(data.mythic_plus_best_runs || [], "Best Runs") },
+        { id: "alt", label: "Alt Runs", fn: () => renderRunsTab(data.mythic_plus_alternate_runs || [], "Alternate Runs") },
+        { id: "recent", label: "Recent Runs", fn: () => renderRunsTab(data.mythic_plus_recent_runs || [], "Recent Runs") },
+        { id: "weekly", label: "Weekly Runs", fn: () => renderRunsTab(data.mythic_plus_weekly_highest_level_runs || [], "Weekly Highest") },
+        { id: "prevweek", label: "Prev Week", fn: () => renderRunsTab(data.mythic_plus_previous_weekly_highest_level_runs || [], "Previous Week Highest") },
+        { id: "highest", label: "Highest Runs", fn: () => renderRunsTab(data.mythic_plus_highest_level_runs || [], "Highest Level Runs") },
+        { id: "ranks", label: "Ranks", fn: () => renderRanksTab(data) },
+        { id: "gear", label: "Gear", fn: () => renderGearTab(data) },
+        { id: "raid", label: "Raid", fn: () => renderRaidTab(data) },
+        { id: "talents", label: "Talents", fn: () => renderTalentsTab(data) },
+        { id: "raw", label: "Raw JSON", fn: () => renderRawTab(data) },
+      ];
+
+      let tabHtml = "";
+      tabs.forEach((t, i) => {
+        tabHtml += `<button class="tab-btn${i === 0 ? ' active' : ''}" onclick="switchTab('${t.id}', this)">${t.label}</button>`;
+      });
+      document.getElementById("modal-tabs").innerHTML = tabHtml + "<br><br>";
+
+      // Store tab renderers and render first
+      window._inspectorTabs = {};
+      tabs.forEach(t => { window._inspectorTabs[t.id] = t.fn; });
+      document.getElementById("modal-content").innerHTML = tabs[0].fn();
+    }
+
+    function switchTab(id, btn) {
+      document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      document.getElementById("modal-content").innerHTML = window._inspectorTabs[id]();
+    }
+
+    function renderScoresTab(data) {
+      const seasons = data.mythic_plus_scores_by_season || [];
+      if (!seasons.length) return "<em>No season data.</em>";
+      let html = '<div class="score-grid">';
+      for (const s of seasons) {
+        const scores = s.scores || {};
+        const isCurrent = s.season === CURRENT_SEASON;
+        html += `<div class="score-card" style="${isCurrent ? 'border-color:#fa0' : ''}">
+      <h4>${s.season}${isCurrent ? ' ★ CURRENT' : ''}</h4>`;
+        for (const [k, v] of Object.entries(scores)) {
+          html += `<div class="score-row"><span class="score-label">${k}</span><span class="score-val">${v}</span></div>`;
+        }
+        // Also show the raw segment data if present
+        if (s.segments) {
+          html += `<hr style="border-color:#333;margin:4px 0">`;
+          for (const [k, v] of Object.entries(s.segments)) {
+            html += `<div class="score-row"><span class="score-label">seg:${k}</span><span class="score-val">${typeof v === 'object' ? v.score ?? JSON.stringify(v) : v}</span></div>`;
+          }
+        }
+        html += "</div>";
+      }
+      html += "</div>";
+      return html;
+    }
+
+    function renderRunsTab(runs, title) {
+      if (!runs.length) return `<em>No ${title} data.</em>`;
+      let html = `<table class="run-table"><thead><tr>
+    <th>Dungeon</th><th>Level</th><th>Score</th><th>Timed</th><th>Clear</th><th>Par</th><th>Affixes</th><th>Date</th><th>Roster</th>
+  </tr></thead><tbody>`;
+      for (const r of runs) {
+        const timed = r.clear_time_ms > 0 && r.clear_time_ms <= r.par_time_ms;
+        const timedClass = timed ? "timed" : "depleted";
+        const clearSec = r.clear_time_ms ? (r.clear_time_ms / 1000).toFixed(0) + "s" : "-";
+        const parSec = r.par_time_ms ? (r.par_time_ms / 1000).toFixed(0) + "s" : "-";
+        const affixes = (r.affixes || []).map(a => a.name || a).join(", ");
+        const date = r.completed_at ? r.completed_at.substring(0, 10) : "-";
+        const roster = (r.roster || []).map(m => m.character?.name || "?").join(", ");
+        html += `<tr class="${timedClass}">
+      <td>${r.dungeon?.short_name || r.short_name || "-"}</td>
+      <td>${r.mythic_level}</td>
+      <td>${r.score ?? "-"}</td>
+      <td>${timed ? "✓" : "✗"}</td>
+      <td>${clearSec}</td>
+      <td>${parSec}</td>
+      <td>${affixes}</td>
+      <td>${date}</td>
+      <td>${roster}</td>
+    </tr>`;
+      }
+      html += "</tbody></table>";
+      return html;
+    }
+
+    function renderRanksTab(data) {
+      const current = data.mythic_plus_ranks || {};
+      const previous = data.previous_mythic_plus_ranks || {};
+
+      function rankSection(rankData, label) {
+        if (!Object.keys(rankData).length) return `<em>No ${label} data.</em>`;
+        let html = `<h4 style="color:#aaa">${label}</h4><div class="ranks-grid">`;
+        for (const [category, ranks] of Object.entries(rankData)) {
+          html += `<div class="rank-card"><h4>${category}</h4>`;
+          for (const [scope, val] of Object.entries(ranks)) {
+            html += `<div class="score-row"><span class="score-label">${scope}</span><span class="score-val">${val}</span></div>`;
+          }
+          html += "</div>";
+        }
+        html += "</div>";
+        return html;
+      }
+
+      return rankSection(current, "Current Season Ranks") + "<br>" + rankSection(previous, "Previous Season Ranks");
+    }
+
+    function renderGearTab(data) {
+      const gear = data.gear;
+      if (!gear) return "<em>No gear data.</em>";
+      let html = `<p>Item Level Equipped: <strong>${gear.item_level_equipped}</strong> | Score: <strong>${gear.item_level_total}</strong></p>`;
+      html += `<table class="gear-table"><thead><tr>
+    <th>Slot</th><th>Name</th><th>iLvl</th><th>Enchant</th><th>Gems</th>
+  </tr></thead><tbody>`;
+      for (const [slot, item] of Object.entries(gear.items || {})) {
+        if (!item) continue;
+        const gems = (item.gems || []).map(g => g.id || g).join(", ");
+        html += `<tr>
+      <td>${slot}</td>
+      <td>${item.name || "-"}</td>
+      <td>${item.item_level || "-"}</td>
+      <td>${item.enchant ? "✓" : "-"}</td>
+      <td>${gems || "-"}</td>
+    </tr>`;
+      }
+      html += "</tbody></table>";
+      return html;
+    }
+
+    function renderRaidTab(data) {
+      const raids = data.raid_progression || {};
+      if (!Object.keys(raids).length) return "<em>No raid data.</em>";
+      let html = `<table class="raid-table"><thead><tr>
+    <th>Raid</th><th>LFR</th><th>Normal</th><th>Heroic</th><th>Mythic</th><th>Total</th>
+  </tr></thead><tbody>`;
+      for (const [raid, info] of Object.entries(raids)) {
+        const total = info.total_bosses;
+        html += `<tr>
+      <td>${raid}</td>
+      <td>${info.lfr_bosses_killed}/${total}</td>
+      <td>${info.normal_bosses_killed}/${total}</td>
+      <td>${info.heroic_bosses_killed}/${total}</td>
+      <td>${info.mythic_bosses_killed}/${total}</td>
+      <td>${total}</td>
+    </tr>`;
+      }
+      html += "</tbody></table>";
+      return html;
+    }
+
+    function renderTalentsTab(data) {
+      const talents = data.talents;
+      if (!talents) return "<em>No talent data.</em>";
+      // talents can be a list of loadouts
+      if (Array.isArray(talents)) {
+        let html = "";
+        for (const loadout of talents) {
+          html += `<div style="margin-bottom:12px;padding:8px;border:1px solid #333">
+        <strong>${loadout.name || "Loadout"}</strong> — ${loadout.spec_name || ""} ${loadout.class_name || ""}<br>
+        <span style="color:#888;font-size:10px">${loadout.loadout_text || ""}</span>
+      </div>`;
+        }
+        return html || "<em>Empty talent list.</em>";
+      }
+      return `<pre>${JSON.stringify(talents, null, 2)}</pre>`;
+    }
+
+    function renderRawTab(data) {
+      return `<pre id="modal-content">${JSON.stringify(data, null, 2)}</pre>`;
+    }
+  </script>
+</body>
+
+</html>

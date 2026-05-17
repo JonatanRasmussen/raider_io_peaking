@@ -55,14 +55,116 @@ def get_dungeon_timer(dungeon_name):
 # Completion logic
 # ---------------------------------------------------------------------------
 
-def estimate_completion(dungeon_name, duration_str, deaths):
+# ---------------------------------------------------------------------------
+# Dungeon final bosses
+# ---------------------------------------------------------------------------
+
+DUNGEON_FINAL_BOSS = {
+    "Pit of Saron":            "Scourgelord Tyrannus",
+    "Maisara Caverns":         "Rak'tul, Vessel of Souls",
+    "Algeth'ar Academy":       "Echo of Doragosa",
+    "Windrunner Spire":        "Restless Heart",
+    "Nexus-Point Xenas":       "Lothraxion",
+    "Seat of the Triumvirate": "L'ura",
+    "Skyreach":                "High Sage Viryx",
+    "Magisters' Terrace":      "Degentrius",
+}
+
+
+def get_final_boss(dungeon_name):
+    if not dungeon_name:
+        return None
+    if dungeon_name in DUNGEON_FINAL_BOSS:
+        return DUNGEON_FINAL_BOSS[dungeon_name]
+    lower = dungeon_name.lower()
+    for key, val in DUNGEON_FINAL_BOSS.items():
+        if key.lower() == lower:
+            return val
+    for key, val in DUNGEON_FINAL_BOSS.items():
+        if key.lower() in lower or lower in key.lower():
+            return val
+    return None
+
+
+def parse_pulls(text):
+    """
+    Parse the pull list from the log text.
+    Returns a list of dicts:
+        { 'pull_num': int, 'duration': str, 'offset': str, 'boss': str }
+
+    The log format looks like:
+        Pull 1 (0:55) +0:11
+        Hulking Juggernaut
+        Pull 2 (4:03) +1:15
+        ...
+
+    The boss/mob name is the line immediately following each Pull line.
+    We also capture the named boss lines that appear without a Pull prefix
+    (e.g. boss section headers like "Muro'jin and Nekraxx").
+    """
+    pulls = []
+    # Match lines like: Pull 9 (4:04) +27:05
+    pull_re = re.compile(
+        r'Pull\s+(\d+)\s+\((\d+:\d+)\)\s+\+(\d+:\d+)'
+    )
+
+    lines = text.split('\n')
+    for i, line in enumerate(lines):
+        m = pull_re.search(line)
+        if m:
+            pull_num = int(m.group(1))
+            duration = m.group(2)
+            offset   = m.group(3)
+            # The boss name is on the next non-empty line
+            boss_name = ''
+            for j in range(i + 1, min(i + 4, len(lines))):
+                candidate = lines[j].strip()
+                if candidate:
+                    boss_name = candidate
+                    break
+            pulls.append({
+                'pull_num': pull_num,
+                'duration': duration,
+                'offset':   offset,
+                'boss':     boss_name,
+            })
+    return pulls
+
+
+def last_pull_is_final_boss(dungeon_name, pulls):
+    """
+    Return True if ANY pull in `pulls` names the expected final boss
+    for `dungeon_name` (case-insensitive substring match).
+    Returns None if we have no pulls or no known final boss.
+
+    We check all pulls rather than only the last one because some logs
+    contain a bugged zero-duration pull after the final boss pull.
+    """
+    if not pulls:
+        return None
+    final_boss = get_final_boss(dungeon_name)
+    if not final_boss:
+        return None
+
+    final_boss_lower = final_boss.lower()
+    for pull in pulls:
+        boss = pull.get('boss', '')
+        if not boss:
+            continue
+        boss_lower = boss.lower()
+        if final_boss_lower in boss_lower or boss_lower in final_boss_lower:
+            return True
+    return False
+
+
+def estimate_completion(dungeon_name, duration_str, deaths, pulls=None):
     timer_secs    = get_dungeon_timer(dungeon_name)
     duration_secs = duration_to_seconds(duration_str)
 
     if timer_secs is None or duration_secs == 0:
         return ''
 
-    # Timed out
+    # Hard timeout: ran over the timer → definitely 0
     if duration_secs > timer_secs:
         return 0
 
@@ -72,7 +174,19 @@ def estimate_completion(dungeon_name, duration_str, deaths):
     if ratio < 0.60:
         return 0
 
-    # 60–100% of timer: inspect deaths in final 5 minutes
+    # ── Check whether the last pull was the final boss ────────────────────
+    # This is the strongest signal we have.
+    final_boss_reached = last_pull_is_final_boss(dungeon_name, pulls or [])
+
+    # If we have pull data and the last pull is NOT the final boss,
+    # the dungeon was not finished.
+    if pulls and final_boss_reached is False:
+        return 0
+
+    # ── Deaths-near-end heuristic ─────────────────────────────────────────
+    # If the last pull IS the final boss (or we have no pull data),
+    # check whether a full-group wipe happened in the last 5 minutes.
+    # A wipe means ≥4 distinct players died near the end of the run.
     last_5_threshold = duration_secs - 300
 
     def ts_to_secs(ts):
@@ -88,6 +202,7 @@ def estimate_completion(dungeon_name, duration_str, deaths):
             late_dead.add(d['player'])
 
     if len(late_dead) >= 4:
+        # Looks like a wipe on the final boss rather than a completion
         return 0
 
     return 1
@@ -222,6 +337,7 @@ def parse_log(text):
         data['_sort_dt']  = datetime.min
 
     data['deaths']  = parse_deaths(text)
+    data['pulls']   = parse_pulls(text)
     data['players'] = parse_characters_direct(text)
 
     return data
@@ -754,6 +870,7 @@ def process_file(filepath):
         data.get('dungeon', ''),
         data.get('duration', ''),
         data.get('deaths', []),
+        data.get('pulls', [])
     )
 
     # ── debug ─────────────────────────────────────────────────
@@ -923,6 +1040,8 @@ def print_milestone_summary(csv_file, player_scores=None):
     # ── configuration ─────────────────────────────────────────────────────────
     ANONYMOUS   = False          # Set True to anonymise all player names
     MY_NAME     = "Powerpegging" # Your own character name (always shown as "Me")
+    SHOW_ALL_TIMED   = False     # Show every timed run, or show only score-upgrade runs
+    MIN_KEY_LEVEL    = 16        # If "SHOW_ALL_TIMED" is enabled", key must be above MIN_KEY_LEVEL
     # ──────────────────────────────────────────────────────────────────────────
 
     if not os.path.isfile(csv_file):
@@ -948,8 +1067,10 @@ def print_milestone_summary(csv_file, player_scores=None):
             anon_map[real_name] = f"anon{anon_counter[0]:03d}"
         return anon_map[real_name]
 
-    # Per-dungeon state
-    state      = {}
+    # Per-dungeon-per-keylevel attempt counters
+    # state[dungeon][kl] = { 'attempts_since_last_timed': int }
+    state = {}
+
     milestones = []
 
     for row in rows:
@@ -966,121 +1087,102 @@ def print_milestone_summary(csv_file, player_scores=None):
         except ValueError:
             continue
 
-        if dungeon not in state:
-            state[dungeon] = {
-                'best_level':   None,
-                'attempts':     0,
-                'target_level': kl,
-            }
-
-        st = state[dungeon]
-
-        if kl > st['target_level']:
-            st['target_level'] = kl
-            st['attempts']     = 0
-
-        if kl < st['target_level']:
+        # Filter by minimum key level
+        if kl < MIN_KEY_LEVEL:
             continue
 
-        st['attempts'] += 1
+        # Initialise state for this dungeon/keylevel combo
+        if dungeon not in state:
+            state[dungeon] = {}
+        if kl not in state[dungeon]:
+            state[dungeon][kl] = {'attempts_since_last_timed': 0}
 
-        if completion == '1' and (st['best_level'] is None or kl > st['best_level']):
-            date_part    = timestamp[:10]
-            attempt_word = 'attempt' if st['attempts'] == 1 else 'attempts'
+        st = state[dungeon][kl]
+        st['attempts_since_last_timed'] += 1
 
-            # ── time under timer ──────────────────────────────────────────
-            timer_secs    = get_dungeon_timer(dungeon)
-            duration_secs = duration_to_seconds(duration)
-            if timer_secs and duration_secs:
-                under_secs = timer_secs - duration_secs
-                under_min  = under_secs // 60
-                under_sec  = under_secs % 60
-                under_str  = f"{under_min}min {under_sec:02d}sec time remaining"
-            else:
-                under_str  = "timer unknown"
+        # Decide whether to emit a milestone for this row
+        if SHOW_ALL_TIMED:
+            emit = (completion == '1')
+        else:
+            emit = (row.get('IsScoreUpgrade', '') not in ('', '0', 0))
 
-            # ── header line – build with fixed-width fields so | aligns ──
-            # "2026-04-24  " = 12 chars (date + 2 spaces)
-            # dungeon name varies; key level "+ XX" varies; pad dungeon+key
-            # We use a generous fixed width for the dungeon+key portion.
-            # Longest dungeon name in the data: "The Seat of the Triumvirate" = 27
-            # "+XX" = 3, space = 1  →  27+1+3 = 31 chars for dungeon+key block
-            # attempts "(XX attempts)" longest = 14 chars
-            # We'll just left-justify the dungeon+key in 32 chars.
-            dungeon_key   = f"{dungeon} +{kl}"
-            attempts_str  = f"({st['attempts']} {attempt_word})"
+        if not emit:
+            continue
 
-            # ── team composition ──────────────────────────────────────────
-            # Column widths:
-            #   name      : 20
-            #   spec_cls  : 28  (bracket included)
-            #   ilvl_col  : 8
-            #   dps_col   : 10
-            COL_NAME     = 20
-            COL_SPEC_CLS = 28
-            COL_ILVL     = 8
-            COL_DPS      = 10
+        attempts         = st['attempts_since_last_timed']
+        attempt_word     = 'attempt' if attempts == 1 else 'attempts'
+        date_part        = timestamp[:10]
 
-            team = []
-            for idx in range(1, 6):
-                px   = f'player{idx}_'
-                name = row.get(px + 'name', '').strip()
-                if not name:
-                    continue
+        # ── time under timer ──────────────────────────────────────────────
+        timer_secs    = get_dungeon_timer(dungeon)
+        duration_secs = duration_to_seconds(duration)
+        if timer_secs and duration_secs:
+            under_secs = timer_secs - duration_secs
+            under_min  = under_secs // 60
+            under_sec  = under_secs % 60
+            under_str  = f"{under_min}min {under_sec:02d}sec time remaining"
+        else:
+            under_str  = "timer unknown"
 
-                spec  = row.get(px + 'spec',  '').strip()
-                cls   = row.get(px + 'class', '').strip()
-                ilvl  = row.get(px + 'ilvl',  '').strip()
+        # ── team composition ──────────────────────────────────────────────
+        COL_NAME     = 20
+        COL_SPEC_CLS = 28
+        COL_ILVL     = 8
+        COL_DPS      = 10
 
-                # Always show DPS regardless of role
-                dmg_raw = row.get(px + 'damage_amount', '').strip()
-                m = re.search(r'\(([^)]+)\)$', dmg_raw)
-                avg_dps_str = f"{m.group(1)} dps" if m else ''
+        team = []
+        for idx in range(1, 6):
+            px   = f'player{idx}_'
+            name = row.get(px + 'name', '').strip()
+            if not name:
+                continue
 
-                # RIO score — always shown; use ???? if missing/zero
-                score_str = 'rio ????'
-                if player_scores is not None:
-                    score_val = player_scores.get(name)
-                    if score_val is not None and score_val != '':
-                        try:
-                            val = float(score_val)
-                            if val > 0:
-                                resil = score_to_avg_keylevel(val)
-                                score_str = f"rio {val:.0f} (resil {resil:.1f})"
-                        except (ValueError, TypeError):
-                            pass
+            spec  = row.get(px + 'spec',  '').strip()
+            cls   = row.get(px + 'class', '').strip()
+            ilvl  = row.get(px + 'ilvl',  '').strip()
 
-                # Anonymise if requested
-                display_name = get_anon_name(name) if ANONYMOUS else name
+            dmg_raw = row.get(px + 'damage_amount', '').strip()
+            m = re.search(r'\(([^)]+)\)$', dmg_raw)
+            avg_dps_str = f"{m.group(1)} dps" if m else ''
 
-                spec_cls = f"{spec} {cls}".strip() if (spec or cls) else '?'
+            score_str = 'rio ????'
+            if player_scores is not None:
+                score_val = player_scores.get(name)
+                if score_val is not None and score_val != '':
+                    try:
+                        val = float(score_val)
+                        if val > 0:
+                            resil = score_to_avg_keylevel(val)
+                            score_str = f"rio {val:.0f} (resil {resil:.1f})"
+                    except (ValueError, TypeError):
+                        pass
 
-                # Build padded columns
-                name_col     = display_name.ljust(COL_NAME)
-                spec_cls_col = f"[{spec_cls}]".ljust(COL_SPEC_CLS)
-                ilvl_col     = (f"ilvl {ilvl}" if ilvl else '').ljust(COL_ILVL)
-                dps_col      = avg_dps_str.ljust(COL_DPS) if avg_dps_str else ''.ljust(COL_DPS)
+            display_name = get_anon_name(name) if ANONYMOUS else name
+            spec_cls     = f"{spec} {cls}".strip() if (spec or cls) else '?'
 
-                line = f"    {name_col}  |  {spec_cls_col}  |  {ilvl_col}  |  {dps_col}  |  {score_str}"
+            name_col     = display_name.ljust(COL_NAME)
+            spec_cls_col = f"[{spec_cls}]".ljust(COL_SPEC_CLS)
+            ilvl_col     = (f"ilvl {ilvl}" if ilvl else '').ljust(COL_ILVL)
+            dps_col      = avg_dps_str.ljust(COL_DPS) if avg_dps_str else ''.ljust(COL_DPS)
 
-                team.append(line)
+            line = f"    {name_col}  |  {spec_cls_col}  |  {ilvl_col}  |  {dps_col}  |  {score_str}"
+            team.append(line)
 
-            milestones.append({
-                'date':          date_part,
-                'dungeon':       dungeon,
-                'dungeon_key':   dungeon_key,
-                'attempts_str':  attempts_str,
-                'kl':            kl,
-                'attempts':      st['attempts'],
-                'sort_dt':       get_sort_dt(timestamp),
-                'attempt_word':  attempt_word,
-                'under_str':     under_str,
-                'team':          team,
-            })
+        milestones.append({
+            'date':         date_part,
+            'dungeon':      dungeon,
+            'dungeon_key':  f"{dungeon} +{kl}",
+            'attempts_str': f"({attempts} {attempt_word})",
+            'kl':           kl,
+            'attempts':     attempts,
+            'sort_dt':      get_sort_dt(timestamp),
+            'attempt_word': attempt_word,
+            'under_str':    under_str,
+            'team':         team,
+        })
 
-            st['best_level']   = kl
-            st['target_level'] = kl + 1
-            st['attempts']     = 0
+        # Reset counter after a timed run
+        st['attempts_since_last_timed'] = 0
 
     milestones.sort(key=lambda m: m['sort_dt'])
 
