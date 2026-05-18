@@ -274,7 +274,165 @@
   </div>
 
   <script>
-    const CURRENT_SEASON = "season-mn-1";
+    // ── CONFIGURATION FOR WEIGHTED ILVL ─────────────────────────────────────────
+    const GEAR_WEIGHTS = {
+      head: 1.00, chest: 1.00, legs: 1.00,
+      shoulder: 0.75, hands: 0.75, waist: 0.75, feet: 0.75,
+      wrist: 0.5625, back: 0.5625,
+      neck: 0.70, finger1: 0.70, finger2: 0.70,
+      trinket1: 0.80, trinket2: 0.80,
+      mainhand: 1.83, offhand: 1.08,
+      twohand: 2.91
+    };
+
+    const GEM_CONFIG = {
+      requiredSlots: ["neck", "finger1", "finger2"],
+      penaltyMissing: 0.5,
+      bonusExtra: 0.5
+    };
+
+    const ENCHANT_CONFIG = {
+      mainhand: { penalty: 2.0, flags: true },
+      chest: { penalty: 2.0, flags: true },
+      legs: { penalty: 2.0, flags: true },
+      finger1: { penalty: 1.0, flags: true },
+      finger2: { penalty: 1.0, flags: true },
+      head: { penalty: 0.5, flags: false },
+      feet: { penalty: 0.5, flags: false },
+      shoulder: { penalty: 0.5, flags: false }
+    };
+
+    const DUNGEON_TIMERS = {
+      "Magisters' Terrace": 34 * 60,
+      "Maisara Caverns": 33 * 60,
+      "Nexus-Point Xenas": 30 * 60,
+      "Windrunner Spire": 33 * 60 + 30,
+      "Algeth'ar Academy": 31 * 60,
+      "Pit of Saron": 30 * 60,
+      "Seat of the Triumvirate": 34 * 60,
+      "Skyreach": 28 * 60,
+    };
+    // ────────────────────────────────────────────────────────────────────────────
+
+    const CLASS_COLORS = {
+      "Death Knight": "#C41E3A",
+      "Demon Hunter": "#A330C9",
+      "Druid": "#FF7C0A",
+      "Evoker": "#33937F",
+      "Hunter": "#AAD372",
+      "Mage": "#3FC7EB",
+      "Monk": "#00FF98",
+      "Paladin": "#F48CBA",
+      "Priest": "#FFFFFF",
+      "Rogue": "#FFF468",
+      "Shaman": "#0070DD",
+      "Warlock": "#8788EE",
+      "Warrior": "#C69B3A"
+    };
+
+    const CLASS_SHORT = {
+      "Death Knight": "DK",
+      "Demon Hunter": "DH"
+    };
+
+    function scoreColor(score) {
+      // Source: raiderio-color.wisak.me/
+      const thresholds = [
+        [4175, "#ff8000"], [4115, "#fe7e17"], [4090, "#fd7b24"], [4070, "#fb792e"],
+        [4045, "#fa7737"], [4020, "#f9753f"], [3995, "#f77246"], [3970, "#f6704d"],
+        [3950, "#f46e54"], [3925, "#f26b5a"], [3900, "#f16961"], [3875, "#ef6767"],
+        [3850, "#ed646d"], [3830, "#eb6273"], [3805, "#e96079"], [3780, "#e75e7f"],
+        [3755, "#e55b85"], [3730, "#e3598b"], [3710, "#e05790"], [3685, "#de5496"],
+        [3660, "#db529c"], [3635, "#d850a2"], [3610, "#d54ea8"], [3590, "#d24cad"],
+        [3565, "#cf49b3"], [3540, "#cc47b9"], [3515, "#c845bf"], [3490, "#c443c5"],
+        [3470, "#c141cb"], [3445, "#bc3fd1"], [3420, "#b83dd6"], [3395, "#b33bdc"],
+        [3370, "#ae39e2"], [3350, "#a937e8"], [3325, "#a335ee"], [3290, "#9c3eed"],
+        [3265, "#9445eb"], [3240, "#8c4bea"], [3215, "#8351e8"], [3190, "#7b56e7"],
+        [3170, "#715be5"], [3145, "#675fe4"], [3120, "#5c63e3"], [3095, "#4f67e1"],
+        [3070, "#406ae0"], [3050, "#2c6dde"], [3025, "#0070dd"], [2970, "#2075d8"],
+        [2945, "#2f79d3"], [2925, "#397ece"], [2900, "#4183c9"], [2875, "#4788c4"],
+        [2850, "#4c8cbf"], [2825, "#5191ba"], [2805, "#5496b5"], [2780, "#579bb0"],
+        [2755, "#5aa0aa"], [2730, "#5ca5a5"], [2705, "#5da9a0"], [2685, "#5eae9a"],
+        [2660, "#5fb395"], [2635, "#5fb88f"], [2610, "#5fbd89"], [2585, "#5fc283"],
+        [2565, "#5ec77d"], [2540, "#5ccc77"], [2515, "#5ad171"], [2490, "#58d66a"],
+        [2465, "#55db63"], [2445, "#51e05b"], [2420, "#4de553"], [2395, "#47eb4a"],
+        [2370, "#41f03f"], [2345, "#39f533"], [2325, "#2efa22"], [2300, "#1eff00"],
+        [2275, "#29ff0f"], [2250, "#31ff18"], [2225, "#38ff20"], [2200, "#3fff26"],
+        [2175, "#45ff2b"], [2150, "#4aff30"], [2125, "#4fff35"], [2100, "#53ff39"],
+        [2075, "#58ff3d"], [2050, "#5cff41"], [2025, "#60ff44"], [2000, "#63ff48"],
+        [1975, "#67ff4b"], [1950, "#6aff4f"], [1925, "#6eff52"], [1900, "#71ff55"],
+        [1875, "#74ff58"], [1850, "#77ff5b"], [1825, "#7aff5e"], [1800, "#7dff61"],
+        [1775, "#80ff64"], [1750, "#83ff67"], [1725, "#86ff69"], [1700, "#89ff6c"],
+        [1675, "#8bff6f"], [1650, "#8eff72"], [1625, "#90ff74"], [1600, "#93ff77"],
+        [1575, "#95ff7a"], [1550, "#98ff7c"], [1525, "#9aff7f"], [1500, "#9dff81"],
+        [1475, "#9fff84"], [1450, "#a1ff87"], [1425, "#a4ff89"], [1400, "#a6ff8c"],
+        [1375, "#a8ff8e"], [1350, "#aaff91"], [1325, "#acff93"], [1300, "#afff96"],
+        [1275, "#b1ff98"], [1250, "#b3ff9b"], [1225, "#b5ff9d"], [1200, "#b7ff9f"],
+        [1175, "#b9ffa2"], [1150, "#bbffa4"], [1125, "#bdffa7"], [1100, "#bfffa9"],
+        [1075, "#c1ffac"], [1050, "#c3ffae"], [1025, "#c5ffb0"], [1000, "#c7ffb3"],
+        [975, "#c9ffb5"], [950, "#cbffb8"], [925, "#cdffba"], [900, "#cfffbc"],
+        [875, "#d0ffbf"], [850, "#d2ffc1"], [825, "#d4ffc4"], [800, "#d6ffc6"],
+        [775, "#d8ffc8"], [750, "#daffcb"], [725, "#dbffcd"], [700, "#ddffd0"],
+        [675, "#dfffd2"], [650, "#e1ffd4"], [625, "#e3ffd7"], [600, "#e4ffd9"],
+        [575, "#e6ffdb"], [550, "#e8ffde"], [525, "#e9ffe0"], [500, "#ebffe3"],
+        [475, "#edffe5"], [450, "#efffe7"], [425, "#f0ffea"], [400, "#f2ffec"],
+        [375, "#f4ffee"], [350, "#f5fff1"], [325, "#f7fff3"], [300, "#f9fff6"],
+        [275, "#fafff8"], [250, "#fcfffa"], [225, "#fdfffd"], [200, "#ffffff"],
+      ];
+      if (!score || score <= 0) return "#ccc";
+      for (const [threshold, color] of thresholds) {
+        if (score >= threshold) return color;
+      }
+      return "#ffffff";
+    }
+
+    function underTimeScoreColor(avgPct, avgKeyLevel) {
+      // At keyLevel 0 -> full divisor 1.0, at +10 -> 0.5, at +20 -> 0.25, at +40 -> 0.125
+      // Formula: divisor = 2^(-keyLevel/10), so threshold scales down with key level
+      const divisor = Math.pow(2, -avgKeyLevel / 10);
+      const adjusted = avgPct / divisor;
+
+      const THRESHOLDS = [
+        [1.000, "#FFFF00"], [0.750, "#FFF400"], [0.500, "#FFE800"], [0.470, "#FFE400"], [0.440, "#FFD700"], [0.415, "#F7CB02"], [0.390, "#EFBF04"], [0.370, "#F5C519"],
+        [0.350, "#FBD12D"], [0.332, "#FCD43B"], [0.314, "#FCD748"], [0.297, "#FDDE62"], [0.280, "#FDE37C"], [0.264, "#FDE68A"], [0.248, "#FDE897"], [0.233, "#FEF1A4"],
+        [0.218, "#FEFAB1"], [0.199, "#FEFCC5"], [0.180, "#FEFED8"], [0.167, "#F3F3E0"], [0.154, "#E8E8E8"], [0.142, "#D6D6D6"], [0.130, "#C4C4C4"], [0.119, "#AEAEAE"],
+        [0.108, "#989898"], [0.098, "#927D82"], [0.088, "#927C6D"], [0.079, "#9C7864"], [0.070, "#A57A5A"], [0.062, "#AB7244"], [0.054, "#AA6A2D"], [0.047, "#8F5926"],
+        [0.040, "#794C20"], [0.033, "#704214"], [0.026, "#683808"], [0.020, "#57310E"], [0.013, "#492E13"], [0.007, "#3D260F"], [0.000, "#301E0D"],
+      ];
+
+      for (const [threshold, color] of THRESHOLDS) {
+        if (adjusted >= threshold) return color;
+      }
+      return "#ffffff";
+    }
+
+    // ── PERCENTILE DATA ─────────────────────────────────────────────────────────
+    const PERCENTILE_DATA = {
+      eu: {
+        "season-sl-3": [3725.93, 3351.98, 2933.10, 2512.82, 1754.21],
+        "season-sl-4": [3693.66, 3361.23, 2795.61, 2314.00, 1778.17],
+        "season-df-1": [3430.90, 3200.94, 2793.27, 2552.71, 2246.54],
+        "season-df-2": [3286.38, 2747.23, 1630.64, 955.61, 594.25],
+        "season-df-3": [3720.74, 3377.09, 2881.04, 2523.69, 1976.22],
+        "season-df-4": [3693.66, 3361.23, 2795.61, 2314.00, 1778.17],
+        "season-tww-1": [3484.38, 3116.14, 2706.42, 2478.34, 2094.09],
+        "season-tww-2": [3822.42, 3485.32, 3054.69, 2762.28, 2459.56],
+        "season-tww-3": [3946.97, 3602.13, 3114.82, 2876.44, 2558.75],
+      },
+      us: {
+        "season-sl-3": [3679.14, 3261.03, 2782.82, 2354.53, 1496.42],
+        "season-sl-4": [3087.26, 2687.73, 2235.23, 2004.81, 1235.54],
+        "season-df-1": [3378.85, 3083.75, 2722.84, 2434.62, 1990.45],
+        "season-df-2": [3225.12, 2729.99, 1568.99, 904.15, 543.28],
+        "season-df-3": [3688.18, 3287.81, 2788.99, 2342.54, 1682.42],
+        "season-df-4": [3653.96, 3282.98, 2712.16, 2191.64, 1628.00],
+        "season-tww-1": [3458.76, 3049.82, 2655.29, 2347.67, 1962.75],
+        "season-tww-2": [3804.80, 3425.40, 3024.84, 2672.00, 2274.17],
+        "season-tww-3": [3912.96, 3515.23, 3061.31, 2759.89, 2378.96],
+      }
+    };
+
+    const CURRENT_SEASON = "season-mn-1"; // Update this to your active season if needed
     const RIO_API = "https://raider.io/api/v1/characters/profile";
     const FIELDS = [
       "gear",
@@ -296,6 +454,19 @@
     let rawDataStore = {};
     let sortCol = null;
     let sortAsc = true;
+
+    function getDungeonTimer(name) {
+      if (!name) return null;
+      if (DUNGEON_TIMERS[name]) return DUNGEON_TIMERS[name];
+      const lower = name.toLowerCase();
+      for (const [k, v] of Object.entries(DUNGEON_TIMERS)) {
+        if (k.toLowerCase() === lower) return v;
+      }
+      for (const [k, v] of Object.entries(DUNGEON_TIMERS)) {
+        if (k.toLowerCase().includes(lower) || lower.includes(k.toLowerCase())) return v;
+      }
+      return null;
+    }
 
     function loadFromFile() { document.getElementById("fileInput").click(); }
 
@@ -378,6 +549,120 @@
       } catch { return null; }
     }
 
+    function calculateCustomIlvl(gear) {
+      if (!gear || !gear.items) return { ilvl: 0, missing: [] };
+
+      const items = gear.items;
+      let totalWeighted = 0;
+      let missing = [];
+      let penalty = 0;
+      let bonus = 0;
+
+      const TOTAL_GEAR_WEIGHT = GEAR_WEIGHTS.head + GEAR_WEIGHTS.chest + GEAR_WEIGHTS.legs +
+        GEAR_WEIGHTS.shoulder + GEAR_WEIGHTS.hands + GEAR_WEIGHTS.waist + GEAR_WEIGHTS.feet +
+        GEAR_WEIGHTS.wrist + GEAR_WEIGHTS.back +
+        GEAR_WEIGHTS.neck + GEAR_WEIGHTS.finger1 + GEAR_WEIGHTS.finger2 +
+        GEAR_WEIGHTS.trinket1 + GEAR_WEIGHTS.trinket2 +
+        GEAR_WEIGHTS.mainhand + GEAR_WEIGHTS.offhand;
+
+      for (const [slot, item] of Object.entries(items)) {
+        if (slot === "tabard" || slot === "shirt") continue;
+        let weight = GEAR_WEIGHTS[slot] || 0;
+        if (slot === "mainhand" && !items["offhand"]) {
+          weight = GEAR_WEIGHTS.twohand;
+        }
+        totalWeighted += (item.item_level || 0) * weight;
+      }
+      let baseIlvl = totalWeighted / TOTAL_GEAR_WEIGHT;
+
+      for (const [slot, item] of Object.entries(items)) {
+        if (slot === "tabard" || slot === "shirt") continue;
+        const gemCount = item.gems ? item.gems.length : 0;
+        const isRequired = GEM_CONFIG.requiredSlots.includes(slot);
+
+        if (isRequired) {
+          if (gemCount === 0) {
+            penalty += GEM_CONFIG.penaltyMissing;
+            missing.push(`Gem: ${slot}`);
+          } else if (gemCount > 1) {
+            bonus += (gemCount - 1) * GEM_CONFIG.bonusExtra;
+          }
+        } else {
+          if (gemCount > 0) {
+            bonus += gemCount * GEM_CONFIG.bonusExtra;
+          }
+        }
+      }
+
+      for (const reqSlot of GEM_CONFIG.requiredSlots) {
+        if (!items[reqSlot]) {
+          penalty += GEM_CONFIG.penaltyMissing;
+          missing.push(`Missing item: ${reqSlot}`);
+        }
+      }
+
+      for (const [slot, config] of Object.entries(ENCHANT_CONFIG)) {
+        if (slot === "offhand" && !items["offhand"]) continue;
+        const item = items[slot];
+        if (!item || !item.enchant) {
+          penalty += config.penalty;
+          if (config.flags) missing.push(`Enchant: ${slot}`);
+        }
+      }
+
+      const finalIlvl = baseIlvl + bonus - penalty;
+      return { ilvl: finalIlvl, missing };
+    }
+
+    function scoreToPercentile(score, season, region) {
+      const rData = PERCENTILE_DATA[region.toLowerCase()];
+      if (!rData) return null;
+      const thresholds = rData[season];
+      if (!thresholds) return null;
+
+      const dataPoints = [
+        { p: 0.1, s: thresholds[0] },
+        { p: 1, s: thresholds[1] },
+        { p: 10, s: thresholds[2] },
+        { p: 25, s: thresholds[3] },
+        { p: 40, s: thresholds[4] }
+      ];
+
+      if (score >= dataPoints[0].s) return dataPoints[0].p;
+      if (score <= dataPoints[4].s) return dataPoints[4].p;
+
+      for (let i = 0; i < dataPoints.length - 1; i++) {
+        const p1 = dataPoints[i].p, s1 = dataPoints[i].s;
+        const p2 = dataPoints[i + 1].p, s2 = dataPoints[i + 1].s;
+        if (score <= s1 && score >= s2) {
+          const frac = (score - s2) / (s1 - s2);
+          return p2 + frac * (p1 - p2);
+        }
+      }
+      return null;
+    }
+
+    function scoreToResil(score) {
+      if (!score || score <= 0) return 0;
+      return ((score / 8) - 185) / 15;
+    }
+
+    function getSeasonTop01Score(season, region) {
+      const rData = PERCENTILE_DATA[region.toLowerCase()];
+      if (!rData) return null;
+      const thresholds = rData[season];
+      if (!thresholds) return null;
+      return thresholds[0]; // index 0 = top 0.1%
+    }
+
+    function scoreToInflationAdjustedColor(score, season, region) {
+      const top01 = getSeasonTop01Score(season, region);
+      if (!top01 || top01 <= 0) return scoreColor(score);
+      const ANCHOR = 4100;
+      const adjustedScore = (score / top01) * ANCHOR;
+      return scoreColor(adjustedScore);
+    }
+
     function analyzePlayer(p, data) {
       if (!data) return { name: p.name, realm: p.realm, region: p.region, role: p.role, error: true };
 
@@ -389,68 +674,101 @@
       }
 
       // iLvl
-      const ilvl = Math.round(data.gear?.item_level_equipped || 0);
+      const gearCalc = calculateCustomIlvl(data.gear);
+      const ilvl = gearCalc.ilvl;
+      const missingUpgrades = gearCalc.missing;
 
-      // Scores - inspect actual structure
+      // Scores & Percentiles
       const seasons = data.mythic_plus_scores_by_season || [];
       let currentScore = 0;
       let currentScoreDebug = null;
-      let prevBest = 0;
-      let prevBestSeason = "-";
+      let pastSeasons = [];
+
       for (const s of seasons) {
-        // scores.all is the combined score across all roles
         const allScore = s.scores?.all || 0;
         if (s.season === CURRENT_SEASON) {
           currentScore = allScore;
-          currentScoreDebug = s; // keep full object for debugging
-        }
-        else if (allScore > prevBest) {
-          prevBest = allScore;
-          prevBestSeason = s.season;
+          currentScoreDebug = s;
+        } else if (allScore >= 2000) {
+          const perc = scoreToPercentile(allScore, s.season, p.region);
+          if (perc !== null) {
+            pastSeasons.push({ season: s.season, score: allScore, perc: perc, region: p.region });
+          }
         }
       }
-      const ksmCount = seasons.filter(s => (s.scores?.all || 0) >= 2000).length;
 
-      // Best runs
-      const bestRunsData = data.mythic_plus_best_runs || [];
-      const bestRuns = {};
-      for (const run of bestRunsData) {
-        const sn = run.short_name;
-        if (!bestRuns[sn] || run.mythic_level > bestRuns[sn]) bestRuns[sn] = run.mythic_level;
+      pastSeasons.sort((a, b) => a.perc - b.perc);
+      const top2Seasons = pastSeasons.slice(0, 2);
+      let topSeasonsStr = top2Seasons.map(s =>
+        `<span style="color:${scoreToInflationAdjustedColor(s.score, s.season, s.region)}">${s.perc.toFixed(1)}%</span> (${s.season.replace('season-', '')})`).join(', ');
+      if (!topSeasonsStr) topSeasonsStr = "-";
+
+      const bestPercentileVal = top2Seasons.length > 0 ? top2Seasons[0].perc : 999;
+      const ksmCount = seasons.filter(s => (s.scores?.all || 0) >= 2500).length;
+
+      // Recency & Under-time
+      const bestRuns = data.mythic_plus_best_runs || [];
+      let recencyStr = "-";
+      let underTimeStr = "-";
+      let underTimeColor = "#dddddd";
+
+      if (bestRuns.length > 0) {
+        // Recency
+        let daysAgoArr = [];
+        let now = Date.now();
+        for (const r of bestRuns) {
+          if (r.completed_at) {
+            let d = new Date(r.completed_at).getTime();
+            daysAgoArr.push((now - d) / (1000 * 3600 * 24));
+          }
+        }
+        if (daysAgoArr.length > 0) {
+          daysAgoArr.sort((a, b) => a - b);
+          let recentRuns = daysAgoArr.slice(0, 4);
+          let oldRuns = daysAgoArr.slice(-4);
+          let avgRecent = recentRuns.reduce((a, b) => a + b, 0) / recentRuns.length;
+          let avgOld = oldRuns.reduce((a, b) => a + b, 0) / oldRuns.length;
+          recencyStr = `${Math.round(avgRecent)}-${Math.round(avgOld)} days`;
+        }
+
+        // Under-time
+        let totalRemainingSecs = 0;
+        let totalPctRemaining = 0;
+        let count = 0;
+        let totalKeyLevel = 0;
+        for (const r of bestRuns) {
+          let parSecs = r.par_time_ms ? r.par_time_ms / 1000 : getDungeonTimer(r.dungeon?.name || r.short_name);
+          let clearSecs = r.clear_time_ms ? r.clear_time_ms / 1000 : null;
+          if (parSecs !== null && clearSecs !== null) {
+            totalRemainingSecs += (parSecs - clearSecs);
+            totalPctRemaining += (parSecs - clearSecs) / parSecs;
+            totalKeyLevel += (r.mythic_level || 0);
+            count++;
+          }
+        }
+        if (count > 0) {
+          let avgSecs = totalRemainingSecs / count;
+          let avgPct = totalPctRemaining / count;
+          let avgKeyLevel = totalKeyLevel / count;
+          let isNeg = avgSecs < 0;
+          let absSecs = Math.abs(avgSecs);
+          let mins = Math.floor(absSecs / 60);
+          let secs = Math.floor(absSecs % 60);
+          underTimeStr = `${isNeg ? "-" : ""}${mins}m ${secs.toString().padStart(2, '0')}s`;
+          underTimeColor = underTimeScoreColor(avgPct, avgKeyLevel);
+        }
       }
-      const dungeonKeys = Object.keys(bestRuns).sort();
-      const dungeonStr = dungeonKeys.map(k => `${k}:${bestRuns[k]}`).join(" ");
 
-      // Recent runs
-      const recentRuns = data.mythic_plus_recent_runs || [];
-      const highestTimed = Math.max(0, ...recentRuns
-        .filter(r => r.clear_time_ms > 0 && r.clear_time_ms <= r.par_time_ms)
-        .map(r => r.mythic_level));
-      const minKey = Math.max(2, highestTimed - 2);
-      const inRange = recentRuns.filter(r => r.mythic_level >= minKey);
-      const inTime = inRange.filter(r => r.clear_time_ms > 0 && r.clear_time_ms <= r.par_time_ms).length;
-
-      // Ranks
-      const ranks = data.mythic_plus_ranks || {};
-      const overallWorld = ranks.overall?.world || "-";
-      const overallRegion = ranks.overall?.region || "-";
-
-      // Guild
       const guild = data.guild?.name || "-";
-
-      // Weekly
-      const weeklyRuns = data.mythic_plus_weekly_highest_level_runs || [];
-      const weeklyBest = weeklyRuns.length ? Math.max(...weeklyRuns.map(r => r.mythic_level)) : 0;
+      const playerClass = data.class || "-";
+      const race = data.race || "Unknown";
 
       return {
         name: p.name, realm: p.realm, region: p.region, role: p.role,
-        ilvl, mythic, heroic, ksmCount,
-        currentScore, prevBest, prevBestSeason,
-        currentScoreDebug,
-        highestTimed, weeklyBest,
-        recentStr: inRange.length ? `${inTime}/${inRange.length}` : "N/A",
-        dungeonStr, guild,
-        overallWorld, overallRegion,
+        playerClass, race, ilvl, missingUpgrades, mythic, heroic, ksmCount,
+        currentScore, currentScoreDebug,
+        topSeasonsStr, bestPercentileVal,
+        recencyStr, underTimeStr, underTimeColor, guild,
         error: false
       };
     }
@@ -460,19 +778,13 @@
       const cols = [
         { key: "name", label: "Player" },
         { key: "role", label: "Role" },
-        { key: "guild", label: "Guild" },
+        { key: "playerClass", label: "Class" },
         { key: "ilvl", label: "iLvl" },
-        { key: "mythic", label: "CE" },
-        { key: "heroic", label: "AOTC" },
-        { key: "ksmCount", label: "KSM" },
-        { key: "prevBest", label: "Best" },
+        { key: "mythic", label: "CE/AOTC/KSM" },
+        { key: "bestPercentileVal", label: "Top Past Seasons" },
         { key: "currentScore", label: "Current" },
-        { key: "highestTimed", label: "Hi Key" },
-        { key: "weeklyBest", label: "Weekly" },
-        { key: "recentStr", label: "Recent" },
-        { key: "overallWorld", label: "World#" },
-        { key: "overallRegion", label: "Region#" },
-        { key: "dungeonStr", label: "Dungeons" },
+        { key: "recencyStr", label: "Recency" },
+        { key: "underTimeStr", label: "Under-time" },
         { key: "_inspect", label: "Inspect" },
       ];
 
@@ -501,29 +813,44 @@
           html += `<tr><td>${p.name}-${p.realm}</td><td colspan="${cols.length - 1}" style="color:#f66">Fetch error</td></tr>`;
           continue;
         }
-        // Flag missing current score for visibility
+
         const curDisplay = p.currentScore > 0
-          ? fmtScore(p.currentScore)
+          ? `<span style="color:${scoreColor(p.currentScore)}">${fmtScore(p.currentScore)}</span> (Resil: ${scoreToResil(p.currentScore).toFixed(1)})`
           : `<span style="color:#f90" title="Season data: ${JSON.stringify(p.currentScoreDebug)}">0?</span>`;
 
+        const missingStr = p.missingUpgrades && p.missingUpgrades.length > 0
+          ? ` <span style="color:#ff7070; font-weight:bold; cursor:help" title="${p.missingUpgrades.join(', ')}">(!)</span>`
+          : '';
+
+        const ilvlDisplay = p.ilvl > 0
+          ? Math.round(p.ilvl) + missingStr
+          : "-";
+
+        const ceColor = p.mythic >= 1 ? "#ff8000" : "#ccc";
+        const aotcColor = p.heroic >= 1 ? "#a335ee" : "#ccc";
+        const ksmColor = p.ksmCount >= 1 ? "#0070dd" : "#ccc";
+        const progressDisplay = `<span style="color:${ceColor}">${p.mythic}</span> / <span style="color:${aotcColor}">${p.heroic}</span> / <span style="color:${ksmColor}">${p.ksmCount}</span>`;
+
+        const shortClass = CLASS_SHORT[p.playerClass] || p.playerClass;
+        const classColor = CLASS_COLORS[p.playerClass] || "#ccc";
+
+        const hasGuild = p.guild && p.guild !== "-";
+        const nameDisplay = hasGuild
+          ? `<span title="Guild: ${p.guild}">${p.name}<span style="color:#666">-${p.realm}</span></span>`
+          : `<span>${p.name}<span style="color:#666">-${p.realm}</span> &lt;&gt;</span>`;
+
         html += `<tr>
-      <td>${p.name}<span style="color:#666">-${p.realm}</span></td>
-      <td class="${roleClass(p.role)}">${p.role}</td>
-      <td>${p.guild}</td>
-      <td>${p.ilvl || "-"}</td>
-      <td>${p.mythic}</td>
-      <td>${p.heroic}</td>
-      <td>${p.ksmCount}</td>
-      <td>${p.prevBest > 0 ? fmtScore(p.prevBest) : "-"}</td>
-      <td>${curDisplay}</td>
-      <td>${p.highestTimed || "-"}</td>
-      <td>${p.weeklyBest || "-"}</td>
-      <td>${p.recentStr}</td>
-      <td>${p.overallWorld}</td>
-      <td>${p.overallRegion}</td>
-      <td style="max-width:400px;overflow:hidden;text-overflow:ellipsis">${p.dungeonStr}</td>
-      <td><button onclick="openInspector('${key}')">🔍</button></td>
-    </tr>`;
+          <td>${nameDisplay}</td>
+          <td class="${roleClass(p.role)}">${p.role}</td>
+          <td style="color:${classColor}" title="Race: ${p.race}">${shortClass}</td>
+          <td>${ilvlDisplay}</td>
+          <td>${progressDisplay}</td>
+          <td>${p.topSeasonsStr}</td>
+          <td>${curDisplay}</td>
+          <td>${p.recencyStr}</td>
+          <td style="color:${p.underTimeColor}">${p.underTimeStr}</td>
+          <td><button onclick="openInspector('${key}')">🔍</button></td>
+        </tr>`;
       }
       html += "</tbody></table>";
       document.getElementById("table-area").innerHTML = html;
@@ -572,7 +899,6 @@
       });
       document.getElementById("modal-tabs").innerHTML = tabHtml + "<br><br>";
 
-      // Store tab renderers and render first
       window._inspectorTabs = {};
       tabs.forEach(t => { window._inspectorTabs[t.id] = t.fn; });
       document.getElementById("modal-content").innerHTML = tabs[0].fn();
@@ -596,7 +922,6 @@
         for (const [k, v] of Object.entries(scores)) {
           html += `<div class="score-row"><span class="score-label">${k}</span><span class="score-val">${v}</span></div>`;
         }
-        // Also show the raw segment data if present
         if (s.segments) {
           html += `<hr style="border-color:#333;margin:4px 0">`;
           for (const [k, v] of Object.entries(s.segments)) {
@@ -609,34 +934,41 @@
       return html;
     }
 
-    function renderRunsTab(runs, title) {
-      if (!runs.length) return `<em>No ${title} data.</em>`;
-      let html = `<table class="run-table"><thead><tr>
-    <th>Dungeon</th><th>Level</th><th>Score</th><th>Timed</th><th>Clear</th><th>Par</th><th>Affixes</th><th>Date</th><th>Roster</th>
-  </tr></thead><tbody>`;
-      for (const r of runs) {
-        const timed = r.clear_time_ms > 0 && r.clear_time_ms <= r.par_time_ms;
-        const timedClass = timed ? "timed" : "depleted";
-        const clearSec = r.clear_time_ms ? (r.clear_time_ms / 1000).toFixed(0) + "s" : "-";
-        const parSec = r.par_time_ms ? (r.par_time_ms / 1000).toFixed(0) + "s" : "-";
-        const affixes = (r.affixes || []).map(a => a.name || a).join(", ");
-        const date = r.completed_at ? r.completed_at.substring(0, 10) : "-";
-        const roster = (r.roster || []).map(m => m.character?.name || "?").join(", ");
-        html += `<tr class="${timedClass}">
-      <td>${r.dungeon?.short_name || r.short_name || "-"}</td>
-      <td>${r.mythic_level}</td>
-      <td>${r.score ?? "-"}</td>
-      <td>${timed ? "✓" : "✗"}</td>
-      <td>${clearSec}</td>
-      <td>${parSec}</td>
-      <td>${affixes}</td>
-      <td>${date}</td>
-      <td>${roster}</td>
-    </tr>`;
+  function renderRunsTab(runs, title) {
+    if (!runs.length) return `<em>No ${title} data.</em>`;
+    let html = `<table class="run-table"><thead><tr>
+      <th>Dungeon</th><th>Level</th><th>Score</th><th>Timed</th><th>Duration</th><th>Timer</th><th>Affixes</th><th>Date</th><th>Roster</th>
+      </tr></thead><tbody>`;
+    for (const r of runs) {
+      const timed = r.clear_time_ms > 0 && r.clear_time_ms <= r.par_time_ms;
+      const timedClass = timed ? "timed" : "depleted";
+      const affixes = (r.affixes || []).map(a => a.name || a).join(", ");
+      const date = r.completed_at ? r.completed_at.substring(0, 10) : "-";
+      const roster = (r.roster || []).map(m => m.character?.name || "?").join(", ");
+
+      function fmtMs(ms) {
+        if (!ms) return "-";
+        const totalSec = Math.floor(ms / 1000);
+        const m = Math.floor(totalSec / 60);
+        const s = (totalSec % 60).toString().padStart(2, '0');
+        return `${m}:${s}`;
       }
-      html += "</tbody></table>";
-      return html;
+
+      html += `<tr class="${timedClass}">
+        <td>${r.dungeon?.short_name || r.short_name || "-"}</td>
+        <td>${r.mythic_level}</td>
+        <td>${r.score ?? "-"}</td>
+        <td>${timed ? "✓" : "✗"}</td>
+        <td>${fmtMs(r.clear_time_ms)}</td>
+        <td>${fmtMs(r.par_time_ms)}</td>
+        <td>${affixes}</td>
+        <td>${date}</td>
+        <td>${roster}</td>
+      </tr>`;
     }
+    html += "</tbody></table>";
+    return html;
+  }
 
     function renderRanksTab(data) {
       const current = data.mythic_plus_ranks || {};
@@ -705,7 +1037,6 @@
     function renderTalentsTab(data) {
       const talents = data.talents;
       if (!talents) return "<em>No talent data.</em>";
-      // talents can be a list of loadouts
       if (Array.isArray(talents)) {
         let html = "";
         for (const loadout of talents) {
