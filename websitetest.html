@@ -5,26 +5,78 @@
   <meta charset="UTF-8">
   <title>WoW Player Lookup</title>
   <style>
+    /*
+       --- NATIVE SCALING APPLIED (~150%) ---
+       Base fonts and paddings have been increased.
+    */
     body {
       font-family: monospace;
       background: #1a1a1a;
       color: #ccc;
-      padding: 20px;
-      font-size: 12px;
+      padding: 30px;
+      font-size: 18px;
+    }
+
+
+    /* Player */
+    .peeking-table th:nth-child(1) {
+      min-width: 230px;
+    }
+
+    /* Role */
+    .peeking-table th:nth-child(2) {
+      min-width: 45px;
+    }
+
+    /* Class / iLvl */
+    .peeking-table th:nth-child(3) {
+      min-width: 200px;
+    }
+
+    /* Top Seasons */
+    .peeking-table th:nth-child(4) {
+      min-width: 120px;
+    }
+
+    /* CE/AOTC/KSM */
+    .peeking-table th:nth-child(5) {
+      min-width: 100px;
+    }
+
+    /* Time Remaining */
+    .peeking-table th:nth-child(6) {
+      min-width: 140px;
+    }
+
+    /* Recency */
+    .peeking-table th:nth-child(7) {
+      min-width: 90px;
+    }
+
+    /* Score / Dungeons */
+    .peeking-table th:nth-child(8) {
+      min-width: 530px;
+    }
+
+    /* Inspect */
+    .peeking-table th:nth-child(9) {
+      min-width: 60px;
     }
 
     table {
       border-collapse: collapse;
       width: 100%;
-      font-size: 11px;
+      font-size: 16.5px;
     }
 
     th,
     td {
       border: 1px solid #444;
-      padding: 3px 6px;
+      padding: 4.5px 9px;
       text-align: left;
       white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     th {
@@ -38,7 +90,7 @@
     }
 
     #status {
-      margin-bottom: 10px;
+      margin-left: 15px;
       color: #aaa;
     }
 
@@ -58,20 +110,31 @@
       background: #333;
       color: #ccc;
       border: 1px solid #555;
-      padding: 6px 12px;
+      padding: 9px 18px;
       cursor: pointer;
-      margin-right: 8px;
+      margin-right: 6px;
+      font-size: 16.5px;
     }
 
     button:hover {
       background: #444;
     }
 
-    progress {
-      width: 300px;
+    input[type="text"] {
+      background: #222;
+      color: #ccc;
+      border: 1px solid #555;
+      padding: 9px;
+      font-family: monospace;
+      font-size: 16.5px;
+      width: 375px;
     }
 
-    /* Modal / raw data inspector */
+    progress {
+      width: 450px;
+      height: 20px;
+    }
+
     #modal-overlay {
       display: none;
       position: fixed;
@@ -91,7 +154,7 @@
       width: 90%;
       max-height: 85vh;
       overflow: auto;
-      padding: 20px;
+      padding: 30px;
       position: relative;
     }
 
@@ -102,24 +165,23 @@
       background: #555;
       border: none;
       color: #fff;
-      padding: 4px 10px;
+      padding: 6px 15px;
       cursor: pointer;
     }
 
     #modal-content {
       white-space: pre-wrap;
-      font-size: 11px;
+      font-size: 16.5px;
       color: #ddd;
     }
 
-    /* Tabs inside modal */
     .tab-btn {
       background: #333;
       border: 1px solid #555;
       color: #ccc;
-      padding: 4px 10px;
+      padding: 6px 15px;
       cursor: pointer;
-      margin-right: 4px;
+      margin-right: 6px;
     }
 
     .tab-btn.active {
@@ -127,37 +189,29 @@
       color: #fff;
     }
 
-    .tab-section {
-      display: none;
-    }
-
-    .tab-section.active {
-      display: block;
-    }
-
     .score-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 8px;
-      margin-top: 8px;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 12px;
+      margin-top: 12px;
     }
 
     .score-card {
       background: #2a2a2a;
       border: 1px solid #444;
-      padding: 8px;
+      padding: 12px;
     }
 
     .score-card h4 {
-      margin: 0 0 4px 0;
+      margin: 0 0 6px 0;
       color: #aaa;
-      font-size: 11px;
+      font-size: 16.5px;
     }
 
     .score-row {
       display: flex;
       justify-content: space-between;
-      padding: 1px 0;
+      padding: 2px 0;
     }
 
     .score-label {
@@ -168,20 +222,28 @@
       color: #ddd;
     }
 
-    .run-table {
+    .run-table,
+    .gear-table,
+    .raid-table {
       width: 100%;
       border-collapse: collapse;
-      margin-top: 4px;
+      margin-top: 6px;
     }
 
     .run-table th,
-    .run-table td {
+    .run-table td,
+    .gear-table th,
+    .gear-table td,
+    .raid-table th,
+    .raid-table td {
       border: 1px solid #333;
-      padding: 2px 6px;
-      font-size: 10px;
+      padding: 4.5px 9px;
+      font-size: 15px;
     }
 
-    .run-table th {
+    .run-table th,
+    .gear-table th,
+    .raid-table th {
       background: #2a2a2a;
     }
 
@@ -193,75 +255,48 @@
       color: #ff7070;
     }
 
-    .gear-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 4px;
-    }
-
-    .gear-table th,
-    .gear-table td {
-      border: 1px solid #333;
-      padding: 2px 6px;
-      font-size: 10px;
-    }
-
-    .gear-table th {
-      background: #2a2a2a;
-    }
-
-    .raid-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 4px;
-    }
-
-    .raid-table th,
-    .raid-table td {
-      border: 1px solid #333;
-      padding: 2px 6px;
-      font-size: 10px;
-    }
-
-    .raid-table th {
-      background: #2a2a2a;
-    }
-
     .ranks-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-      gap: 8px;
-      margin-top: 8px;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      gap: 12px;
+      margin-top: 12px;
     }
 
     .rank-card {
       background: #2a2a2a;
       border: 1px solid #444;
-      padding: 8px;
+      padding: 12px;
     }
 
     .rank-card h4 {
-      margin: 0 0 4px 0;
+      margin: 0 0 6px 0;
       color: #aaa;
     }
   </style>
 </head>
 
 <body>
-
-  <h3>WoW Player Checker</h3>
-  <div>
+  <h3 style="font-size: 36px; margin-top: 0;">WoW Rio Peeking</h3>
+  <div style="display:flex; align-items:center; flex-wrap:wrap; gap:12px;">
     <button onclick="loadFromFile()">Load input.json</button>
     <input type="file" id="fileInput" accept=".json" style="display:none" onchange="handleFile(event)">
+
+    <span style="color:#666; font-weight:bold;">OR</span>
+
+    <input type="text" id="textInput" placeholder="Paste JSON here...">
+    <button onclick="loadFromText()">Parse JSON</button>
+
     <span id="status">No data loaded.</span>
   </div>
   <br>
-  <div id="progress-area" style="display:none">
+  <div id="progress-area" style="display:none; align-items:center; gap:10px;">
     <progress id="prog" value="0" max="100"></progress>
     <span id="prog-label"></span>
   </div>
   <br>
-  <div id="table-area"></div>
+  <div id="table-area-group"></div>
+  <br>
+  <div id="table-area-queue"></div>
 
   <!-- Modal inspector -->
   <div id="modal-overlay" onclick="closeModal(event)">
@@ -274,6 +309,8 @@
   </div>
 
   <script>
+    const apiDataReady = initApiData(); // fire immediately to reduce load time
+
     // ── CONFIGURATION FOR WEIGHTED ILVL ─────────────────────────────────────────
     const GEAR_WEIGHTS = {
       head: 1.00, chest: 1.00, legs: 1.00,
@@ -301,94 +338,146 @@
       feet: { penalty: 0.5, flags: false },
       shoulder: { penalty: 0.5, flags: false }
     };
-
-    const DUNGEON_TIMERS = {
-      "Magisters' Terrace": 34 * 60,
-      "Maisara Caverns": 33 * 60,
-      "Nexus-Point Xenas": 30 * 60,
-      "Windrunner Spire": 33 * 60 + 30,
-      "Algeth'ar Academy": 31 * 60,
-      "Pit of Saron": 30 * 60,
-      "Seat of the Triumvirate": 34 * 60,
-      "Skyreach": 28 * 60,
-    };
     // ────────────────────────────────────────────────────────────────────────────
 
     const CLASS_COLORS = {
-      "Death Knight": "#C41E3A",
-      "Demon Hunter": "#A330C9",
-      "Druid": "#FF7C0A",
-      "Evoker": "#33937F",
-      "Hunter": "#AAD372",
-      "Mage": "#3FC7EB",
-      "Monk": "#00FF98",
-      "Paladin": "#F48CBA",
-      "Priest": "#FFFFFF",
-      "Rogue": "#FFF468",
-      "Shaman": "#0070DD",
-      "Warlock": "#8788EE",
-      "Warrior": "#C69B3A"
+      "Death Knight": "#C41E3A", "Demon Hunter": "#A330C9", "Druid": "#FF7C0A",
+      "Evoker": "#33937F", "Hunter": "#AAD372", "Mage": "#3FC7EB",
+      "Monk": "#00FF98", "Paladin": "#F48CBA", "Priest": "#FFFFFF",
+      "Rogue": "#FFF468", "Shaman": "#0070DD", "Warlock": "#8788EE",
+      "Warrior": "#C69B6D"
     };
 
-    const CLASS_SHORT = {
-      "Death Knight": "DK",
-      "Demon Hunter": "DH"
+    const CLASS_SHORT = { "Death Knight": "DK", "Demon Hunter": "DH" };
+    const SPEC_SHORT = {
+      "Guardian": "Bear", "Restoration": "Resto", "Discipline": "Disc",
+      "Devastation": "Dev", "Preservation": "Pres", "Augmentation": "Aug",
+      "Beast Mastery": "BM", "Marksmanship": "MM", "Survival": "Surv",
+      "Brewmaster": "Brew", "Windwalker": "Wind", "Mistweaver": "Mist",
+      "Protection": "Prot", "Retribution": "Ret", "Enhancement": "Enh",
+      "Elemental": "Ele", "Assassination": "Sin", "Subtlety": "Sub",
+      "Destruction": "Destro", "Affliction": "Aff", "Demonology": "Demo",
     };
+    const RIO_API = "https://raider.io/api/v1/characters/profile";
 
-    function scoreColor(score) {
-      // Source: raiderio-color.wisak.me/
-      const thresholds = [
-        [4175, "#ff8000"], [4115, "#fe7e17"], [4090, "#fd7b24"], [4070, "#fb792e"],
-        [4045, "#fa7737"], [4020, "#f9753f"], [3995, "#f77246"], [3970, "#f6704d"],
-        [3950, "#f46e54"], [3925, "#f26b5a"], [3900, "#f16961"], [3875, "#ef6767"],
-        [3850, "#ed646d"], [3830, "#eb6273"], [3805, "#e96079"], [3780, "#e75e7f"],
-        [3755, "#e55b85"], [3730, "#e3598b"], [3710, "#e05790"], [3685, "#de5496"],
-        [3660, "#db529c"], [3635, "#d850a2"], [3610, "#d54ea8"], [3590, "#d24cad"],
-        [3565, "#cf49b3"], [3540, "#cc47b9"], [3515, "#c845bf"], [3490, "#c443c5"],
-        [3470, "#c141cb"], [3445, "#bc3fd1"], [3420, "#b83dd6"], [3395, "#b33bdc"],
-        [3370, "#ae39e2"], [3350, "#a937e8"], [3325, "#a335ee"], [3290, "#9c3eed"],
-        [3265, "#9445eb"], [3240, "#8c4bea"], [3215, "#8351e8"], [3190, "#7b56e7"],
-        [3170, "#715be5"], [3145, "#675fe4"], [3120, "#5c63e3"], [3095, "#4f67e1"],
-        [3070, "#406ae0"], [3050, "#2c6dde"], [3025, "#0070dd"], [2970, "#2075d8"],
-        [2945, "#2f79d3"], [2925, "#397ece"], [2900, "#4183c9"], [2875, "#4788c4"],
-        [2850, "#4c8cbf"], [2825, "#5191ba"], [2805, "#5496b5"], [2780, "#579bb0"],
-        [2755, "#5aa0aa"], [2730, "#5ca5a5"], [2705, "#5da9a0"], [2685, "#5eae9a"],
-        [2660, "#5fb395"], [2635, "#5fb88f"], [2610, "#5fbd89"], [2585, "#5fc283"],
-        [2565, "#5ec77d"], [2540, "#5ccc77"], [2515, "#5ad171"], [2490, "#58d66a"],
-        [2465, "#55db63"], [2445, "#51e05b"], [2420, "#4de553"], [2395, "#47eb4a"],
-        [2370, "#41f03f"], [2345, "#39f533"], [2325, "#2efa22"], [2300, "#1eff00"],
-        [2275, "#29ff0f"], [2250, "#31ff18"], [2225, "#38ff20"], [2200, "#3fff26"],
-        [2175, "#45ff2b"], [2150, "#4aff30"], [2125, "#4fff35"], [2100, "#53ff39"],
-        [2075, "#58ff3d"], [2050, "#5cff41"], [2025, "#60ff44"], [2000, "#63ff48"],
-        [1975, "#67ff4b"], [1950, "#6aff4f"], [1925, "#6eff52"], [1900, "#71ff55"],
-        [1875, "#74ff58"], [1850, "#77ff5b"], [1825, "#7aff5e"], [1800, "#7dff61"],
-        [1775, "#80ff64"], [1750, "#83ff67"], [1725, "#86ff69"], [1700, "#89ff6c"],
-        [1675, "#8bff6f"], [1650, "#8eff72"], [1625, "#90ff74"], [1600, "#93ff77"],
-        [1575, "#95ff7a"], [1550, "#98ff7c"], [1525, "#9aff7f"], [1500, "#9dff81"],
-        [1475, "#9fff84"], [1450, "#a1ff87"], [1425, "#a4ff89"], [1400, "#a6ff8c"],
-        [1375, "#a8ff8e"], [1350, "#aaff91"], [1325, "#acff93"], [1300, "#afff96"],
-        [1275, "#b1ff98"], [1250, "#b3ff9b"], [1225, "#b5ff9d"], [1200, "#b7ff9f"],
-        [1175, "#b9ffa2"], [1150, "#bbffa4"], [1125, "#bdffa7"], [1100, "#bfffa9"],
-        [1075, "#c1ffac"], [1050, "#c3ffae"], [1025, "#c5ffb0"], [1000, "#c7ffb3"],
-        [975, "#c9ffb5"], [950, "#cbffb8"], [925, "#cdffba"], [900, "#cfffbc"],
-        [875, "#d0ffbf"], [850, "#d2ffc1"], [825, "#d4ffc4"], [800, "#d6ffc6"],
-        [775, "#d8ffc8"], [750, "#daffcb"], [725, "#dbffcd"], [700, "#ddffd0"],
-        [675, "#dfffd2"], [650, "#e1ffd4"], [625, "#e3ffd7"], [600, "#e4ffd9"],
-        [575, "#e6ffdb"], [550, "#e8ffde"], [525, "#e9ffe0"], [500, "#ebffe3"],
-        [475, "#edffe5"], [450, "#efffe7"], [425, "#f0ffea"], [400, "#f2ffec"],
-        [375, "#f4ffee"], [350, "#f5fff1"], [325, "#f7fff3"], [300, "#f9fff6"],
-        [275, "#fafff8"], [250, "#fcfffa"], [225, "#fdfffd"], [200, "#ffffff"],
-      ];
-      if (!score || score <= 0) return "#ccc";
-      for (const [threshold, color] of thresholds) {
-        if (score >= threshold) return color;
-      }
-      return "#ffffff";
+    let allPlayersGroup = [];
+    let allPlayersQueue = [];
+    let rawDataStore = {};
+    let sortCol = null;
+    let sortAsc = true;
+
+    // ── DYNAMIC API DATA CACHES ─────────────────────────────────────────────────
+    let CURRENT_SEASON = "";
+    let DUNGEON_TIMERS = {};
+    let DUNGEON_ORDER = [];
+    let FIELDS = "";
+    const cutoffsCache = {};
+
+    function getSeasonCutoffs(region, season) {
+      const key = `${region.toLowerCase()}-${season}`;
+      if (cutoffsCache[key]) return cutoffsCache[key];
+
+      const promise = fetch(`https://raider.io/api/v1/mythic-plus/season-cutoffs?season=${season}&region=${region}`)
+        .then(res => res.ok ? res.json() : null)
+        .then(data => {
+          if (data && data.cutoffs) {
+            const c = data.cutoffs;
+            const graph = c.graphData;
+
+            function peakY(series) {
+              if (series && series.data && series.data.length > 0) {
+                return Math.max(...series.data.map(d => d.y));
+              }
+              return null;
+            }
+
+            return [
+              (graph && peakY(graph.p999)) || c.p999?.all?.quantileMinValue || null,
+              (graph && peakY(graph.p990)) || c.p990?.all?.quantileMinValue || null,
+              (graph && peakY(graph.p900)) || c.p900?.all?.quantileMinValue || null,
+              (graph && peakY(graph.p750)) || c.p750?.all?.quantileMinValue || null,
+              (graph && peakY(graph.p600)) || c.p600?.all?.quantileMinValue || null,
+            ];
+          }
+          return null;
+        })
+        .catch(() => null);
+
+      cutoffsCache[key] = promise;
+      return promise;
     }
 
-    function underTimeScoreColor(avgPct, avgKeyLevel) {
-      // At keyLevel 0 -> full divisor 1.0, at +10 -> 0.5, at +20 -> 0.25, at +40 -> 0.125
-      // Formula: divisor = 2^(-keyLevel/10), so threshold scales down with key level
+    async function scoreToPercentile(score, season, region) {
+      const thresholds = await getSeasonCutoffs(region, season);
+      if (!thresholds) return null;
+
+      const allPoints = [
+        { p: 0.1, s: thresholds[0] },
+        { p: 1, s: thresholds[1] },
+        { p: 10, s: thresholds[2] },
+        { p: 25, s: thresholds[3] },
+        { p: 40, s: thresholds[4] }
+      ];
+
+      const dataPoints = allPoints.filter(d => d.s !== null && d.s > 0);
+      if (dataPoints.length === 0) return null;
+
+      if (score >= dataPoints[0].s) return dataPoints[0].p;
+      if (score <= dataPoints[dataPoints.length - 1].s) return dataPoints[dataPoints.length - 1].p;
+
+      for (let i = 0; i < dataPoints.length - 1; i++) {
+        const p1 = dataPoints[i].p, s1 = dataPoints[i].s;
+        const p2 = dataPoints[i + 1].p, s2 = dataPoints[i + 1].s;
+        if (score <= s1 && score >= s2) {
+          const frac = (score - s2) / (s1 - s2);
+          return p2 + frac * (p1 - p2);
+        }
+      }
+      return null;
+    }
+
+    async function initApiData() {
+      try {
+        const resStatic = await fetch("https://raider.io/api/v1/mythic-plus/static-data?expansion_id=11");
+        if (resStatic.ok) {
+          const staticData = await resStatic.json();
+          const now = Date.now();
+
+          for (const season of staticData.seasons) {
+            const start = new Date(season.starts.us || season.starts.eu).getTime();
+            const end = new Date(season.ends.us || season.ends.eu).getTime();
+
+            if (now >= start && now <= end) {
+              CURRENT_SEASON = season.slug;
+              DUNGEON_ORDER = season.dungeons.map(d => ({ name: d.name, short: d.short_name, icon_url: d.icon_url || '' }));
+              for (const d of season.dungeons) {
+                DUNGEON_TIMERS[d.name] = d.keystone_timer_seconds;
+                DUNGEON_TIMERS[d.short_name] = d.keystone_timer_seconds;
+              }
+              break;
+            }
+          }
+
+          if (!CURRENT_SEASON && staticData.seasons.length > 0) {
+            const lastSeason = staticData.seasons[staticData.seasons.length - 1];
+            CURRENT_SEASON = lastSeason.slug;
+            DUNGEON_ORDER = lastSeason.dungeons.map(d => ({ name: d.name, short: d.short_name, icon_url: d.icon_url || '' }));
+            for (const d of lastSeason.dungeons) {
+              DUNGEON_TIMERS[d.name] = d.keystone_timer_seconds;
+              DUNGEON_TIMERS[d.short_name] = d.keystone_timer_seconds;
+            }
+          }
+        }
+
+        const pastSeasons = "season-sl-3:season-sl-4:season-df-1:season-df-2:season-df-3:season-df-4:season-tww-1:season-tww-2:season-tww-3";
+        FIELDS = `gear,talents,guild,raid_progression,mythic_plus_scores_by_season:${pastSeasons}:${CURRENT_SEASON},mythic_plus_ranks,mythic_plus_recent_runs,mythic_plus_best_runs:all,mythic_plus_alternate_runs:all,mythic_plus_highest_level_runs,mythic_plus_weekly_highest_level_runs,mythic_plus_previous_weekly_highest_level_runs,previous_mythic_plus_ranks`;
+
+      } catch (e) { console.error("Failed to fetch API data", e); }
+    }
+
+    // ────────────────────────────────────────────────────────────────────────────
+
+    function TimeRemainingScoreColor(avgPct, avgKeyLevel) {
       const divisor = Math.pow(2, -avgKeyLevel / 10);
       const adjusted = avgPct / divisor;
 
@@ -397,7 +486,7 @@
         [0.350, "#FBD12D"], [0.332, "#FCD43B"], [0.314, "#FCD748"], [0.297, "#FDDE62"], [0.280, "#FDE37C"], [0.264, "#FDE68A"], [0.248, "#FDE897"], [0.233, "#FEF1A4"],
         [0.218, "#FEFAB1"], [0.199, "#FEFCC5"], [0.180, "#FEFED8"], [0.167, "#F3F3E0"], [0.154, "#E8E8E8"], [0.142, "#D6D6D6"], [0.130, "#C4C4C4"], [0.119, "#AEAEAE"],
         [0.108, "#989898"], [0.098, "#927D82"], [0.088, "#927C6D"], [0.079, "#9C7864"], [0.070, "#A57A5A"], [0.062, "#AB7244"], [0.054, "#AA6A2D"], [0.047, "#8F5926"],
-        [0.040, "#794C20"], [0.033, "#704214"], [0.026, "#683808"], [0.020, "#57310E"], [0.013, "#492E13"], [0.007, "#3D260F"], [0.000, "#301E0D"],
+        [0.040, "#794C20"], [0.033, "#704214"], [0.026, "#683808"], [0.020, "#57310E"], [0.013, "#492E13"], [0.007, "#3D260F"], [0.000, "#301E0D"]
       ];
 
       for (const [threshold, color] of THRESHOLDS) {
@@ -406,54 +495,54 @@
       return "#ffffff";
     }
 
-    // ── PERCENTILE DATA ─────────────────────────────────────────────────────────
-    const PERCENTILE_DATA = {
-      eu: {
-        "season-sl-3": [3725.93, 3351.98, 2933.10, 2512.82, 1754.21],
-        "season-sl-4": [3693.66, 3361.23, 2795.61, 2314.00, 1778.17],
-        "season-df-1": [3430.90, 3200.94, 2793.27, 2552.71, 2246.54],
-        "season-df-2": [3286.38, 2747.23, 1630.64, 955.61, 594.25],
-        "season-df-3": [3720.74, 3377.09, 2881.04, 2523.69, 1976.22],
-        "season-df-4": [3693.66, 3361.23, 2795.61, 2314.00, 1778.17],
-        "season-tww-1": [3484.38, 3116.14, 2706.42, 2478.34, 2094.09],
-        "season-tww-2": [3822.42, 3485.32, 3054.69, 2762.28, 2459.56],
-        "season-tww-3": [3946.97, 3602.13, 3114.82, 2876.44, 2558.75],
-      },
-      us: {
-        "season-sl-3": [3679.14, 3261.03, 2782.82, 2354.53, 1496.42],
-        "season-sl-4": [3087.26, 2687.73, 2235.23, 2004.81, 1235.54],
-        "season-df-1": [3378.85, 3083.75, 2722.84, 2434.62, 1990.45],
-        "season-df-2": [3225.12, 2729.99, 1568.99, 904.15, 543.28],
-        "season-df-3": [3688.18, 3287.81, 2788.99, 2342.54, 1682.42],
-        "season-df-4": [3653.96, 3282.98, 2712.16, 2191.64, 1628.00],
-        "season-tww-1": [3458.76, 3049.82, 2655.29, 2347.67, 1962.75],
-        "season-tww-2": [3804.80, 3425.40, 3024.84, 2672.00, 2274.17],
-        "season-tww-3": [3912.96, 3515.23, 3061.31, 2759.89, 2378.96],
+    // New Mapped +/- 6 Weighted iLvl array
+    function getIlvlColor(diff) {
+      const ILVL_THRESHOLDS = [
+        [6.0, "#ff8000"], [5.9, "#fe7e17"], [5.8, "#fd7b24"], [5.7, "#fb792e"], [5.6, "#fa7737"],
+        [5.5, "#f9753f"], [5.4, "#f77246"], [5.3, "#f6704d"], [5.2, "#f46e54"], [5.1, "#f26b5a"],
+        [5.0, "#f16961"], [4.9, "#ef6767"], [4.8, "#ed646d"], [4.7, "#eb6273"], [4.6, "#e96079"],
+        [4.5, "#e75e7f"], [4.4, "#e55b85"], [4.3, "#e3598b"], [4.2, "#e05790"], [4.1, "#de5496"],
+        [4.0, "#db529c"], [3.9, "#d850a2"], [3.8, "#d54ea8"], [3.7, "#d24cad"], [3.6, "#cf49b3"],
+        [3.5, "#cc47b9"], [3.4, "#c845bf"], [3.3, "#c443c5"], [3.2, "#c141cb"], [3.1, "#bc3fd1"],
+        [3.0, "#b83dd6"], [2.9, "#b33bdc"], [2.8, "#ae39e2"], [2.7, "#a937e8"], [2.6, "#a335ee"],
+        [2.5, "#9c3eed"], [2.4, "#9445eb"], [2.3, "#8c4bea"], [2.2, "#8351e8"], [2.1, "#7b56e7"],
+        [2.0, "#715be5"], [1.9, "#675fd4"], [1.8, "#6663d3"], [1.7, "#6472c3"], [1.6, "#6379be"],
+        [1.5, "#6180ba"], [1.4, "#5981b7"], [1.3, "#5784b4"], [1.2, "#5688b1"], [1.1, "#5491b0"],
+        [1.0, "#5496b5"], [0.9, "#539baf"], [0.8, "#55a0aa"], [0.7, "#59a5a5"], [0.6, "#5da9a0"],
+        [0.5, "#5eae9a"], [0.4, "#5fb395"], [0.3, "#5fb88f"], [0.2, "#5fbd89"], [0.1, "#5fc283"],
+        [0.0, "#5ec77d"], [-0.1, "#5ccc77"], [-0.2, "#5ad171"], [-0.3, "#58d66a"], [-0.4, "#55db63"],
+        [-0.5, "#4de563"], [-0.6, "#47eb5a"], [-0.7, "#49e543"], [-0.8, "#3eef40"], [-0.9, "#5cff41"],
+        [-1.0, "#63ff48"], [-1.1, "#6aff4f"], [-1.2, "#71ff55"], [-1.3, "#77ff5b"], [-1.4, "#7dff61"],
+        [-1.5, "#83ff67"], [-1.6, "#89ff6c"], [-1.7, "#8eff72"], [-1.8, "#93ff77"], [-1.9, "#98ff7c"],
+        [-2.0, "#9dff81"], [-2.1, "#a1ff87"], [-2.2, "#a6ff8c"], [-2.3, "#aaff91"], [-2.4, "#afff96"],
+        [-2.5, "#b1ff98"], [-2.6, "#b7ff9f"], [-2.7, "#bbffa4"], [-2.8, "#bfffa9"], [-2.9, "#c3ffae"],
+        [-3.0, "#c7ffb3"], [-3.1, "#cbffb8"], [-3.2, "#cfffbc"], [-3.3, "#d2ffc1"], [-3.4, "#d6ffc6"],
+        [-3.5, "#dfffd2"], [-3.6, "#e1ffd4"], [-3.7, "#e3ffd7"], [-3.8, "#e4ffd9"], [-3.9, "#e6ffdb"],
+        [-4.0, "#e9ffe0"], [-4.1, "#edffe5"], [-4.2, "#ebffe3"], [-4.3, "#edffe5"], [-4.4, "#efffe7"],
+        [-4.5, "#f0ffea"], [-4.6, "#f2ffec"], [-4.7, "#f4ffee"], [-4.8, "#f5fff1"], [-4.9, "#f7fff3"],
+        [-5.0, "#fafff8"], [-5.1, "#fcfff0"], [-5.2, "#f7eef0"], [-5.3, "#e5dde5"], [-5.4, "#eaddea"],
+        [-5.5, "#ddccdd"], [-5.6, "#ccbbcc"], [-5.7, "#cbbbcb"], [-5.8, "#bbaabb"], [-5.9, "#ab99ab"],
+        [-6.0, "#aa99aa"],
+      ];
+      for (const [threshold, color] of ILVL_THRESHOLDS) {
+        if (diff >= threshold) return color;
       }
-    };
+      return "#301E0D";
+    }
 
-    const CURRENT_SEASON = "season-mn-1"; // Update this to your active season if needed
-    const RIO_API = "https://raider.io/api/v1/characters/profile";
-    const FIELDS = [
-      "gear",
-      "talents",
-      "guild",
-      "raid_progression",
-      "mythic_plus_scores_by_season:season-sl-1:season-sl-2:season-sl-3:season-sl-4:season-df-1:season-df-2:season-df-3:season-df-4:season-tww-1:season-tww-2:season-tww-3:season-mn-1",
-      "mythic_plus_ranks",
-      "mythic_plus_recent_runs",
-      "mythic_plus_best_runs:all",
-      "mythic_plus_alternate_runs:all",
-      "mythic_plus_highest_level_runs",
-      "mythic_plus_weekly_highest_level_runs",
-      "mythic_plus_previous_weekly_highest_level_runs",
-      "previous_mythic_plus_ranks"
-    ].join(",");
-
-    let allPlayers = [];
-    let rawDataStore = {};
-    let sortCol = null;
-    let sortAsc = true;
+    function getKeyLevelColor(lvl) {
+      if (!lvl) return '#666';
+      // Pattern: +1 White, +2 Green, +3 Blue, +4 Pink, +5 Orange
+      // (lvl % 5): 1=White, 2=Green, 3=Blue, 4=Pink, 0=Orange
+      const colors = [
+        '#ffb84d', // 0 (e.g. +5, +10) - Orange
+        '#ffff00', // 1 (e.g. +1, +6)  - Yellow
+        '#88ff88', // 2 (e.g. +2, +7)  - Green
+        '#88ccff', // 3 (e.g. +3, +8)  - Blue
+        '#ff88ff'  // 4 (e.g. +4, +9)  - Pink
+      ];
+      return colors[lvl % 5];
+    }
 
     function getDungeonTimer(name) {
       if (!name) return null;
@@ -461,9 +550,6 @@
       const lower = name.toLowerCase();
       for (const [k, v] of Object.entries(DUNGEON_TIMERS)) {
         if (k.toLowerCase() === lower) return v;
-      }
-      for (const [k, v] of Object.entries(DUNGEON_TIMERS)) {
-        if (k.toLowerCase().includes(lower) || lower.includes(k.toLowerCase())) return v;
       }
       return null;
     }
@@ -485,11 +571,20 @@
       reader.readAsText(file);
     }
 
-    function parseSignups(raw) {
-      const region = raw.region || "eu";
-      const queue = raw.queue || [];
+    function loadFromText() {
+      const txt = document.getElementById("textInput").value;
+      if (!txt || !txt.trim()) return;
+      try {
+        const json = JSON.parse(txt);
+        processInput(json);
+      } catch {
+        document.getElementById("status").textContent = "Invalid JSON text.";
+      }
+    }
+
+    function parseList(list, region, isGroup) {
       const players = [];
-      const stack = [...queue];
+      const stack = [...list];
       while (stack.length) {
         const item = stack.pop();
         if (Array.isArray(item)) { stack.push(...item); continue; }
@@ -499,12 +594,22 @@
             const roleNum = parseInt(m[1]);
             const name = m[2], realm = m[3];
             const role = roleNum === 1 ? "dps" : [2, 3].includes(roleNum) ? "heal" : [4, 5, 6, 7].includes(roleNum) ? "tank" : "?";
-            players.push({ role, name, realm, region });
+            players.push({ role, name, realm, region, isGroup });
           }
         }
       }
+      return players;
+    }
+
+    function parseSignups(raw) {
+      const region = raw.region || "eu";
+      const gPlayers = parseList(raw.group || [], region, true);
+      const qPlayers = parseList(raw.queue || [], region, false);
+
+      const all = [...gPlayers, ...qPlayers];
       const seen = new Set();
-      return players.filter(p => {
+
+      return all.filter(p => {
         const key = `${p.name}-${p.realm}-${p.region}`;
         if (seen.has(key)) return false;
         seen.add(key); return true;
@@ -512,32 +617,45 @@
     }
 
     async function processInput(raw) {
-      const players = parseSignups(raw);
-      document.getElementById("status").textContent = `Fetching ${players.length} players...`;
-      document.getElementById("progress-area").style.display = "";
+      const ObjectPlayers = parseSignups(raw);
+
+      document.getElementById("status").textContent = `Waiting for API metadata...`;
+      await apiDataReady;
+
+      document.getElementById("status").textContent = `Fetching ${ObjectPlayers.length} players...`;
+      document.getElementById("progress-area").style.display = "flex";
       const prog = document.getElementById("prog");
       const progLabel = document.getElementById("prog-label");
-      prog.max = players.length; prog.value = 0;
+      prog.max = ObjectPlayers.length; prog.value = 0;
 
-      allPlayers = [];
+      allPlayersGroup = [];
+      allPlayersQueue = [];
       rawDataStore = {};
+      document.getElementById("table-area-group").innerHTML = "";
+      document.getElementById("table-area-queue").innerHTML = "";
 
-      const BATCH = 10;
-      for (let i = 0; i < players.length; i += BATCH) {
-        const batch = players.slice(i, i + BATCH);
+      const BATCH = 20;
+      for (let i = 0; i < ObjectPlayers.length; i += BATCH) {
+        const batch = ObjectPlayers.slice(i, i + BATCH);
         await Promise.all(batch.map(async p => {
           const data = await fetchPlayer(p);
           const key = `${p.name}-${p.realm}`;
           rawDataStore[key] = data;
-          allPlayers.push(analyzePlayer(p, data));
+
+          const analyzed = await analyzePlayer(p, data);
+          analyzed.isGroup = p.isGroup;
+
+          if (p.isGroup) allPlayersGroup.push(analyzed);
+          else allPlayersQueue.push(analyzed);
+
           prog.value++;
-          progLabel.textContent = `${prog.value} / ${players.length}`;
+          progLabel.textContent = `${prog.value} / ${ObjectPlayers.length}`;
+          appendPlayerRow(analyzed, p.isGroup ? "#table-area-group" : "#table-area-queue", p.isGroup ? "Group Members" : "Queue Signups");
         }));
       }
 
-      document.getElementById("status").textContent = `Done. ${allPlayers.length} players loaded.`;
+      document.getElementById("status").textContent = `Done. ${ObjectPlayers.length} players loaded.`;
       document.getElementById("progress-area").style.display = "none";
-      renderTable(allPlayers);
     }
 
     async function fetchPlayer(p) {
@@ -614,56 +732,15 @@
       return { ilvl: finalIlvl, missing };
     }
 
-    function scoreToPercentile(score, season, region) {
-      const rData = PERCENTILE_DATA[region.toLowerCase()];
-      if (!rData) return null;
-      const thresholds = rData[season];
-      if (!thresholds) return null;
-
-      const dataPoints = [
-        { p: 0.1, s: thresholds[0] },
-        { p: 1, s: thresholds[1] },
-        { p: 10, s: thresholds[2] },
-        { p: 25, s: thresholds[3] },
-        { p: 40, s: thresholds[4] }
-      ];
-
-      if (score >= dataPoints[0].s) return dataPoints[0].p;
-      if (score <= dataPoints[4].s) return dataPoints[4].p;
-
-      for (let i = 0; i < dataPoints.length - 1; i++) {
-        const p1 = dataPoints[i].p, s1 = dataPoints[i].s;
-        const p2 = dataPoints[i + 1].p, s2 = dataPoints[i + 1].s;
-        if (score <= s1 && score >= s2) {
-          const frac = (score - s2) / (s1 - s2);
-          return p2 + frac * (p1 - p2);
-        }
-      }
-      return null;
-    }
-
     function scoreToResil(score) {
+      keylevel_score = 15;
+      affix_score = 185;
+      num_dungeons = 8;
       if (!score || score <= 0) return 0;
-      return ((score / 8) - 185) / 15;
+      return ((score / num_dungeons) - affix_score) / keylevel_score;
     }
 
-    function getSeasonTop01Score(season, region) {
-      const rData = PERCENTILE_DATA[region.toLowerCase()];
-      if (!rData) return null;
-      const thresholds = rData[season];
-      if (!thresholds) return null;
-      return thresholds[0]; // index 0 = top 0.1%
-    }
-
-    function scoreToInflationAdjustedColor(score, season, region) {
-      const top01 = getSeasonTop01Score(season, region);
-      if (!top01 || top01 <= 0) return scoreColor(score);
-      const ANCHOR = 4100;
-      const adjustedScore = (score / top01) * ANCHOR;
-      return scoreColor(adjustedScore);
-    }
-
-    function analyzePlayer(p, data) {
+    async function analyzePlayer(p, data) {
       if (!data) return { name: p.name, realm: p.realm, region: p.region, role: p.role, error: true };
 
       // Raid
@@ -675,70 +752,153 @@
 
       // iLvl
       const gearCalc = calculateCustomIlvl(data.gear);
-      const ilvl = gearCalc.ilvl;
+      const unweightedIlvl = data.gear?.item_level_equipped || 0;
+      const weightedIlvl = gearCalc.ilvl;
+      const ilvlDiff = weightedIlvl - unweightedIlvl;
       const missingUpgrades = gearCalc.missing;
 
-      // Scores & Percentiles
+      // Scores
       const seasons = data.mythic_plus_scores_by_season || [];
       let currentScore = 0;
-      let currentScoreDebug = null;
-      let pastSeasons = [];
+      let currentScoreColor = "#ccc";
 
       for (const s of seasons) {
         const allScore = s.scores?.all || 0;
+        const allColor = s.segments?.all?.color || "#ffffff";
         if (s.season === CURRENT_SEASON) {
           currentScore = allScore;
-          currentScoreDebug = s;
-        } else if (allScore >= 2000) {
-          const perc = scoreToPercentile(allScore, s.season, p.region);
-          if (perc !== null) {
-            pastSeasons.push({ season: s.season, score: allScore, perc: perc, region: p.region });
-          }
+          currentScoreColor = allColor;
         }
       }
 
-      pastSeasons.sort((a, b) => a.perc - b.perc);
-      const top2Seasons = pastSeasons.slice(0, 2);
-      let topSeasonsStr = top2Seasons.map(s =>
-        `<span style="color:${scoreToInflationAdjustedColor(s.score, s.season, s.region)}">${s.perc.toFixed(1)}%</span> (${s.season.replace('season-', '')})`).join(', ');
-      if (!topSeasonsStr) topSeasonsStr = "-";
+      const pastSeasonsRaw = [];
+      for (const s of seasons) {
+        const allScore = s.scores?.all || 0;
+        const allColor = s.segments?.all?.color || "#ffffff";
+        if (s.season !== CURRENT_SEASON && allScore >= 2000) {
+          pastSeasonsRaw.push({ season: s.season, score: allScore, color: allColor, role: null });
+        }
+      }
 
-      const bestPercentileVal = top2Seasons.length > 0 ? top2Seasons[0].perc : 999;
-      const ksmCount = seasons.filter(s => (s.scores?.all || 0) >= 2500).length;
+      const roleKey = p.role === "tank" ? "tank" : p.role === "heal" ? "healer" : "dps";
+      const pastSeasonsRoleRaw = [];
+      for (const s of seasons) {
+        const roleScore = s.scores?.[roleKey] || 0;
+        const roleColor = s.segments?.[roleKey]?.color || "#ffffff";
+        if (s.season !== CURRENT_SEASON && roleScore >= 2000) {
+          pastSeasonsRoleRaw.push({ season: s.season, score: roleScore, color: roleColor });
+        }
+      }
 
-      // Recency & Under-time
+      const pastSeasonsWithPerc = await Promise.all(pastSeasonsRaw.map(async s => {
+        const perc = await scoreToPercentile(s.score, s.season, p.region);
+        return { ...s, perc };
+      }));
+
+      const pastSeasonsRoleWithPerc = await Promise.all(pastSeasonsRoleRaw.map(async s => {
+        const perc = await scoreToPercentile(s.score, s.season, p.region);
+        return { ...s, perc };
+      }));
+
+      const sortByPerc = arr => [...arr].sort((a, b) => {
+        if (a.perc !== null && b.perc !== null) return a.perc - b.perc;
+        if (a.perc !== null) return -1;
+        if (b.perc !== null) return 1;
+        return b.score - a.score;
+      });
+
+      const sortedAny = sortByPerc(pastSeasonsWithPerc);
+      const sortedRole = sortByPerc(pastSeasonsRoleWithPerc);
+
+      const bestRoleSeason = sortedRole.length > 0 ? sortedRole[0] : null;
+      const bestAnySeason = sortedAny.length > 0 ? sortedAny[0] : null;
+
+      let slot1 = null, slot2 = null;
+
+      if (bestRoleSeason && bestAnySeason) {
+        slot1 = bestRoleSeason;
+        if (bestRoleSeason.season === bestAnySeason.season) {
+          slot2 = sortedAny.length > 1 ? sortedAny[1] : null;
+        } else {
+          slot2 = bestAnySeason;
+        }
+      } else if (bestAnySeason) {
+        slot1 = bestAnySeason;
+        slot2 = sortedAny.length > 1 ? sortedAny[1] : null;
+      }
+
+      function fmtSlot(s) {
+        if (!s) return null;
+        const seasonLabel = s.season.replace('season-', '');
+        if (s.perc != null) {
+          return `<span style="color:${s.color}" title="${seasonLabel}">${s.perc.toFixed(1)}%</span>`;
+        }
+        return `<span style="color:${s.color}" title="${seasonLabel}">${fmtScore(s.score)}</span>`;
+      }
+
+      const parts = [fmtSlot(slot1), fmtSlot(slot2)].filter(Boolean);
+      let topSeasonsStr = "-";
+      if (parts.length === 1) topSeasonsStr = parts[0];
+      else if (parts.length > 1) topSeasonsStr = `${parts[0]} (${parts[1]})`;
+
+      const bestPastPercentile = slot1?.perc ?? (slot1?.score ? 999 : 999);
+      const ksmCount = seasons.filter(s => (s.scores?.all || 0) >= 2000).length;
+
       const bestRuns = data.mythic_plus_best_runs || [];
       let recencyStr = "-";
-      let underTimeStr = "-";
-      let underTimeColor = "#dddddd";
+      let timeRemainingStr = "-";
+      let timeRemainingColor = "#dddddd";
+
+      let roleMismatch = false;
+      const expectedRole = p.role; // "dps", "heal", "tank"
+      let actualMainRole = expectedRole;
 
       if (bestRuns.length > 0) {
-        // Recency
+        for (const r of bestRuns) {
+          let runRole = "";
+          if (r.role) {
+            runRole = r.role.toLowerCase();
+          } else if (r.roster) {
+            const me = r.roster.find(m => m.character && m.character.name && m.character.name.toLowerCase() === p.name.toLowerCase());
+            if (me && me.role) runRole = me.role.toLowerCase();
+          }
+
+          if (runRole) {
+            if (runRole === "healing" || runRole === "healer") runRole = "heal";
+            if (runRole === "tanking") runRole = "tank";
+
+            if (expectedRole !== "?" && runRole !== expectedRole) {
+              roleMismatch = true;
+              actualMainRole = runRole;
+              break;
+            }
+          }
+        }
+
         let daysAgoArr = [];
-        let now = Date.now();
+        const now = Date.now();
         for (const r of bestRuns) {
           if (r.completed_at) {
-            let d = new Date(r.completed_at).getTime();
+            const d = new Date(r.completed_at).getTime();
             daysAgoArr.push((now - d) / (1000 * 3600 * 24));
           }
         }
         if (daysAgoArr.length > 0) {
           daysAgoArr.sort((a, b) => a - b);
-          let recentRuns = daysAgoArr.slice(0, 4);
-          let oldRuns = daysAgoArr.slice(-4);
-          let avgRecent = recentRuns.reduce((a, b) => a + b, 0) / recentRuns.length;
-          let avgOld = oldRuns.reduce((a, b) => a + b, 0) / oldRuns.length;
+          const recentRuns = daysAgoArr.slice(0, 4);
+          const oldRuns = daysAgoArr.slice(-4);
+          const avgRecent = recentRuns.reduce((a, b) => a + b, 0) / recentRuns.length;
+          const avgOld = oldRuns.reduce((a, b) => a + b, 0) / oldRuns.length;
           recencyStr = `${Math.round(avgRecent)}-${Math.round(avgOld)} days`;
         }
 
-        // Under-time
         let totalRemainingSecs = 0;
         let totalPctRemaining = 0;
         let count = 0;
         let totalKeyLevel = 0;
         for (const r of bestRuns) {
-          let parSecs = r.par_time_ms ? r.par_time_ms / 1000 : getDungeonTimer(r.dungeon?.name || r.short_name);
-          let clearSecs = r.clear_time_ms ? r.clear_time_ms / 1000 : null;
+          const parSecs = r.par_time_ms ? r.par_time_ms / 1000 : getDungeonTimer(r.dungeon?.name || r.short_name);
+          const clearSecs = r.clear_time_ms ? r.clear_time_ms / 1000 : null;
           if (parSecs !== null && clearSecs !== null) {
             totalRemainingSecs += (parSecs - clearSecs);
             totalPctRemaining += (parSecs - clearSecs) / parSecs;
@@ -747,113 +907,202 @@
           }
         }
         if (count > 0) {
-          let avgSecs = totalRemainingSecs / count;
-          let avgPct = totalPctRemaining / count;
-          let avgKeyLevel = totalKeyLevel / count;
-          let isNeg = avgSecs < 0;
-          let absSecs = Math.abs(avgSecs);
-          let mins = Math.floor(absSecs / 60);
-          let secs = Math.floor(absSecs % 60);
-          underTimeStr = `${isNeg ? "-" : ""}${mins}m ${secs.toString().padStart(2, '0')}s`;
-          underTimeColor = underTimeScoreColor(avgPct, avgKeyLevel);
+          const avgSecs = totalRemainingSecs / count;
+          const avgPct = totalPctRemaining / count;
+          const avgKeyLevel = totalKeyLevel / count;
+          const isNeg = avgSecs < 0;
+          const absSecs = Math.abs(avgSecs);
+          const mins = Math.floor(absSecs / 60);
+          const secs = Math.floor(absSecs % 60);
+          timeRemainingStr = `${isNeg ? "-" : ""}${mins}m ${secs.toString().padStart(2, '0')}s`;
+          timeRemainingColor = TimeRemainingScoreColor(avgPct, avgKeyLevel);
         }
+      }
+
+      const bestKeyPerDungeon = {};
+      for (const r of bestRuns) {
+        const shortName = r.dungeon?.short_name || r.short_name || "";
+        const fullName = r.dungeon?.name || r.name || "";
+        const level = r.mythic_level || 0;
+        if (shortName && (!bestKeyPerDungeon[shortName] || level > bestKeyPerDungeon[shortName]))
+          bestKeyPerDungeon[shortName] = level;
+        if (fullName && (!bestKeyPerDungeon[fullName] || level > bestKeyPerDungeon[fullName]))
+          bestKeyPerDungeon[fullName] = level;
       }
 
       const guild = data.guild?.name || "-";
       const playerClass = data.class || "-";
       const race = data.race || "Unknown";
+      const specName = data.active_spec_name || "";
 
       return {
         name: p.name, realm: p.realm, region: p.region, role: p.role,
-        playerClass, race, ilvl, missingUpgrades, mythic, heroic, ksmCount,
-        currentScore, currentScoreDebug,
-        topSeasonsStr, bestPercentileVal,
-        recencyStr, underTimeStr, underTimeColor, guild,
+        playerClass, race, specName,
+        ilvl: unweightedIlvl, weightedIlvl, ilvlDiff, missingUpgrades,
+        mythic, heroic, ksmCount,
+        currentScore, currentScoreColor,
+        topSeasonsStr, bestPastPercentile,
+        recencyStr, timeRemainingStr, timeRemainingColor, guild,
+        bestKeyPerDungeon, roleMismatch, actualMainRole,
         error: false
       };
     }
 
-    // ── Render main table ──────────────────────────────────────────────────────
-    function renderTable(players) {
+    function getTableHeaders() {
       const cols = [
         { key: "name", label: "Player" },
         { key: "role", label: "Role" },
         { key: "playerClass", label: "Class" },
-        { key: "ilvl", label: "iLvl" },
-        { key: "mythic", label: "CE/AOTC/KSM" },
-        { key: "bestPercentileVal", label: "Top Past Seasons" },
-        { key: "currentScore", label: "Current" },
+        { key: "bestPastPercentile", label: "Top Seasons" },
+        { key: "_ceSort", label: "CE/AOTC/KSM" },
+        { key: "timeRemainingStr", label: "Time Remaining" },
         { key: "recencyStr", label: "Recency" },
-        { key: "underTimeStr", label: "Under-time" },
+        { key: "currentScore", label: "Score" },
         { key: "_inspect", label: "Inspect" },
       ];
+      return cols;
+    }
+
+    function buildRowHtml(p) {
+      const key = `${p.name}-${p.realm}`;
+      if (p.error) {
+        return `<tr data-key="${key}"><td>${p.name}-${p.realm}</td><td colspan="8" style="color:#f66">Fetch error</td></tr>`;
+      }
+
+      const roleClass = r => r === "dps" ? "role-dps" : r === "heal" ? "role-heal" : r === "tank" ? "role-tank" : "";
+
+      const roleWarning = p.roleMismatch
+        ? `<span class="${roleClass(p.actualMainRole)}" style="font-weight:bold; cursor:help" title="Queued as ${p.role}, but plays ${p.actualMainRole} in best runs">*</span>`
+        : '';
+
+      const scoreDisplay = (() => {
+        const scoreStr = p.currentScore > 0
+          ? `<span style="color:${p.currentScoreColor}">${Math.round(p.currentScore)}</span>`
+          : `<span style="color:#f90">0?</span>`;
+
+        if (DUNGEON_ORDER.length > 0 && p.bestKeyPerDungeon) {
+          const icons = DUNGEON_ORDER.map(d => {
+            const lvl = p.bestKeyPerDungeon[d.short] || p.bestKeyPerDungeon[d.name] || null;
+            const label = lvl ? `+${lvl}` : `–`;
+            const labelColor = lvl ? getKeyLevelColor(lvl) : '#666';
+            const iconUrl = d.icon_url || '';
+            // Icons scaled up for ~1.5x readability
+            return `<div style="position:relative;display:inline-block;margin:0 3px;vertical-align:middle" title="${d.name}: ${label}">
+              <img src="${iconUrl}" width="45" height="45" style="display:block;border:1px solid #444;border-radius:4px">
+              <span style="position:absolute;bottom:0;left:0;right:0;text-align:center;font-size:18px;font-weight:bold;color:${labelColor};background:rgba(0,0,0,0.7);line-height:20px;border-radius:0 0 4px 4px; letter-spacing:-1px;">${label}</span>
+            </div>`;
+          });
+          return `<div style="display:flex;align-items:center;gap:6px;flex-wrap:nowrap;overflow:hidden">${scoreStr}&nbsp;${icons.join('')}</div>`;
+        }
+        return scoreStr;
+      })();
+
+      const ceColor = p.mythic >= 1 ? "#ff8000" : "#666";
+      const aotcColor = p.heroic >= 1 ? "#a335ee" : "#666";
+      const ksmColor = p.ksmCount >= 1 ? "#0070dd" : "#666";
+      const progressDisplay = `<span style="color:${ceColor}">${p.mythic}</span> / <span style="color:${aotcColor}">${p.heroic}</span> / <span style="color:${ksmColor}">${p.ksmCount}</span>`;
+
+      const shortClass = CLASS_SHORT[p.playerClass] || p.playerClass;
+      const classColor = CLASS_COLORS[p.playerClass] || "#ccc";
+      const specStr = SPEC_SHORT[p.specName] || p.specName;
+
+      const ilvlColor = getIlvlColor(p.ilvlDiff);
+      const ilvlStr = p.ilvl > 0 ? `<span style="color:${ilvlColor}" title="Unweighted iLvl. Weighted is ${p.weightedIlvl.toFixed(1)} (${p.ilvlDiff >= 0 ? '+' : ''}${p.ilvlDiff.toFixed(1)})">${Math.round(p.ilvl)}</span>` : "";
+
+      const missingStr = p.missingUpgrades && p.missingUpgrades.length > 0
+        ? ` <span style="color:#ff7070; font-weight:bold; cursor:help" title="${p.missingUpgrades.join(', ')}">(!)</span>`
+        : '';
+      const classDisplay = `<span style="color:${classColor}">${shortClass}</span> <span style="color:#aaa">(${ilvlStr} ${specStr})</span>${missingStr}`;
+
+      let baseString = p.name + "-" + p.realm;
+      let hasGuild = p.guild && p.guild !== "-";
+      let maxLen = hasGuild ? 24 : 21;
+
+      let truncated = baseString.length > maxLen ? baseString.substring(0, maxLen - 1) + '…' : baseString;
+
+      let dashIndex = truncated.indexOf('-');
+      let pNameStr = dashIndex > -1 ? truncated.substring(0, dashIndex) : truncated;
+      let pRealmStr = dashIndex > -1 ? truncated.substring(dashIndex) : "";
+
+      const guildWarning = hasGuild ? "" : " &lt;&gt;";
+      const rawName = `${p.name}-${p.realm}`;
+
+      const nameDisplay = `<span title="${rawName} | ${hasGuild ? 'Guild: ' + p.guild : 'No guild'}" style="white-space:nowrap">${pNameStr}<span style="color:#666">${pRealmStr}</span>${guildWarning}</span>`;
+
+      const resilVal = scoreToResil(p.currentScore);
+      const resilColor = p.currentScoreColor || "#ccc";
+      const timeRemainingDisplay = p.timeRemainingStr !== "-"
+        ? `<span style="color:${p.timeRemainingColor}">${p.timeRemainingStr}</span> <span style="color:${resilColor}">(+${resilVal.toFixed(1)})</span>`
+        : "-";
+
+      return `<tr data-key="${key}">
+        <td>${nameDisplay}</td>
+        <td class="${roleClass(p.role)}">${p.role}${roleWarning}</td>
+        <td>${classDisplay}</td>
+        <td>${p.topSeasonsStr}</td>
+        <td>${progressDisplay}</td>
+        <td>${timeRemainingDisplay}</td>
+        <td>${p.recencyStr}</td>
+        <td>${scoreDisplay}</td>
+        <td><button style="padding:4px 8px;font-size:14px" onclick="openInspector('${key}')">🔍</button></td>
+      </tr>`;
+    }
+
+    function appendPlayerRow(p, containerId, title) {
+      let container = document.querySelector(containerId);
+      let table = container.querySelector("table");
+      if (!table) {
+        const cols = getTableHeaders();
+        let html = `<h4 style="margin:0 0 12px 0; color:#aaa; font-size:20px;">${title}</h4><table class="peeking-table"><thead><tr>`;
+        for (const c of cols) {
+          if (c.key === "_inspect") { html += `<th>${c.label}</th>`; continue; }
+          html += `<th onclick="setSort('${c.key}')">${c.label}</th>`;
+        }
+        html += "</tr></thead><tbody></tbody></table>";
+        container.innerHTML = html;
+        table = container.querySelector("table");
+      }
+      const tbody = table.querySelector("tbody");
+      tbody.insertAdjacentHTML("beforeend", buildRowHtml(p));
+    }
+
+    function renderTable() {
+      renderSpecificTable(allPlayersGroup, "#table-area-group", "Group Members");
+      renderSpecificTable(allPlayersQueue, "#table-area-queue", "Queue Signups");
+    }
+
+    function renderSpecificTable(players, containerId, title) {
+      let container = document.querySelector(containerId);
+      if (!players || players.length === 0) { container.innerHTML = ""; return; }
+
+      const cols = getTableHeaders();
 
       let sorted = [...players];
       if (sortCol && sortCol !== "_inspect") {
         sorted.sort((a, b) => {
+          if (sortCol === "_ceSort") {
+            const va = (a.mythic ?? 0) * 10000 + (a.heroic ?? 0) * 100 + (a.ksmCount ?? 0);
+            const vb = (b.mythic ?? 0) * 10000 + (b.heroic ?? 0) * 100 + (b.ksmCount ?? 0);
+            return sortAsc ? va - vb : vb - va;
+          }
           let va = a[sortCol] ?? "", vb = b[sortCol] ?? "";
           if (typeof va === "number" && typeof vb === "number") return sortAsc ? va - vb : vb - va;
           return sortAsc ? String(va).localeCompare(String(vb)) : String(vb).localeCompare(String(va));
         });
       }
 
-      const roleClass = r => r === "dps" ? "role-dps" : r === "heal" ? "role-heal" : r === "tank" ? "role-tank" : "";
-
-      let html = "<table><thead><tr>";
+      let html = `<h4 style="margin:0 0 12px 0; color:#aaa; font-size:20px;">${title}</h4><table class="peeking-table"><thead><tr>`;
       for (const c of cols) {
         if (c.key === "_inspect") { html += `<th>${c.label}</th>`; continue; }
         const arrow = sortCol === c.key ? (sortAsc ? " ▲" : " ▼") : "";
         html += `<th onclick="setSort('${c.key}')">${c.label}${arrow}</th>`;
       }
       html += "</tr></thead><tbody>";
-
       for (const p of sorted) {
-        const key = `${p.name}-${p.realm}`;
-        if (p.error) {
-          html += `<tr><td>${p.name}-${p.realm}</td><td colspan="${cols.length - 1}" style="color:#f66">Fetch error</td></tr>`;
-          continue;
-        }
-
-        const curDisplay = p.currentScore > 0
-          ? `<span style="color:${scoreColor(p.currentScore)}">${fmtScore(p.currentScore)}</span> (Resil: ${scoreToResil(p.currentScore).toFixed(1)})`
-          : `<span style="color:#f90" title="Season data: ${JSON.stringify(p.currentScoreDebug)}">0?</span>`;
-
-        const missingStr = p.missingUpgrades && p.missingUpgrades.length > 0
-          ? ` <span style="color:#ff7070; font-weight:bold; cursor:help" title="${p.missingUpgrades.join(', ')}">(!)</span>`
-          : '';
-
-        const ilvlDisplay = p.ilvl > 0
-          ? Math.round(p.ilvl) + missingStr
-          : "-";
-
-        const ceColor = p.mythic >= 1 ? "#ff8000" : "#ccc";
-        const aotcColor = p.heroic >= 1 ? "#a335ee" : "#ccc";
-        const ksmColor = p.ksmCount >= 1 ? "#0070dd" : "#ccc";
-        const progressDisplay = `<span style="color:${ceColor}">${p.mythic}</span> / <span style="color:${aotcColor}">${p.heroic}</span> / <span style="color:${ksmColor}">${p.ksmCount}</span>`;
-
-        const shortClass = CLASS_SHORT[p.playerClass] || p.playerClass;
-        const classColor = CLASS_COLORS[p.playerClass] || "#ccc";
-
-        const hasGuild = p.guild && p.guild !== "-";
-        const nameDisplay = hasGuild
-          ? `<span title="Guild: ${p.guild}">${p.name}<span style="color:#666">-${p.realm}</span></span>`
-          : `<span>${p.name}<span style="color:#666">-${p.realm}</span> &lt;&gt;</span>`;
-
-        html += `<tr>
-          <td>${nameDisplay}</td>
-          <td class="${roleClass(p.role)}">${p.role}</td>
-          <td style="color:${classColor}" title="Race: ${p.race}">${shortClass}</td>
-          <td>${ilvlDisplay}</td>
-          <td>${progressDisplay}</td>
-          <td>${p.topSeasonsStr}</td>
-          <td>${curDisplay}</td>
-          <td>${p.recencyStr}</td>
-          <td style="color:${p.underTimeColor}">${p.underTimeStr}</td>
-          <td><button onclick="openInspector('${key}')">🔍</button></td>
-        </tr>`;
+        html += buildRowHtml(p);
       }
       html += "</tbody></table>";
-      document.getElementById("table-area").innerHTML = html;
+      container.innerHTML = html;
     }
 
     function fmtScore(s) {
@@ -862,8 +1111,11 @@
 
     function setSort(col) {
       if (sortCol === col) sortAsc = !sortAsc;
-      else { sortCol = col; sortAsc = false; }
-      renderTable(allPlayers);
+      else {
+        sortCol = col;
+        sortAsc = (col === "bestPastPercentile");
+      }
+      renderTable();
     }
 
     // ── Modal inspector ────────────────────────────────────────────────────────
@@ -923,7 +1175,7 @@
           html += `<div class="score-row"><span class="score-label">${k}</span><span class="score-val">${v}</span></div>`;
         }
         if (s.segments) {
-          html += `<hr style="border-color:#333;margin:4px 0">`;
+          html += `<hr style="border-color:#333;margin:6px 0">`;
           for (const [k, v] of Object.entries(s.segments)) {
             html += `<div class="score-row"><span class="score-label">seg:${k}</span><span class="score-val">${typeof v === 'object' ? v.score ?? JSON.stringify(v) : v}</span></div>`;
           }
@@ -934,27 +1186,27 @@
       return html;
     }
 
-  function renderRunsTab(runs, title) {
-    if (!runs.length) return `<em>No ${title} data.</em>`;
-    let html = `<table class="run-table"><thead><tr>
+    function renderRunsTab(runs, title) {
+      if (!runs.length) return `<em>No ${title} data.</em>`;
+      let html = `<table class="run-table"><thead><tr>
       <th>Dungeon</th><th>Level</th><th>Score</th><th>Timed</th><th>Duration</th><th>Timer</th><th>Affixes</th><th>Date</th><th>Roster</th>
       </tr></thead><tbody>`;
-    for (const r of runs) {
-      const timed = r.clear_time_ms > 0 && r.clear_time_ms <= r.par_time_ms;
-      const timedClass = timed ? "timed" : "depleted";
-      const affixes = (r.affixes || []).map(a => a.name || a).join(", ");
-      const date = r.completed_at ? r.completed_at.substring(0, 10) : "-";
-      const roster = (r.roster || []).map(m => m.character?.name || "?").join(", ");
+      for (const r of runs) {
+        const timed = r.clear_time_ms > 0 && r.clear_time_ms <= r.par_time_ms;
+        const timedClass = timed ? "timed" : "depleted";
+        const affixes = (r.affixes || []).map(a => a.name || a).join(", ");
+        const date = r.completed_at ? r.completed_at.substring(0, 10) : "-";
+        const roster = (r.roster || []).map(m => m.character?.name || "?").join(", ");
 
-      function fmtMs(ms) {
-        if (!ms) return "-";
-        const totalSec = Math.floor(ms / 1000);
-        const m = Math.floor(totalSec / 60);
-        const s = (totalSec % 60).toString().padStart(2, '0');
-        return `${m}:${s}`;
-      }
+        function fmtMs(ms) {
+          if (!ms) return "-";
+          const totalSec = Math.floor(ms / 1000);
+          const m = Math.floor(totalSec / 60);
+          const s = (totalSec % 60).toString().padStart(2, '0');
+          return `${m}:${s}`;
+        }
 
-      html += `<tr class="${timedClass}">
+        html += `<tr class="${timedClass}">
         <td>${r.dungeon?.short_name || r.short_name || "-"}</td>
         <td>${r.mythic_level}</td>
         <td>${r.score ?? "-"}</td>
@@ -965,10 +1217,10 @@
         <td>${date}</td>
         <td>${roster}</td>
       </tr>`;
+      }
+      html += "</tbody></table>";
+      return html;
     }
-    html += "</tbody></table>";
-    return html;
-  }
 
     function renderRanksTab(data) {
       const current = data.mythic_plus_ranks || {};
@@ -1040,9 +1292,9 @@
       if (Array.isArray(talents)) {
         let html = "";
         for (const loadout of talents) {
-          html += `<div style="margin-bottom:12px;padding:8px;border:1px solid #333">
+          html += `<div style="margin-bottom:12px;padding:12px;border:1px solid #333">
         <strong>${loadout.name || "Loadout"}</strong> — ${loadout.spec_name || ""} ${loadout.class_name || ""}<br>
-        <span style="color:#888;font-size:10px">${loadout.loadout_text || ""}</span>
+        <span style="color:#888;font-size:14px">${loadout.loadout_text || ""}</span>
       </div>`;
         }
         return html || "<em>Empty talent list.</em>";
