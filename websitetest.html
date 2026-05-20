@@ -11,68 +11,115 @@
     */
     body {
       font-family: monospace;
-      background: #1a1a1a;
+      background: #121212;
       color: #ccc;
-      padding: 30px;
-      font-size: 18px;
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
     }
 
-
-    /* Player */
-    .peeking-table th:nth-child(1) {
-      min-width: 230px;
+    /* Custom Scrollbars */
+    ::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
     }
 
-    /* Role */
-    .peeking-table th:nth-child(2) {
-      min-width: 45px;
+    ::-webkit-scrollbar-track {
+      background: #1a1a1a;
     }
 
-    /* Class / iLvl */
-    .peeking-table th:nth-child(3) {
-      min-width: 200px;
+    ::-webkit-scrollbar-thumb {
+      background: #444;
+      border-radius: 5px;
     }
 
-    /* Top Seasons */
-    .peeking-table th:nth-child(4) {
-      min-width: 120px;
+    ::-webkit-scrollbar-thumb:hover {
+      background: #666;
     }
 
-    /* CE/AOTC/KSM */
-    .peeking-table th:nth-child(5) {
-      min-width: 100px;
+    /* Layout Containers */
+    #startup-container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.3s ease;
     }
 
-    /* Time Remaining */
-    .peeking-table th:nth-child(6) {
-      min-width: 140px;
+    #app-container {
+      display: none;
+      flex: 1;
+      flex-direction: row;
+      overflow: hidden;
     }
 
-    /* Recency */
-    .peeking-table th:nth-child(7) {
-      min-width: 90px;
+    #left-pane {
+      flex: 1;
+      overflow-y: auto;
+      padding: 25px;
+      background: #1a1a1a;
     }
 
-    /* Score / Dungeons */
-    .peeking-table th:nth-child(8) {
-      min-width: 530px;
+    #right-pane {
+      width: 350px;
+      min-width: 350px;
+      background: #161616;
+      border-left: 1px solid #333;
+      overflow-y: auto;
+      padding: 0;
+      /* Changed to 0 so the placeholder can be edge-to-edge */
+      box-shadow: -5px 0 20px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
     }
 
-    /* Inspect */
-    .peeking-table th:nth-child(9) {
-      min-width: 60px;
+    /* Controls */
+    .controls-wrapper {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      background: #222;
+      padding: 20px;
+      border: 1px solid #444;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     }
+
+    .compact-controls {
+      background: transparent;
+      padding: 0;
+      border: none;
+      box-shadow: none;
+    }
+
+    .peeking-table th:nth-child(1) { min-width: 200px; } /* Player */
+    .peeking-table th:nth-child(2) { min-width: 45px; }  /* Role */
+    .peeking-table th:nth-child(3) { min-width: 195px; } /* Class / iLvl */
+    .peeking-table th:nth-child(4) { min-width: 110px; } /* Top Seasons */
+    .peeking-table th:nth-child(5) { min-width: 80px; }  /* CE/AOTC/KSM */
+    .peeking-table th:nth-child(6) { min-width: 100px; } /* Time Remaining */
+    .peeking-table th:nth-child(7) { min-width: 60px; }  /* Recency */
+    .peeking-table th:nth-child(8) { min-width: 65px; }  /* Score */
+    .peeking-table th:nth-child(9) { min-width: 350px; } /* Dungeons */
+
+
 
     table {
       border-collapse: collapse;
       width: 100%;
-      font-size: 16.5px;
+      font-size: 15px;
     }
 
     th,
     td {
-      border: 1px solid #444;
-      padding: 4.5px 9px;
+      border: 1px solid #333;
+      padding: 6px 10px;
       text-align: left;
       white-space: nowrap;
       overflow: hidden;
@@ -80,16 +127,30 @@
     }
 
     th {
-      background: #333;
+      background: #252525;
       color: #fff;
       cursor: pointer;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    tr {
+      cursor: pointer;
+      transition: background 0.1s;
     }
 
     tr:hover {
       background: #2a2a2a;
     }
 
-    #status {
+    tr.selected-row {
+      background: #233547 !important;
+      outline: 1px solid #4a75a3;
+    }
+
+    .status-text {
       margin-left: 15px;
       color: #aaa;
     }
@@ -113,105 +174,117 @@
       padding: 9px 18px;
       cursor: pointer;
       margin-right: 6px;
-      font-size: 16.5px;
+      font-size: 16px;
+      border-radius: 4px;
+      transition: background 0.2s, border-color 0.2s;
     }
 
     button:hover {
-      background: #444;
+      background: #4a4a4a;
+      border-color: #777;
     }
 
     input[type="text"] {
-      background: #222;
+      background: #1a1a1a;
       color: #ccc;
       border: 1px solid #555;
       padding: 9px;
       font-family: monospace;
-      font-size: 16.5px;
+      font-size: 16px;
       width: 375px;
+      border-radius: 4px;
+    }
+
+    input[type="text"]:focus {
+      outline: none;
+      border-color: #888;
     }
 
     progress {
       width: 450px;
       height: 20px;
+      accent-color: #4a75a3;
     }
 
-    #modal-overlay {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
+    /* Inspector Side Panel */
+    #inspector-placeholder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
       height: 100%;
-      background: rgba(0, 0, 0, 0.8);
-      z-index: 100;
-      overflow: auto;
+      width: 100%;
+      color: #eee;
+      text-align: center;
+      font-size: 18px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      box-sizing: border-box;
+      padding: 20px;
     }
 
-    #modal-box {
-      background: #1e1e1e;
-      border: 1px solid #555;
-      margin: 40px auto;
-      width: 90%;
-      max-height: 85vh;
-      overflow: auto;
-      padding: 30px;
-      position: relative;
+    .placeholder-text {
+      background: rgba(18, 18, 18, 0.85);
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #333;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     }
 
-    #modal-close {
-      position: sticky;
-      top: 0;
-      float: right;
-      background: #555;
-      border: none;
-      color: #fff;
-      padding: 6px 15px;
-      cursor: pointer;
-    }
-
-    #modal-content {
+    #inspector-content {
+      padding: 25px;
+      /* Moved here from #right-pane */
       white-space: pre-wrap;
-      font-size: 16.5px;
+      font-size: 15px;
       color: #ddd;
     }
 
     .tab-btn {
-      background: #333;
-      border: 1px solid #555;
-      color: #ccc;
+      background: #2a2a2a;
+      border: 1px solid #444;
+      color: #aaa;
       padding: 6px 15px;
       cursor: pointer;
-      margin-right: 6px;
+      margin-right: 4px;
+      margin-bottom: 6px;
+      border-radius: 4px;
     }
 
     .tab-btn.active {
-      background: #555;
+      background: #4a75a3;
       color: #fff;
+      border-color: #5b8bc0;
     }
 
     .score-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
       gap: 12px;
       margin-top: 12px;
     }
 
-    .score-card {
-      background: #2a2a2a;
-      border: 1px solid #444;
+    .score-card,
+    .rank-card {
+      background: #222;
+      border: 1px solid #333;
       padding: 12px;
+      border-radius: 6px;
     }
 
-    .score-card h4 {
-      margin: 0 0 6px 0;
-      color: #aaa;
-      font-size: 16.5px;
+    .score-card h4,
+    .rank-card h4 {
+      margin: 0 0 8px 0;
+      color: #bbb;
+      font-size: 16px;
+      border-bottom: 1px solid #444;
+      padding-bottom: 4px;
     }
 
     .score-row {
       display: flex;
       justify-content: space-between;
-      padding: 2px 0;
+      padding: 3px 0;
     }
 
     .score-label {
@@ -220,6 +293,7 @@
 
     .score-val {
       color: #ddd;
+      font-weight: bold;
     }
 
     .run-table,
@@ -237,74 +311,82 @@
     .raid-table th,
     .raid-table td {
       border: 1px solid #333;
-      padding: 4.5px 9px;
-      font-size: 15px;
+      padding: 6px 10px;
+      font-size: 14.5px;
     }
 
     .run-table th,
     .gear-table th,
     .raid-table th {
-      background: #2a2a2a;
-    }
-
-    .timed {
-      color: #70ff70;
-    }
-
-    .depleted {
-      color: #ff7070;
+      background: #222;
     }
 
     .ranks-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
       gap: 12px;
       margin-top: 12px;
-    }
-
-    .rank-card {
-      background: #2a2a2a;
-      border: 1px solid #444;
-      padding: 12px;
-    }
-
-    .rank-card h4 {
-      margin: 0 0 6px 0;
-      color: #aaa;
     }
   </style>
 </head>
 
 <body>
-  <h3 style="font-size: 36px; margin-top: 0;">WoW Rio Peeking</h3>
-  <div style="display:flex; align-items:center; flex-wrap:wrap; gap:12px;">
-    <button onclick="loadFromFile()">Load input.json</button>
-    <input type="file" id="fileInput" accept=".json" style="display:none" onchange="handleFile(event)">
+  <!-- Centered Startup View -->
+  <div id="startup-container">
+    <h1 style="font-size: 54px; margin: 0 0 10px 0; text-shadow: 2px 2px 4px #000; color: #fff;">WoW Rio Peeking</h1>
+    <p style="color: #888; margin-bottom: 30px; font-size: 18px;">Fast, information-dense M+ group screening</p>
 
-    <span style="color:#666; font-weight:bold;">OR</span>
+    <div class="controls-wrapper">
+      <button onclick="loadFromFile()">Load input.json</button>
+      <input type="file" id="fileInput" accept=".json" style="display:none" onchange="handleFile(event)">
+      <span style="color:#666; font-weight:bold;">OR</span>
+      <input type="text" id="textInput" placeholder="Paste JSON here...">
+      <button onclick="loadFromText()">Parse JSON</button>
+    </div>
 
-    <input type="text" id="textInput" placeholder="Paste JSON here...">
-    <button onclick="loadFromText()">Parse JSON</button>
-
-    <span id="status">No data loaded.</span>
+    <div id="startup-status" class="status-text" style="margin-top: 25px; font-size: 18px;">No data loaded.</div>
+    <div id="startup-progress-area" style="display:none; align-items:center; gap:10px; margin-top: 15px;">
+      <progress id="startup-prog" value="0" max="100"></progress>
+      <span id="startup-prog-label"></span>
+    </div>
   </div>
-  <br>
-  <div id="progress-area" style="display:none; align-items:center; gap:10px;">
-    <progress id="prog" value="0" max="100"></progress>
-    <span id="prog-label"></span>
-  </div>
-  <br>
-  <div id="table-area-group"></div>
-  <br>
-  <div id="table-area-queue"></div>
 
-  <!-- Modal inspector -->
-  <div id="modal-overlay" onclick="closeModal(event)">
-    <div id="modal-box">
-      <button id="modal-close" onclick="document.getElementById('modal-overlay').style.display='none'">✕ Close</button>
-      <h3 id="modal-title" style="margin-top:0"></h3>
-      <div id="modal-tabs"></div>
-      <div id="modal-content"></div>
+  <!-- Main App View (Split Pane) -->
+  <div id="app-container">
+    <div id="left-pane">
+      <div
+        style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 25px; padding-bottom: 15px; border-bottom: 1px solid #333;">
+        <h2 style="margin:0; font-size: 28px; color: #fff;">WoW Rio Peeking</h2>
+        <div class="controls-wrapper compact-controls">
+          <button onclick="loadFromFile()">Load input.json</button>
+          <span style="color:#555; font-weight:bold;">OR</span>
+          <input type="text" id="app-textInput" placeholder="Paste JSON here...">
+          <button onclick="loadFromText(true)">Parse JSON</button>
+          <span id="app-status" class="status-text"></span>
+        </div>
+      </div>
+
+      <div id="app-progress-area" style="display:none; align-items:center; gap:10px; margin-bottom: 20px;">
+        <progress id="app-prog" value="0" max="100"></progress>
+        <span id="app-prog-label"></span>
+      </div>
+
+      <div id="table-area-group"></div>
+      <br><br>
+      <div id="table-area-queue"></div>
+    </div>
+
+    <div id="right-pane">
+      <div id="inspector-placeholder">
+        <div class="placeholder-text">Select a player from the table<br>to view detailed information.</div>
+      </div>
+
+      <div id="inspector-content" style="display:none;">
+        <h2 id="inspector-title" style="margin-top:0; color:#fff; border-bottom: 1px solid #333; padding-bottom: 10px;">
+        </h2>
+        <div id="inspector-tabs" style="margin-bottom: 15px;"></div>
+        <div id="inspector-body"></div>
+      </div>
     </div>
   </div>
 
@@ -365,6 +447,7 @@
     let rawDataStore = {};
     let sortCol = null;
     let sortAsc = true;
+    let isAppViewActive = false;
 
     // ── DYNAMIC API DATA CACHES ─────────────────────────────────────────────────
     let CURRENT_SEASON = "";
@@ -372,6 +455,12 @@
     let DUNGEON_ORDER = [];
     let FIELDS = "";
     const cutoffsCache = {};
+
+    let basePastSeasons = [
+      "season-sl-3", "season-sl-4",
+      "season-df-1", "season-df-2", "season-df-3", "season-df-4",
+      "season-tww-1", "season-tww-2", "season-tww-3"
+    ];
 
     function getSeasonCutoffs(region, season) {
       const key = `${region.toLowerCase()}-${season}`;
@@ -442,6 +531,7 @@
         if (resStatic.ok) {
           const staticData = await resStatic.json();
           const now = Date.now();
+          let targetDungeons = [];
 
           for (const season of staticData.seasons) {
             const start = new Date(season.starts.us || season.starts.eu).getTime();
@@ -449,6 +539,7 @@
 
             if (now >= start && now <= end) {
               CURRENT_SEASON = season.slug;
+              targetDungeons = season.dungeons;
               DUNGEON_ORDER = season.dungeons.map(d => ({ name: d.name, short: d.short_name, icon_url: d.icon_url || '' }));
               for (const d of season.dungeons) {
                 DUNGEON_TIMERS[d.name] = d.keystone_timer_seconds;
@@ -461,21 +552,35 @@
           if (!CURRENT_SEASON && staticData.seasons.length > 0) {
             const lastSeason = staticData.seasons[staticData.seasons.length - 1];
             CURRENT_SEASON = lastSeason.slug;
+            targetDungeons = lastSeason.dungeons;
             DUNGEON_ORDER = lastSeason.dungeons.map(d => ({ name: d.name, short: d.short_name, icon_url: d.icon_url || '' }));
             for (const d of lastSeason.dungeons) {
               DUNGEON_TIMERS[d.name] = d.keystone_timer_seconds;
               DUNGEON_TIMERS[d.short_name] = d.keystone_timer_seconds;
             }
           }
+
+          // Apply Random Background Image to the Inspector Placeholder
+          if (targetDungeons && targetDungeons.length > 0) {
+            const randDungeon = targetDungeons[Math.floor(Math.random() * targetDungeons.length)];
+            if (randDungeon.background_image_url) {
+              document.getElementById("inspector-placeholder").style.backgroundImage = `url('${randDungeon.background_image_url}')`;
+            }
+          }
+
+          for (const season of staticData.seasons) {
+            if (season.slug === CURRENT_SEASON) break;
+            if (!basePastSeasons.includes(season.slug)) {
+              basePastSeasons.push(season.slug);
+            }
+          }
         }
 
-        const pastSeasons = "season-sl-3:season-sl-4:season-df-1:season-df-2:season-df-3:season-df-4:season-tww-1:season-tww-2:season-tww-3";
-        FIELDS = `gear,talents,guild,raid_progression,mythic_plus_scores_by_season:${pastSeasons}:${CURRENT_SEASON},mythic_plus_ranks,mythic_plus_recent_runs,mythic_plus_best_runs:all,mythic_plus_alternate_runs:all,mythic_plus_highest_level_runs,mythic_plus_weekly_highest_level_runs,mythic_plus_previous_weekly_highest_level_runs,previous_mythic_plus_ranks`;
+        const pastSeasonsStr = basePastSeasons.join(":");
+        FIELDS = `gear,talents,guild,raid_progression,mythic_plus_scores_by_season:${pastSeasonsStr}:${CURRENT_SEASON},mythic_plus_ranks,mythic_plus_recent_runs,mythic_plus_best_runs:all,mythic_plus_alternate_runs:all,mythic_plus_highest_level_runs,mythic_plus_weekly_highest_level_runs,mythic_plus_previous_weekly_highest_level_runs,previous_mythic_plus_ranks`;
 
       } catch (e) { console.error("Failed to fetch API data", e); }
     }
-
-    // ────────────────────────────────────────────────────────────────────────────
 
     function TimeRemainingScoreColor(avgPct, avgKeyLevel) {
       const divisor = Math.pow(2, -avgKeyLevel / 10);
@@ -495,7 +600,6 @@
       return "#ffffff";
     }
 
-    // New Mapped +/- 6 Weighted iLvl array
     function getIlvlColor(diff) {
       const ILVL_THRESHOLDS = [
         [5.0, "#ffffff"], [4.9, "#fdfdfd"], [4.8, "#fbfbfb"], [4.7, "#f9f9f9"], [4.6, "#f7f7f7"],
@@ -528,8 +632,6 @@
 
     function getKeyLevelColor(lvl) {
       if (!lvl) return '#666';
-      // Pattern: +1 White, +2 Green, +3 Blue, +4 Pink, +5 Orange
-      // (lvl % 5): 1=White, 2=Green, 3=Blue, 4=Pink, 0=Orange
       const colors = [
         '#ffb84d', // 0 (e.g. +5, +10) - Orange
         '#ffff00', // 1 (e.g. +1, +6)  - Yellow
@@ -540,6 +642,17 @@
       return colors[lvl % 5];
     }
 
+    function getRegionClassRankColor(rank) {
+      if (rank > 99) return "#666666";   // grey
+      if (rank > 75) return "#ffffff";   // white
+      if (rank > 50) return "#1EFF00";   // green
+      if (rank > 25) return "#0070FF";   // blue
+      if (rank > 10) return "#A335EE";   // purple
+      if (rank > 3) return "#FF8000";    // orange
+      if (rank > 1) return "#FF80FF";    // pink
+      return "#E5CC80";                  // gold
+    }
+
     function getDungeonTimer(name) {
       if (!name) return null;
       if (DUNGEON_TIMERS[name]) return DUNGEON_TIMERS[name];
@@ -548,6 +661,46 @@
         if (k.toLowerCase() === lower) return v;
       }
       return null;
+    }
+
+    function timeAgo(dateString) {
+      if (!dateString) return "-";
+      const d = new Date(dateString).getTime();
+      const now = Date.now();
+      const diffMs = now - d;
+      if (diffMs < 0) return "s";
+      const diffMins = Math.floor(diffMs / 60000);
+      if (diffMins < 60) return `${diffMins}m`;
+      const diffHrs = Math.floor(diffMs / 3600000);
+      if (diffHrs < 24) return `${diffHrs}h`;
+      const diffDays = Math.floor(diffMs / 86400000);
+      return `${diffDays}d`;
+    }
+
+    function updateStatus(msg) {
+      document.getElementById("startup-status").textContent = msg;
+      document.getElementById("app-status").textContent = msg;
+    }
+
+    function updateProgress(val, max) {
+      const area1 = document.getElementById("startup-progress-area");
+      const area2 = document.getElementById("app-progress-area");
+      const prog1 = document.getElementById("startup-prog");
+      const prog2 = document.getElementById("app-prog");
+      const label1 = document.getElementById("startup-prog-label");
+      const label2 = document.getElementById("app-prog-label");
+
+      if (val === null) {
+        area1.style.display = "none";
+        area2.style.display = "none";
+      } else {
+        area1.style.display = isAppViewActive ? "none" : "flex";
+        area2.style.display = isAppViewActive ? "flex" : "none";
+        prog1.max = max; prog1.value = val;
+        prog2.max = max; prog2.value = val;
+        label1.textContent = `${val} / ${max}`;
+        label2.textContent = `${val} / ${max}`;
+      }
     }
 
     function loadFromFile() { document.getElementById("fileInput").click(); }
@@ -561,20 +714,21 @@
           const json = JSON.parse(e.target.result);
           processInput(json);
         } catch {
-          document.getElementById("status").textContent = "Invalid JSON file.";
+          updateStatus("Invalid JSON file.");
         }
       };
       reader.readAsText(file);
     }
 
-    function loadFromText() {
-      const txt = document.getElementById("textInput").value;
+    function loadFromText(fromAppView = false) {
+      const inputId = fromAppView ? "app-textInput" : "textInput";
+      const txt = document.getElementById(inputId).value;
       if (!txt || !txt.trim()) return;
       try {
         const json = JSON.parse(txt);
         processInput(json);
       } catch {
-        document.getElementById("status").textContent = "Invalid JSON text.";
+        updateStatus("Invalid JSON text.");
       }
     }
 
@@ -615,14 +769,19 @@
     async function processInput(raw) {
       const ObjectPlayers = parseSignups(raw);
 
-      document.getElementById("status").textContent = `Waiting for API metadata...`;
+      updateStatus(`Waiting for API metadata...`);
       await apiDataReady;
 
-      document.getElementById("status").textContent = `Fetching ${ObjectPlayers.length} players...`;
-      document.getElementById("progress-area").style.display = "flex";
-      const prog = document.getElementById("prog");
-      const progLabel = document.getElementById("prog-label");
-      prog.max = ObjectPlayers.length; prog.value = 0;
+      updateStatus(`Fetching ${ObjectPlayers.length} players...`);
+      updateProgress(0, ObjectPlayers.length);
+
+      // Transition UI to App View if not already
+      if (!isAppViewActive) {
+        document.getElementById("startup-container").style.display = "none";
+        document.getElementById("app-container").style.display = "flex";
+        isAppViewActive = true;
+        updateProgress(0, ObjectPlayers.length); // re-trigger display logic
+      }
 
       allPlayersGroup = [];
       allPlayersQueue = [];
@@ -630,6 +789,11 @@
       document.getElementById("table-area-group").innerHTML = "";
       document.getElementById("table-area-queue").innerHTML = "";
 
+      // Reset inspector
+      document.getElementById("inspector-placeholder").style.display = "flex";
+      document.getElementById("inspector-content").style.display = "none";
+
+      let completed = 0;
       const BATCH = 20;
       for (let i = 0; i < ObjectPlayers.length; i += BATCH) {
         const batch = ObjectPlayers.slice(i, i + BATCH);
@@ -644,14 +808,14 @@
           if (p.isGroup) allPlayersGroup.push(analyzed);
           else allPlayersQueue.push(analyzed);
 
-          prog.value++;
-          progLabel.textContent = `${prog.value} / ${ObjectPlayers.length}`;
+          completed++;
+          updateProgress(completed, ObjectPlayers.length);
           appendPlayerRow(analyzed, p.isGroup ? "#table-area-group" : "#table-area-queue", p.isGroup ? "Group Members" : "Queue Signups");
         }));
       }
 
-      document.getElementById("status").textContent = `Done. ${ObjectPlayers.length} players loaded.`;
-      document.getElementById("progress-area").style.display = "none";
+      updateStatus(`Done. ${ObjectPlayers.length} players loaded.`);
+      updateProgress(null);
     }
 
     async function fetchPlayer(p) {
@@ -729,9 +893,9 @@
     }
 
     function scoreToResil(score) {
-      keylevel_score = 15;
-      affix_score = 185;
-      num_dungeons = 8;
+      const keylevel_score = 15;
+      const affix_score = 185;
+      const num_dungeons = 8;
       if (!score || score <= 0) return 0;
       return ((score / num_dungeons) - affix_score) / keylevel_score;
     }
@@ -753,7 +917,13 @@
       const ilvlDiff = weightedIlvl - unweightedIlvl;
       const missingUpgrades = gearCalc.missing;
 
-      // Scores
+      // Scores & Ranks
+      const ranks = data.mythic_plus_ranks || {};
+      // FIX: Map queued role to class_dps, class_healer, class_tank
+      const roleRankMap = { dps: ranks.class_dps, heal: ranks.class_healer, tank: ranks.class_tank };
+      const roleRankObj = roleRankMap[p.role] || ranks.class || ranks.overall || {};
+      const specRankRegion = roleRankObj.region || 0;
+
       const seasons = data.mythic_plus_scores_by_season || [];
       let currentScore = 0;
       let currentScoreColor = "#ccc";
@@ -837,10 +1007,42 @@
       if (parts.length === 1) topSeasonsStr = parts[0];
       else if (parts.length > 1) topSeasonsStr = `${parts[0]} (${parts[1]})`;
 
-      const bestPastPercentile = slot1?.perc ?? (slot1?.score ? 999 : 999);
+      const bestPastPercentile = slot1?.perc ?? (slot1?.score ? 99 : 99);
       const ksmCount = seasons.filter(s => (s.scores?.all || 0) >= 2000).length;
 
+      // Extract and combine all runs
+      const highestRuns = data.mythic_plus_highest_level_runs || [];
       const bestRuns = data.mythic_plus_best_runs || [];
+      const altRuns = data.mythic_plus_alternate_runs || [];
+      const recentRuns = data.mythic_plus_recent_runs || [];
+      const weeklyRuns = data.mythic_plus_weekly_highest_level_runs || [];
+      const prevWeeklyRuns = data.mythic_plus_previous_weekly_highest_level_runs || [];
+
+      const highestUrls = new Set(highestRuns.map(r => r.url).filter(Boolean));
+      const allRawRuns = [...highestRuns, ...bestRuns, ...altRuns, ...recentRuns, ...weeklyRuns, ...prevWeeklyRuns];
+
+      const uniqueRunsMap = new Map();
+      for (const r of allRawRuns) {
+        const rKey = r.url || `${r.short_name}-${r.mythic_level}-${r.clear_time_ms}-${r.completed_at}`;
+        if (!uniqueRunsMap.has(rKey)) {
+          uniqueRunsMap.set(rKey, r);
+        }
+      }
+
+      const combinedRuns = Array.from(uniqueRunsMap.values());
+      combinedRuns.sort((a, b) => {
+        if (b.mythic_level !== a.mythic_level) {
+          return b.mythic_level - a.mythic_level;
+        }
+        const dateA = a.completed_at ? new Date(a.completed_at).getTime() : 0;
+        const dateB = b.completed_at ? new Date(b.completed_at).getTime() : 0;
+        return dateB - dateA;
+      });
+
+      for (const r of combinedRuns) {
+        r.isHighest = r.url ? highestUrls.has(r.url) : false;
+      }
+
       let recencyStr = "-";
       let timeRemainingStr = "-";
       let timeRemainingColor = "#dddddd";
@@ -885,7 +1087,7 @@
           const oldRuns = daysAgoArr.slice(-4);
           const avgRecent = recentRuns.reduce((a, b) => a + b, 0) / recentRuns.length;
           const avgOld = oldRuns.reduce((a, b) => a + b, 0) / oldRuns.length;
-          recencyStr = `${Math.round(avgRecent)}-${Math.round(avgOld)} days`;
+          recencyStr = `${Math.round(avgRecent)}-${Math.round(avgOld)}d`;
         }
 
         let totalRemainingSecs = 0;
@@ -936,10 +1138,11 @@
         playerClass, race, specName,
         ilvl: unweightedIlvl, weightedIlvl, ilvlDiff, missingUpgrades,
         mythic, heroic, ksmCount,
-        currentScore, currentScoreColor,
+        currentScore, currentScoreColor, specRankRegion,
         topSeasonsStr, bestPastPercentile,
         recencyStr, timeRemainingStr, timeRemainingColor, guild,
         bestKeyPerDungeon, roleMismatch, actualMainRole,
+        combinedRuns,
         error: false
       };
     }
@@ -954,15 +1157,17 @@
         { key: "timeRemainingStr", label: "Time Remaining" },
         { key: "recencyStr", label: "Recency" },
         { key: "currentScore", label: "Score" },
-        { key: "_inspect", label: "Inspect" },
+        { key: "_dungeons", label: "Dungeons" }
       ];
       return cols;
     }
 
     function buildRowHtml(p) {
       const key = `${p.name}-${p.realm}`;
+      const safeKey = key.replace(/[^a-zA-Z0-9]/g, '_');
+
       if (p.error) {
-        return `<tr data-key="${key}"><td>${p.name}-${p.realm}</td><td colspan="8" style="color:#f66">Fetch error</td></tr>`;
+        return `<tr data-key="${key}" onclick="openInspector('${key}')"><td>${p.name}-${p.realm}</td><td colspan="8" style="color:#f66">Fetch error</td></tr>`;
       }
 
       const roleClass = r => r === "dps" ? "role-dps" : r === "heal" ? "role-heal" : r === "tank" ? "role-tank" : "";
@@ -971,27 +1176,36 @@
         ? `<span class="${roleClass(p.actualMainRole)}" style="font-weight:bold; cursor:help" title="Queued as ${p.role}, but plays ${p.actualMainRole} in best runs">*</span>`
         : '';
 
-      const scoreDisplay = (() => {
-        const scoreStr = p.currentScore > 0
-          ? `<span style="color:${p.currentScoreColor}">${Math.round(p.currentScore)}</span>`
-          : `<span style="color:#f90">0?</span>`;
+      const rankDisplay = (p.specRankRegion > 0 && p.specRankRegion <= 99)
+        ? `<span style="color:${getRegionClassRankColor(p.specRankRegion)}">#${p.specRankRegion}</span>`
+        : "–";
+      const rankTitle = p.specRankRegion > 0
+        ? `title="Region: #${p.specRankRegion}"`
+        : 'title="No rank data"';
+      const scoreStr = p.currentScore > 0
+        ? `<span style="color:${p.currentScoreColor}">${Math.round(p.currentScore)}</span> <span style="color:#888; font-size:14px;" ${rankTitle}>${rankDisplay}</span>`
+        : `<span style="color:#f90">0?</span> <span style="color:#888; font-size:14px;">(–)</span>`;
 
-        if (DUNGEON_ORDER.length > 0 && p.bestKeyPerDungeon) {
-          const icons = DUNGEON_ORDER.map(d => {
-            const lvl = p.bestKeyPerDungeon[d.short] || p.bestKeyPerDungeon[d.name] || null;
-            const label = lvl ? `+${lvl}` : `–`;
-            const labelColor = lvl ? getKeyLevelColor(lvl) : '#666';
-            const iconUrl = d.icon_url || '';
-            // Icons scaled up for ~1.5x readability
-            return `<div style="position:relative;display:inline-block;margin:0 3px;vertical-align:middle" title="${d.name}: ${label}">
-              <img src="${iconUrl}" width="45" height="45" style="display:block;border:1px solid #444;border-radius:4px">
-              <span style="position:absolute;bottom:0;left:0;right:0;text-align:center;font-size:18px;font-weight:bold;color:${labelColor};background:rgba(0,0,0,0.7);line-height:20px;border-radius:0 0 4px 4px; letter-spacing:-1px;">${label}</span>
-            </div>`;
-          });
-          return `<div style="display:flex;align-items:center;gap:6px;flex-wrap:nowrap;overflow:hidden">${scoreStr}&nbsp;${icons.join('')}</div>`;
-        }
-        return scoreStr;
-      })();
+      let dungeonIcons = "";
+      if (DUNGEON_ORDER.length > 0 && p.bestKeyPerDungeon) {
+        const allLevels = DUNGEON_ORDER.map(d => p.bestKeyPerDungeon[d.short] || p.bestKeyPerDungeon[d.name] || 0);
+        const maxLevel = Math.max(...allLevels, 0);
+        const icons = DUNGEON_ORDER.map((d, i) => {
+          const lvl = allLevels[i] || null;
+          const label = lvl ? `+${lvl}` : `–`;
+          const labelColor = lvl
+            ? (maxLevel - lvl >= 5 ? '#ffffff' : getKeyLevelColor(lvl))
+            : '#666';
+          const iconUrl = d.icon_url || '';
+          return `<div style="position:relative;display:inline-block;margin:0 3px;vertical-align:middle" title="${d.name}: ${label}">
+            <img src="${iconUrl}" width="32" height="32" style="display:block;border:1px solid #444;border-radius:4px">
+            <span style="position:absolute;bottom:0;left:0;right:0;text-align:center;font-size:18px;font-weight:bold;color:${labelColor};background:rgba(0,0,0,0.7);line-height:20px;border-radius:0 0 4px 4px; letter-spacing:-1px;">${label}</span>
+          </div>`;
+        });
+        dungeonIcons = icons.join('');
+      }
+
+      const dungeonDisplay = `<div style="display:flex;align-items:center;gap:6px;flex-wrap:nowrap;overflow:hidden">${dungeonIcons}</div>`;
 
       const ceColor = p.mythic >= 1 ? "#ff8000" : "#666";
       const aotcColor = p.heroic >= 1 ? "#a335ee" : "#666";
@@ -1003,7 +1217,7 @@
       const specStr = SPEC_SHORT[p.specName] || p.specName;
 
       const ilvlColor = getIlvlColor(p.ilvlDiff);
-      const ilvlStr = p.ilvl > 0 ? `<span style="color:${ilvlColor}" title="Unweighted iLvl. Weighted is ${p.weightedIlvl.toFixed(1)} (${p.ilvlDiff >= 0 ? '+' : ''}${p.ilvlDiff.toFixed(1)})">${Math.round(p.ilvl)}</span>` : "";
+      const ilvlStr = p.ilvl > 0 ? `<span style="color:${ilvlColor}" title="Weighted iLvl. Unweighted is ${p.ilvl.toFixed(1)} (${p.ilvlDiff >= 0 ? '+' : ''}${p.ilvlDiff.toFixed(1)})">${Math.round(p.weightedIlvl)}</span>` : "";
 
       const missingStr = p.missingUpgrades && p.missingUpgrades.length > 0
         ? ` <span style="color:#ff7070; font-weight:bold; cursor:help" title="${p.missingUpgrades.join(', ')}">(!)</span>`
@@ -1031,7 +1245,7 @@
         ? `<span style="color:${p.timeRemainingColor}">${p.timeRemainingStr}</span> <span style="color:${resilColor}">(+${resilVal.toFixed(1)})</span>`
         : "-";
 
-      return `<tr data-key="${key}">
+      const mainRowHtml = `<tr data-key="${key}" style="vertical-align:top;" onclick="openInspector('${key}')">
         <td>${nameDisplay}</td>
         <td class="${roleClass(p.role)}">${p.role}${roleWarning}</td>
         <td>${classDisplay}</td>
@@ -1039,9 +1253,11 @@
         <td>${progressDisplay}</td>
         <td>${timeRemainingDisplay}</td>
         <td>${p.recencyStr}</td>
-        <td>${scoreDisplay}</td>
-        <td><button style="padding:4px 8px;font-size:14px" onclick="openInspector('${key}')">🔍</button></td>
+        <td>${scoreStr}</td>
+        <td style="white-space:normal; overflow:visible;">${dungeonDisplay}</td>
       </tr>`;
+
+      return mainRowHtml;
     }
 
     function appendPlayerRow(p, containerId, title) {
@@ -1051,7 +1267,7 @@
         const cols = getTableHeaders();
         let html = `<h4 style="margin:0 0 12px 0; color:#aaa; font-size:20px;">${title}</h4><table class="peeking-table"><thead><tr>`;
         for (const c of cols) {
-          if (c.key === "_inspect") { html += `<th>${c.label}</th>`; continue; }
+          if (c.key === "_dungeons") { html += `<th>${c.label}</th>`; continue; }
           html += `<th onclick="setSort('${c.key}')">${c.label}</th>`;
         }
         html += "</tr></thead><tbody></tbody></table>";
@@ -1074,7 +1290,7 @@
       const cols = getTableHeaders();
 
       let sorted = [...players];
-      if (sortCol && sortCol !== "_inspect") {
+      if (sortCol && sortCol !== "_dungeons") {
         sorted.sort((a, b) => {
           if (sortCol === "_ceSort") {
             const va = (a.mythic ?? 0) * 10000 + (a.heroic ?? 0) * 100 + (a.ksmCount ?? 0);
@@ -1089,7 +1305,7 @@
 
       let html = `<h4 style="margin:0 0 12px 0; color:#aaa; font-size:20px;">${title}</h4><table class="peeking-table"><thead><tr>`;
       for (const c of cols) {
-        if (c.key === "_inspect") { html += `<th>${c.label}</th>`; continue; }
+        if (c.key === "_dungeons") { html += `<th>${c.label}</th>`; continue; }
         const arrow = sortCol === c.key ? (sortAsc ? " ▲" : " ▼") : "";
         html += `<th onclick="setSort('${c.key}')">${c.label}${arrow}</th>`;
       }
@@ -1114,26 +1330,23 @@
       renderTable();
     }
 
-    // ── Modal inspector ────────────────────────────────────────────────────────
-    function closeModal(event) {
-      if (event.target === document.getElementById("modal-overlay"))
-        document.getElementById("modal-overlay").style.display = "none";
-    }
-
+    // ── Side Panel Inspector ────────────────────────────────────────────────────────
     function openInspector(key) {
       const data = rawDataStore[key];
       if (!data) { alert("No raw data for " + key); return; }
-      document.getElementById("modal-title").textContent = key;
-      document.getElementById("modal-overlay").style.display = "block";
+
+      // Highlight row
+      document.querySelectorAll('tr').forEach(tr => tr.classList.remove('selected-row'));
+      const row = document.querySelector(`tr[data-key="${key}"]`);
+      if (row) row.classList.add('selected-row');
+
+      document.getElementById("inspector-placeholder").style.display = "none";
+      document.getElementById("inspector-content").style.display = "block";
+      document.getElementById("inspector-title").textContent = key.replace('-', ' - ');
 
       const tabs = [
+        { id: "runs", label: "All Runs", fn: () => renderAllRunsTab(data) },
         { id: "scores", label: "Scores", fn: () => renderScoresTab(data) },
-        { id: "runs", label: "Best Runs", fn: () => renderRunsTab(data.mythic_plus_best_runs || [], "Best Runs") },
-        { id: "alt", label: "Alt Runs", fn: () => renderRunsTab(data.mythic_plus_alternate_runs || [], "Alternate Runs") },
-        { id: "recent", label: "Recent Runs", fn: () => renderRunsTab(data.mythic_plus_recent_runs || [], "Recent Runs") },
-        { id: "weekly", label: "Weekly Runs", fn: () => renderRunsTab(data.mythic_plus_weekly_highest_level_runs || [], "Weekly Highest") },
-        { id: "prevweek", label: "Prev Week", fn: () => renderRunsTab(data.mythic_plus_previous_weekly_highest_level_runs || [], "Previous Week Highest") },
-        { id: "highest", label: "Highest Runs", fn: () => renderRunsTab(data.mythic_plus_highest_level_runs || [], "Highest Level Runs") },
         { id: "ranks", label: "Ranks", fn: () => renderRanksTab(data) },
         { id: "gear", label: "Gear", fn: () => renderGearTab(data) },
         { id: "raid", label: "Raid", fn: () => renderRaidTab(data) },
@@ -1145,17 +1358,18 @@
       tabs.forEach((t, i) => {
         tabHtml += `<button class="tab-btn${i === 0 ? ' active' : ''}" onclick="switchTab('${t.id}', this)">${t.label}</button>`;
       });
-      document.getElementById("modal-tabs").innerHTML = tabHtml + "<br><br>";
+      document.getElementById("inspector-tabs").innerHTML = tabHtml;
 
       window._inspectorTabs = {};
       tabs.forEach(t => { window._inspectorTabs[t.id] = t.fn; });
-      document.getElementById("modal-content").innerHTML = tabs[0].fn();
+
+      document.getElementById("inspector-body").innerHTML = tabs[0].fn();
     }
 
     function switchTab(id, btn) {
-      document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+      document.querySelectorAll("#inspector-tabs .tab-btn").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
-      document.getElementById("modal-content").innerHTML = window._inspectorTabs[id]();
+      document.getElementById("inspector-body").innerHTML = window._inspectorTabs[id]();
     }
 
     function renderScoresTab(data) {
@@ -1182,37 +1396,83 @@
       return html;
     }
 
-    function renderRunsTab(runs, title) {
-      if (!runs.length) return `<em>No ${title} data.</em>`;
-      let html = `<table class="run-table"><thead><tr>
-      <th>Dungeon</th><th>Level</th><th>Score</th><th>Timed</th><th>Duration</th><th>Timer</th><th>Affixes</th><th>Date</th><th>Roster</th>
-      </tr></thead><tbody>`;
-      for (const r of runs) {
-        const timed = r.clear_time_ms > 0 && r.clear_time_ms <= r.par_time_ms;
-        const timedClass = timed ? "timed" : "depleted";
-        const affixes = (r.affixes || []).map(a => a.name || a).join(", ");
-        const date = r.completed_at ? r.completed_at.substring(0, 10) : "-";
-        const roster = (r.roster || []).map(m => m.character?.name || "?").join(", ");
+    function renderAllRunsTab(data) {
+      const highestRuns = data.mythic_plus_highest_level_runs || [];
+      const bestRuns = data.mythic_plus_best_runs || [];
+      const altRuns = data.mythic_plus_alternate_runs || [];
+      const recentRuns = data.mythic_plus_recent_runs || [];
+      const weeklyRuns = data.mythic_plus_weekly_highest_level_runs || [];
+      const prevWeeklyRuns = data.mythic_plus_previous_weekly_highest_level_runs || [];
 
-        function fmtMs(ms) {
-          if (!ms) return "-";
-          const totalSec = Math.floor(ms / 1000);
-          const m = Math.floor(totalSec / 60);
-          const s = (totalSec % 60).toString().padStart(2, '0');
-          return `${m}:${s}`;
+      const highestUrls = new Set(highestRuns.map(r => r.url).filter(Boolean));
+      const allRawRuns = [...highestRuns, ...bestRuns, ...altRuns, ...recentRuns, ...weeklyRuns, ...prevWeeklyRuns];
+
+      const uniqueRunsMap = new Map();
+      for (const r of allRawRuns) {
+        const key = r.url || `${r.short_name}-${r.mythic_level}-${r.clear_time_ms}-${r.completed_at}`;
+        if (!uniqueRunsMap.has(key)) {
+          uniqueRunsMap.set(key, r);
+        }
+      }
+
+      const combinedRuns = Array.from(uniqueRunsMap.values());
+
+      combinedRuns.sort((a, b) => {
+        if (b.mythic_level !== a.mythic_level) {
+          return b.mythic_level - a.mythic_level;
+        }
+        const dateA = a.completed_at ? new Date(a.completed_at).getTime() : 0;
+        const dateB = b.completed_at ? new Date(b.completed_at).getTime() : 0;
+        return dateB - dateA;
+      });
+
+      if (!combinedRuns.length) return `<em>No run data available.</em>`;
+
+      const maxRunLevel = Math.max(...combinedRuns.map(r => r.mythic_level || 0), 0);
+
+      let html = `<table class="run-table"><thead><tr>
+        <th>Dungeon</th><th style="text-align:center;">Best</th><th>Time</th><th>Day</th>
+      </tr></thead><tbody>`;
+
+      for (const r of combinedRuns) {
+        const isHighest = r.url ? highestUrls.has(r.url) : false;
+        const dateStr = timeAgo(r.completed_at);
+
+        const diffMs = r.clear_time_ms - r.par_time_ms;
+        const isTimed = diffMs <= 0;
+        const absDiffSec = Math.floor(Math.abs(diffMs) / 1000);
+        const m = Math.floor(absDiffSec / 60);
+        const s = (absDiffSec % 60).toString().padStart(2, '0');
+        const sign = isTimed ? "-" : "+";
+        const diffColor = isTimed ? "#70ff70" : "#ff7070";
+        const diffHtml = `<span style="color:${diffColor}; font-weight:bold;">${sign}${m}:${s}</span>`;
+
+        const shortName = r.dungeon?.short_name || r.short_name || "-";
+        const fullName = r.dungeon?.name || r.name || "-";
+        const lvl = r.mythic_level;
+        const label = `+${lvl}`;
+        const labelColor = (maxRunLevel - lvl >= 5) ? '#ffffff' : getKeyLevelColor(lvl);
+
+        let iconUrl = r.dungeon?.icon_url || "";
+        if (!iconUrl) {
+          const dInfo = DUNGEON_ORDER.find(d => d.short === shortName || d.name === fullName);
+          if (dInfo) iconUrl = dInfo.icon_url;
         }
 
-        html += `<tr class="${timedClass}">
-        <td>${r.dungeon?.short_name || r.short_name || "-"}</td>
-        <td>${r.mythic_level}</td>
-        <td>${r.score ?? "-"}</td>
-        <td>${timed ? "✓" : "✗"}</td>
-        <td>${fmtMs(r.clear_time_ms)}</td>
-        <td>${fmtMs(r.par_time_ms)}</td>
-        <td>${affixes}</td>
-        <td>${date}</td>
-        <td>${roster}</td>
-      </tr>`;
+        const iconHtml = iconUrl ? `<div style="position:relative;display:inline-block;margin:0 3px;vertical-align:middle" title="${fullName}: ${label}">
+          <img src="${iconUrl}" width="32" height="32" style="display:block;border:1px solid #444;border-radius:4px">
+          <span style="position:absolute;bottom:0;left:0;right:0;text-align:center;font-size:15px;font-weight:bold;color:${labelColor};background:rgba(0,0,0,0.7);line-height:18px;border-radius:0 0 4px 4px; letter-spacing:-1px;">${label}</span>
+        </div>` : `<span style="color:${labelColor}; font-weight:bold;">${label}</span>`;
+
+        const dungeonDisplay = `<div style="display:flex;align-items:center;gap:8px;">${iconHtml}<span style="font-size:15px;">${shortName}</span></div>`;
+        const bestHtml = isHighest ? `<span style="color:#70ff70; font-weight:bold;">✓</span>` : `<span style="color:#666">✗</span>`;
+
+        html += `<tr>
+          <td>${dungeonDisplay}</td>
+          <td style="text-align:center;">${bestHtml}</td>
+          <td>${diffHtml}</td>
+          <td>${dateStr}</td>
+        </tr>`;
       }
       html += "</tbody></table>";
       return html;
@@ -1244,18 +1504,18 @@
       if (!gear) return "<em>No gear data.</em>";
       let html = `<p>Item Level Equipped: <strong>${gear.item_level_equipped}</strong> | Score: <strong>${gear.item_level_total}</strong></p>`;
       html += `<table class="gear-table"><thead><tr>
-    <th>Slot</th><th>Name</th><th>iLvl</th><th>Enchant</th><th>Gems</th>
-  </tr></thead><tbody>`;
+        <th>Slot</th><th>Name</th><th>iLvl</th><th>Enchant</th><th>Gems</th>
+      </tr></thead><tbody>`;
       for (const [slot, item] of Object.entries(gear.items || {})) {
         if (!item) continue;
         const gems = (item.gems || []).map(g => g.id || g).join(", ");
         html += `<tr>
-      <td>${slot}</td>
-      <td>${item.name || "-"}</td>
-      <td>${item.item_level || "-"}</td>
-      <td>${item.enchant ? "✓" : "-"}</td>
-      <td>${gems || "-"}</td>
-    </tr>`;
+          <td>${slot}</td>
+          <td>${item.name || "-"}</td>
+          <td>${item.item_level || "-"}</td>
+          <td>${item.enchant ? "✓" : "-"}</td>
+          <td>${gems || "-"}</td>
+        </tr>`;
       }
       html += "</tbody></table>";
       return html;
@@ -1265,18 +1525,22 @@
       const raids = data.raid_progression || {};
       if (!Object.keys(raids).length) return "<em>No raid data.</em>";
       let html = `<table class="raid-table"><thead><tr>
-    <th>Raid</th><th>LFR</th><th>Normal</th><th>Heroic</th><th>Mythic</th><th>Total</th>
-  </tr></thead><tbody>`;
+        <th>Raid</th><th>LFR</th><th>Normal</th><th>Heroic</th><th>Mythic</th><th>Total</th>
+      </tr></thead><tbody>`;
       for (const [raid, info] of Object.entries(raids)) {
         const total = info.total_bosses;
+        const lfr = info.lfr_bosses_killed ?? 0;
+        const norm = info.normal_bosses_killed ?? 0;
+        const hc = info.heroic_bosses_killed ?? 0;
+        const myth = info.mythic_bosses_killed ?? 0;
         html += `<tr>
-      <td>${raid}</td>
-      <td>${info.lfr_bosses_killed}/${total}</td>
-      <td>${info.normal_bosses_killed}/${total}</td>
-      <td>${info.heroic_bosses_killed}/${total}</td>
-      <td>${info.mythic_bosses_killed}/${total}</td>
-      <td>${total}</td>
-    </tr>`;
+          <td>${raid}</td>
+          <td>${lfr}/${total}</td>
+          <td>${norm}/${total}</td>
+          <td>${hc}/${total}</td>
+          <td>${myth}/${total}</td>
+          <td>${total}</td>
+        </tr>`;
       }
       html += "</tbody></table>";
       return html;
@@ -1288,10 +1552,10 @@
       if (Array.isArray(talents)) {
         let html = "";
         for (const loadout of talents) {
-          html += `<div style="margin-bottom:12px;padding:12px;border:1px solid #333">
-        <strong>${loadout.name || "Loadout"}</strong> — ${loadout.spec_name || ""} ${loadout.class_name || ""}<br>
-        <span style="color:#888;font-size:14px">${loadout.loadout_text || ""}</span>
-      </div>`;
+          html += `<div style="margin-bottom:12px;padding:12px;border:1px solid #333;border-radius:4px;background:#222;">
+            <strong>${loadout.name || "Loadout"}</strong> — ${loadout.spec_name || ""} ${loadout.class_name || ""}<br>
+            <span style="color:#888;font-size:14px">${loadout.loadout_text || ""}</span>
+          </div>`;
         }
         return html || "<em>Empty talent list.</em>";
       }
@@ -1299,8 +1563,16 @@
     }
 
     function renderRawTab(data) {
-      return `<pre id="modal-content">${JSON.stringify(data, null, 2)}</pre>`;
+      return `<pre style="white-space: pre-wrap; word-wrap: break-word;">${JSON.stringify(data, null, 2)}</pre>`;
     }
+
+    `
+      Similar to how the keylevel for each best dungeon is displayed on top of the dungeon icon, also add the numbers 1-8 at
+      the top of the icon(smaller font) to indicate the most recent dungeon(1) to the least recent dungeon(8).The idea is
+      to see in what order the dungeons were timed.Also add functionality such that it is possible to sort the table by
+      Dungeon, for now this should just sort by the player's highest completed keylevel, and in case of a tie, which run was
+      fastest(relative to the dungeons timer)
+    `
   </script>
 </body>
 
