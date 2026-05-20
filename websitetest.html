@@ -72,7 +72,6 @@
       border-left: 1px solid #333;
       overflow-y: auto;
       padding: 0;
-      /* Changed to 0 so the placeholder can be edge-to-edge */
       box-shadow: -5px 0 20px rgba(0, 0, 0, 0.5);
       display: flex;
       flex-direction: column;
@@ -98,17 +97,51 @@
       box-shadow: none;
     }
 
-    .peeking-table th:nth-child(1) { min-width: 200px; } /* Player */
-    .peeking-table th:nth-child(2) { min-width: 45px; }  /* Role */
-    .peeking-table th:nth-child(3) { min-width: 195px; } /* Class / iLvl */
-    .peeking-table th:nth-child(4) { min-width: 110px; } /* Top Seasons */
-    .peeking-table th:nth-child(5) { min-width: 80px; }  /* CE/AOTC/KSM */
-    .peeking-table th:nth-child(6) { min-width: 100px; } /* Time Remaining */
-    .peeking-table th:nth-child(7) { min-width: 60px; }  /* Recency */
-    .peeking-table th:nth-child(8) { min-width: 65px; }  /* Score */
-    .peeking-table th:nth-child(9) { min-width: 350px; } /* Dungeons */
+    .peeking-table th:nth-child(1) {
+      min-width: 200px;
+    }
 
+    /* Player */
+    .peeking-table th:nth-child(2) {
+      min-width: 45px;
+    }
 
+    /* Role */
+    .peeking-table th:nth-child(3) {
+      min-width: 195px;
+    }
+
+    /* Class / iLvl */
+    .peeking-table th:nth-child(4) {
+      min-width: 110px;
+    }
+
+    /* Top Seasons */
+    .peeking-table th:nth-child(5) {
+      min-width: 80px;
+    }
+
+    /* CE/AOTC/KSM */
+    .peeking-table th:nth-child(6) {
+      min-width: 100px;
+    }
+
+    /* Time Remaining */
+    .peeking-table th:nth-child(7) {
+      min-width: 60px;
+    }
+
+    /* Recency */
+    .peeking-table th:nth-child(8) {
+      min-width: 65px;
+    }
+
+    /* Score */
+    .peeking-table th:nth-child(9) {
+      min-width: 350px;
+    }
+
+    /* Dungeons */
 
     table {
       border-collapse: collapse;
@@ -134,6 +167,11 @@
       top: 0;
       z-index: 10;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+      user-select: none;
+    }
+
+    th:hover {
+      background: #333;
     }
 
     tr {
@@ -234,98 +272,26 @@
 
     #inspector-content {
       padding: 25px;
-      /* Moved here from #right-pane */
       white-space: pre-wrap;
       font-size: 15px;
       color: #ddd;
     }
 
-    .tab-btn {
-      background: #2a2a2a;
-      border: 1px solid #444;
-      color: #aaa;
-      padding: 6px 15px;
-      cursor: pointer;
-      margin-right: 4px;
-      margin-bottom: 6px;
-      border-radius: 4px;
-    }
-
-    .tab-btn.active {
-      background: #4a75a3;
-      color: #fff;
-      border-color: #5b8bc0;
-    }
-
-    .score-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-      gap: 12px;
-      margin-top: 12px;
-    }
-
-    .score-card,
-    .rank-card {
-      background: #222;
-      border: 1px solid #333;
-      padding: 12px;
-      border-radius: 6px;
-    }
-
-    .score-card h4,
-    .rank-card h4 {
-      margin: 0 0 8px 0;
-      color: #bbb;
-      font-size: 16px;
-      border-bottom: 1px solid #444;
-      padding-bottom: 4px;
-    }
-
-    .score-row {
-      display: flex;
-      justify-content: space-between;
-      padding: 3px 0;
-    }
-
-    .score-label {
-      color: #888;
-    }
-
-    .score-val {
-      color: #ddd;
-      font-weight: bold;
-    }
-
-    .run-table,
-    .gear-table,
-    .raid-table {
+    .run-table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 6px;
     }
 
     .run-table th,
-    .run-table td,
-    .gear-table th,
-    .gear-table td,
-    .raid-table th,
-    .raid-table td {
+    .run-table td {
       border: 1px solid #333;
       padding: 6px 10px;
       font-size: 14.5px;
     }
 
-    .run-table th,
-    .gear-table th,
-    .raid-table th {
+    .run-table th {
       background: #222;
-    }
-
-    .ranks-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-      gap: 12px;
-      margin-top: 12px;
     }
   </style>
 </head>
@@ -384,16 +350,14 @@
       <div id="inspector-content" style="display:none;">
         <h2 id="inspector-title" style="margin-top:0; color:#fff; border-bottom: 1px solid #333; padding-bottom: 10px;">
         </h2>
-        <div id="inspector-tabs" style="margin-bottom: 15px;"></div>
         <div id="inspector-body"></div>
       </div>
     </div>
   </div>
 
   <script>
-    const apiDataReady = initApiData(); // fire immediately to reduce load time
+    const apiDataReady = initApiData();
 
-    // ── CONFIGURATION FOR WEIGHTED ILVL ─────────────────────────────────────────
     const GEAR_WEIGHTS = {
       head: 1.00, chest: 1.00, legs: 1.00,
       shoulder: 0.75, hands: 0.75, waist: 0.75, feet: 0.75,
@@ -404,23 +368,13 @@
       twohand: 2.91
     };
 
-    const GEM_CONFIG = {
-      requiredSlots: ["neck", "finger1", "finger2"],
-      penaltyMissing: 0.5,
-      bonusExtra: 0.5
-    };
-
+    const GEM_CONFIG = { requiredSlots: ["neck", "finger1", "finger2"], penaltyMissing: 0.5, bonusExtra: 0.5 };
     const ENCHANT_CONFIG = {
-      mainhand: { penalty: 2.0, flags: true },
-      chest: { penalty: 2.0, flags: true },
-      legs: { penalty: 2.0, flags: true },
-      finger1: { penalty: 1.0, flags: true },
-      finger2: { penalty: 1.0, flags: true },
-      head: { penalty: 0.5, flags: false },
-      feet: { penalty: 0.5, flags: false },
-      shoulder: { penalty: 0.5, flags: false }
+      mainhand: { penalty: 2.0, flags: true }, chest: { penalty: 2.0, flags: true },
+      legs: { penalty: 2.0, flags: true }, finger1: { penalty: 1.0, flags: true },
+      finger2: { penalty: 1.0, flags: true }, head: { penalty: 0.5, flags: false },
+      feet: { penalty: 0.5, flags: false }, shoulder: { penalty: 0.5, flags: false }
     };
-    // ────────────────────────────────────────────────────────────────────────────
 
     const CLASS_COLORS = {
       "Death Knight": "#C41E3A", "Demon Hunter": "#A330C9", "Druid": "#FF7C0A",
@@ -449,7 +403,6 @@
     let sortAsc = true;
     let isAppViewActive = false;
 
-    // ── DYNAMIC API DATA CACHES ─────────────────────────────────────────────────
     let CURRENT_SEASON = "";
     let DUNGEON_TIMERS = {};
     let DUNGEON_ORDER = [];
@@ -472,14 +425,7 @@
           if (data && data.cutoffs) {
             const c = data.cutoffs;
             const graph = c.graphData;
-
-            function peakY(series) {
-              if (series && series.data && series.data.length > 0) {
-                return Math.max(...series.data.map(d => d.y));
-              }
-              return null;
-            }
-
+            function peakY(series) { return (series && series.data && series.data.length > 0) ? Math.max(...series.data.map(d => d.y)) : null; }
             return [
               (graph && peakY(graph.p999)) || c.p999?.all?.quantileMinValue || null,
               (graph && peakY(graph.p990)) || c.p990?.all?.quantileMinValue || null,
@@ -499,28 +445,15 @@
     async function scoreToPercentile(score, season, region) {
       const thresholds = await getSeasonCutoffs(region, season);
       if (!thresholds) return null;
-
-      const allPoints = [
-        { p: 0.1, s: thresholds[0] },
-        { p: 1, s: thresholds[1] },
-        { p: 10, s: thresholds[2] },
-        { p: 25, s: thresholds[3] },
-        { p: 40, s: thresholds[4] }
-      ];
-
+      const allPoints = [{ p: 0.1, s: thresholds[0] }, { p: 1, s: thresholds[1] }, { p: 10, s: thresholds[2] }, { p: 25, s: thresholds[3] }, { p: 40, s: thresholds[4] }];
       const dataPoints = allPoints.filter(d => d.s !== null && d.s > 0);
       if (dataPoints.length === 0) return null;
-
       if (score >= dataPoints[0].s) return dataPoints[0].p;
       if (score <= dataPoints[dataPoints.length - 1].s) return dataPoints[dataPoints.length - 1].p;
 
       for (let i = 0; i < dataPoints.length - 1; i++) {
-        const p1 = dataPoints[i].p, s1 = dataPoints[i].s;
-        const p2 = dataPoints[i + 1].p, s2 = dataPoints[i + 1].s;
-        if (score <= s1 && score >= s2) {
-          const frac = (score - s2) / (s1 - s2);
-          return p2 + frac * (p1 - p2);
-        }
+        const p1 = dataPoints[i].p, s1 = dataPoints[i].s, p2 = dataPoints[i + 1].p, s2 = dataPoints[i + 1].s;
+        if (score <= s1 && score >= s2) return p2 + ((score - s2) / (s1 - s2)) * (p1 - p2);
       }
       return null;
     }
@@ -536,15 +469,11 @@
           for (const season of staticData.seasons) {
             const start = new Date(season.starts.us || season.starts.eu).getTime();
             const end = new Date(season.ends.us || season.ends.eu).getTime();
-
             if (now >= start && now <= end) {
               CURRENT_SEASON = season.slug;
               targetDungeons = season.dungeons;
               DUNGEON_ORDER = season.dungeons.map(d => ({ name: d.name, short: d.short_name, icon_url: d.icon_url || '' }));
-              for (const d of season.dungeons) {
-                DUNGEON_TIMERS[d.name] = d.keystone_timer_seconds;
-                DUNGEON_TIMERS[d.short_name] = d.keystone_timer_seconds;
-              }
+              for (const d of season.dungeons) DUNGEON_TIMERS[d.name] = DUNGEON_TIMERS[d.short_name] = d.keystone_timer_seconds;
               break;
             }
           }
@@ -554,28 +483,19 @@
             CURRENT_SEASON = lastSeason.slug;
             targetDungeons = lastSeason.dungeons;
             DUNGEON_ORDER = lastSeason.dungeons.map(d => ({ name: d.name, short: d.short_name, icon_url: d.icon_url || '' }));
-            for (const d of lastSeason.dungeons) {
-              DUNGEON_TIMERS[d.name] = d.keystone_timer_seconds;
-              DUNGEON_TIMERS[d.short_name] = d.keystone_timer_seconds;
-            }
+            for (const d of lastSeason.dungeons) DUNGEON_TIMERS[d.name] = DUNGEON_TIMERS[d.short_name] = d.keystone_timer_seconds;
           }
 
-          // Apply Random Background Image to the Inspector Placeholder
           if (targetDungeons && targetDungeons.length > 0) {
             const randDungeon = targetDungeons[Math.floor(Math.random() * targetDungeons.length)];
-            if (randDungeon.background_image_url) {
-              document.getElementById("inspector-placeholder").style.backgroundImage = `url('${randDungeon.background_image_url}')`;
-            }
+            if (randDungeon.background_image_url) document.getElementById("inspector-placeholder").style.backgroundImage = `url('${randDungeon.background_image_url}')`;
           }
 
           for (const season of staticData.seasons) {
             if (season.slug === CURRENT_SEASON) break;
-            if (!basePastSeasons.includes(season.slug)) {
-              basePastSeasons.push(season.slug);
-            }
+            if (!basePastSeasons.includes(season.slug)) basePastSeasons.push(season.slug);
           }
         }
-
         const pastSeasonsStr = basePastSeasons.join(":");
         FIELDS = `gear,talents,guild,raid_progression,mythic_plus_scores_by_season:${pastSeasonsStr}:${CURRENT_SEASON},mythic_plus_ranks,mythic_plus_recent_runs,mythic_plus_best_runs:all,mythic_plus_alternate_runs:all,mythic_plus_highest_level_runs,mythic_plus_weekly_highest_level_runs,mythic_plus_previous_weekly_highest_level_runs,previous_mythic_plus_ranks`;
 
@@ -585,7 +505,6 @@
     function TimeRemainingScoreColor(avgPct, avgKeyLevel) {
       const divisor = Math.pow(2, -avgKeyLevel / 10);
       const adjusted = avgPct / divisor;
-
       const THRESHOLDS = [
         [1.000, "#FFFF00"], [0.750, "#FFF400"], [0.500, "#FFE800"], [0.470, "#FFE400"], [0.440, "#FFD700"], [0.415, "#F7CB02"], [0.390, "#EFBF04"], [0.370, "#F5C519"],
         [0.350, "#FBD12D"], [0.332, "#FCD43B"], [0.314, "#FCD748"], [0.297, "#FDDE62"], [0.280, "#FDE37C"], [0.264, "#FDE68A"], [0.248, "#FDE897"], [0.233, "#FEF1A4"],
@@ -593,81 +512,44 @@
         [0.108, "#989898"], [0.098, "#927D82"], [0.088, "#927C6D"], [0.079, "#9C7864"], [0.070, "#A57A5A"], [0.062, "#AB7244"], [0.054, "#AA6A2D"], [0.047, "#8F5926"],
         [0.040, "#794C20"], [0.033, "#704214"], [0.026, "#683808"], [0.020, "#57310E"], [0.013, "#492E13"], [0.007, "#3D260F"], [0.000, "#301E0D"]
       ];
-
-      for (const [threshold, color] of THRESHOLDS) {
-        if (adjusted >= threshold) return color;
-      }
+      for (const [threshold, color] of THRESHOLDS) if (adjusted >= threshold) return color;
       return "#ffffff";
     }
 
     function getIlvlColor(diff) {
-      const ILVL_THRESHOLDS = [
-        [5.0, "#ffffff"], [4.9, "#fdfdfd"], [4.8, "#fbfbfb"], [4.7, "#f9f9f9"], [4.6, "#f7f7f7"],
-        [4.5, "#f5f5f5"], [4.4, "#f3f3f3"], [4.3, "#f1f1f1"], [4.2, "#efefef"], [4.1, "#ededed"],
-        [4.0, "#ebebeb"], [3.9, "#e9e9e9"], [3.8, "#e7e7e7"], [3.7, "#e5e5e5"], [3.6, "#e3e3e3"],
-        [3.5, "#e1e1e1"], [3.4, "#dfdfdf"], [3.3, "#dddddd"], [3.2, "#dbdbdb"], [3.1, "#d9d9d9"],
-        [3.0, "#d7d7d7"], [2.9, "#d5d5d5"], [2.8, "#d3d3d3"], [2.7, "#d1d1d1"], [2.6, "#cfcfcf"],
-        [2.5, "#cdcdcd"], [2.4, "#cbcbcb"], [2.3, "#c9c9c9"], [2.2, "#c7c7c7"], [2.1, "#c5c5c5"],
-        [2.0, "#c3c3c3"], [1.9, "#c1c1c1"], [1.8, "#bfbfbf"], [1.7, "#bdbdbd"], [1.6, "#bbbbbb"],
-        [1.5, "#b9b9b9"], [1.4, "#b7b7b7"], [1.3, "#b5b5b5"], [1.2, "#b3b3b3"], [1.1, "#b1b1b1"],
-        [1.0, "#afafaf"], [0.9, "#adadad"], [0.8, "#ababab"], [0.7, "#a9a9a9"], [0.6, "#a7a7a7"],
-        [0.5, "#a5a5a5"], [0.4, "#a3a3a3"], [0.3, "#a1a1a1"], [0.2, "#9f9f9f"], [0.1, "#9d9d9d"],
-        [0.0, "#9b9b9b"], [-0.1, "#999999"], [-0.2, "#979797"], [-0.3, "#959595"], [-0.4, "#939393"],
-        [-0.5, "#919191"], [-0.6, "#8f8f8f"], [-0.7, "#8d8d8d"], [-0.8, "#8b8b8b"], [-0.9, "#898989"],
-        [-1.0, "#878787"], [-1.1, "#858585"], [-1.2, "#838383"], [-1.3, "#818181"], [-1.4, "#7f7f7f"],
-        [-1.5, "#7d7d7d"], [-1.6, "#7b7b7b"], [-1.7, "#797979"], [-1.8, "#777777"], [-1.9, "#757575"],
-        [-2.0, "#737373"], [-2.1, "#717171"], [-2.2, "#6f6f6f"], [-2.3, "#6d6d6d"], [-2.4, "#6b6b6b"],
-        [-2.5, "#696969"], [-2.6, "#676767"], [-2.7, "#656565"], [-2.8, "#636363"], [-2.9, "#616161"],
-        [-3.0, "#5f5f5f"], [-3.1, "#5d5d5d"], [-3.2, "#5b5b5b"], [-3.3, "#595959"], [-3.4, "#575757"],
-        [-3.5, "#555555"], [-3.6, "#535353"], [-3.7, "#515151"], [-3.8, "#4f4f4f"], [-3.9, "#4d4d4d"],
-        [-4.0, "#4b4b4b"], [-4.1, "#494949"], [-4.2, "#474747"], [-4.3, "#454545"], [-4.4, "#434343"],
-        [-4.5, "#414141"], [-4.6, "#3f3f3f"], [-4.7, "#3d3d3d"], [-4.8, "#3b3b3b"], [-4.9, "#393939"],
-        [-5.0, "#373737"],
-      ];
-      for (const [threshold, color] of ILVL_THRESHOLDS) {
-        if (diff >= threshold) return color;
-      }
+      const ILVL_THRESHOLDS = [[5.0, "#ffffff"], [4.5, "#f5f5f5"], [4.0, "#ebebeb"], [3.5, "#e1e1e1"], [3.0, "#d7d7d7"], [2.5, "#cdcdcd"], [2.0, "#c3c3c3"], [1.5, "#b9b9b9"], [1.0, "#afafaf"], [0.5, "#a5a5a5"], [0.0, "#9b9b9b"], [-0.5, "#919191"], [-1.0, "#878787"], [-1.5, "#7d7d7d"], [-2.0, "#737373"], [-2.5, "#696969"], [-3.0, "#5f5f5f"], [-3.5, "#555555"], [-4.0, "#4b4b4b"], [-4.5, "#414141"], [-5.0, "#373737"]];
+      for (const [threshold, color] of ILVL_THRESHOLDS) if (diff >= threshold) return color;
       return "#301E0D";
     }
 
     function getKeyLevelColor(lvl) {
       if (!lvl) return '#666';
-      const colors = [
-        '#ffb84d', // 0 (e.g. +5, +10) - Orange
-        '#ffff00', // 1 (e.g. +1, +6)  - Yellow
-        '#88ff88', // 2 (e.g. +2, +7)  - Green
-        '#88ccff', // 3 (e.g. +3, +8)  - Blue
-        '#ff88ff'  // 4 (e.g. +4, +9)  - Pink
-      ];
+      const colors = ['#ffb84d', '#ffff00', '#88ff88', '#88ccff', '#ff88ff'];
       return colors[lvl % 5];
     }
 
     function getRegionClassRankColor(rank) {
-      if (rank > 99) return "#666666";   // grey
-      if (rank > 75) return "#ffffff";   // white
-      if (rank > 50) return "#1EFF00";   // green
-      if (rank > 25) return "#0070FF";   // blue
-      if (rank > 10) return "#A335EE";   // purple
-      if (rank > 3) return "#FF8000";    // orange
-      if (rank > 1) return "#FF80FF";    // pink
-      return "#E5CC80";                  // gold
+      if (rank > 99) return "#666666";
+      if (rank > 75) return "#ffffff";
+      if (rank > 50) return "#1EFF00";
+      if (rank > 25) return "#0070FF";
+      if (rank > 10) return "#A335EE";
+      if (rank > 3) return "#FF8000";
+      if (rank > 1) return "#FF80FF";
+      return "#E5CC80";
     }
 
     function getDungeonTimer(name) {
       if (!name) return null;
       if (DUNGEON_TIMERS[name]) return DUNGEON_TIMERS[name];
       const lower = name.toLowerCase();
-      for (const [k, v] of Object.entries(DUNGEON_TIMERS)) {
-        if (k.toLowerCase() === lower) return v;
-      }
+      for (const [k, v] of Object.entries(DUNGEON_TIMERS)) if (k.toLowerCase() === lower) return v;
       return null;
     }
 
     function timeAgo(dateString) {
       if (!dateString) return "-";
-      const d = new Date(dateString).getTime();
-      const now = Date.now();
-      const diffMs = now - d;
+      const diffMs = Date.now() - new Date(dateString).getTime();
       if (diffMs < 0) return "s";
       const diffMins = Math.floor(diffMs / 60000);
       if (diffMins < 60) return `${diffMins}m`;
@@ -683,66 +565,42 @@
     }
 
     function updateProgress(val, max) {
-      const area1 = document.getElementById("startup-progress-area");
-      const area2 = document.getElementById("app-progress-area");
-      const prog1 = document.getElementById("startup-prog");
-      const prog2 = document.getElementById("app-prog");
-      const label1 = document.getElementById("startup-prog-label");
-      const label2 = document.getElementById("app-prog-label");
+      const area1 = document.getElementById("startup-progress-area"), area2 = document.getElementById("app-progress-area");
+      const prog1 = document.getElementById("startup-prog"), prog2 = document.getElementById("app-prog");
+      const label1 = document.getElementById("startup-prog-label"), label2 = document.getElementById("app-prog-label");
 
       if (val === null) {
-        area1.style.display = "none";
-        area2.style.display = "none";
+        area1.style.display = "none"; area2.style.display = "none";
       } else {
-        area1.style.display = isAppViewActive ? "none" : "flex";
-        area2.style.display = isAppViewActive ? "flex" : "none";
-        prog1.max = max; prog1.value = val;
-        prog2.max = max; prog2.value = val;
-        label1.textContent = `${val} / ${max}`;
-        label2.textContent = `${val} / ${max}`;
+        area1.style.display = isAppViewActive ? "none" : "flex"; area2.style.display = isAppViewActive ? "flex" : "none";
+        prog1.max = prog2.max = max; prog1.value = prog2.value = val;
+        label1.textContent = label2.textContent = `${val} / ${max}`;
       }
     }
 
     function loadFromFile() { document.getElementById("fileInput").click(); }
-
     function handleFile(event) {
       const file = event.target.files[0];
       if (!file) return;
       const reader = new FileReader();
-      reader.onload = e => {
-        try {
-          const json = JSON.parse(e.target.result);
-          processInput(json);
-        } catch {
-          updateStatus("Invalid JSON file.");
-        }
-      };
+      reader.onload = e => { try { processInput(JSON.parse(e.target.result)); } catch { updateStatus("Invalid JSON file."); } };
       reader.readAsText(file);
     }
-
     function loadFromText(fromAppView = false) {
-      const inputId = fromAppView ? "app-textInput" : "textInput";
-      const txt = document.getElementById(inputId).value;
+      const txt = document.getElementById(fromAppView ? "app-textInput" : "textInput").value;
       if (!txt || !txt.trim()) return;
-      try {
-        const json = JSON.parse(txt);
-        processInput(json);
-      } catch {
-        updateStatus("Invalid JSON text.");
-      }
+      try { processInput(JSON.parse(txt)); } catch { updateStatus("Invalid JSON text."); }
     }
 
     function parseList(list, region, isGroup) {
-      const players = [];
-      const stack = [...list];
+      const players = [], stack = [...list];
       while (stack.length) {
         const item = stack.pop();
         if (Array.isArray(item)) { stack.push(...item); continue; }
         if (typeof item === "string") {
           const m = item.match(/^(\d+)-(.+?)-(.+)$/);
           if (m) {
-            const roleNum = parseInt(m[1]);
-            const name = m[2], realm = m[3];
+            const roleNum = parseInt(m[1]), name = m[2], realm = m[3];
             const role = roleNum === 1 ? "dps" : [2, 3].includes(roleNum) ? "heal" : [4, 5, 6, 7].includes(roleNum) ? "tank" : "?";
             players.push({ role, name, realm, region, isGroup });
           }
@@ -753,12 +611,8 @@
 
     function parseSignups(raw) {
       const region = raw.region || "eu";
-      const gPlayers = parseList(raw.group || [], region, true);
-      const qPlayers = parseList(raw.queue || [], region, false);
-
-      const all = [...gPlayers, ...qPlayers];
+      const all = [...parseList(raw.group || [], region, true), ...parseList(raw.queue || [], region, false)];
       const seen = new Set();
-
       return all.filter(p => {
         const key = `${p.name}-${p.realm}-${p.region}`;
         if (seen.has(key)) return false;
@@ -768,28 +622,20 @@
 
     async function processInput(raw) {
       const ObjectPlayers = parseSignups(raw);
-
       updateStatus(`Waiting for API metadata...`);
       await apiDataReady;
-
       updateStatus(`Fetching ${ObjectPlayers.length} players...`);
-      updateProgress(0, ObjectPlayers.length);
 
-      // Transition UI to App View if not already
       if (!isAppViewActive) {
         document.getElementById("startup-container").style.display = "none";
         document.getElementById("app-container").style.display = "flex";
         isAppViewActive = true;
-        updateProgress(0, ObjectPlayers.length); // re-trigger display logic
       }
+      updateProgress(0, ObjectPlayers.length);
 
-      allPlayersGroup = [];
-      allPlayersQueue = [];
-      rawDataStore = {};
+      allPlayersGroup = []; allPlayersQueue = []; rawDataStore = {};
       document.getElementById("table-area-group").innerHTML = "";
       document.getElementById("table-area-queue").innerHTML = "";
-
-      // Reset inspector
       document.getElementById("inspector-placeholder").style.display = "flex";
       document.getElementById("inspector-content").style.display = "none";
 
@@ -799,29 +645,22 @@
         const batch = ObjectPlayers.slice(i, i + BATCH);
         await Promise.all(batch.map(async p => {
           const data = await fetchPlayer(p);
-          const key = `${p.name}-${p.realm}`;
-          rawDataStore[key] = data;
-
+          rawDataStore[`${p.name}-${p.realm}`] = data;
           const analyzed = await analyzePlayer(p, data);
           analyzed.isGroup = p.isGroup;
-
-          if (p.isGroup) allPlayersGroup.push(analyzed);
-          else allPlayersQueue.push(analyzed);
-
+          if (p.isGroup) allPlayersGroup.push(analyzed); else allPlayersQueue.push(analyzed);
           completed++;
           updateProgress(completed, ObjectPlayers.length);
           appendPlayerRow(analyzed, p.isGroup ? "#table-area-group" : "#table-area-queue", p.isGroup ? "Group Members" : "Queue Signups");
         }));
       }
-
       updateStatus(`Done. ${ObjectPlayers.length} players loaded.`);
       updateProgress(null);
     }
 
     async function fetchPlayer(p) {
-      const url = `${RIO_API}?region=${p.region}&realm=${encodeURIComponent(p.realm)}&name=${encodeURIComponent(p.name)}&fields=${encodeURIComponent(FIELDS)}`;
       try {
-        const res = await fetch(url);
+        const res = await fetch(`${RIO_API}?region=${p.region}&realm=${encodeURIComponent(p.realm)}&name=${encodeURIComponent(p.name)}&fields=${encodeURIComponent(FIELDS)}`);
         if (!res.ok) return null;
         return await res.json();
       } catch { return null; }
@@ -829,26 +668,14 @@
 
     function calculateCustomIlvl(gear) {
       if (!gear || !gear.items) return { ilvl: 0, missing: [] };
-
       const items = gear.items;
-      let totalWeighted = 0;
-      let missing = [];
-      let penalty = 0;
-      let bonus = 0;
-
-      const TOTAL_GEAR_WEIGHT = GEAR_WEIGHTS.head + GEAR_WEIGHTS.chest + GEAR_WEIGHTS.legs +
-        GEAR_WEIGHTS.shoulder + GEAR_WEIGHTS.hands + GEAR_WEIGHTS.waist + GEAR_WEIGHTS.feet +
-        GEAR_WEIGHTS.wrist + GEAR_WEIGHTS.back +
-        GEAR_WEIGHTS.neck + GEAR_WEIGHTS.finger1 + GEAR_WEIGHTS.finger2 +
-        GEAR_WEIGHTS.trinket1 + GEAR_WEIGHTS.trinket2 +
-        GEAR_WEIGHTS.mainhand + GEAR_WEIGHTS.offhand;
+      let totalWeighted = 0, penalty = 0, bonus = 0, missing = [];
+      const TOTAL_GEAR_WEIGHT = GEAR_WEIGHTS.head + GEAR_WEIGHTS.chest + GEAR_WEIGHTS.legs + GEAR_WEIGHTS.shoulder + GEAR_WEIGHTS.hands + GEAR_WEIGHTS.waist + GEAR_WEIGHTS.feet + GEAR_WEIGHTS.wrist + GEAR_WEIGHTS.back + GEAR_WEIGHTS.neck + GEAR_WEIGHTS.finger1 + GEAR_WEIGHTS.finger2 + GEAR_WEIGHTS.trinket1 + GEAR_WEIGHTS.trinket2 + GEAR_WEIGHTS.mainhand + GEAR_WEIGHTS.offhand;
 
       for (const [slot, item] of Object.entries(items)) {
         if (slot === "tabard" || slot === "shirt") continue;
         let weight = GEAR_WEIGHTS[slot] || 0;
-        if (slot === "mainhand" && !items["offhand"]) {
-          weight = GEAR_WEIGHTS.twohand;
-        }
+        if (slot === "mainhand" && !items["offhand"]) weight = GEAR_WEIGHTS.twohand;
         totalWeighted += (item.item_level || 0) * weight;
       }
       let baseIlvl = totalWeighted / TOTAL_GEAR_WEIGHT;
@@ -857,26 +684,14 @@
         if (slot === "tabard" || slot === "shirt") continue;
         const gemCount = item.gems ? item.gems.length : 0;
         const isRequired = GEM_CONFIG.requiredSlots.includes(slot);
-
         if (isRequired) {
-          if (gemCount === 0) {
-            penalty += GEM_CONFIG.penaltyMissing;
-            missing.push(`Gem: ${slot}`);
-          } else if (gemCount > 1) {
-            bonus += (gemCount - 1) * GEM_CONFIG.bonusExtra;
-          }
-        } else {
-          if (gemCount > 0) {
-            bonus += gemCount * GEM_CONFIG.bonusExtra;
-          }
-        }
+          if (gemCount === 0) { penalty += GEM_CONFIG.penaltyMissing; missing.push(`Gem: ${slot}`); }
+          else if (gemCount > 1) bonus += (gemCount - 1) * GEM_CONFIG.bonusExtra;
+        } else if (gemCount > 0) bonus += gemCount * GEM_CONFIG.bonusExtra;
       }
 
       for (const reqSlot of GEM_CONFIG.requiredSlots) {
-        if (!items[reqSlot]) {
-          penalty += GEM_CONFIG.penaltyMissing;
-          missing.push(`Missing item: ${reqSlot}`);
-        }
+        if (!items[reqSlot]) { penalty += GEM_CONFIG.penaltyMissing; missing.push(`Missing item: ${reqSlot}`); }
       }
 
       for (const [slot, config] of Object.entries(ENCHANT_CONFIG)) {
@@ -887,84 +702,48 @@
           if (config.flags) missing.push(`Enchant: ${slot}`);
         }
       }
-
-      const finalIlvl = baseIlvl + bonus - penalty;
-      return { ilvl: finalIlvl, missing };
+      return { ilvl: baseIlvl + bonus - penalty, missing };
     }
 
     function scoreToResil(score) {
-      const keylevel_score = 15;
-      const affix_score = 185;
-      const num_dungeons = 8;
       if (!score || score <= 0) return 0;
-      return ((score / num_dungeons) - affix_score) / keylevel_score;
+      return ((score / 8) - 185) / 15;
     }
 
     async function analyzePlayer(p, data) {
       if (!data) return { name: p.name, realm: p.realm, region: p.region, role: p.role, error: true };
 
-      // Raid
       let heroic = 0, mythic = 0;
       for (const raid of Object.values(data.raid_progression || {})) {
         if (raid.heroic_bosses_killed === raid.total_bosses) heroic++;
         if (raid.mythic_bosses_killed === raid.total_bosses) mythic++;
       }
 
-      // iLvl
       const gearCalc = calculateCustomIlvl(data.gear);
       const unweightedIlvl = data.gear?.item_level_equipped || 0;
       const weightedIlvl = gearCalc.ilvl;
       const ilvlDiff = weightedIlvl - unweightedIlvl;
-      const missingUpgrades = gearCalc.missing;
 
-      // Scores & Ranks
       const ranks = data.mythic_plus_ranks || {};
-      // FIX: Map queued role to class_dps, class_healer, class_tank
       const roleRankMap = { dps: ranks.class_dps, heal: ranks.class_healer, tank: ranks.class_tank };
-      const roleRankObj = roleRankMap[p.role] || ranks.class || ranks.overall || {};
-      const specRankRegion = roleRankObj.region || 0;
+      const specRankRegion = (roleRankMap[p.role] || ranks.class || ranks.overall || {}).region || 0;
 
       const seasons = data.mythic_plus_scores_by_season || [];
-      let currentScore = 0;
-      let currentScoreColor = "#ccc";
+      let currentScore = 0, currentScoreColor = "#ccc";
 
       for (const s of seasons) {
-        const allScore = s.scores?.all || 0;
-        const allColor = s.segments?.all?.color || "#ffffff";
         if (s.season === CURRENT_SEASON) {
-          currentScore = allScore;
-          currentScoreColor = allColor;
+          currentScore = s.scores?.all || 0;
+          currentScoreColor = s.segments?.all?.color || "#ffffff";
         }
       }
 
-      const pastSeasonsRaw = [];
-      for (const s of seasons) {
-        const allScore = s.scores?.all || 0;
-        const allColor = s.segments?.all?.color || "#ffffff";
-        if (s.season !== CURRENT_SEASON && allScore >= 2000) {
-          pastSeasonsRaw.push({ season: s.season, score: allScore, color: allColor, role: null });
-        }
-      }
-
+      const pastSeasonsRaw = seasons.filter(s => s.season !== CURRENT_SEASON && (s.scores?.all || 0) >= 2000).map(s => ({ season: s.season, score: s.scores.all, color: s.segments?.all?.color || "#ffffff" }));
       const roleKey = p.role === "tank" ? "tank" : p.role === "heal" ? "healer" : "dps";
-      const pastSeasonsRoleRaw = [];
-      for (const s of seasons) {
-        const roleScore = s.scores?.[roleKey] || 0;
-        const roleColor = s.segments?.[roleKey]?.color || "#ffffff";
-        if (s.season !== CURRENT_SEASON && roleScore >= 2000) {
-          pastSeasonsRoleRaw.push({ season: s.season, score: roleScore, color: roleColor });
-        }
-      }
+      const pastSeasonsRoleRaw = seasons.filter(s => s.season !== CURRENT_SEASON && (s.scores?.[roleKey] || 0) >= 2000).map(s => ({ season: s.season, score: s.scores[roleKey], color: s.segments?.[roleKey]?.color || "#ffffff" }));
 
-      const pastSeasonsWithPerc = await Promise.all(pastSeasonsRaw.map(async s => {
-        const perc = await scoreToPercentile(s.score, s.season, p.region);
-        return { ...s, perc };
-      }));
-
-      const pastSeasonsRoleWithPerc = await Promise.all(pastSeasonsRoleRaw.map(async s => {
-        const perc = await scoreToPercentile(s.score, s.season, p.region);
-        return { ...s, perc };
-      }));
+      const pastSeasonsWithPerc = await Promise.all(pastSeasonsRaw.map(async s => ({ ...s, perc: await scoreToPercentile(s.score, s.season, p.region) })));
+      const pastSeasonsRoleWithPerc = await Promise.all(pastSeasonsRoleRaw.map(async s => ({ ...s, perc: await scoreToPercentile(s.score, s.season, p.region) })));
 
       const sortByPerc = arr => [...arr].sort((a, b) => {
         if (a.perc !== null && b.perc !== null) return a.perc - b.perc;
@@ -975,42 +754,28 @@
 
       const sortedAny = sortByPerc(pastSeasonsWithPerc);
       const sortedRole = sortByPerc(pastSeasonsRoleWithPerc);
-
-      const bestRoleSeason = sortedRole.length > 0 ? sortedRole[0] : null;
-      const bestAnySeason = sortedAny.length > 0 ? sortedAny[0] : null;
+      const bestRoleSeason = sortedRole[0] || null, bestAnySeason = sortedAny[0] || null;
 
       let slot1 = null, slot2 = null;
-
       if (bestRoleSeason && bestAnySeason) {
         slot1 = bestRoleSeason;
-        if (bestRoleSeason.season === bestAnySeason.season) {
-          slot2 = sortedAny.length > 1 ? sortedAny[1] : null;
-        } else {
-          slot2 = bestAnySeason;
-        }
+        slot2 = (bestRoleSeason.season === bestAnySeason.season) ? (sortedAny[1] || null) : bestAnySeason;
       } else if (bestAnySeason) {
         slot1 = bestAnySeason;
-        slot2 = sortedAny.length > 1 ? sortedAny[1] : null;
+        slot2 = sortedAny[1] || null;
       }
 
       function fmtSlot(s) {
         if (!s) return null;
         const seasonLabel = s.season.replace('season-', '');
-        if (s.perc != null) {
-          return `<span style="color:${s.color}" title="${seasonLabel}">${s.perc.toFixed(1)}%</span>`;
-        }
-        return `<span style="color:${s.color}" title="${seasonLabel}">${fmtScore(s.score)}</span>`;
+        return s.perc != null ? `<span style="color:${s.color}" title="${seasonLabel}">${s.perc.toFixed(1)}%</span>` : `<span style="color:${s.color}" title="${seasonLabel}">${fmtScore(s.score)}</span>`;
       }
-
       const parts = [fmtSlot(slot1), fmtSlot(slot2)].filter(Boolean);
-      let topSeasonsStr = "-";
-      if (parts.length === 1) topSeasonsStr = parts[0];
-      else if (parts.length > 1) topSeasonsStr = `${parts[0]} (${parts[1]})`;
+      const topSeasonsStr = parts.length === 1 ? parts[0] : parts.length > 1 ? `${parts[0]} (${parts[1]})` : "-";
 
       const bestPastPercentile = slot1?.perc ?? (slot1?.score ? 99 : 99);
       const ksmCount = seasons.filter(s => (s.scores?.all || 0) >= 2000).length;
 
-      // Extract and combine all runs
       const highestRuns = data.mythic_plus_highest_level_runs || [];
       const bestRuns = data.mythic_plus_best_runs || [];
       const altRuns = data.mythic_plus_alternate_runs || [];
@@ -1020,262 +785,126 @@
 
       const highestUrls = new Set(highestRuns.map(r => r.url).filter(Boolean));
       const allRawRuns = [...highestRuns, ...bestRuns, ...altRuns, ...recentRuns, ...weeklyRuns, ...prevWeeklyRuns];
-
       const uniqueRunsMap = new Map();
-      for (const r of allRawRuns) {
-        const rKey = r.url || `${r.short_name}-${r.mythic_level}-${r.clear_time_ms}-${r.completed_at}`;
-        if (!uniqueRunsMap.has(rKey)) {
-          uniqueRunsMap.set(rKey, r);
-        }
-      }
+      for (const r of allRawRuns) uniqueRunsMap.set(r.url || `${r.short_name}-${r.mythic_level}-${r.clear_time_ms}-${r.completed_at}`, r);
+      const combinedRuns = Array.from(uniqueRunsMap.values()).sort((a, b) => (b.mythic_level !== a.mythic_level) ? b.mythic_level - a.mythic_level : new Date(b.completed_at).getTime() - new Date(a.completed_at).getTime());
+      combinedRuns.forEach(r => r.isHighest = r.url ? highestUrls.has(r.url) : false);
 
-      const combinedRuns = Array.from(uniqueRunsMap.values());
-      combinedRuns.sort((a, b) => {
-        if (b.mythic_level !== a.mythic_level) {
-          return b.mythic_level - a.mythic_level;
-        }
-        const dateA = a.completed_at ? new Date(a.completed_at).getTime() : 0;
-        const dateB = b.completed_at ? new Date(b.completed_at).getTime() : 0;
-        return dateB - dateA;
-      });
-
-      for (const r of combinedRuns) {
-        r.isHighest = r.url ? highestUrls.has(r.url) : false;
-      }
-
-      let recencyStr = "-";
-      let timeRemainingStr = "-";
-      let timeRemainingColor = "#dddddd";
-
-      let roleMismatch = false;
-      const expectedRole = p.role; // "dps", "heal", "tank"
-      let actualMainRole = expectedRole;
+      let recencyStr = "-", timeRemainingStr = "-", timeRemainingColor = "#dddddd", roleMismatch = false, actualMainRole = p.role;
 
       if (bestRuns.length > 0) {
         for (const r of bestRuns) {
-          let runRole = "";
-          if (r.role) {
-            runRole = r.role.toLowerCase();
-          } else if (r.roster) {
-            const me = r.roster.find(m => m.character && m.character.name && m.character.name.toLowerCase() === p.name.toLowerCase());
-            if (me && me.role) runRole = me.role.toLowerCase();
-          }
-
+          let runRole = r.role ? r.role.toLowerCase() : (r.roster?.find(m => m.character?.name?.toLowerCase() === p.name.toLowerCase())?.role?.toLowerCase() || "");
           if (runRole) {
-            if (runRole === "healing" || runRole === "healer") runRole = "heal";
-            if (runRole === "tanking") runRole = "tank";
-
-            if (expectedRole !== "?" && runRole !== expectedRole) {
-              roleMismatch = true;
-              actualMainRole = runRole;
-              break;
-            }
+            runRole = (runRole === "healing" || runRole === "healer") ? "heal" : (runRole === "tanking") ? "tank" : runRole;
+            if (p.role !== "?" && runRole !== p.role) { roleMismatch = true; actualMainRole = runRole; break; }
           }
         }
-
-        let daysAgoArr = [];
-        const now = Date.now();
-        for (const r of bestRuns) {
-          if (r.completed_at) {
-            const d = new Date(r.completed_at).getTime();
-            daysAgoArr.push((now - d) / (1000 * 3600 * 24));
-          }
-        }
+        const daysAgoArr = bestRuns.filter(r => r.completed_at).map(r => (Date.now() - new Date(r.completed_at).getTime()) / 86400000).sort((a, b) => a - b);
         if (daysAgoArr.length > 0) {
-          daysAgoArr.sort((a, b) => a - b);
-          const recentRuns = daysAgoArr.slice(0, 4);
-          const oldRuns = daysAgoArr.slice(-4);
-          const avgRecent = recentRuns.reduce((a, b) => a + b, 0) / recentRuns.length;
-          const avgOld = oldRuns.reduce((a, b) => a + b, 0) / oldRuns.length;
-          recencyStr = `${Math.round(avgRecent)}-${Math.round(avgOld)}d`;
+          const recents = daysAgoArr.slice(0, 4), olds = daysAgoArr.slice(-4);
+          recencyStr = `${Math.round(recents.reduce((a, b) => a + b, 0) / recents.length)}-${Math.round(olds.reduce((a, b) => a + b, 0) / olds.length)}d`;
         }
 
-        let totalRemainingSecs = 0;
-        let totalPctRemaining = 0;
-        let count = 0;
-        let totalKeyLevel = 0;
+        let totRemSec = 0, totPctRem = 0, cnt = 0, totLvl = 0;
         for (const r of bestRuns) {
           const parSecs = r.par_time_ms ? r.par_time_ms / 1000 : getDungeonTimer(r.dungeon?.name || r.short_name);
           const clearSecs = r.clear_time_ms ? r.clear_time_ms / 1000 : null;
           if (parSecs !== null && clearSecs !== null) {
-            totalRemainingSecs += (parSecs - clearSecs);
-            totalPctRemaining += (parSecs - clearSecs) / parSecs;
-            totalKeyLevel += (r.mythic_level || 0);
-            count++;
+            totRemSec += (parSecs - clearSecs); totPctRem += (parSecs - clearSecs) / parSecs; totLvl += (r.mythic_level || 0); cnt++;
           }
         }
-        if (count > 0) {
-          const avgSecs = totalRemainingSecs / count;
-          const avgPct = totalPctRemaining / count;
-          const avgKeyLevel = totalKeyLevel / count;
-          const isNeg = avgSecs < 0;
-          const absSecs = Math.abs(avgSecs);
-          const mins = Math.floor(absSecs / 60);
-          const secs = Math.floor(absSecs % 60);
-          timeRemainingStr = `${isNeg ? "-" : ""}${mins}m ${secs.toString().padStart(2, '0')}s`;
-          timeRemainingColor = TimeRemainingScoreColor(avgPct, avgKeyLevel);
+        if (cnt > 0) {
+          const absSecs = Math.abs(totRemSec / cnt);
+          timeRemainingStr = `${totRemSec / cnt < 0 ? "-" : ""}${Math.floor(absSecs / 60)}m ${Math.floor(absSecs % 60).toString().padStart(2, '0')}s`;
+          timeRemainingColor = TimeRemainingScoreColor(totPctRem / cnt, totLvl / cnt);
         }
       }
 
-      const bestKeyPerDungeon = {};
-      for (const r of bestRuns) {
-        const shortName = r.dungeon?.short_name || r.short_name || "";
-        const fullName = r.dungeon?.name || r.name || "";
-        const level = r.mythic_level || 0;
-        if (shortName && (!bestKeyPerDungeon[shortName] || level > bestKeyPerDungeon[shortName]))
-          bestKeyPerDungeon[shortName] = level;
-        if (fullName && (!bestKeyPerDungeon[fullName] || level > bestKeyPerDungeon[fullName]))
-          bestKeyPerDungeon[fullName] = level;
-      }
-
-      const guild = data.guild?.name || "-";
-      const playerClass = data.class || "-";
-      const race = data.race || "Unknown";
-      const specName = data.active_spec_name || "";
+      // Sort dungeons chronologically based on best run dates
+      const sortedDungeons = DUNGEON_ORDER.map(d => {
+        const run = bestRuns.find(r => (r.dungeon?.short_name || r.short_name) === d.short);
+        return {
+          short: d.short, name: d.name, icon_url: d.icon_url,
+          level: run ? (run.mythic_level || 0) : 0,
+          completed_at: run?.completed_at ? new Date(run.completed_at).getTime() : 0,
+          clear_time_ms: run?.clear_time_ms || 0, par_time_ms: run?.par_time_ms || 0
+        };
+      }).sort((a, b) => b.completed_at - a.completed_at);
 
       return {
         name: p.name, realm: p.realm, region: p.region, role: p.role,
-        playerClass, race, specName,
-        ilvl: unweightedIlvl, weightedIlvl, ilvlDiff, missingUpgrades,
-        mythic, heroic, ksmCount,
-        currentScore, currentScoreColor, specRankRegion,
-        topSeasonsStr, bestPastPercentile,
-        recencyStr, timeRemainingStr, timeRemainingColor, guild,
-        bestKeyPerDungeon, roleMismatch, actualMainRole,
-        combinedRuns,
-        error: false
+        playerClass: data.class || "-", race: data.race || "Unknown", specName: data.active_spec_name || "",
+        ilvl: unweightedIlvl, weightedIlvl, ilvlDiff, missingUpgrades: gearCalc.missing,
+        mythic, heroic, ksmCount, currentScore, currentScoreColor, specRankRegion,
+        topSeasonsStr, bestPastPercentile, recencyStr, timeRemainingStr, timeRemainingColor,
+        guild: data.guild?.name || "-", roleMismatch, actualMainRole, combinedRuns, sortedDungeons, error: false
       };
     }
 
     function getTableHeaders() {
-      const cols = [
-        { key: "name", label: "Player" },
-        { key: "role", label: "Role" },
-        { key: "playerClass", label: "Class" },
-        { key: "bestPastPercentile", label: "Top Seasons" },
-        { key: "_ceSort", label: "CE/AOTC/KSM" },
-        { key: "timeRemainingStr", label: "Time Remaining" },
-        { key: "recencyStr", label: "Recency" },
-        { key: "currentScore", label: "Score" },
-        { key: "_dungeons", label: "Dungeons" }
+      return [
+        { key: "name", label: "Player" }, { key: "role", label: "Role" }, { key: "playerClass", label: "Class" },
+        { key: "bestPastPercentile", label: "Top Seasons" }, { key: "_ceSort", label: "CE/AOTC/KSM" },
+        { key: "timeRemainingStr", label: "Time Remaining" }, { key: "recencyStr", label: "Recency" },
+        { key: "currentScore", label: "Score" }, { key: "_dungeons", label: "Dungeons" }
       ];
-      return cols;
     }
 
     function buildRowHtml(p) {
       const key = `${p.name}-${p.realm}`;
-      const safeKey = key.replace(/[^a-zA-Z0-9]/g, '_');
-
-      if (p.error) {
-        return `<tr data-key="${key}" onclick="openInspector('${key}')"><td>${p.name}-${p.realm}</td><td colspan="8" style="color:#f66">Fetch error</td></tr>`;
-      }
+      if (p.error) return `<tr data-key="${key}" onclick="openInspector('${key}')"><td>${key}</td><td colspan="8" style="color:#f66">Fetch error</td></tr>`;
 
       const roleClass = r => r === "dps" ? "role-dps" : r === "heal" ? "role-heal" : r === "tank" ? "role-tank" : "";
+      const roleWarning = p.roleMismatch ? `<span class="${roleClass(p.actualMainRole)}" style="font-weight:bold; cursor:help" title="Queued as ${p.role}, plays ${p.actualMainRole}">*</span>` : '';
 
-      const roleWarning = p.roleMismatch
-        ? `<span class="${roleClass(p.actualMainRole)}" style="font-weight:bold; cursor:help" title="Queued as ${p.role}, but plays ${p.actualMainRole} in best runs">*</span>`
-        : '';
-
-      const rankDisplay = (p.specRankRegion > 0 && p.specRankRegion <= 99)
-        ? `<span style="color:${getRegionClassRankColor(p.specRankRegion)}">#${p.specRankRegion}</span>`
-        : "–";
-      const rankTitle = p.specRankRegion > 0
-        ? `title="Region: #${p.specRankRegion}"`
-        : 'title="No rank data"';
-      const scoreStr = p.currentScore > 0
-        ? `<span style="color:${p.currentScoreColor}">${Math.round(p.currentScore)}</span> <span style="color:#888; font-size:14px;" ${rankTitle}>${rankDisplay}</span>`
-        : `<span style="color:#f90">0?</span> <span style="color:#888; font-size:14px;">(–)</span>`;
+      const rankDisplay = (p.specRankRegion > 0 && p.specRankRegion <= 99) ? `<span style="color:${getRegionClassRankColor(p.specRankRegion)}">#${p.specRankRegion}</span>` : "–";
+      const scoreStr = p.currentScore > 0 ? `<span style="color:${p.currentScoreColor}">${Math.round(p.currentScore)}</span> <span style="color:#888; font-size:14px;" title="${p.specRankRegion > 0 ? `Region: #${p.specRankRegion}` : 'No rank data'}">${rankDisplay}</span>` : `<span style="color:#f90">0?</span> <span style="color:#888; font-size:14px;">(–)</span>`;
 
       let dungeonIcons = "";
-      if (DUNGEON_ORDER.length > 0 && p.bestKeyPerDungeon) {
-        const allLevels = DUNGEON_ORDER.map(d => p.bestKeyPerDungeon[d.short] || p.bestKeyPerDungeon[d.name] || 0);
-        const maxLevel = Math.max(...allLevels, 0);
-        const icons = DUNGEON_ORDER.map((d, i) => {
-          const lvl = allLevels[i] || null;
-          const label = lvl ? `+${lvl}` : `–`;
-          const labelColor = lvl
-            ? (maxLevel - lvl >= 5 ? '#ffffff' : getKeyLevelColor(lvl))
-            : '#666';
-          const iconUrl = d.icon_url || '';
-          return `<div style="position:relative;display:inline-block;margin:0 3px;vertical-align:middle" title="${d.name}: ${label}">
-            <img src="${iconUrl}" width="32" height="32" style="display:block;border:1px solid #444;border-radius:4px">
-            <span style="position:absolute;bottom:0;left:0;right:0;text-align:center;font-size:18px;font-weight:bold;color:${labelColor};background:rgba(0,0,0,0.7);line-height:20px;border-radius:0 0 4px 4px; letter-spacing:-1px;">${label}</span>
+      if (p.sortedDungeons && p.sortedDungeons.length > 0) {
+        const maxLevel = Math.max(...p.sortedDungeons.map(d => d.level), 0);
+        dungeonIcons = p.sortedDungeons.map(d => {
+          const lvl = d.level, label = lvl ? `+${lvl}` : `–`;
+          const color = lvl ? (maxLevel - lvl >= 5 ? '#ffffff' : getKeyLevelColor(lvl)) : '#666';
+          const timeAgoStr = (lvl && d.completed_at) ? ` (${timeAgo(d.completed_at)} ago)` : '';
+          return `<div style="position:relative;display:inline-block;margin:0 3px;vertical-align:middle" title="${d.name}: ${label}${timeAgoStr}">
+            <img src="${d.icon_url || ''}" width="32" height="32" style="display:block;border:1px solid #444;border-radius:4px">
+            <span style="position:absolute;bottom:0;left:0;right:0;text-align:center;font-size:18px;font-weight:bold;color:${color};background:rgba(0,0,0,0.7);line-height:20px;border-radius:0 0 4px 4px; letter-spacing:-1px;">${label}</span>
           </div>`;
-        });
-        dungeonIcons = icons.join('');
+        }).join('');
       }
 
-      const dungeonDisplay = `<div style="display:flex;align-items:center;gap:6px;flex-wrap:nowrap;overflow:hidden">${dungeonIcons}</div>`;
+      const progressDisplay = `<span style="color:${p.mythic >= 1 ? "#ff8000" : "#666"}">${p.mythic}</span> / <span style="color:${p.heroic >= 1 ? "#a335ee" : "#666"}">${p.heroic}</span> / <span style="color:${p.ksmCount >= 1 ? "#0070dd" : "#666"}">${p.ksmCount}</span>`;
+      const classDisplay = `<span style="color:${CLASS_COLORS[p.playerClass] || "#ccc"}">${CLASS_SHORT[p.playerClass] || p.playerClass}</span> <span style="color:#aaa">(${p.ilvl > 0 ? `<span style="color:${getIlvlColor(p.ilvlDiff)}" title="Weighted: ${Math.round(p.weightedIlvl)}. Diff: ${p.ilvlDiff >= 0 ? '+' : ''}${p.ilvlDiff.toFixed(1)}">${Math.round(p.weightedIlvl)}</span>` : ""} ${SPEC_SHORT[p.specName] || p.specName})</span>${p.missingUpgrades?.length ? ` <span style="color:#ff7070; font-weight:bold; cursor:help" title="${p.missingUpgrades.join(', ')}">(!)</span>` : ''}`;
 
-      const ceColor = p.mythic >= 1 ? "#ff8000" : "#666";
-      const aotcColor = p.heroic >= 1 ? "#a335ee" : "#666";
-      const ksmColor = p.ksmCount >= 1 ? "#0070dd" : "#666";
-      const progressDisplay = `<span style="color:${ceColor}">${p.mythic}</span> / <span style="color:${aotcColor}">${p.heroic}</span> / <span style="color:${ksmColor}">${p.ksmCount}</span>`;
+      const nameTrunc = (p.name + "-" + p.realm).length > (p.guild && p.guild !== "-" ? 24 : 21) ? (p.name + "-" + p.realm).substring(0, (p.guild && p.guild !== "-" ? 24 : 21) - 1) + '…' : p.name + "-" + p.realm;
+      const idx = nameTrunc.indexOf('-');
+      const nameDisplay = `<span title="${p.name}-${p.realm} | ${p.guild && p.guild !== "-" ? 'Guild: ' + p.guild : 'No guild'}" style="white-space:nowrap">${idx > -1 ? nameTrunc.substring(0, idx) : nameTrunc}<span style="color:#666">${idx > -1 ? nameTrunc.substring(idx) : ""}</span>${p.guild && p.guild !== "-" ? "" : " &lt;&gt;"}</span>`;
 
-      const shortClass = CLASS_SHORT[p.playerClass] || p.playerClass;
-      const classColor = CLASS_COLORS[p.playerClass] || "#ccc";
-      const specStr = SPEC_SHORT[p.specName] || p.specName;
-
-      const ilvlColor = getIlvlColor(p.ilvlDiff);
-      const ilvlStr = p.ilvl > 0 ? `<span style="color:${ilvlColor}" title="Weighted iLvl. Unweighted is ${p.ilvl.toFixed(1)} (${p.ilvlDiff >= 0 ? '+' : ''}${p.ilvlDiff.toFixed(1)})">${Math.round(p.weightedIlvl)}</span>` : "";
-
-      const missingStr = p.missingUpgrades && p.missingUpgrades.length > 0
-        ? ` <span style="color:#ff7070; font-weight:bold; cursor:help" title="${p.missingUpgrades.join(', ')}">(!)</span>`
-        : '';
-      const classDisplay = `<span style="color:${classColor}">${shortClass}</span> <span style="color:#aaa">(${ilvlStr} ${specStr})</span>${missingStr}`;
-
-      let baseString = p.name + "-" + p.realm;
-      let hasGuild = p.guild && p.guild !== "-";
-      let maxLen = hasGuild ? 24 : 21;
-
-      let truncated = baseString.length > maxLen ? baseString.substring(0, maxLen - 1) + '…' : baseString;
-
-      let dashIndex = truncated.indexOf('-');
-      let pNameStr = dashIndex > -1 ? truncated.substring(0, dashIndex) : truncated;
-      let pRealmStr = dashIndex > -1 ? truncated.substring(dashIndex) : "";
-
-      const guildWarning = hasGuild ? "" : " &lt;&gt;";
-      const rawName = `${p.name}-${p.realm}`;
-
-      const nameDisplay = `<span title="${rawName} | ${hasGuild ? 'Guild: ' + p.guild : 'No guild'}" style="white-space:nowrap">${pNameStr}<span style="color:#666">${pRealmStr}</span>${guildWarning}</span>`;
-
-      const resilVal = scoreToResil(p.currentScore);
-      const resilColor = p.currentScoreColor || "#ccc";
-      const timeRemainingDisplay = p.timeRemainingStr !== "-"
-        ? `<span style="color:${p.timeRemainingColor}">${p.timeRemainingStr}</span> <span style="color:${resilColor}">(+${resilVal.toFixed(1)})</span>`
-        : "-";
-
-      const mainRowHtml = `<tr data-key="${key}" style="vertical-align:top;" onclick="openInspector('${key}')">
+      return `<tr data-key="${key}" style="vertical-align:top;" onclick="openInspector('${key}')">
         <td>${nameDisplay}</td>
         <td class="${roleClass(p.role)}">${p.role}${roleWarning}</td>
         <td>${classDisplay}</td>
         <td>${p.topSeasonsStr}</td>
         <td>${progressDisplay}</td>
-        <td>${timeRemainingDisplay}</td>
+        <td>${p.timeRemainingStr !== "-" ? `<span style="color:${p.timeRemainingColor}">${p.timeRemainingStr}</span> <span style="color:${p.currentScoreColor || "#ccc"}">(+${scoreToResil(p.currentScore).toFixed(1)})</span>` : "-"}</td>
         <td>${p.recencyStr}</td>
         <td>${scoreStr}</td>
-        <td style="white-space:normal; overflow:visible;">${dungeonDisplay}</td>
+        <td style="white-space:normal; overflow:visible;"><div style="display:flex;align-items:center;gap:6px;flex-wrap:nowrap;overflow:hidden">${dungeonIcons}</div></td>
       </tr>`;
-
-      return mainRowHtml;
     }
 
     function appendPlayerRow(p, containerId, title) {
-      let container = document.querySelector(containerId);
-      let table = container.querySelector("table");
+      let container = document.querySelector(containerId), table = container.querySelector("table");
       if (!table) {
-        const cols = getTableHeaders();
         let html = `<h4 style="margin:0 0 12px 0; color:#aaa; font-size:20px;">${title}</h4><table class="peeking-table"><thead><tr>`;
-        for (const c of cols) {
-          if (c.key === "_dungeons") { html += `<th>${c.label}</th>`; continue; }
-          html += `<th onclick="setSort('${c.key}')">${c.label}</th>`;
-        }
+        for (const c of getTableHeaders()) html += `<th onclick="setSort('${c.key}')">${c.label}</th>`;
         html += "</tr></thead><tbody></tbody></table>";
         container.innerHTML = html;
         table = container.querySelector("table");
       }
-      const tbody = table.querySelector("tbody");
-      tbody.insertAdjacentHTML("beforeend", buildRowHtml(p));
+      table.querySelector("tbody").insertAdjacentHTML("beforeend", buildRowHtml(p));
     }
 
     function renderTable() {
@@ -1287,15 +916,24 @@
       let container = document.querySelector(containerId);
       if (!players || players.length === 0) { container.innerHTML = ""; return; }
 
-      const cols = getTableHeaders();
-
       let sorted = [...players];
-      if (sortCol && sortCol !== "_dungeons") {
+      if (sortCol) {
         sorted.sort((a, b) => {
           if (sortCol === "_ceSort") {
             const va = (a.mythic ?? 0) * 10000 + (a.heroic ?? 0) * 100 + (a.ksmCount ?? 0);
             const vb = (b.mythic ?? 0) * 10000 + (b.heroic ?? 0) * 100 + (b.ksmCount ?? 0);
             return sortAsc ? va - vb : vb - va;
+          }
+          if (sortCol === "_dungeons") {
+            const aLevels = a.sortedDungeons.map(d => d.level).sort((x, y) => y - x);
+            const bLevels = b.sortedDungeons.map(d => d.level).sort((x, y) => y - x);
+            for (let i = 0; i < Math.max(aLevels.length, bLevels.length); i++) {
+              const al = aLevels[i] || 0, bl = bLevels[i] || 0;
+              if (al !== bl) return sortAsc ? al - bl : bl - al;
+            }
+            const aTime = a.sortedDungeons.reduce((acc, d) => acc + (d.par_time_ms && d.clear_time_ms ? d.par_time_ms - d.clear_time_ms : 0), 0);
+            const bTime = b.sortedDungeons.reduce((acc, d) => acc + (d.par_time_ms && d.clear_time_ms ? d.par_time_ms - d.clear_time_ms : 0), 0);
+            return sortAsc ? aTime - bTime : bTime - aTime;
           }
           let va = a[sortCol] ?? "", vb = b[sortCol] ?? "";
           if (typeof va === "number" && typeof vb === "number") return sortAsc ? va - vb : vb - va;
@@ -1304,38 +942,26 @@
       }
 
       let html = `<h4 style="margin:0 0 12px 0; color:#aaa; font-size:20px;">${title}</h4><table class="peeking-table"><thead><tr>`;
-      for (const c of cols) {
-        if (c.key === "_dungeons") { html += `<th>${c.label}</th>`; continue; }
+      for (const c of getTableHeaders()) {
         const arrow = sortCol === c.key ? (sortAsc ? " ▲" : " ▼") : "";
         html += `<th onclick="setSort('${c.key}')">${c.label}${arrow}</th>`;
       }
-      html += "</tr></thead><tbody>";
-      for (const p of sorted) {
-        html += buildRowHtml(p);
-      }
-      html += "</tbody></table>";
+      html += "</tr></thead><tbody>" + sorted.map(buildRowHtml).join("") + "</tbody></table>";
       container.innerHTML = html;
     }
 
-    function fmtScore(s) {
-      return s >= 1000 ? `${(s / 1000).toFixed(1)}k` : `${s}`;
-    }
-
+    function fmtScore(s) { return s >= 1000 ? `${(s / 1000).toFixed(1)}k` : `${s}`; }
     function setSort(col) {
       if (sortCol === col) sortAsc = !sortAsc;
-      else {
-        sortCol = col;
-        sortAsc = (col === "bestPastPercentile");
-      }
+      else { sortCol = col; sortAsc = (col === "bestPastPercentile"); }
       renderTable();
     }
 
-    // ── Side Panel Inspector ────────────────────────────────────────────────────────
+    // ── Side Panel Inspector (Simplified) ────────────────────────────────────────────────────────
     function openInspector(key) {
       const data = rawDataStore[key];
-      if (!data) { alert("No raw data for " + key); return; }
+      if (!data) return;
 
-      // Highlight row
       document.querySelectorAll('tr').forEach(tr => tr.classList.remove('selected-row'));
       const row = document.querySelector(`tr[data-key="${key}"]`);
       if (row) row.classList.add('selected-row');
@@ -1344,90 +970,26 @@
       document.getElementById("inspector-content").style.display = "block";
       document.getElementById("inspector-title").textContent = key.replace('-', ' - ');
 
-      const tabs = [
-        { id: "runs", label: "All Runs", fn: () => renderAllRunsTab(data) },
-        { id: "scores", label: "Scores", fn: () => renderScoresTab(data) },
-        { id: "ranks", label: "Ranks", fn: () => renderRanksTab(data) },
-        { id: "gear", label: "Gear", fn: () => renderGearTab(data) },
-        { id: "raid", label: "Raid", fn: () => renderRaidTab(data) },
-        { id: "talents", label: "Talents", fn: () => renderTalentsTab(data) },
-        { id: "raw", label: "Raw JSON", fn: () => renderRawTab(data) },
-      ];
-
-      let tabHtml = "";
-      tabs.forEach((t, i) => {
-        tabHtml += `<button class="tab-btn${i === 0 ? ' active' : ''}" onclick="switchTab('${t.id}', this)">${t.label}</button>`;
-      });
-      document.getElementById("inspector-tabs").innerHTML = tabHtml;
-
-      window._inspectorTabs = {};
-      tabs.forEach(t => { window._inspectorTabs[t.id] = t.fn; });
-
-      document.getElementById("inspector-body").innerHTML = tabs[0].fn();
-    }
-
-    function switchTab(id, btn) {
-      document.querySelectorAll("#inspector-tabs .tab-btn").forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-      document.getElementById("inspector-body").innerHTML = window._inspectorTabs[id]();
-    }
-
-    function renderScoresTab(data) {
-      const seasons = data.mythic_plus_scores_by_season || [];
-      if (!seasons.length) return "<em>No season data.</em>";
-      let html = '<div class="score-grid">';
-      for (const s of seasons) {
-        const scores = s.scores || {};
-        const isCurrent = s.season === CURRENT_SEASON;
-        html += `<div class="score-card" style="${isCurrent ? 'border-color:#fa0' : ''}">
-      <h4>${s.season}${isCurrent ? ' ★ CURRENT' : ''}</h4>`;
-        for (const [k, v] of Object.entries(scores)) {
-          html += `<div class="score-row"><span class="score-label">${k}</span><span class="score-val">${v}</span></div>`;
-        }
-        if (s.segments) {
-          html += `<hr style="border-color:#333;margin:6px 0">`;
-          for (const [k, v] of Object.entries(s.segments)) {
-            html += `<div class="score-row"><span class="score-label">seg:${k}</span><span class="score-val">${typeof v === 'object' ? v.score ?? JSON.stringify(v) : v}</span></div>`;
-          }
-        }
-        html += "</div>";
-      }
-      html += "</div>";
-      return html;
+      document.getElementById("inspector-body").innerHTML = renderAllRunsTab(data);
     }
 
     function renderAllRunsTab(data) {
-      const highestRuns = data.mythic_plus_highest_level_runs || [];
-      const bestRuns = data.mythic_plus_best_runs || [];
-      const altRuns = data.mythic_plus_alternate_runs || [];
-      const recentRuns = data.mythic_plus_recent_runs || [];
-      const weeklyRuns = data.mythic_plus_weekly_highest_level_runs || [];
-      const prevWeeklyRuns = data.mythic_plus_previous_weekly_highest_level_runs || [];
+      const allRawRuns = [
+        ...(data.mythic_plus_highest_level_runs || []), ...(data.mythic_plus_best_runs || []),
+        ...(data.mythic_plus_alternate_runs || []), ...(data.mythic_plus_recent_runs || []),
+        ...(data.mythic_plus_weekly_highest_level_runs || []), ...(data.mythic_plus_previous_weekly_highest_level_runs || [])
+      ];
 
-      const highestUrls = new Set(highestRuns.map(r => r.url).filter(Boolean));
-      const allRawRuns = [...highestRuns, ...bestRuns, ...altRuns, ...recentRuns, ...weeklyRuns, ...prevWeeklyRuns];
-
+      const highestUrls = new Set((data.mythic_plus_highest_level_runs || []).map(r => r.url).filter(Boolean));
       const uniqueRunsMap = new Map();
-      for (const r of allRawRuns) {
-        const key = r.url || `${r.short_name}-${r.mythic_level}-${r.clear_time_ms}-${r.completed_at}`;
-        if (!uniqueRunsMap.has(key)) {
-          uniqueRunsMap.set(key, r);
-        }
-      }
+      for (const r of allRawRuns) uniqueRunsMap.set(r.url || `${r.short_name}-${r.mythic_level}-${r.clear_time_ms}-${r.completed_at}`, r);
 
-      const combinedRuns = Array.from(uniqueRunsMap.values());
-
-      combinedRuns.sort((a, b) => {
-        if (b.mythic_level !== a.mythic_level) {
-          return b.mythic_level - a.mythic_level;
-        }
-        const dateA = a.completed_at ? new Date(a.completed_at).getTime() : 0;
-        const dateB = b.completed_at ? new Date(b.completed_at).getTime() : 0;
-        return dateB - dateA;
+      const combinedRuns = Array.from(uniqueRunsMap.values()).sort((a, b) => {
+        if (b.mythic_level !== a.mythic_level) return b.mythic_level - a.mythic_level;
+        return new Date(b.completed_at).getTime() - new Date(a.completed_at).getTime();
       });
 
       if (!combinedRuns.length) return `<em>No run data available.</em>`;
-
       const maxRunLevel = Math.max(...combinedRuns.map(r => r.mythic_level || 0), 0);
 
       let html = `<table class="run-table"><thead><tr>
@@ -1436,143 +998,46 @@
 
       for (const r of combinedRuns) {
         const isHighest = r.url ? highestUrls.has(r.url) : false;
-        const dateStr = timeAgo(r.completed_at);
-
         const diffMs = r.clear_time_ms - r.par_time_ms;
-        const isTimed = diffMs <= 0;
-        const absDiffSec = Math.floor(Math.abs(diffMs) / 1000);
-        const m = Math.floor(absDiffSec / 60);
-        const s = (absDiffSec % 60).toString().padStart(2, '0');
-        const sign = isTimed ? "-" : "+";
-        const diffColor = isTimed ? "#70ff70" : "#ff7070";
-        const diffHtml = `<span style="color:${diffColor}; font-weight:bold;">${sign}${m}:${s}</span>`;
+        const isTimed = diffMs <= 0, absDiffSec = Math.floor(Math.abs(diffMs) / 1000);
+        const diffHtml = `<span style="color:${isTimed ? "#70ff70" : "#ff7070"}; font-weight:bold;">${isTimed ? "-" : "+"}${Math.floor(absDiffSec / 60)}:${(absDiffSec % 60).toString().padStart(2, '0')}</span>`;
 
         const shortName = r.dungeon?.short_name || r.short_name || "-";
-        const fullName = r.dungeon?.name || r.name || "-";
-        const lvl = r.mythic_level;
-        const label = `+${lvl}`;
+        const lvl = r.mythic_level, label = `+${lvl}`;
         const labelColor = (maxRunLevel - lvl >= 5) ? '#ffffff' : getKeyLevelColor(lvl);
+        let iconUrl = r.dungeon?.icon_url || DUNGEON_ORDER.find(d => d.short === shortName)?.icon_url || "";
 
-        let iconUrl = r.dungeon?.icon_url || "";
-        if (!iconUrl) {
-          const dInfo = DUNGEON_ORDER.find(d => d.short === shortName || d.name === fullName);
-          if (dInfo) iconUrl = dInfo.icon_url;
-        }
-
-        const iconHtml = iconUrl ? `<div style="position:relative;display:inline-block;margin:0 3px;vertical-align:middle" title="${fullName}: ${label}">
+        const iconHtml = iconUrl ? `<div style="position:relative;display:inline-block;margin:0 3px;vertical-align:middle" title="${label}">
           <img src="${iconUrl}" width="32" height="32" style="display:block;border:1px solid #444;border-radius:4px">
           <span style="position:absolute;bottom:0;left:0;right:0;text-align:center;font-size:15px;font-weight:bold;color:${labelColor};background:rgba(0,0,0,0.7);line-height:18px;border-radius:0 0 4px 4px; letter-spacing:-1px;">${label}</span>
         </div>` : `<span style="color:${labelColor}; font-weight:bold;">${label}</span>`;
 
-        const dungeonDisplay = `<div style="display:flex;align-items:center;gap:8px;">${iconHtml}<span style="font-size:15px;">${shortName}</span></div>`;
-        const bestHtml = isHighest ? `<span style="color:#70ff70; font-weight:bold;">✓</span>` : `<span style="color:#666">✗</span>`;
-
         html += `<tr>
-          <td>${dungeonDisplay}</td>
-          <td style="text-align:center;">${bestHtml}</td>
+          <td><div style="display:flex;align-items:center;gap:8px;">${iconHtml}<span style="font-size:15px;">${shortName}</span></div></td>
+          <td style="text-align:center;">${isHighest ? `<span style="color:#70ff70; font-weight:bold;">✓</span>` : `<span style="color:#666">✗</span>`}</td>
           <td>${diffHtml}</td>
-          <td>${dateStr}</td>
+          <td>${timeAgo(r.completed_at)}</td>
         </tr>`;
       }
-      html += "</tbody></table>";
-      return html;
+      return html + "</tbody></table>";
     }
+  ` TODO:
+  2. Introduce a Component - Based Layout
 
-    function renderRanksTab(data) {
-      const current = data.mythic_plus_ranks || {};
-      const previous = data.previous_mythic_plus_ranks || {};
+    Instead of a simple HTML < table >, transitioning to CSS Grid for the rows or using an expandable "Accordion" design could be immensely beneficial.
 
-      function rankSection(rankData, label) {
-        if (!Object.keys(rankData).length) return `<em>No ${label} data.</em>`;
-        let html = `<h4 style="color:#aaa">${label}</h4><div class="ranks-grid">`;
-        for (const [category, ranks] of Object.entries(rankData)) {
-          html += `<div class="rank-card"><h4>${category}</h4>`;
-          for (const [scope, val] of Object.entries(ranks)) {
-            html += `<div class="score-row"><span class="score-label">${scope}</span><span class="score-val">${val}</span></div>`;
-          }
-          html += "</div>";
-        }
-        html += "</div>";
-        return html;
-      }
+    Accordion Details: Instead of a side inspector pane(which steals screen real - estate and requires the user to scan their eyes back and forth), clicking a row could expand it downwards to reveal the "All Runs" log directly beneath the player's summary row.
 
-      return rankSection(current, "Current Season Ranks") + "<br>" + rankSection(previous, "Previous Season Ranks");
-    }
+  4. Theming and Aesthetics
 
-    function renderGearTab(data) {
-      const gear = data.gear;
-      if (!gear) return "<em>No gear data.</em>";
-      let html = `<p>Item Level Equipped: <strong>${gear.item_level_equipped}</strong> | Score: <strong>${gear.item_level_total}</strong></p>`;
-      html += `<table class="gear-table"><thead><tr>
-        <th>Slot</th><th>Name</th><th>iLvl</th><th>Enchant</th><th>Gems</th>
-      </tr></thead><tbody>`;
-      for (const [slot, item] of Object.entries(gear.items || {})) {
-        if (!item) continue;
-        const gems = (item.gems || []).map(g => g.id || g).join(", ");
-        html += `<tr>
-          <td>${slot}</td>
-          <td>${item.name || "-"}</td>
-          <td>${item.item_level || "-"}</td>
-          <td>${item.enchant ? "✓" : "-"}</td>
-          <td>${gems || "-"}</td>
-        </tr>`;
-      }
-      html += "</tbody></table>";
-      return html;
-    }
+    Blizzard Styling: Implement styling that closely mimics standard WoW add - ons or the Blizzard UI, using specific fonts(Friz Quadrata or similar typefaces), borders, and dark semi - transparent parchment / stone backgrounds.
 
-    function renderRaidTab(data) {
-      const raids = data.raid_progression || {};
-      if (!Object.keys(raids).length) return "<em>No raid data.</em>";
-      let html = `<table class="raid-table"><thead><tr>
-        <th>Raid</th><th>LFR</th><th>Normal</th><th>Heroic</th><th>Mythic</th><th>Total</th>
-      </tr></thead><tbody>`;
-      for (const [raid, info] of Object.entries(raids)) {
-        const total = info.total_bosses;
-        const lfr = info.lfr_bosses_killed ?? 0;
-        const norm = info.normal_bosses_killed ?? 0;
-        const hc = info.heroic_bosses_killed ?? 0;
-        const myth = info.mythic_bosses_killed ?? 0;
-        html += `<tr>
-          <td>${raid}</td>
-          <td>${lfr}/${total}</td>
-          <td>${norm}/${total}</td>
-          <td>${hc}/${total}</td>
-          <td>${myth}/${total}</td>
-          <td>${total}</td>
-        </tr>`;
-      }
-      html += "</tbody></table>";
-      return html;
-    }
+    Class Icons: Using text(BM, Resto) is fine, but visually recognizing class/spec icons is much faster for veteran players. Fetching spec icon URLs from the Blizzard API or using local SVGs would make the table much quicker to scan.
 
-    function renderTalentsTab(data) {
-      const talents = data.talents;
-      if (!talents) return "<em>No talent data.</em>";
-      if (Array.isArray(talents)) {
-        let html = "";
-        for (const loadout of talents) {
-          html += `<div style="margin-bottom:12px;padding:12px;border:1px solid #333;border-radius:4px;background:#222;">
-            <strong>${loadout.name || "Loadout"}</strong> — ${loadout.spec_name || ""} ${loadout.class_name || ""}<br>
-            <span style="color:#888;font-size:14px">${loadout.loadout_text || ""}</span>
-          </div>`;
-        }
-        return html || "<em>Empty talent list.</em>";
-      }
-      return `<pre>${JSON.stringify(talents, null, 2)}</pre>`;
-    }
+  5. Interactive Filtering & Dashboarding
 
-    function renderRawTab(data) {
-      return `<pre style="white-space: pre-wrap; word-wrap: break-word;">${JSON.stringify(data, null, 2)}</pre>`;
-    }
-
-    `
-      Similar to how the keylevel for each best dungeon is displayed on top of the dungeon icon, also add the numbers 1-8 at
-      the top of the icon(smaller font) to indicate the most recent dungeon(1) to the least recent dungeon(8).The idea is
-      to see in what order the dungeons were timed.Also add functionality such that it is possible to sort the table by
-      Dungeon, for now this should just sort by the player's highest completed keylevel, and in case of a tie, which run was
-      fastest(relative to the dungeons timer)
-    `
+    Quick Filters: Add a row of toggle buttons above the table: "Hide DPS", "Only show >3000 Score", "Only show Blood Death Knights".
+  `
   </script>
 </body>
 
